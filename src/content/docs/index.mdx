@@ -15,38 +15,9 @@ hero:
       link: https://github.com/Szymon-Michalak
       icon: github
 ---
-
+import DeployGuidesNav from '../../components/DeployGuidesNav.astro';
 import CallToAction from '@astrojs/starlight/components/CallToAction.astro';
 
-## My other knowledge bases
+## Check out my other lists
 
-<CardGrid stagger>
-	<Card title="iOS Snippets" icon="github">
-        A comprehensive collection of well-written and useful code snippets for iOS development, structured for both UIKit and SwiftUI.
-
-        <CallToAction variant="primary" link="https://github.com/szymon-michalak/ios-snippets" attrs={{ class: 'custom-cta-btn' }}>
-            Go to GitHub
-        </CallToAction>
-	</Card>
-	<Card title="Swift Algorithms" icon="github">
-        A collection of algorithms, data structures and competitive programming techniques
-
-        <CallToAction variant="primary" link="https://github.com/szymon-michalak/swift-algorithms" attrs={{ class: 'custom-cta-btn' }}>
-            Go to GitHub
-        </CallToAction>
-	</Card>
-	<Card title="Directed Learning" icon="github">
-        This repo contains code examples and explanations of various iOS-related concepts. It is designed by me to act as my iOS knowledge second brain. 
-
-        <CallToAction variant="primary" link="https://github.com/szymon-michalak/IOSDirectedLearning" attrs={{ class: 'custom-cta-btn' }}>
-            Go to GitHub
-        </CallToAction>
-	</Card>
-	<Card title="iOS Components" icon="github">
-        Repository with my collection of well-written and/or useful iOS Components with Examples.
-
-        <CallToAction variant="primary" link="https://github.com/Szymon-Michalak/iOS-Components" attrs={{ class: 'custom-cta-btn' }}>
-            Go to GitHub
-        </CallToAction>
-	</Card>
-</CardGrid>
+<DeployGuidesNav />
