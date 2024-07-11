@@ -5,6 +5,8 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://szymon-michalak.github.io',
+  base: 'iOS-Resources',
   integrations: [starlight({
     title: 'iOS Resources',
     customCss: [
