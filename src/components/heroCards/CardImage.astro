@@ -1,5 +1,4 @@
 ---
-import type { ImageMetadata } from 'astro';
 import { Image } from 'astro:assets';
 
 export interface Props {
@@ -10,12 +9,8 @@ export interface Props {
 
 const { imagePath, size = '4.5rem', shape = 'rounded' } = Astro.props as Props;
 const padding = '0em';
-const images = import.meta.glob("../assets/*");
+const images = import.meta.glob("../../assets/*");
 if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: "/src/assets/*.svg"`);
-// Make a rough guess at the pixel size to use as width/height attributes
-const [, value, unit] = /^(\d*(?:\.\d+)?)(\w+)$/.exec(size) || ['4', 'rem'];
-const valueAsNumber = parseFloat(value);
-const pixelSize = unit === 'px' ? valueAsNumber : valueAsNumber * 16;
 ---
 
 {

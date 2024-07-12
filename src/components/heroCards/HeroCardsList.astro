@@ -1,5 +1,5 @@
 ---
-import CardsNav from './NavGrid/CardsNav.astro';
+import CardsNav from './HeroCards.astro';
 
 export interface Props {
 	minimal?: boolean;
@@ -26,7 +26,7 @@ const services: Service[] = [
 	links={services.map(({ title, slug, description }) => ({
 		title: title,
 		href: `https://github.com/szymon-michalak/${slug}`,
-		logo: `../assets/${slug}.svg`,
+		logo: `../../assets/${slug}.svg`,
         description: description,
 	}))}
 />
