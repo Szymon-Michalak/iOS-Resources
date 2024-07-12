@@ -3,6 +3,8 @@ import starlight from '@astrojs/starlight';
 import AutoImport from 'astro-auto-import';
 import mdx from '@astrojs/mdx';
 
+import MDXCodeBlocks, { mdxCodeBlockAutoImport } from 'astro-mdx-code-blocks';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://szymon-michalak.github.io',
@@ -11,7 +13,8 @@ export default defineConfig({
     title: 'iOS Resources',
     customCss: [
         './src/styles/theme.css',
-        './src/styles/custom.css'
+        './src/styles/custom.css',
+        './src/styles/prism.css',
     ],
     components: {
         Head: "./src/components/starlight/Head.astro",
@@ -56,10 +59,10 @@ export default defineConfig({
       {
         '@astrojs/starlight/components': ['LinkCard', 'CardGrid', 'Card'],
       },
+      mdxCodeBlockAutoImport('./src/components/CodeBlock.astro'),
     ],
   }),
-
-  // Make sure the MDX integration is included AFTER astro-auto-import
+  MDXCodeBlocks(),
   mdx(),
 ]
 });

@@ -11,13 +11,16 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
+    "@astrojs/prism": "^3.1.0",
     "@astrojs/starlight": "^0.24.5",
     "astro": "^4.10.2",
-    "astro-auto-import": "^0.4.2",
     "sharp": "^0.32.5",
     "typescript": "^5.5.3"
   },
   "devDependencies": {
+    "@astrojs/mdx": "^3.1.2",
+    "astro-auto-import": "^0.4.2",
+    "astro-mdx-code-blocks": "^0.0.6",
     "astro-vtbot": "^1.7.26"
   }
 }
