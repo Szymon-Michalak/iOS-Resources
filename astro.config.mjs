@@ -13,6 +13,9 @@ export default defineConfig({
         './src/styles/theme.css',
         './src/styles/custom.css'
     ],
+    components: {
+        Head: "./src/components/starlight/Head.astro",
+    },
     social: {
       github: 'https://github.com/szymon-michalak/iOS-Resources'
     },
