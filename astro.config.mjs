@@ -7,8 +7,7 @@ import MDXCodeBlocks, { mdxCodeBlockAutoImport } from 'astro-mdx-code-blocks';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://szymon-michalak.github.io',
-  base: 'iOS-Resources',
+  site: 'https://ioswift.dev',
   integrations: [starlight({
     title: 'iOS Resources',
     customCss: [
