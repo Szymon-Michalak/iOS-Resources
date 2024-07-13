@@ -9,7 +9,7 @@ import MDXCodeBlocks, { mdxCodeBlockAutoImport } from 'astro-mdx-code-blocks';
 export default defineConfig({
   site: 'https://ioswift.dev',
   integrations: [starlight({
-    title: 'iOS Resources',
+    title: 'iOSwift.dev',
     customCss: [
         './src/styles/theme.css',
         './src/styles/custom.css',
