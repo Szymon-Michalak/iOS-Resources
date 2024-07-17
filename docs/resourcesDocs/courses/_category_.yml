@@ -1,0 +1,9 @@
+position: 4
+label: '🎓 Courses'
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: Courses overview
+customProps:
+  description: This description can be used in the swizzled DocCard

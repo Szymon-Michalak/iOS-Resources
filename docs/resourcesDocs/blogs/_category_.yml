@@ -1,0 +1,9 @@
+position: 1
+label: '🖊️ Blogs'
+collapsible: true
+collapsed: false
+link:
+  type: generated-index
+  title: Blogs overview
+customProps:
+  description: This description can be used in the swizzled DocCard

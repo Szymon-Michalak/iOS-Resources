@@ -1,0 +1,47 @@
+---
+slug: swift-blog-post
+title: swift Blog Post
+authors: [szymon]
+tags: [swift]
+---
+
+import Link from "@docusaurus/Link";
+
+Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).
+
+:::tip
+
+Use the power of React to create interactive blog posts.
+
+```js
+<button onClick={() => alert('button clicked!')}>Click me!</button>
+```
+
+<button onClick={() => alert('button clicked!')}>Click me!</button>
+
+:::
+
+```js reference
+https://github.com/saucelabs/docusaurus-theme-github-codeblock/blob/main/src/theme/ReferenceCodeBlock/index.tsx#L105-L108
+```
+
+<div className="overview-gallery">
+  <Link to="/databases/postgres/neon">
+    <div className="card">
+      <h3>Connect to a Neon Serverless Postgres Database</h3>
+      <p>Create a database with our partners at Neon with a generous free starter tier.</p>
+    </div>
+  </Link>
+  <Link to="/databases/bigquery/index">
+    <div className="card">
+      <h3>Connect to a BigQuery Database</h3>
+      <p>Utilize Google's leading enterprise data warehouse platform.</p>
+    </div>
+  </Link>
+  <Link to="/databases/mysql/index/">
+    <div className="card">
+      <h3>Connect to a MySQL Database</h3>
+      <p>The world's most popular open source database. Currently in Alpha preview.</p>
+    </div>
+  </Link>
+</div>

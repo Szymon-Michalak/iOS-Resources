@@ -1,0 +1,9 @@
+position: 3
+label: '🎥 Channels'
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: Channels overview
+customProps:
+  description: This description can be used in the swizzled DocCard

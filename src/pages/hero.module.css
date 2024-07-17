@@ -1,0 +1,100 @@
+:root {
+  --sl-color-white: hsl(0, 0%, 100%);
+  --sl-color-gray-1: hsl(224, 20%, 94%);
+  --sl-color-gray-2: hsl(224, 6%, 77%);
+  --sl-color-gray-3: hsl(224, 6%, 56%);
+  --sl-color-gray-4: hsl(224, 7%, 36%);
+  --sl-color-gray-5: hsl(224, 10%, 23%);
+  --sl-color-gray-6: hsl(224, 14%, 16%);
+  --sl-color-black: hsl(224, 10%, 10%);
+  --sl-color-purple: hsl(281, 82%, 63%);
+}
+
+.container {
+  text-align: center;
+  background-color: var(--sl-color-white);
+  padding: 2rem 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 4rem;
+}
+
+.headerContent {
+  max-width: 600px;
+  text-align: left;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+  color: var(--sl-color-black);
+}
+
+.subtitle {
+  color: var(--sl-color-gray-4);
+  margin: 1rem 0;
+}
+
+.heroLogo {
+  width: 150px;
+  margin-left: 2rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.listsSection {
+  background-color: var(--sl-color-gray-1);
+  padding: 2rem 0;
+}
+
+.listsTitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: var(--sl-color-black);
+}
+
+.lists {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.listItem {
+  text-align: center;
+  max-width: 200px;
+}
+
+.iconContainer {
+  background-color: var(--sl-color-white);
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.iconContainer img {
+  width: 60px;
+}
+
+.listItem h3 {
+  font-size: 1.25rem;
+  margin: 0;
+  color: var(--sl-color-black);
+}
+
+.listItem p {
+  color: var(--sl-color-gray-4);
+}

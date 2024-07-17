@@ -1,0 +1,9 @@
+position: 5
+label: '📂 Repositories'
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: Repositories overview
+customProps:
+  description: This description can be used in the swizzled DocCard
