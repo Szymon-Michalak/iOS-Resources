@@ -3,6 +3,7 @@ title: Swift in Depth
 description: Swift in Depth is a platform dedicated to advancing Swift and mobile engineering skills through in-depth articles, books, and videos. It focuses on writing robust, maintainable, and adaptable code suited for real-world projects. The site provides resources on system design, Swift best practices, and practical coding techniques.
 ---
 
+
 Swift in Depth is a platform dedicated to advancing Swift and mobile engineering skills through in-depth articles, books, and videos. It focuses on writing robust, maintainable, and adaptable code suited for real-world projects. The site provides resources on system design, Swift best practices, and practical coding techniques.
 
 <details>

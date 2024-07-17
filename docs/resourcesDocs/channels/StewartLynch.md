@@ -3,8 +3,6 @@ title: Stewart Lynch
 description: Stewart Lynch's YouTube channel provides a variety of video tutorials focused on Swift, SwiftUI, and iOS development. The content includes step-by-step guides, practical examples, and in-depth discussions aimed at helping developers of all levels improve their skills.
 ---
 
-### Stewart Lynch - YouTube
-
 Stewart Lynch's YouTube channel provides a variety of video tutorials focused on Swift, SwiftUI, and iOS development. The content includes step-by-step guides, practical examples, and in-depth discussions aimed at helping developers of all levels improve their skills.
 
 <details>
@@ -32,6 +30,8 @@ Stewart Lynch's YouTube channel provides a variety of video tutorials focused on
 <LinkCard title="Visit Stewart Lynch on YouTube" href="https://www.youtube.com/@StewartLynch" />
 
 ---
+
+## Videos 
 
 ### Deep Dish Swift 2024 Talk
 Stewart Lynch shares insights and tips gleaned from his extensive experience in SwiftUI development. Despite setbacks, he presents valuable lessons on SwiftUI intricacies, ranging from UI enhancements to localization techniques.
@@ -76,3 +76,5 @@ Stewart Lynch shares insights and tips gleaned from his extensive experience in 
 - **Mining (Curation Tools):** Introduces tools and strategies for efficiently curating and managing coding resources and knowledge.
 
 <LinkCard title="Watch the video here" href="https://www.youtube.com/watch?v=_XZHzl3R1Fo" />
+
+## Playlists

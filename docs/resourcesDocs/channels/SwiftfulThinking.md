@@ -27,5 +27,8 @@ Swiftful Thinking's YouTube channel offers comprehensive video tutorials focused
    - **Community Tab:** Engagement with viewers and updates.
 </details>
 
+<LinkCard title="Visit Swiftful Thinking on YouTube" href="https://www.youtube.com/c/SwiftfulThinking" />
 
-For more information, visit [Swiftful Thinking on YouTube](https://www.youtube.com/c/SwiftfulThinking).
+## Videos
+
+## Playlists
