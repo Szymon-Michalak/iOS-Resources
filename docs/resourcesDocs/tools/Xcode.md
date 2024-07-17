@@ -3,112 +3,118 @@ title: 🛠️ Xcode
 description: Xcode
 ---
 
-### Privacy Manifest Generator for iOS Apps
+### Privacy Manifest
+
+Privacy Manifest is a tool designed to help developers generate the required `PrivacyInfo.xcprivacy` file for their iOS apps. This file declares the app's usage of specific APIs, ensuring compliance with Apple's privacy requirements starting May 1st, 2024. The tool simplifies the process by allowing developers to select necessary API usage options and automatically generating the corresponding XML file for their project.
 
 <details>
-**URL:** [https://www.privacymanifest.dev/](https://www.privacymanifest.dev/)
 
-**Published:** Not specified  
-**Last Updated:** Not specified
+**URL:** https://www.privacymanifest.dev/
 
-**Authors:** Not specified
+**Authors:** `Privacy Manifest Team`
 
-**Tags:**  
-`iOS Development`, `Privacy Manifest`, `API Usage`, `App Tracking Transparency`, `Xcode`
+**Integration:**
+- **Platforms Supported:** iOS
+- **API Documentation:** Not specified
+
+**Community and Support:**
+- **Support Channels:** Not specified
+- **Community:** Not specified
 
 </details>
 
-#### Key Points
-- Helps iOS developers generate PrivacyInfo.xcprivacy files for apps using required APIs.
-- Simplifies the process of declaring API usage and generating corresponding XML files.
-- Supports inclusion of NSPrivacyTracking for apps using data tracking.
-- Provides options to specify API categories and reasons for usage.
+**Key Features:**
+- **Automated XML Generation:** Simplifies creating `PrivacyInfo.xcprivacy` files.
+- **Customizable Options:** Select API usage and reasons to generate tailored manifests.
+- **Ease of Use:** User-friendly interface for quick setup.
 
-#### Summary of Contents
-- **Introduction:** The tool facilitates the creation of PrivacyInfo.xcprivacy files required by Apple starting May 1st, 2024, for apps using specific APIs.
-- **Main Sections:** 
-  - Describes the purpose of the Privacy Manifest Generator.
-  - Explains how to use the form to configure API usage and privacy settings.
-  - Provides instructions on copying or downloading the generated XML file.
-- **Technical Details:** 
-  - Specifies various API categories and usage reasons (e.g., file timestamp APIs).
-  - Includes support for NSPrivacyTracking and tracking domain configuration.
-- **Applications and Examples:** 
-  - Guides developers on integrating generated files into Xcode projects.
-  - Links to further resources such as Apple's guidelines on user privacy and data use.
-- **Conclusion:** 
-  - Emphasizes the tool’s role in ensuring compliance with Apple's privacy requirements.
-  - Encourages developers to use the generator to streamline privacy manifest creation.
+**Use Cases:**
+- **Compliance:** Ensure app compliance with Apple's privacy policies.
+- **Development Efficiency:** Save time by automating the manifest generation process.
+- **Customization:** Easily customize API usage declarations.
 
-<LinkCard title="Link to Resource" href="https://www.privacymanifest.dev/" />
+**Pros and Cons:**
+- **Pros:** Simplifies compliance, easy to use, customizable options.
+- **Cons:** Limited to specific privacy manifest generation.
 
-### RocketSim - Enhancing Xcode Simulators with Advanced Features
-Provides tools for iOS developers to enhance their simulator experience, including comparing designs, adding grids, and creating videos and GIFs with touch interactions.
+<LinkCard title="Visit Privacy Manifest" href="https://www.privacymanifest.dev/" />
+
+### RocketSim
+
+RocketSim enhances Xcode simulators by offering advanced UI inspection, recording, and debugging features. It supports design comparison, network request inspection, user defaults editing, and more. RocketSim helps developers streamline testing and capture professional recordings with added features like touch indicators and audio.
 
 <details>
-**URL:** [https://www.rocketsim.app/](https://www.rocketsim.app/)
 
-**Published:** 2024  
-**Last Updated:** 2024
+**URL:** https://www.rocketsim.app/
 
-**Authors:** RocketSim Team
+**Authors:** `RocketSim Team`
 
-**Tags:**  
-`iOS development`, `Xcode simulator`, `app testing`, `UI/UX design`
+**Integration:**
+- **Platforms Supported:** macOS (Xcode)
+- **API Documentation:** [RocketSim Documentation](https://docs.rocketsim.app/)
+
+**Community and Support:**
+- **Support Channels:** GitHub Issues, Email Support
+- **Community:** Active GitHub repository
 
 </details>
 
-#### Key Points
-- Enables comparison of designs within the iOS simulator.
-- Supports adding grids, rulers, and bezels to simulate real device environments.
-- Facilitates creating recordings with touch interactions for easy sharing.
-- Used by developers for both development and marketing purposes.
+**Key Features:**
+- **UI Inspection:** Compare designs and inspect layouts.
+- **Recording:** Capture MP4, GIFs with touches and audio.
+- **Network Monitoring:** Inspect and debug network requests.
 
-#### Summary of Contents
-- **Introduction:** RocketSim offers tools to augment Xcode simulators for iOS development.
-- **Main Sections:** Discusses features like design comparison, touch-enabled recordings, and ease of exporting to MP4 or GIF formats.
-- **Technical Details:** Includes capabilities such as quick actions, accessibility testing, and deep link and push notification simulation.
-- **Applications and Examples:** Examples from developers show usage for app development updates, marketing materials, and personal project showcases.
-- **Conclusion:** RocketSim enhances iOS development efficiency by integrating advanced simulation features directly into the development workflow.
+**Use Cases:**
+- **Design Comparison:** Ensure pixel-perfect implementations.
+- **Testing:** Test UI components and network interactions.
+- **Recording:** Create professional app previews and tutorials.
 
-<LinkCard title="Link to Resource" href="https://www.rocketsim.app/" />
+**Pros and Cons:**
+- **Pros:** Enhances simulator capabilities, easy to use, versatile features.
+- **Cons:** macOS only, requires setup.
 
+<LinkCard title="Visit RocketSim" href="https://www.rocketsim.app/" />
 
-### XcodeGen: A Swift Command Line Tool for Generating Xcode Projects
+### XcodeGen
+
+XcodeGen is a command-line tool that generates your Xcode project files from a YAML file and your project directory structure. It provides a quick and easy way to set up and manage Xcode projects without manually handling the `.xcodeproj` file.
 
 <details>
-**URL:** [https://github.com/yonaskolb/XcodeGen](https://github.com/yonaskolb/XcodeGen)
 
-**Published:** Not specified  
-**Last Updated:** Not specified
+**URL:** https://github.com/yonaskolb/XcodeGen
 
-**Authors:** `yonaskolb`, `kateinoigakukun`, `brentleyjones`, and others
+**Authors:** `Yonas Kolb`
 
-**Tags:**  
-`swift`, `cli`, `yaml`, `generator`, `xcode`, `ci`, `specification`, `xcodeproj`, `xcodeproject`
+**Integration:**
+- **Platforms Supported:** macOS (Xcode)
+- **API Documentation:** [XcodeGen Documentation](https://github.com/yonaskolb/XcodeGen#documentation)
+
+**Community and Support:**
+- **Support Channels:** GitHub Issues, Discussions
+- **Community:** Active GitHub repository
+
 </details>
 
-#### Key Points
-- XcodeGen is a Swift-based command line tool designed to automate the generation of Xcode projects.
-- It uses a YAML or JSON project specification file to define project configurations, targets, schemes, and build settings.
-- Maintains synchronization between Xcode groups/files and directories on disk, minimizing merge conflicts.
-- Supports easy project configuration that is human-readable and git-friendly.
-- Facilitates the creation of complex project setups, including multi-platform frameworks, on demand and on CI.
-- Integrates Carthage frameworks seamlessly without additional setup.
+**Key Features:**
+- **YAML Configuration:** Define your project in a human-readable YAML file.
+- **Automatic Generation:** Automatically generate `.xcodeproj` files.
+- **Customizable Settings:** Customize build settings, schemes, and more.
 
-#### Summary of Contents
-- **Introduction:** Overview of XcodeGen as a command line tool for Xcode project generation.
-- **Main Sections:** Detailed explanation of using project spec files (YAML/JSON) to define project structure and settings.
-- **Technical Details:** Discusses how XcodeGen parses source directories and preserves folder structure.
-- **Applications and Examples:** Provides use cases such as managing build settings across multiple targets and environments.
-- **Conclusion:** Emphasizes the tool's benefits in simplifying project setup and maintenance.
+**Use Cases:**
+- **Project Setup:** Quickly set up new Xcode projects.
+- **Automation:** Integrate with CI/CD pipelines for consistent project configuration.
+- **Collaboration:** Simplify project file management in team environments.
 
-<LinkCard title="Read Full Article" href="https://github.com/yonaskolb/XcodeGen" />
+**Pros and Cons:**
+- **Pros:** Easy configuration, reduces manual project setup, supports automation.
+- **Cons:** Requires learning YAML configuration.
+
+<LinkCard title="Visit XcodeGen" href="https://github.com/yonaskolb/XcodeGen" />
 
 ### Understanding XcodeProj for iOS Development
 
 <details>
-**URL:** [https://github.com/tuist/XcodeProj](https://github.com/tuist/XcodeProj)
+**URL:** https://github.com/tuist/XcodeProj
 
 **Published:** N/A  
 **Last Updated:** Continuous updates
@@ -135,100 +141,112 @@ Provides tools for iOS developers to enhance their simulator experience, includi
 
 <LinkCard title="Read Full Article" href="https://github.com/tuist/XcodeProj" />
 
-### Xcake: Generating Xcode Projects On-Demand
+### Xcake
+
+Xcake is a tool that describes Xcode projects in a human-readable format and can (re)generate them on demand. It uses a `Cakefile` to define the project structure, simplifying management and reducing merge conflicts.
 
 <details>
-**URL:** [https://github.com/igor-makarov/xcake](https://github.com/igor-makarov/xcake)
 
-**Published:** N/A  
-**Last Updated:** N/A
+**URL:** https://github.com/igor-makarov/xcake
 
-**Authors:** Igor Makarov
+**Authors:** `Igor Makarov`
 
-**Tags:**  
-`macos`, `ios`, `xcode`, `cocoapods`, `project-creation`
+**Integration:**
+- **Platforms Supported:** macOS (Xcode)
+- **API Documentation:** Not specified
+
+**Community and Support:**
+- **Support Channels:** GitHub Issues, Twitter
+- **Community:** Active GitHub repository
+
 </details>
 
-#### Key Points
-- Xcake simplifies Xcode project management by describing projects in a text file format (Cakefile) and generating projects on demand.
-- It focuses on reducing merge conflicts and maintaining project consistency over time.
-- Unlike tools like Generamba or Crafter, Xcake regenerates the entire Xcode project structure based on changes in the Cakefile.
-- Maintained by Igor Makarov after James Campbell's tenure, emphasizing a preference for avoiding .pbxproj files.
+**Key Features:**
+- **Human-Readable Configuration:** Define Xcode projects using a simple text file.
+- **Automated Project Generation:** Easily regenerate Xcode projects as needed.
+- **Merge Conflict Reduction:** Store project configuration separately to reduce conflicts.
 
-#### Summary of Contents
-- **Introduction:** Overview of Xcake as a tool for managing Xcode projects.
-- **Main Sections:** 
-  - Explanation of the Cakefile format and its role in project generation.
-  - Comparison with other scaffolding tools like Generamba and Crafter.
-  - Benefits of using Xcake to maintain project cleanliness and consistency.
-- **Technical Details:** 
-  - Utilizes Ruby (97%), Swift (2.9%), and C (0.1%) for its implementation.
-- **Applications and Examples:** 
-  - Practical scenarios for using Xcake in team environments or alongside CocoaPods.
-- **Conclusion:** 
-  - Summary of Xcake's advantages in project management and its community adoption under Igor Makarov's stewardship.
+**Use Cases:**
+- **Project Configuration:** Simplify and manage Xcode project configurations.
+- **Team Collaboration:** Improve collaboration by reducing merge conflicts.
+- **Continuous Integration:** Ensure consistent project configuration across environments.
 
-<LinkCard title="Read Full Article" href="https://github.com/igor-makarov/xcake" />
+**Pros and Cons:**
+- **Pros:** Easy configuration, reduces merge conflicts, supports continuous integration.
+- **Cons:** Requires setup and familiarity with Xcode and Ruby.
 
-### Multiliner: An Xcode Source Extension for Line Expansion
+<LinkCard title="Visit Xcake" href="https://github.com/igor-makarov/xcake" />
+
+### Multiliner
+
+Multiliner is an Xcode source extension that automatically expands lengthy lines of code for better readability. It supports initializers, function calls, array literals, and SwiftUI modifiers, making code formatting easier and more consistent.
 
 <details>
-**URL:** [Multiliner GitHub Repository](https://github.com/aheze/Multiliner)
 
-**Published:** N/A  
-**Last Updated:** N/A
+**URL:** https://github.com/aheze/Multiliner
 
-**Authors:** `aheze`
+**Authors:** `A. Zheng`
 
-**Tags:**  
-`swift`, `formatter`, `formatting`, `swiftui`
+**Integration:**
+- **Platforms Supported:** macOS (Xcode)
+- **API Documentation:** Not specified
+
+**Community and Support:**
+- **Support Channels:** GitHub Issues, Discord
+- **Community:** Active GitHub repository
+
 </details>
 
-#### Key Points
-- Multiliner is an Xcode source extension designed to expand lengthy lines of code, enhancing readability.
-- It supports expanding long lines within initializers, function calls, array literals, and SwiftUI modifiers.
-- Installation can be done either by downloading the app directly or through Homebrew.
-- Requires macOS Monterey (12.3) or higher to function properly.
-- Users can format code by highlighting it and using the Editor → Multiliner → Format Selected Code menu option in Xcode.
-- The extension is lightweight and straightforward, focusing solely on line expansion functionality.
+**Key Features:**
+- **Automatic Line Expansion:** Simplifies long lines in code.
+- **Supports Multiple Constructs:** Works with initializers, function calls, array literals, and SwiftUI modifiers.
+- **Easy Setup:** Simple installation and usage instructions.
 
-#### Summary of Contents
-- **Introduction:** Introduction to Multiliner, highlighting its purpose in Xcode development.
-- **Showcase:** Demonstration of Multiliner's functionality via a showcase video.
-- **Installation:** Steps to install Multiliner, including direct download and Homebrew installation.
-- **Usage:** Instructions on how to use Multiliner within Xcode to format selected code.
-- **Author and Contributions:** Information about the author and how contributions can be made to the project.
-- **License:** Details regarding the MIT License under which Multiliner is distributed.
+**Use Cases:**
+- **Code Formatting:** Improve readability of lengthy lines of code.
+- **Consistent Styling:** Ensure consistent code formatting across projects.
+- **Developer Efficiency:** Save time on manual code formatting.
 
-<LinkCard title="Read Full Article" href="https://github.com/aheze/Multiliner" />
+**Pros and Cons:**
+- **Pros:** Lightweight, easy to use, supports various constructs.
+- **Cons:** Limited to expanding lines, requires macOS Monterey or higher.
 
-### RemafoX: Easy App Localization
-Reduce app translation time significantly with RemafoX, offering features to streamline localization processes.
+<LinkCard title="Visit Multiliner" href="https://github.com/aheze/Multiliner" />
+
+### RemafoX
+
+RemafoX is a tool designed to streamline app translation for developers, reducing translation time by up to 90%. It integrates directly with Xcode, offering features like pluralization support, machine translation, code organization, and a linter for translation issues. RemafoX also provides a beginner-friendly interface with guides and video tutorials, and supports both free and paid plans.
 
 <details>
-**URL:** [RemafoX: Easy App Localization](https://remafox.app/)
+
+**URL:** https://remafox.app/
 
 **Authors:** `Cihat Gündüz`
 
-**Tags:**  
-`iOS development`, `app localization`, `Swift`, `Xcode`, `translation tools`
+**Integration:**
+- **Platforms Supported:** iOS (Xcode)
+- **API Documentation:** Not specified
+
+**Community and Support:**
+- **Support Channels:** Email, GitHub Issues
+- **Community:** Active on GitHub
+
 </details>
 
-#### Key Points
-- Automates app localization tasks, reducing translation time by up to 90%.
-- Supports easy pluralization via Stringsdict files without complex syntax.
-- Introduces tools like Sort Selection and Machine Translation integration for efficiency.
-- Provides a Linter for identifying translation issues and a Normalizer for organizing keys.
-- Ensures synchronization of localized Interface Builder files with the Strings files.
-- Offers a beginner-friendly interface with extensive guides and video tutorials.
-- Features a flexible payment model with options for both subscriptions and one-time purchases.
-- Promises regular updates with new features and enhancements.
+**Key Features:**
+- **Machine Translation:** Supports DeepL and Microsoft Translator.
+- **Pluralization Support:** Manages plural cases easily.
+- **Code Organization:** Organize and condense code in Xcode.
+- **Translation Linter:** Detects translation issues.
+- **Storyboard Synchronization:** Updates Strings files automatically.
 
-#### Summary of Contents
-- **Introduction:** Overview of RemafoX as a tool for iOS developers to simplify app localization.
-- **Main Sections:** Detailed description of features including Pluralization, Sort Selection, Machine Translation, and more.
-- **Technical Details:** Explanation of integration with DeepL and Microsoft Translator APIs for machine translation.
-- **Applications and Examples:** Use cases such as managing Interface Builder files and improving code readability.
-- **Conclusion:** Highlights of RemafoX’s benefits, updates, and availability for open-source projects.
+**Use Cases:**
+- **App Localization:** Simplifies translation and localization.
+- **Code Management:** Organizes and manages code translations.
+- **Quality Assurance:** Ensures translation accuracy and consistency.
 
-<LinkCard title="Read Full Article" href="https://remafox.app/" />
+**Pros and Cons:**
+- **Pros:** Easy to use, integrates with Xcode, supports multiple languages.
+- **Cons:** Advanced features require subscription or one-time purchase.
+
+<LinkCard title="Visit RemafoX" href="https://remafox.app/" />

@@ -3,36 +3,74 @@ title: Configuration
 description: Configuration
 ---
 
-### 📄 **Pkl Documentation**
-- **Description:** Pkl is a configuration language that allows you to define configuration data and generate outputs in various formats like JSON, YAML, and more. It integrates well into applications for runtime configuration and supports code generation for multiple languages including Java, Kotlin, Swift, and Go.
-- **Tags:** 🛠️ 📄 🚀
-- **Link:** https://pkl-lang.org/
-- [**Read here**](https://pkl-lang.org/)
+### Pkl
 
-### Mise-en-place Documentation Overview
+Pkl is a configuration language that allows developers to define data in Pkl format and generate output for JSON, YAML, Property Lists, and other configuration formats. It can be embedded into applications for runtime configuration and supports code generation for multiple languages, including Java, Kotlin, Swift, and Go.
 
 <details>
-**URL:** [mise-en-place Documentation](https://mise.jdx.dev/about.html)
 
-**Published:** N/A  
-**Last Updated:** 02/06/2024
+**URL:** https://pkl-lang.org/
 
-**Authors:** Jeff Dickey
+**Authors:** `Pkl Team`
 
-**Tags:**  
-`development tools`, `environment setup`, `task automation`
+**Integration:**
+- **Platforms Supported:** Web
+- **API Documentation:** Not specified
+
+**Community and Support:**
+- **Support Channels:** GitHub Discussions
+- **Community:** Active GitHub repository
+
 </details>
 
-#### Key Points
-- Introduction to mise-en-place, a tool for setting up development environments efficiently.
-- Three main functionalities: managing dev tools/runtimes, handling environment variables, and serving as a task runner.
-- Focus on consistency and ease of use across projects and programming languages.
+**Key Features:**
+- **Multi-Format Output:** Generate configuration in JSON, YAML, and more.
+- **Code Generation:** Supports Java, Kotlin, Swift, and Go.
+- **IDE Integration:** Plugins for IntelliJ, VS Code, and Neovim.
 
-#### Summary of Contents
-- **Introduction:** Overview of mise-en-place and its analogy to culinary "mise-en-place".
-- **Main Sections:** Detailed explanation of its functionalities: managing dev tools, environment variables, and task running.
-- **Technical Details:** Configuration via `.mise.toml`, supporting various dev tools and languages.
-- **Applications and Examples:** Practical uses such as specifying tool versions, managing environment configurations, and automating tasks.
-- **Conclusion:** Jeff Dickey's personal motivation, emphasizing ease and consistency in software development.
+**Use Cases:**
+- **Configuration Management:** Simplifies application configuration.
+- **Multi-Language Support:** Generates configuration code for multiple languages.
+- **Error Checking:** Validates configurations before deployment.
 
-<LinkCard title="Read Full Article" href="https://mise.jdx.dev/about.html" />
+**Pros and Cons:**
+- **Pros:** Supports multiple output formats, robust IDE integration, error checking.
+- **Cons:** Limited to configuration management, requires learning Pkl syntax.
+
+<LinkCard title="Visit Pkl" href="https://pkl-lang.org/" />
+
+### Mise-en-Place (Mise)
+
+Mise-en-Place (Mise) is a development environment setup tool designed to streamline project configuration across different languages. It uses a `.mise.toml` file to manage development tools, environment variables, and task automation, ensuring consistency and ease of use in software development.
+
+<details>
+
+**URL:** https://mise.jdx.dev/about.html
+
+**Authors:** `Jeff Dickey`
+
+**Integration:**
+- **Platforms Supported:** Web
+- **API Documentation:** Not specified
+
+**Community and Support:**
+- **Support Channels:** GitHub, Twitter, Mastodon, Discord
+- **Community:** Active on GitHub and social media
+
+</details>
+
+**Key Features:**
+- **Tool Management:** Installs and manages development tools and runtimes.
+- **Environment Variables:** Manages project-specific environment variables.
+- **Task Runner:** Automates common tasks within projects.
+
+**Use Cases:**
+- **Project Setup:** Ensures consistent development environments across projects.
+- **Configuration Management:** Handles different configurations for various projects.
+- **Task Automation:** Simplifies running and managing development tasks.
+
+**Pros and Cons:**
+- **Pros:** Simplifies setup, supports multiple languages, customizable.
+- **Cons:** Initial setup and learning curve.
+
+<LinkCard title="Visit Mise-en-Place" href="https://mise.jdx.dev/about.html" />

@@ -3,59 +3,74 @@ title: Debugging
 description: Debugging
 ---
 
-### Build better apps with Reveal
-Review, fix, and improve your app’s accessible and visual user experiences with powerful UI inspection and testing tools.
+### Reveal
+
+Reveal is a powerful tool for iOS developers, designed to streamline app development through advanced UI inspection and testing. It helps developers review, fix, and improve the accessibility and visual user experience of their apps with real-time inspection, layout debugging, and view modification capabilities.
 
 <details>
-**URL:** [https://revealapp.com/](https://revealapp.com/)
+
+**URL:** [Reveal](https://revealapp.com/)
 
 **Authors:** `Itty Bitty Apps`
 
-**Tags:**  
-`mobile development`, `UI inspection`, `debugging`, `accessibility testing`
+**Integration:**
+- **Platforms Supported:** iOS
+- **API Documentation:** Not specified
+
+**Community and Support:**
+- **Support Channels:** Email Support, Help Center
+- **Community:** Active user community and forums
+
 </details>
 
-#### Key Points
-- Reveal offers a suite of tools for mobile developers to enhance app accessibility and user experience.
-- Features include real-time app inspection, layout debugging, and accessibility testing.
-- The platform supports modifying views on the fly and diagnosing layout issues with Auto Layout.
-- It aims to streamline accessibility improvements, catering to developers of all experience levels.
+**Key Features:**
+- **UI Inspection:** Inspect apps in real-time to debug layout and UI issues.
+- **Accessibility Testing:** Improve app accessibility with advanced testing tools.
+- **Live View Modification:** Modify views on the fly to diagnose and fix issues.
 
-#### Summary of Contents
-- **Introduction:** Introduction to Reveal as a tool for enhancing app accessibility and visual user experience.
-- **Main Sections:** Detailed exploration of UI inspection, debugging tools, and accessibility testing capabilities.
-- **Technical Details:** Emphasis on real-time visualization, layout modification, and Auto Layout debugging.
-- **Applications and Examples:** Practical applications for improving app accessibility and compliance.
-- **Conclusion:** Highlights the importance of accessibility in app development and the role of Reveal in achieving accessibility standards.
+**Use Cases:**
+- **Debugging:** Identify and fix UI and layout problems.
+- **Accessibility Compliance:** Ensure apps meet accessibility standards.
+- **Optimization:** Optimize the user interface for a better user experience.
 
-<LinkCard title="Read Full Article" href="https://revealapp.com/" />
+**Pros and Cons:**
+- **Pros:** Real-time inspection, powerful debugging tools, enhances accessibility.
+- **Cons:** Requires setup and familiarity with the tool.
 
-### Core Data Lab Overview
-Provides a comprehensive overview of Core Data Lab, a tool for viewing and analyzing Core Data databases.
+<LinkCard title="Visit Reveal" href="https://revealapp.com/" />
+
+### Core Data Lab
+
+Core Data Lab is a powerful tool for viewing, analyzing, and tracking the data of Core Data apps. It offers various features like a predicate editor, data change tracker, and data editor, providing developers with comprehensive insights into their app's data.
 
 <details>
-**URL:** [Betamagic - Core Data Lab](https://betamagic.nl/products/coredatalab.html)
 
-**Published:** Not specified  
-**Last Updated:** Not specified
+**URL:** [Core Data Lab](https://betamagic.nl/products/coredatalab.html)
 
-**Authors:** `Betamagic`
+**Authors:** `Betamagic Team`
 
-**Tags:**  
-`Core Data`, `Database Management`, `macOS Development`
+**Integration:**
+- **Platforms Supported:** macOS, iOS (via simulators)
+- **API Documentation:** Not specified
+
+**Community and Support:**
+- **Support Channels:** Email Support, Help Center
+- **Community:** Not specified
+
 </details>
 
-#### Key Points
-- Core Data Lab offers tools like a predicate editor, data editor, and data change tracker for Core Data apps.
-- It supports viewing SQLite-based Core Data and SwiftData apps, including detailed entity descriptions and fetch request templates.
-- Features a familiar macOS interface with native controls and intuitive data presentation aligned with Core Data's object model.
+**Key Features:**
+- **Data Inspection:** View, edit, and analyze Core Data.
+- **Data Change Tracking:** Track changes in real-time.
+- **Predicate Editor:** Build and reuse filters without SQL.
 
-#### Summary of Contents
-- **Introduction:** Overview of Core Data Lab's purpose and functionality.
-- **Powerful Tools:** Detailed description of tools like the predicate editor and data change tracker.
-- **Interface and Usability:** Emphasis on its user-friendly interface and seamless integration with macOS.
-- **Data Viewing and Editing:** Methods for viewing, editing, and analyzing Core Data databases.
-- **Advanced Features:** Coverage of advanced features like the simulator browser and raw data viewer.
-- **Integration and Compatibility:** Information on compatibility with Apple technologies and native app integration.
+**Use Cases:**
+- **Debugging:** Identify and fix data issues.
+- **Testing:** Simulate and reproduce test cases.
+- **Data Management:** Manage and modify app data efficiently.
 
-<LinkCard title="Read Full Article" href="https://betamagic.nl/products/coredatalab.html" />
+**Pros and Cons:**
+- **Pros:** Comprehensive data tools, easy-to-use interface, supports multiple platforms.
+- **Cons:** Requires setup and familiarity with Core Data concepts.
+
+<LinkCard title="Visit Core Data Lab" href="https://betamagic.nl/products/coredatalab.html" />
