@@ -3,6 +3,8 @@ title: Configuration
 description: Configuration
 ---
 
+Explore tools and utilities designed to simplify and manage project configurations across various development environments. From Pkl, a versatile configuration language supporting multi-format output and code generation, to Mise-en-Place (Mise), a robust tool for setting up and automating project environments, these resources aim to enhance consistency and efficiency in software development.
+
 ### Pkl
 
 Pkl is a configuration language that allows developers to define data in Pkl format and generate output for JSON, YAML, Property Lists, and other configuration formats. It can be embedded into applications for runtime configuration and supports code generation for multiple languages, including Java, Kotlin, Swift, and Go.
