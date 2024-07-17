@@ -25,7 +25,7 @@ function HeroBanner() {
           <img
             alt={translate({message: 'Docusaurus with Keytar'})}
             className={styles.heroLogo}
-            src={useBaseUrl('/img/Logo.svg')}
+            src={useBaseUrl('/img/logo.svg')}
             width="300"
             height="300"
           />
