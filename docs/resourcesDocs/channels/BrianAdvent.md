@@ -3,8 +3,6 @@ title: Brain Advent
 description: Follow along with Brian Advent to learn iOS and macOS development through practical examples and tutorials.
 ---
 
-### Brian Advent - YouTube
-
 Brian Advent's YouTube channel provides high-quality video tutorials focused on iOS development, Swift, and SwiftUI. It features step-by-step guides, practical examples, and in-depth explanations designed to help developers of all levels improve their skills and stay updated with the latest trends in iOS development.
 
 <details>
