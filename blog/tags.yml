@@ -6,3 +6,7 @@ ios:
   label: iOS
   permalink: /ios
   description: iOS tag description
+info:
+  label: Info
+  permalink: /info
+  description: Info tag description
