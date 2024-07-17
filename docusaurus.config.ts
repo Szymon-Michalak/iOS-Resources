@@ -116,6 +116,7 @@ const config: Config = {
         apiKey: 'ed0052a75de2bcc2d1bb3efa4a9ff1a6',
   
         indexName: 'ioswift',
+        contextualSearch: false,
       },
   } satisfies Preset.ThemeConfig,
 };
