@@ -22,6 +22,7 @@
     overflow: hidden;
     padding: 1rem !important;
     justify-content: space-between;
+    align-items: center;
   }
   
   a {
