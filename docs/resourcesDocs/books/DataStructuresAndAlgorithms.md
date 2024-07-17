@@ -1,5 +1,5 @@
 ---
-title: "Data Structures & Algorithms in Swift: Implementing Practical Data Structures with Swift"
+title: Data Structures & Algorithms in Swift
 description: A comprehensive guide to understanding and implementing data structures and algorithms using Swift. This book is designed to help developers learn the fundamentals of data structures and algorithms, along with practical implementations in Swift.
 
 sidebar_label: Data Structures & Algorithms

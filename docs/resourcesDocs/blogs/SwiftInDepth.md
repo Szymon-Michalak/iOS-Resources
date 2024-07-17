@@ -1,33 +1,36 @@
-### Swift in Depth
-A comprehensive guide to advanced Swift programming techniques, focusing on best practices and practical applications for building robust iOS applications.
+---
+title: Swift in Depth
+description: Swift in Depth is a platform dedicated to advancing Swift and mobile engineering skills through in-depth articles, books, and videos. It focuses on writing robust, maintainable, and adaptable code suited for real-world projects. The site provides resources on system design, Swift best practices, and practical coding techniques.
+---
+
+Swift in Depth is a platform dedicated to advancing Swift and mobile engineering skills through in-depth articles, books, and videos. It focuses on writing robust, maintainable, and adaptable code suited for real-world projects. The site provides resources on system design, Swift best practices, and practical coding techniques.
 
 <details>
-**URL:** [https://www.manning.com/books/swift-in-depth?a_aid=swiftindepth&a_bid=04b4fbb6](https://www.manning.com/books/swift-in-depth?a_aid=swiftindepth&a_bid=04b4fbb6)
+**URL:** https://swiftindepth.com
 
-**Published:** [Date of Publication]  
-**Last Updated:** [Date of Last Update, if applicable]
+**Authors:** `Tjeerd in 't Veen`
 
-**Authors:** Tjeerd in 't Veen
+**Complexity Levels:**
+   - **Beginner:** 20%
+   - **Intermediate:** 50%
+   - **Advanced:** 30%
 
-**Tags:**  
-`Swift programming`, `iOS development`, `Advanced techniques`, `Functional programming`, `Protocol-Oriented Programming`, `Swift 5`
+**Frequency of Posting:** Weekly
 
+**Types of Content:**
+   - **Articles:** 40% (In-depth articles and best practices)
+   - **Books:** 30% (Comprehensive guides on Swift and mobile development)
+   - **Videos:** 30% (Tutorials and discussions)
+
+**Additional Features:**
+   - **Newsletter:** Available for regular updates and news.
+   - **Books:** Detailed guides available in various formats.
+   - **Videos:** High-quality video tutorials and discussions.
 </details>
 
-#### Key Points
-- Covers advanced topics such as modeling data with structs and enums, Generics, and Protocol-Oriented Programming.
-- Emphasizes best practices and trade-offs in design decisions.
-- Includes practical examples and code snippets for real-world applications.
+<LinkCard title="Visit Swift in Depth" href="https://swiftindepth.com" />
 
-#### Summary of Contents
-- **Introduction:** Introduces advanced Swift concepts and their importance in modern iOS development.
-- **Main Sections:** Discusses modeling data with Swift types, advanced functional programming techniques, and extending collection types.
-- **Technical Details:** Explains the use of Swift 5 features and their impact on code performance and readability.
-- **Applications and Examples:** Provides examples of implementing advanced Swift features in iOS applications.
-- **Conclusion:** Highlights key takeaways and encourages thoughtful application of advanced Swift concepts in development practices.
-
-<LinkCard title="Link to Swift in Depth" href="https://www.manning.com/books/swift-in-depth?a_aid=swiftindepth&a_bid=04b4fbb6" />
-
+---
 
 ### Receiving UI designs as a Developer
 Provides insights and strategies for app developers when receiving UI designs, emphasizing collaboration with designers and efficient feature implementation.
@@ -133,7 +136,7 @@ This article explores the unique challenges faced in testing mobile applications
 ### Uh oh, you picked the wrong UI architecture
 
 <details>
-**URL:** [https://swiftindepth.com/articles/ui-architectures/](https://swiftindepth.com/articles/ui-architectures/)
+**URL:** https://swiftindepth.com/articles/ui-architectures/](https://swiftindepth.com/articles/ui-architectures/
 
 **Published:** Not specified  
 **Last Updated:** Not specified
