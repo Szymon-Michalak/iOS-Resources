@@ -32,3 +32,36 @@ objc.io is a platform that publishes books, videos, and articles focused on adva
 <LinkCard title="Visit objc.io" href="https://www.objc.io/" />
 
 ---
+
+### The Art of Code Review: A Dropbox Story
+
+<details>
+**URL:** [The Art of Code Review: A Dropbox Story](https://www.objc.io/issues/22-scale/dropbox/)
+
+**Published:** March 2015  
+**Last Updated:** N/A
+
+**Author:** [Ashley Nelson-Hornstein](https://twitter.com/ashleynh)
+
+**Tags:**  
+`code review`, `iOS development`, `engineering culture`, `Phabricator`
+
+</details>
+
+#### Key Points
+- Emphasizes the importance of thorough planning before code review.
+- Discusses using Phabricator for managing code review processes at Dropbox.
+- Highlights the role of style guides in ensuring code quality and consistency.
+- Advocates for documenting non-obvious decisions with comments like //TODO, //HAX, and //FIXME.
+- Describes the use of Arcanist and Differential for code submission and review.
+- Stresses the significance of effective communication and constructive feedback in code reviews.
+
+#### Summary of Contents
+- **Introduction:** Introduces the significance of code review in software development.
+- **Planning and Preparation:** Discusses upfront planning, style guides, and decision documentation.
+- **Code Submission:** Details the process of using Arcanist and Differential for code submission and review.
+- **Feedback and Iteration:** Emphasizes the importance of constructive feedback and iterative improvements.
+- **Conclusion:** Highlights the cultural aspect of code reviews and the continuous improvement mindset.
+
+<LinkCard title="Read Full Article" href="https://www.objc.io/issues/22-scale/dropbox/" />
+

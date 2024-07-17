@@ -31,3 +31,32 @@ Holy Swift is a platform offering a variety of tutorials, articles, and guides f
 <LinkCard title="Visit Holy Swift" href="https://holyswift.app/" />
 
 ---
+
+### Common Mistakes to Avoid When Using Enums in Swift
+
+<details>
+**URL:** [Common Mistakes to Avoid When Using Enums in Swift](https://holyswift.app/common-mistakes-to-avoid-when-using-enums-in-swift/)
+
+**Published:** [Date of Publication]  
+**Last Updated:** [Date of Last Update, if applicable]
+
+**Authors:** `Leo Pugliese`
+
+**Tags:**  
+`Swift`, `iOS Development`, `Enum`, `Best Practices`
+</details>
+
+#### Key Points
+- Discusses common mistakes iOS developers make when using enums in Swift.
+- Emphasizes the importance of cohesion in enum design and avoiding lazy switch practices.
+- Warns against assuming automatic raw value incrementation for enums.
+
+#### Summary of Contents
+- **Introduction:** Introduces the significance of enums in Swift development.
+- **The Problem – Common Error Using Enum:** Highlights issues like lack of cohesion and improper mapping strategies.
+- **Lazy Switch or Using Default: Clause When You Shouldn’t:** Discusses pitfalls of lazy switch statements in handling enum cases.
+- **Assuming Automatic Raw Value Incrementation:** Advises against relying on automatic raw value assignments in enums.
+- **Conclusion – How to Avoid Common Enum Mistakes in Swift?:** Summarizes best practices to enhance code reliability and maintainability using enums.
+
+<LinkCard title="Read Full Article" href="https://holyswift.app/common-mistakes-to-avoid-when-using-enums-in-swift/" />
+

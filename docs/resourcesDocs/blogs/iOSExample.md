@@ -31,3 +31,33 @@ iOS Example is a platform offering a wide range of tutorials, libraries, and exa
 <LinkCard title="Visit iOS Example" href="https://iosexample.com" />
 
 ---
+
+### Download View with Button and Animated Circle
+
+<details>
+**URL:** [Download view with button and animated circle](https://iosexample.com/download-view-with-button-and-animated-circle/)
+
+**Published:** September 5, 2023  
+**Last Updated:** N/A
+
+**Authors:** Not specified
+
+**Tags:**  
+`iOS`, `UI`, `Animations`, `Buttons`, `Swift`
+
+</details>
+
+#### Key Points
+- Introduces a download view in iOS featuring a button and animated circle.
+- Utilizes UIKit for creating interactive UI elements.
+- Provides visual feedback through animated circles to indicate download progress.
+- Demonstrates integration with GitHub for source code availability and customization.
+
+#### Summary of Contents
+- **Introduction:** Overview of the download view component for iOS.
+- **Main Sections:** Description of the UI elements used and their interactions.
+- **Technical Details:** Use of UIKit for button and animation handling.
+- **Applications and Examples:** GitHub integration and customization options.
+- **Conclusion:** Highlights the practical implementation and visual feedback for download actions.
+
+<LinkCard title="Read Full Article" href="https://iosexample.com/download-view-with-button-and-animated-circle/" />
