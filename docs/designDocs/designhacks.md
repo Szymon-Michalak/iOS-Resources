@@ -3,13 +3,11 @@
 <details>
 **URL:** https://www.youtube.com/watch?v=88XxC0_zs74
 
-**Published:** [Date of Publication]  
-**Last Updated:** [Date of Last Update, if applicable]
+**Published:** Nov 24, 2022
 
-## Authors
-- [Author Name]
+**Author:** Tim Gabe
 
-## Tags
+**Tags:**
 `UI design`, `typography`, `spacing`, `UX design`
 </details>
 
