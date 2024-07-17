@@ -111,7 +111,7 @@ XcodeGen is a command-line tool that generates your Xcode project files from a Y
 
 <LinkCard title="Visit XcodeGen" href="https://github.com/yonaskolb/XcodeGen" />
 
-### Understanding XcodeProj for iOS Development
+### XcodeProj
 
 <details>
 **URL:** https://github.com/tuist/XcodeProj

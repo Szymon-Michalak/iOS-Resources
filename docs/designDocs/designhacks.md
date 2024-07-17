@@ -1,4 +1,4 @@
-# Typography and Spacing Tips for Improved UI Design
+# 6 UI Hacks I Wish I Knew As A Beginner
 
 <details>
 **URL:** https://www.youtube.com/watch?v=88XxC0_zs74

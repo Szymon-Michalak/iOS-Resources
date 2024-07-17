@@ -2,7 +2,7 @@
 title: Reference
 description: Reference
 ---
-### 📄 **Swiftly - Swift 5.7 references**
+### 📄 Swiftly
 
 Swiftly offers a comprehensive reference for Swift developers, covering fundamental topics like variables, control flow, basic types, collection types, structs & classes, operators, functional methods, concurrency, and advanced features. It's a handy resource for busy coders looking for quick answers and insights into Swift programming.  
 **Author:** Eugene Belinski  
@@ -10,7 +10,7 @@ Swiftly offers a comprehensive reference for Swift developers, covering fundamen
 **Link:** https://swiftly.dev/  
 <LinkCard title="Visit Swiftly" href="https://swiftly.dev/" />
 
-### 📄 **iOS Ref**
+### 📄 iOS Ref
 
 Quick reference tables, tools, and links for iOS developers. iOS Ref provides iOS compatibility tables, a comprehensive Swift cheatsheet, a hex code to UIColor converter, device screen resolution tables, and more.  
 **Author:** Eugene Belinski  
@@ -48,9 +48,7 @@ The iOS Developer Roadmap offers a comprehensive guide for aspiring iOS develope
 
 <LinkCard title="Visit Roadmap.sh" href="(https://roadmap.sh/ios" />
 
-## NSPredicate Cheatsheet
-
-### 🖊️ **NSPredicate Cheatsheet**
+### NSPredicate Cheatsheet
 - **Description:** A comprehensive guide to using NSPredicate for filtering data in Cocoa and Cocoa Touch. It covers various predicates, including basic comparisons, aggregate operators, string comparison operators, and common mistakes to avoid.
 - **Author:** Realm Team
 - **Tags:** 📅 ⭐
@@ -90,7 +88,7 @@ The iOS Developer Roadmap offers a comprehensive guide for aspiring iOS develope
 
 <LinkCard title="Read Full Article" href="https://google.github.io/swift/#special-escape-sequences" />
 
-### The Official Kodeco Swift Style Guide
+### Kodeco Swift Style Guide
 
 Provide a concise summary of the article or video. What are the main topics covered? What is the primary focus of the content?
 
