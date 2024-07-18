@@ -96,6 +96,12 @@ const config: Config = {
         },
         {
             type: 'docSidebar',
+            sidebarId: 'snippetsSidebar',
+            position: 'left',
+            label: 'Snippets',
+        },
+        {
+            type: 'docSidebar',
             sidebarId: 'designSidebar',
             position: 'left',
             label: 'Design',
