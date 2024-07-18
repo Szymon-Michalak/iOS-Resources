@@ -4,4 +4,5 @@ https://github.com/Szymon-Michalak/iOS-Components/blob/main/UI/AnimatedCharts/An
 ```
 
 ![AnimatedCharts.gif](./AnimatedCharts.gif)
-![AnimatedCharts.mp4](./AnimatedCharts.mp4)
+![AnimatedCharts.gif](./AnimatedCharts.gif)
+![AnimatedCharts.gif](./AnimatedCharts.gif)
