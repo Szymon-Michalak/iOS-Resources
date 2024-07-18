@@ -29,8 +29,12 @@ const config: Config = {
     locales: ['en'],
   },
      themes: [
-        'docusaurus-theme-github-codeblock'
+        'docusaurus-theme-github-codeblock',
+       '@docusaurus/theme-mermaid',
     ],
+    markdown: {
+        mermaid: true,
+    },
   presets: [
     [
       'classic',
