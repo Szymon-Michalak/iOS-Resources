@@ -167,3 +167,91 @@ Provide a deep dive into the Single Responsibility principle within SOLID, exami
 
 <LinkCard title="Read Full Article" href="https://blog.devgenius.io/writing-good-unit-tests-2158be9ee82d" />
 
+### Double Optional Bindings in SwiftUI
+
+<details>
+**URL:** [https://phlippieb.dev/posts/double-optional-bindings/](https://phlippieb.dev/posts/double-optional-bindings/)
+
+**Published:** Tue Jun 25 2024  
+**Last Updated:** Not specified
+
+**Authors:** Phlippie Bosman
+
+**Tags:**  
+`SwiftUI`, `iOS Development`, `Optional Types`, `UI Design`
+</details>
+
+#### Key Points
+- Discusses the usage of double optional types in SwiftUI for managing sheet presentation and item editing.
+- Shows how SwiftUI utilizes optional bindings to control the visibility of sheets.
+- Highlights the use of optional types to distinguish between creating new items and editing existing ones.
+- Provides practical examples of implementing double optional bindings in SwiftUI views.
+
+#### Summary of Contents
+- **Introduction:** Introduces the concept of using double optional types in SwiftUI views.
+- **Optional Binding for Sheet Visibility:** Explains how SwiftUI uses optional bindings to show or dismiss sheets based on state changes.
+- **Optional Binding for Item Editing:** Demonstrates the use of optional types to differentiate between creating new items and editing existing ones.
+- **Practical Examples:** Provides code examples and scenarios where double optional bindings are applied in SwiftUI development.
+- **Conclusion:** Summarizes the benefits and challenges of using double optional types in SwiftUI UI design.
+
+<LinkCard title="Read Full Article" href="https://phlippieb.dev/posts/double-optional-bindings/" />
+
+### The Advanced Guide to UserDefaults in Swift
+
+<details>
+**URL:** [https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/](https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/)
+
+**Published:** 9 DECEMBER 2019  
+**Last Updated:** N/A
+
+**Authors:** Vadim Bulavin
+
+**Tags:**  
+`Swift`, `UserDefaults`, `Property Wrappers`
+</details>
+
+#### Key Points
+- UserDefaults in Swift manages persistent storage for key-value pairs using .plist files.
+- It supports storing data types such as String, Date, Bool, Int, Double, Float, Array, Dictionary, and URL.
+- Large data should be avoided due to performance reasons, especially on platforms like tvOS.
+- Custom objects are not recommended for UserDefaults due to compatibility issues.
+- Swift 5 introduced property wrappers, enhancing type-safety and allowing observation of UserDefaults changes.
+
+#### Summary of Contents
+- **Introduction:** Overview of UserDefaults and its evolution with Swift 5.
+- **UserDefaults Overview:** Discusses supported data types and best practices for usage.
+- **UserDefaults Internal Structure:** Details the per-domain storage model and performance considerations.
+- **Implementing Key-Value Storage:** Guide on implementing type-safe storage using property wrappers.
+- **Observing UserDefaults Value Changes:** Explanation on extending UserDefaults with property wrapper observation.
+- **Source Code:** Links to the implementation example and project repository.
+- **Summary:** Key takeaways emphasizing UserDefaults' use cases and best practices.
+
+<LinkCard title="Read Full Article" href="https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/" />
+
+### The Swift Programming Language
+
+The Swift Programming Language book, available on Swift.org, provides comprehensive documentation on Swift. It covers the basics of the language, advanced topics, and practical examples, making it an essential resource for both beginners and experienced developers.
+
+<details>
+
+**URL:** [The Swift Programming Language](https://docs.swift.org/swift-book/documentation/the-swift-programming-language)
+
+**Authors:** `Apple Inc.`
+
+**Tags:**  
+`Swift`, `iOS Development`, `Programming Language`, `Reference`, `Guide`
+</details>
+
+#### Key Points
+- Extensive guide covering all aspects of Swift.
+- Includes practical examples and advanced topics.
+- Authoritative resource for Swift programming.
+
+#### Summary of Contents
+- **Introduction:** Overview of Swift and its benefits.
+- **Basics:** Syntax, variables, constants, and basic data types.
+- **Advanced Topics:** Protocols, generics, error handling, and concurrency.
+- **Practical Examples:** Code snippets and real-world use cases.
+- **Appendix:** Additional resources and references for further learning.
+
+<LinkCard title="Read The Swift Programming Language" href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language" />

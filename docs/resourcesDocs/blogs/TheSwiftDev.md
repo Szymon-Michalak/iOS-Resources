@@ -60,3 +60,36 @@ Learn various methods for running tasks in parallel using Swift, including tradi
 - **Conclusion:** Highlights the advantages of structured concurrency over traditional methods.
 
 <LinkCard title="Read Full Article" href="https://theswiftdev.com/running-tasks-in-parallel/" />
+
+### Ultimate Grand Central Dispatch tutorial in Swift
+Learn the principles of multi-threading with the GCD framework in Swift. Queues, tasks, groups—everything you'll ever need to know.
+
+<details>
+**URL:** [https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/](https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/)
+
+**Published:** 2018/07/10  
+**Last Updated:** N/A
+
+**Authors:** The.Swift.Dev
+
+**Tags:**  
+`Swift`, `Grand Central Dispatch`, `Concurrency`, `Multi-threading`
+</details>
+
+#### Key Points
+- Introduction to Grand Central Dispatch (GCD) and its role in managing concurrency in Swift.
+- Explanation of synchronous and asynchronous task execution using GCD queues.
+- Overview of different types of dispatch queues: serial, concurrent, main, global, and custom.
+- Practical examples of using DispatchQueues for background tasks and UI updates.
+- Demonstration of advanced GCD features like DispatchWorkItem, DispatchGroups, and Semaphores.
+- Advice on avoiding common pitfalls such as deadlocks and race conditions.
+
+#### Summary of Contents
+- **Introduction:** Overview of GCD and its significance in Swift development.
+- **GCD Basics:** Explanation of dispatch queues and their types (serial, concurrent).
+- **Task Execution:** Synchronous vs. asynchronous execution with code examples.
+- **Advanced Features:** Detailed exploration of DispatchWorkItem, DispatchGroups, and Semaphores.
+- **Best Practices:** Recommendations for using GCD effectively and safely.
+- **Conclusion:** Recap of key concepts and recommendations for further learning.
+
+<LinkCard title="Read Full Article" href="https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/" />

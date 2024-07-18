@@ -1,3 +1,8 @@
+---
+title: Articles
+description: Articles about UI design
+---
+
 # Articles
 
 ## 6 UI Hacks I Wish I Knew As A Beginner
