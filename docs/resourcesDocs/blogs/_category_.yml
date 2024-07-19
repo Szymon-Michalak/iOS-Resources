@@ -1,7 +1,7 @@
-position: 1
+position: 2
 label: '🖊️ Blogs'
 collapsible: true
-collapsed: false
+collapsed: true
 link:
   type: generated-index
   title: Blogs overview
