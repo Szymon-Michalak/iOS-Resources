@@ -178,3 +178,79 @@ This session focuses on acceptance testing in iOS development, covering both the
 - **Conclusion:** Recap of key insights and recommendations for integrating acceptance testing effectively into iOS development workflows.
 
 <LinkCard title="Watch Full Video" href="https://www.youtube.com/watch?v=Zf6x_lLAuiU" />
+
+### Live Dev Mentoring Session: Handling Token Refresh in iOS with Async/Await
+<details>
+**URL:** https://www.youtube.com/watch?v=u2P49SmDC1M
+
+**Published:** Jul 28, 2022  
+**Last Updated:**  
+
+## Authors
+- Kyle from EssentialDeveloper.com
+- Louise (Student)
+- Mike, Bogdan (Mentors)
+
+## Tags
+`iOS Development`, `SwiftUI`, `Async/Await`, `Token Authentication`, `Auth0`, `Design Patterns`
+
+</details>
+
+## Summary
+This live dev mentoring session addresses the challenge of handling token refreshes in an iOS application using modern Swift features like SwiftUI and Async/Await. Louise, a senior iOS developer, seeks guidance on integrating Auth0 for authentication, particularly focusing on efficiently managing token refreshes when multiple concurrent requests are involved. The session explores design patterns and best practices for preventing redundant token refreshes and ensures that the refresh mechanism is synchronized across the app.
+
+## Key Points
+- **Token Refresh Challenges:** The session highlights the issue of synchronizing token refresh requests to prevent multiple simultaneous refreshes that could lead to inefficiencies and errors.
+- **Design Pattern Discussion:** The use of the decorator pattern for HTTP clients to manage authentication tokens is discussed. The design involves an `AuthHttpClient` decorator that interacts with an `AuthService` and a `TokenProvider`.
+- **Synchronization Strategy:** The importance of synchronizing token refresh requests is emphasized, with discussion on whether this logic should reside in the HTTP client decorator or the `AuthService`.
+- **Testing Concerns:** Strategies for testing the refresh token logic and handling external dependencies like Auth0 SDK are considered. Recommendations include using protocols and mocking to facilitate easier testing.
+
+## Summary of Contents
+- **Introduction:** Introduction to the problem of managing token refreshes in an iOS application using modern Swift technologies.
+- **Main Sections:**
+  - **Challenges with Token Refresh:** The difficulties of handling token refreshes and maintaining synchronization when multiple requests occur.
+  - **Design Patterns:** Overview of the decorator pattern and how it is used to manage authentication in the HTTP client.
+  - **Synchronization Logic:** Discussion on where to place the synchronization logic to handle token refresh requests efficiently.
+- **Technical Details:** Detailed explanation of the `AuthHttpClient` decorator, `AuthService`, and `TokenProvider` components, and their interactions.
+- **Applications and Examples:** Practical application of the discussed design in real-world scenarios such as dashboard and transaction features.
+- **Conclusion:** Emphasis on the importance of synchronization and proper testing practices for token refresh mechanisms to ensure robust application behavior.
+
+<LinkCard title="Watch Full Video" href="https://www.youtube.com/watch?v=u2P49SmDC1M" />
+
+### Understanding Singletons in iOS Development
+
+<details>
+**URL:** https://www.youtube.com/watch?v=sankp8b2ccE
+
+**Published:** Jan 12, 2023  
+**Last Updated:**  
+
+## Authors
+- Caio, Mike, Bogdan
+
+## Tags
+`iOS development`, `Singleton pattern`, `SwiftUI`, `Memory management`, `Testing`
+
+</details>
+
+## Summary
+This article provides an in-depth exploration of the Singleton pattern in iOS development, focusing on its benefits, pitfalls, and alternatives. It discusses the implications of global state management, memory leaks, and challenges in testing associated with Singletons.
+
+## Key Points
+- Singleton pattern enforces a class to have only one instance throughout the application.
+- Benefits include ensuring data consistency and managing shared resources like databases.
+- Challenges include potential for memory leaks, global state issues affecting multiple modules, and complexities in testing.
+- Variants like shared instances (e.g., URLSession) offer convenience but don't enforce single instance constraints.
+- Recommendations emphasize dependency injection to mitigate Singleton drawbacks.
+
+## Summary of Contents
+- **Introduction:** Overview of the mentoring session and the focus on iOS Singleton pattern.
+- **Issues with Singletons:** Discussion on memory leaks, global state impacts, and testing difficulties.
+- **Singleton Pattern Explained:** Definition and use cases where enforcing single instance constraint is beneficial.
+- **Variants and Framework Examples:** Comparison with shared instances like URLSession and URLCache.
+- **Testing and Legacy Code Challenges:** Addressing difficulties in testing Singleton-dependent code.
+- **Recommendations:** Advocacy for dependency injection as an alternative to Singleton pattern.
+- **Practical Demonstration:** Examination of a home view model and implications of shared state.
+- **Conclusion:** Summary of best practices and considerations when using Singleton pattern in iOS development.
+
+<LinkCard title="Watch Full Video" href="https://www.youtube.com/watch?v=sankp8b2ccE" />
