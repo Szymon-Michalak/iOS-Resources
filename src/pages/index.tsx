@@ -23,7 +23,7 @@ function HeroBanner() {
       <div className={styles.heroInner}>
         <Heading as="h1" className={styles.heroProjectTagline}>
           <img
-            alt={translate({message: 'Docusaurus with Keytar'})}
+            alt={translate({message: 'iOSwift.dev'})}
             className={styles.heroLogo}
             src={useBaseUrl('/img/logo.svg')}
             width="300"
@@ -44,7 +44,7 @@ function HeroBanner() {
           />
         </Heading>
         <div className={styles.indexCtas}>
-          <Link className="button button--primary" to="/docs/resourcesDocs/blogs/CreateWithSwift">
+          <Link className="button button--primary" to="https://ioswift.dev/docs/resourcesDocs/">
             <Translate>Start Here</Translate>
           </Link>
           <Link className="button button--info" to="/docs/algorithmsDocs/Online">

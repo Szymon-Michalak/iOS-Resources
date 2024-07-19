@@ -15,7 +15,7 @@ Create with Swift is a comprehensive platform designed for Swift and SwiftUI dev
    - **Intermediate:** 35%
    - **Advanced:** 25%
 
-**Frequency of Posting:**  Weekly
+**Frequency of Posting:**  2-3 times a week
 
 **Types of Content:**
    - **Tutorials:** 60% (Step-by-step guides and practical examples)

@@ -255,3 +255,38 @@ The Swift Programming Language book, available on Swift.org, provides comprehens
 - **Appendix:** Additional resources and references for further learning.
 
 <LinkCard title="Read The Swift Programming Language" href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language" />
+
+### The Sound of Software
+Provide a concise summary of the article or video. What are the main topics covered? What is the primary focus of the content?
+
+<details>
+**URL:** [https://notboring.software/words/the-sound-of-software](https://notboring.software/words/the-sound-of-software)
+
+**Published:** April 25, 2024  
+**Last Updated:** N/A
+
+**Authors:** Andy & Thomas Williams
+
+**Tags:**  
+`sound design`, `software development`, `user experience`, `audio implementation`
+</details>
+
+#### Key Points
+- Emphasizes the importance of sound design in software development, contrasting its neglect with the attention given to visual design.
+- Discusses various roles of sound in software, including communication, emotional impact, and immersion.
+- Provides practical guidelines for integrating sound into applications effectively.
+- Highlights techniques such as variation, layering, and thematic coherence in sound design.
+- Addresses implementation challenges like user control, device compatibility, and the use of spatial audio.
+
+#### Summary of Contents
+- **Introduction:** Discusses the overlooked role of sound in software user experience compared to visuals.
+- **When To Use Sound:** Guidelines on incorporating sound to convey information, enhance interactions, and create immersive environments.
+- **Designing Sound:** Techniques for creating engaging soundscapes through variation, layering, and thematic consistency.
+- **Creating Relationships:** Importance of maintaining consistency and differentiation in sound design across related actions.
+- **Implementing Sound:** Practical advice on integrating sound into applications, including considerations for user settings and device compatibility.
+- **Enhancing User Control:** Advocates for providing users with control over sound settings to manage intrusiveness.
+- **Spatial Audio:** Discusses the potential of spatial audio to enhance immersion in software applications.
+- **Getting Started:** Steps for beginners to experiment with sound design tools and resources.
+- **Conclusion:** Advocates for intentional sound design to enrich user experiences and elevate software quality.
+
+<LinkCard title="Read Full Article" href="https://notboring.software/words/the-sound-of-software" />
