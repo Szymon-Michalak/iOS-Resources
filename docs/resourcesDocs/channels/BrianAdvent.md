@@ -34,16 +34,3 @@ Brian Advent's YouTube channel provides high-quality video tutorials focused on 
 ## Videos 
 
 ## Playlists
-
-```mermaid
-flowchart LR
-    Start --> Stop
-```
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```

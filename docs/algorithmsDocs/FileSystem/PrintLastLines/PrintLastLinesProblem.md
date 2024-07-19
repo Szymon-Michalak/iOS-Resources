@@ -1,7 +1,7 @@
 # Print Last Lines
 
 ## Problem Description
-Write a function that accepts a filename on disk and a number `N`, then prints the last `N` lines in reverse order, all on a single line separated by commas.
+Write a function that accepts a filename on disk and a number $N$, then prints the last $N$ lines in reverse order, all on a single line separated by commas.
 
 ## Input
 - A string representing the path to the input file.

@@ -29,7 +29,7 @@
 
 ---
 
-# Understanding iOS App Composition and Navigation Patterns
+### Understanding iOS App Composition and Navigation Patterns
 
 <details>
 **URL:** https://www.youtube.com/watch?v=8dMdTKoad90
@@ -65,7 +65,7 @@ This article discusses strategies for managing app navigation and composition in
 
 <LinkCard title="Watch Full Video" href="https://www.youtube.com/watch?v=8dMdTKoad90" />
 
-# Migrating from UIKit to SwiftUI: Challenges and Best Practices
+### Migrating from UIKit to SwiftUI: Challenges and Best Practices
 
 <details>
 **URL:** https://www.youtube.com/watch?v=Y2nwUk0tJ7c
@@ -101,7 +101,7 @@ The article discusses the challenges and best practices involved in migrating an
 
 <LinkCard title="Watch Full Video" href=" https://www.youtube.com/watch?v=Y2nwUk0tJ7c" />
 
-# Core Bluetooth and Architectural Challenges in iOS Development
+### Core Bluetooth and Architectural Challenges in iOS Development
 
 <details>
 **URL:** https://www.youtube.com/watch?v=QhEzbCXjjwg
@@ -143,7 +143,7 @@ This session discusses the complexities of integrating Core Bluetooth in iOS app
 
 <LinkCard title="Watch Full Video" href="https://www.youtube.com/watch?v=QhEzbCXjjwg" />
 
-# Understanding Acceptance Testing in iOS Development
+### Understanding Acceptance Testing in iOS Development
 
 <details>
 **URL:** https://www.youtube.com/watch?v=Zf6x_lLAuiU
