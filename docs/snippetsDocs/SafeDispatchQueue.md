@@ -18,7 +18,7 @@ This gist provides a safe extension for `DispatchQueue.main.sync` in Swift 3.0, 
 </details>
 
 #### Key Points
-- Introduces `mainSyncSafe`methods to safely execute tasks on the main thread.
+- Introduces `mainSyncSafe` methods to safely execute tasks on the main thread.
 - Differentiates between main thread and background thread execution.
 - Ensures synchronous execution without blocking the main thread.
 
@@ -30,6 +30,8 @@ This gist provides a safe extension for `DispatchQueue.main.sync` in Swift 3.0, 
 - **Conclusion:** Emphasizes the importance of thread safety in iOS development and summarizes the benefits of the provided extension.
 
 <LinkCard title="Read Full Article" href="https://gist.github.com/sgr-ksmt/4880c5df5aeec9e558622cd6d5b477cb/raw/77fc6c7ddeea00244d292139bb87e047dd7b4d1a/file.swift" />
+
+#### Code
 
 ```swift
 
