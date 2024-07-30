@@ -76,3 +76,40 @@ Mise-en-Place (Mise) is a development environment setup tool designed to streaml
 - **Cons:** Initial setup and learning curve.
 
 <LinkCard title="Visit Mise-en-Place" href="https://mise.jdx.dev/about.html" />
+
+### SwiftGen
+
+SwiftGen is a tool that automatically generates Swift code for various assets in your project, such as images, fonts, colors, storyboards, and more. It simplifies the process of managing and using these assets, making your code safer and more maintainable by reducing the risk of typos and errors.
+
+<details>
+
+**URL:** [https://github.com/SwiftGen/SwiftGen](https://github.com/SwiftGen/SwiftGen)
+
+**Authors:** `AliSoftware`, `SwiftGenKit`, and `Community Contributors`
+
+**Integration:**
+- **Platforms Supported:** iOS, macOS, tvOS, watchOS
+- **API Documentation:** [SwiftGen Documentation](https://swiftgen.github.io/SwiftGen/)
+
+**Community and Support:**
+- **Support Channels:** GitHub Issues, Community Chat on Gitter
+- **Community:** Active user and developer community on GitHub.
+
+</details>
+
+**Key Features:**
+- **Automatic Code Generation:** Generate Swift code for assets like images, fonts, colors, storyboards, and more.
+- **Customization:** Highly configurable to fit your project's needs.
+- **Safety:** Helps avoid runtime errors by using strongly-typed assets in Swift.
+
+**Use Cases:**
+- **Image Assets:** Automatically generate enums for your image assets.
+- **Localized Strings:** Generate enums for your localized strings, making them easier to manage and use.
+- **Colors:** Generate Swift code for your color palette, ensuring consistent usage across your app.
+- **Fonts:** Manage custom fonts by generating code to use them safely.
+
+**Pros and Cons:**
+- **Pros:** Enhances code safety, reduces manual errors, customizable templates, supports multiple asset types.
+- **Cons:** Requires initial setup and configuration, learning curve for new users.
+
+<LinkCard title="Visit SwiftGen" href="https://github.com/SwiftGen/SwiftGen" />
