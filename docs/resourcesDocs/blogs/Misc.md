@@ -290,3 +290,93 @@ Provide a concise summary of the article or video. What are the main topics cove
 - **Conclusion:** Advocates for intentional sound design to enrich user experiences and elevate software quality.
 
 <LinkCard title="Read Full Article" href="https://notboring.software/words/the-sound-of-software" />
+
+### Using @DebugDescription in Xcode 16
+Learn how the CustomDebugStringConvertible protocol and @DebugDescription macro in Xcode 16 enhance debugging by providing clear, custom debug outputs.
+
+<details>
+**URL:** [Using @DebugDescription in Xcode 16](https://digitalbunker.dev/debug-description-macro-xcode-16/?ref=createwithswift.com)
+
+**Published:** July 21, 2024  
+**Last Updated:** -
+
+**Authors:** `Aryaman Sharda`
+
+**Tags:**  
+`iOS & Swift`, `Debugging`, `Xcode 16`
+</details>
+
+#### Key Points
+- Introduces the CustomDebugStringConvertible protocol for customizing debug outputs of custom types.
+- Discusses the @DebugDescription macro, enhancing debug visibility directly in Xcode's Variable Inspector.
+- Highlights benefits such as improved debugging experience without additional print statements.
+- Mentions alternatives for those not yet using Xcode 16, such as LLDB Type Summaries.
+- References discussions from Swift forums on the evolution and proposals related to @DebugDescription.
+
+#### Summary of Contents
+- **Introduction:** Overview of challenges in debugging custom types and the importance of clear debug outputs.
+- **Using CustomDebugStringConvertible:** Explains how to implement the protocol to customize debug descriptions for custom types.
+- **@DebugDescription Macro:** Introduces the macro and its role in displaying debugDescription in Xcode's Variable Inspector.
+- **How It Works:** Details the process of LLDB's expression evaluation and its implications for debugging.
+- **Macro Alternatives:** Discusses using LLDB Type Summaries as an alternative for older Xcode versions.
+- **Conclusion:** Emphasizes the practical benefits of adopting @DebugDescription and suggests further reading on the topic.
+
+<LinkCard title="Read Full Article" href="https://digitalbunker.dev/debug-description-macro-xcode-16/?ref=createwithswift.com" />
+
+### Customizing the Appearance of Symbol Images in SwiftUI
+
+<details>
+**URL:** [Customizing the Appearance of Symbol Images in SwiftUI](https://nilcoalescing.com/blog/CustomizingTheAppearanceOfSymbolImagesInSwiftUI/)
+
+**Published:** 22 July 2024  
+**Last Updated:** N/A
+
+**Author:** Natalia Panferova
+
+**Tags:**  
+`iOS`, `macOS`, `SwiftUI`
+</details>
+
+#### Key Points
+- Explains how to customize SF Symbols in SwiftUI apps.
+- Covers adjustments for size, color, rendering modes, variable values, and design variants.
+- Highlights best practices for maintaining symbol image integrity.
+
+#### Summary of Contents
+- **Introduction:** Introduction to SF Symbols and their use in SwiftUI apps.
+- **Size:** Techniques for adjusting symbol size using the `font()` and `imageScale()` modifiers.
+- **Color:** Methods for customizing symbol colors using the `foregroundStyle()` modifier.
+- **Rendering Mode:** Overview of different rendering modes (`monochrome`, `hierarchical`, `palette`, `multicolor`) and their effects.
+- **Variable Value:** Explanation of using variable values to dynamically change symbol appearance.
+- **Design Variants:** Discussion on different symbol design variants (`slash`, `fill`, shapes) and their applications.
+- **Conclusion:** Emphasizes the importance of using these customization techniques to enhance app aesthetics and user experience.
+
+<LinkCard title="Read Full Article" href="https://nilcoalescing.com/blog/CustomizingTheAppearanceOfSymbolImagesInSwiftUI/" />
+
+### Async await in Swift: The Full Toolkit
+
+<details>
+**URL:** [Async await in Swift: The Full Toolkit](https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com)
+
+**Published:** July 22, 2024  
+**Authors:** Jacob Bartlett
+
+**Tags:**  
+`Swift`, `Concurrency`, `Async/Await`, `Swift Actors`, `Sendable`, `Task Groups`, `AsyncSequence`, `AsyncStream`, `Async Algorithms`
+</details>
+
+#### Key Points
+- Detailed exploration of Swift's concurrency features including async/await, tasks, task groups, actors, and more.
+- Practical examples illustrate how to optimize code performance with concurrency.
+- Explanation of concepts like re-entrancy, interleaving, and thread safety through Sendable protocol.
+- Introduction to advanced topics such as continuations, AsyncSequence, AsyncStream, and Async Algorithms.
+- Emphasis on practical application in real-world scenarios like network requests and UI updates.
+
+#### Summary of Contents
+- **Introduction:** Overview of Swift concurrency tools and their importance in modern iOS development.
+- **Main Sections:** Detailed explanations and examples of async/await, async let, Task, Task group, Actors, MainActor, and Sendable.
+- **Technical Details:** Discusses nuances of async functions, structured concurrency, and cooperative cancellation.
+- **Applications and Examples:** Practical examples including fetching data from APIs, handling UI updates, and managing complex asynchronous workflows.
+- **Conclusion:** Encourages developers to integrate Swift concurrency tools into their coding practices for enhanced performance and scalability.
+
+<LinkCard title="Read Full Article" href="https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com" />
