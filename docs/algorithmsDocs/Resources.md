@@ -4,7 +4,7 @@ title: Resources
 description: Problem Sources
 ---
 
-### Katas to Learn TDD
+### 🌐 Katas to Learn TDD
 
 A comprehensive guide to learning Test-Driven Development (TDD) through various coding katas. These exercises are designed to help developers practice and master TDD principles and techniques.
 
@@ -49,12 +49,12 @@ A comprehensive guide to learning Test-Driven Development (TDD) through various 
 
 <LinkCard title="Link to Resource" href="https://kata-log.rocks/tdd" />
 
-### Guide to Competitive Programming
+### 📚 Guide to Competitive Programming
 
 This resource is a comprehensive guide to competitive programming, focusing on learning and improving algorithms through programming contests. It covers various topics essential for competitive programming, from basic concepts to advanced techniques.
 
 <details>
-**URL:** [https://doi.org/10.1007/978-3-030-39357-1](https://doi.org/10.1007/978-3-030-39357-1)
+**URL:** https://doi.org/10.1007/978-3-030-39357-1
 
 **Published:** October 2017 (First Edition), February 2020 (Second Edition)  
 **Last Updated:** February 2020
@@ -114,7 +114,7 @@ This resource is a comprehensive guide to competitive programming, focusing on l
 
 <LinkCard title="Link to Resource" href="https://doi.org/10.1007/978-3-030-39357-1" />
 
-### Competitive Programming
+### 📚 Competitive Programming
 
 A comprehensive guide to advanced competitive programming techniques, designed to help programmers excel in programming contests like ACM ICPC and IOI. The book provides in-depth coverage of algorithms, data structures, problem-solving paradigms, and specific problem types encountered in competitive programming.
 
@@ -174,7 +174,7 @@ A comprehensive guide to advanced competitive programming techniques, designed t
 
 <LinkCard title="Link to Resource" href="[Not provided]" />
 
-### Swift Coding Challenges
+### 📚 Swift Coding Challenges
 
 A collection of Swift coding challenges designed to prepare developers for iOS interviews, test skills against peers, and improve problem-solving abilities. This resource covers various topics such as strings, numbers, files, collections, and algorithms.
 
