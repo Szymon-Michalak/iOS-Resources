@@ -1,3 +1,38 @@
+## iOS Architect Crash Course
+
+The iOS Architect Crash Course is designed to help developers master the skills necessary to become proficient in iOS architecture. This course covers essential principles and best practices for designing robust and scalable iOS applications.
+
+<details>
+**URL:** [https://iosacademy.essentialdeveloper.com/ios-architect-crash-course/july-2024-cfd0/](https://iosacademy.essentialdeveloper.com/ios-architect-crash-course/july-2024-cfd0/)
+
+**Published:** July 2024
+
+**Authors:** `[Essential Developer]`
+
+**Tags:**  
+`iOS`, `Architecture`, `Design Patterns`, `Best Practices`
+</details>
+
+#### Key Points
+- Understanding the fundamentals of iOS architecture.
+- Learning various design patterns used in iOS development.
+- Implementing scalable and maintainable code structures.
+- Best practices for code organization and project structuring.
+
+#### Summary of Contents
+- **Introduction:** An overview of the importance of good architecture in iOS development and what the course aims to teach.
+- **Main Sections:**
+  - **Architecture Fundamentals:** Core concepts of iOS architecture and why they matter.
+  - **Design Patterns:** Detailed exploration of common design patterns like MVC, MVVM, and VIPER.
+  - **Code Organization:** Techniques for organizing code to improve readability and maintainability.
+  - **Scalability and Maintainability:** Strategies to ensure your codebase can grow and adapt over time.
+- **Technical Details:** Practical implementation of design patterns, use of protocols, dependency injection, and testing strategies.
+- **Applications and Examples:** Real-world examples and case studies demonstrating the application of architectural principles.
+- **Conclusion:** Recap of the key takeaways and final thoughts on becoming an effective iOS architect.
+
+<LinkCard title="Visit Course Page" href="https://iosacademy.essentialdeveloper.com/ios-architect-crash-course/july-2024-cfd0/" />
+
+
 ### Testing & Refactoring existing iOS/Swift code, MVC vs MVVM, Singleton vs DI | iOS Dev Live Mentoring
 
 <details>
@@ -254,3 +289,42 @@ This article provides an in-depth exploration of the Singleton pattern in iOS de
 - **Conclusion:** Summary of best practices and considerations when using Singleton pattern in iOS development.
 
 <LinkCard title="Watch Full Video" href="https://www.youtube.com/watch?v=sankp8b2ccE" />
+
+# Threading, Operations, Queues, and Asynchronous Code in iOS Development
+
+<details>
+**URL:** https://www.youtube.com/watch?v=9_YD9L4ogSo
+
+**Published:** Aug 27, 2020
+**Last Updated:** 
+
+## Authors
+- https://twitter.com/caiozullo
+- https://twitter.com/mrmichael
+
+## Tags
+`iOS development`, `asynchronous programming`, `threading`, `operations`, `queues`
+
+</details>
+
+## Summary
+This mentoring session focuses on advanced iOS development topics related to threading, operations, queues, and handling asynchronous code effectively. Key discussions include testing asynchronous code, avoiding callback hell, preventing race conditions and deadlocks in main threads, and using recursion and immutable values to manage shared mutable state.
+
+## Key Points
+- Techniques for testing asynchronous code.
+- Strategies to manage and chain multiple asynchronous tasks.
+- Challenges of callback hell and how to mitigate them.
+- Methods to prevent race conditions and deadlocks in iOS applications.
+- Use of recursion and immutable values for simplifying complex operations.
+- Practical insights into using MKDirections API for mapping applications.
+- Implementation details of handling asynchronous operations within iOS apps.
+
+## Summary of Contents
+- **Introduction:** Overview of the mentoring session's objectives.
+- **Threading and Asynchronous Code:** Discusses challenges and best practices.
+- **MKDirections API:** Practical application in mapping and navigation apps.
+- **Managing Asynchronous Operations:** Techniques to avoid callback hell and improve code maintainability.
+- **Testing Strategies:** Importance of testing asynchronous code for reliability.
+- **Conclusion:** Recap of key learnings and recommendations for iOS developers.
+
+<LinkCard title="Watch Full Video" href="https://www.youtube.com/watch?v=9_YD9L4ogSo" />
