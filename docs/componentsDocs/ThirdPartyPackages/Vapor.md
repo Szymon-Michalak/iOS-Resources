@@ -1,10 +1,12 @@
-### [Vapor: A Server-Side Swift HTTP Web Framework]
+---
+title: Vapor
+description: A server-side Swift HTTP web framework.
+---
+
+A server-side Swift HTTP web framework.
 
 <details>
-**URL:** [https://github.com/vapor/vapor](https://github.com/vapor/vapor)
-
-**Published:** N/A  
-**Last Updated:** Continuous updates
+**URL:** https://github.com/vapor/vapor
 
 **Authors:** `Vapor Core Team`
 
@@ -25,4 +27,4 @@
 - **Applications and Examples:** Showcase of websites, APIs, and cloud projects built using Vapor.
 - **Conclusion:** Highlights the framework's strengths and community-driven development model.
 
-<LinkCard title="Read Full Article" href="https://github.com/vapor/vapor" />
+<LinkCard title="Go to Github Repository" href="https://github.com/vapor/vapor" />

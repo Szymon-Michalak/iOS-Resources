@@ -1,10 +1,12 @@
-### Periphery: Tool for Identifying Unused Code in Swift Projects
+---
+title: Periphery
+description: A tool to identify unused code in Swift projects.
+---
+
+A tool to identify unused code in Swift projects.
 
 <details>
-**URL:** [Periphery GitHub Repository](https://github.com/peripheryapp/periphery)
-
-**Published:** Not specified  
-**Last Updated:** Continuous updates
+**URL:** https://github.com/peripheryapp/periphery
 
 **Authors:**  
 `ileitch`, `kateinoigakukun`, `rock88`, and others
@@ -30,4 +32,4 @@
 - **Applications and Examples:** Practical usage scenarios and examples for effective code optimization.
 - **Troubleshooting:** Known issues and recommendations for resolving common problems.
 
-<LinkCard title="Read Full Article" href="https://github.com/peripheryapp/periphery" />
+<LinkCard title="Go to Github Repository" href="https://github.com/peripheryapp/periphery" />

@@ -1,7 +1,12 @@
-### SnapKit: A Swift Autolayout DSL for iOS & OS X
+---
+title: SnapKit
+description: A Swift Autolayout DSL for iOS & OS X.
+---
+
+A Swift Autolayout DSL for iOS & OS X.
 
 <details>
-**URL:** [SnapKit GitHub Page](https://snapkit.github.io/SnapKit/)
+**URL:** https://snapkit.github.io/SnapKit/
 
 **Authors:** Various contributors
 
@@ -27,4 +32,4 @@
 - **Credits:** Acknowledges contributors and links to their profiles.
 - **License:** States SnapKit is licensed under MIT, with a link to the full license text.
 
-<LinkCard title="Read Full Article" href="https://snapkit.github.io/SnapKit/" />
+<LinkCard title="Go to Github Repository" href="https://snapkit.github.io/SnapKit/" />

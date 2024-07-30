@@ -1,10 +1,12 @@
-### Realm Swift: Mobile Database for iOS Development
+---
+title: Realm Swift
+description: "Realm is a mobile database: a replacement for Core Data & SQLite."
+---
+
+Realm is a mobile database: a replacement for Core Data & SQLite.
 
 <details>
-**URL:** [Realm Swift GitHub Repository](https://github.com/realm/realm-swift)
-
-**Published:** N/A  
-**Last Updated:** v10.52.1 (Latest)
+**URL:** https://github.com/realm/realm-swift
 
 **Authors:** Various contributors
 
@@ -25,4 +27,4 @@
 - **Applications and Examples:** Demonstrates practical usage scenarios and benefits for iOS developers.
 - **Conclusion:** Highlights Realm Swift as a versatile and efficient database solution for mobile applications.
 
-<LinkCard title="Read Full Article" href="https://github.com/realm/realm-swift" />
+<LinkCard title="Go to Github Repository" href="https://github.com/realm/realm-swift" />

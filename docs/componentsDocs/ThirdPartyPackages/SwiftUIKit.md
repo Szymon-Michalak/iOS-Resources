@@ -1,10 +1,12 @@
-### SwiftUIKit Overview and Installation Guide
+---
+title: SwiftUIKit
+description: SwiftUIKit is a Swift SDK that adds extra functionality to Swift & SwiftUI.
+---
+
+SwiftUIKit is a Swift SDK that adds extra functionality to Swift & SwiftUI.
 
 <details>
-**URL:** [https://github.com/danielsaidi/SwiftUIKit](https://github.com/danielsaidi/SwiftUIKit)
-
-**Published:** N/A  
-**Last Updated:** N/A
+**URL:** https://github.com/danielsaidi/SwiftUIKit
 
 **Authors:** `Daniel Saidi`
 
@@ -26,4 +28,4 @@
 - **Support and Contact:** Information on sponsoring the project and reaching out for assistance or contributions.
 - **License:** SwiftUIKit is licensed under MIT, ensuring it can be freely used and modified.
 
-<LinkCard title="Read Full Article" href="https://github.com/danielsaidi/SwiftUIKit" />
+<LinkCard title="Go to Github Repository" href="https://github.com/danielsaidi/SwiftUIKit" />

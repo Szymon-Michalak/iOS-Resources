@@ -1,14 +1,14 @@
-### A Tour of Snapshot Testing in Swift
+---
+title: SnapshotTesting
+description: Delightful Swift snapshot testing.
+---
 
-Provide a concise summary of the article or video. What are the main topics covered? What is the primary focus of the content?
+Delightful Swift snapshot testing.
 
 <details>
-**URL:** [https://www.pointfree.co/episodes/ep41-a-tour-of-snapshot-testing](https://www.pointfree.co/episodes/ep41-a-tour-of-snapshot-testing)
+**URL:** https://github.com/pointfreeco/swift-snapshot-testing
 
-**Published:** Not specified  
-**Last Updated:** Not specified
-
-**Authors:** Not specified
+**Authors:** Point-Free
 
 **Tags:**  
 `testing`, `swift`, `snapshot-testing`
@@ -29,4 +29,4 @@ Provide a concise summary of the article or video. What are the main topics cove
 - **Applications and Examples:** Practical examples of snapshot testing in UI and data validation scenarios.
 - **Conclusion:** Summary of the benefits and considerations of adopting snapshot testing.
 
-<LinkCard title="Read Full Article" href="https://www.pointfree.co/episodes/ep41-a-tour-of-snapshot-testing" />
+<LinkCard title="Go to Github Repository" href="https://github.com/pointfreeco/swift-snapshot-testing" />

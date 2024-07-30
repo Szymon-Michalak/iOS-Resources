@@ -1,10 +1,12 @@
-### Inject: Hot Reloading for Swift Applications
+---
+title: Inject
+description: Hot Reloading for Swift applications.
+---
+
+Hot Reloading for Swift applications.
 
 <details>
-**URL:** [https://github.com/krzysztofzablocki/Inject](https://github.com/krzysztofzablocki/Inject)
-
-**Published:** Not specified  
-**Last Updated:** Not specified
+**URL:** https://github.com/krzysztofzablocki/Inject
 
 **Authors:** `Krzysztof Zabłocki`
 
@@ -28,4 +30,4 @@
 - **Applications and Examples:** Provides examples of usage in SwiftUI and imperative UI frameworks like UIKit and AppKit.
 - **Conclusion:** Emphasizes the productivity benefits and ease of use once initial setup is complete.
 
-<LinkCard title="Read Full Article" href="https://github.com/krzysztofzablocki/Inject" />
+<LinkCard title="Go to Github Repository" href="https://github.com/krzysztofzablocki/Inject" />

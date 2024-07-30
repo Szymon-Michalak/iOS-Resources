@@ -1,10 +1,12 @@
-### Arkana: Storing Keys and Secrets Securely for iOS and Android Projects
+---
+title: Arkana
+description: Store your keys and secrets away from your source code. Designed for Android and iOS projects.
+---
+
+Store your keys and secrets away from your source code. Designed for Android and iOS projects.
 
 <details>
-**URL:** [https://github.com/rogerluan/arkana](https://github.com/rogerluan/arkana)
-
-**Published:** Not specified  
-**Last Updated:** Not specified
+**URL:** https://github.com/rogerluan/arkana
 
 **Authors:** Roger Luan, Hussein Al-Atrash, Jonathan Danthinne, Scott Mackenzie, Orta, Humblerookie, Alobaili, Andestaerfan
 
@@ -27,4 +29,4 @@
 - **Applications and Examples:** Provides code snippets and examples demonstrating usage in Kotlin and Swift.
 - **Conclusion:** Highlights the importance of managing secrets securely and the benefits of using Arkana in development workflows.
 
-<LinkCard title="Read Full Article" href="https://github.com/rogerluan/arkana" />
+<LinkCard title="Go to Github Repository" href="https://github.com/rogerluan/arkana" />

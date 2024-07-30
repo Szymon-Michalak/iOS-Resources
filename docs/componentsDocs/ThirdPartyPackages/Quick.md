@@ -1,10 +1,12 @@
-### Quick: The Swift (and Objective-C) Testing Framework
+---
+title: Quick
+description: Quick is a behavior-driven development framework for Swift and Objective-C.
+---
+
+Quick is a behavior-driven development framework for Swift and Objective-C.
 
 <details>
-**URL:** [Quick GitHub Repository](https://github.com/Quick/Quick)
-
-**Published:** Not specified  
-**Last Updated:** Continuous updates
+**URL:** https://github.com/Quick/Quick
 
 **Authors:** Contributors to the Quick project
 
@@ -27,4 +29,4 @@
 - **Applications and Examples:** Use cases for Quick in enhancing test readability and structure.
 - **Conclusion:** Emphasizes the importance of clear, descriptive tests in software development.
 
-<LinkCard title="Read Full Article" href="https://github.com/Quick/Quick" />
+<LinkCard title="Go to Github Repository" href="https://github.com/Quick/Quick" />

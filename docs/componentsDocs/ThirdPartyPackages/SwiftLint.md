@@ -1,12 +1,15 @@
-### SwiftLint Overview and Usage Guide
+---
+title: SwiftLint
+description: A tool to enforce Swift style and conventions.
+---
+
+A tool to enforce Swift style and conventions.
 
 <details>
-**URL:** [SwiftLint Official Website](https://realm.github.io/SwiftLint)
+**URL:** https://github.com/realm/SwiftLint
 
-**Published:** Not specified  
-**Last Updated:** Not specified
 
-**Authors:** Not specified
+**Authors:** Realm
 
 **Tags:**  
 `swift`, `linting`, `linter`, `static-analysis`, `code-quality`
@@ -26,4 +29,4 @@
 - **Applications and Examples:** Provides practical examples of rule application and integration scenarios.
 - **Conclusion:** Emphasizes the benefits of using SwiftLint for maintaining clean and standardized Swift code.
 
-<LinkCard title="Read Full Article" href="https://realm.github.io/SwiftLint" />
+<LinkCard title="Go to Github Repository" href="https://github.com/realm/SwiftLint" />

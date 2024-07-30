@@ -1,12 +1,14 @@
-### Nimble: A Matcher Framework for Swift and Objective-C
+---
+title: Nimble
+description: Use Nimble to express the expected outcomes of Swift or Objective-C expressions.
+---
+
+Use Nimble to express the expected outcomes of Swift or Objective-C expressions.
 
 <details>
-**URL:** [https://github.com/Quick/Nimble](https://github.com/Quick/Nimble)
+**URL:** https://github.com/Quick/Nimble
 
-**Published:** Not specified  
-**Last Updated:** Not specified
-
-**Authors:** `[Author Names]`
+**Authors:** Quick
 
 **Tags:**  
 `swift`, `objective-c`, `testing`, `bdd`, `matcher-functions`, `swift-generics`, `swift-assertions`, `failure-messages`, `asynchronous-expectations`, `operator-overloads`
@@ -25,4 +27,4 @@
 - **Applications and Examples:** Provides practical use cases and code snippets demonstrating Nimble's capabilities in various testing scenarios.
 - **Conclusion:** Emphasizes Nimble's role in enhancing testing practices and ensuring code quality in Swift and Objective-C projects.
 
-<LinkCard title="Read Full Article" href="https://github.com/Quick/Nimble" />
+<LinkCard title="Go to Github Repository" href="https://github.com/Quick/Nimble" />

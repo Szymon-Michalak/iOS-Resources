@@ -1,14 +1,14 @@
-### Eureka: Elegant iOS Form Builder in Swift
+---
+title: Eureka
+description: Elegant iOS form builder in Swift.
+---
 
-Provide a concise summary of the article or video. What are the main topics covered? What is the primary focus of the content?
+Elegant iOS form builder in Swift.
 
 <details>
-**URL:** [Eureka GitHub Repository](https://github.com/xmartlabs/Eureka)
+**URL:** https://github.com/xmartlabs/Eureka
 
-**Published:** [Date of First Commit]  
-**Last Updated:** [Date of Last Commit]
-
-**Authors:** [List of Contributors]
+**Authors:** xmartlabs
 
 **Tags:**  
 `swift`, `swift-library`, `ios`, `uitableview`, `forms`, `cocoapods`, `carthage`, `validations`, `ios-ui`, `ios-forms`
@@ -29,4 +29,4 @@ Provide a concise summary of the article or video. What are the main topics cove
 - **Applications and Examples:** Practical use cases and implementation examples within iOS applications.
 - **Conclusion:** Summary of the benefits of using Eureka for iOS form development.
 
-<LinkCard title="Read Full Article" href="https://github.com/xmartlabs/Eureka" />
+<LinkCard title="Go to Github Repository" href="https://github.com/xmartlabs/Eureka" />

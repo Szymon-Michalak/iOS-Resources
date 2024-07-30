@@ -1,10 +1,12 @@
-### iOS Security Suite: Protect Your iOS App with IOSSecuritySuite
+---
+title: iOS Security Suite
+description: iOS platform security & anti-tampering Swift library.
+---
+
+iOS platform security & anti-tampering Swift library.
 
 <details>
-**URL:** [https://github.com/securing/IOSSecuritySuite](https://github.com/securing/IOSSecuritySuite)
-
-**Published:** N/A  
-**Last Updated:** N/A
+**URL:** https://github.com/securing/IOSSecuritySuite
 
 **Authors:** [@_r3ggi](https://twitter.com/_r3ggi) and contributors
 
@@ -27,4 +29,4 @@
 - **Applications and Examples:** Practical examples of code snippets for using different security modules.
 - **Conclusion:** Emphasis on the importance of supplementing app security beyond just library integration.
 
-<LinkCard title="Read Full Article" href="https://github.com/securing/IOSSecuritySuite" />
+<LinkCard title="Go to Github Repository" href="https://github.com/securing/IOSSecuritySuite" />

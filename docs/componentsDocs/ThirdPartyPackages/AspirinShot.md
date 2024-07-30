@@ -1,10 +1,12 @@
-### Painless App Store screenshots with SwiftUI, in Xcode
+---
+title: AspirinShot
+description: Painless App Store screenshots with SwiftUI, in Xcode.
+---
+
+Painless App Store screenshots with SwiftUI, in Xcode.
 
 <details>
-**URL:** [AspirinShot Repository](https://github.com/goodwhale/AspirinShot)
-
-**Published:** Not specified  
-**Last Updated:** Not specified
+**URL:** https://github.com/goodwhale/AspirinShot
 
 **Authors:** `goodwhale`
 
@@ -26,4 +28,4 @@
 - **Applications and Examples:** Practical demonstrations of screenshot design using provided templates and environment settings.
 - **Conclusion:** Highlights the simplicity and effectiveness of AspirinShot for developers transitioning to SwiftUI for App Store assets.
 
-<LinkCard title="Read Full Article" href="https://github.com/goodwhale/AspirinShot" />
+<LinkCard title="Go to Github Repository" href="https://github.com/goodwhale/AspirinShot" />

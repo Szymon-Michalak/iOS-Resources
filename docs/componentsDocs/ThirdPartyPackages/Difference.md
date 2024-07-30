@@ -1,10 +1,12 @@
-### Difference: Better way to identify what's different between 2 instances
+---
+title: Difference
+description: Simple way to identify what is different between 2 instances of any type. Must have for TDD.
+---
+
+Simple way to identify what is different between 2 instances of any type. Must have for TDD.
 
 <details>
-**URL:** [Difference Repository on GitHub](https://github.com/krzysztofzablocki/Difference)
-
-**Published:** Not specified  
-**Last Updated:** Not specified
+**URL:** https://github.com/krzysztofzablocki/Difference
 
 **Authors:** Krzysztof Zabłocki
 
@@ -26,4 +28,4 @@
 - **Integrate with The Composable Architecture:** Demonstrates integration with a specific architecture for more detailed state comparison.
 - **Conclusion:** Emphasizes the benefits of using Difference to streamline debugging and improve testing efficiency.
 
-<LinkCard title="Read Full Article" href="https://github.com/krzysztofzablocki/Difference" />
+<LinkCard title="Go to Github Repository" href="https://github.com/krzysztofzablocki/Difference" />

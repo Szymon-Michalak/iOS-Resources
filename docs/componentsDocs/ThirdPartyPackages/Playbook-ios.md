@@ -1,7 +1,12 @@
-### Playbook iOS: A Library for UI Component Development and Testing
+---
+title: Playbook iOS
+description: A library for isolated developing UI components and automatically taking snapshots of them.
+---
+
+A library for isolated developing UI components and automatically taking snapshots of them.
 
 <details>
-**URL:** [Playbook iOS Documentation](https://playbook-ui.github.io/playbook-ios/documentation/playbooksnapshot/)
+**URL:** https://github.com/playbook-ui/playbook-ios
 
 **Tags:**  
 `swift`, `ios`, `snapshot-testing`, `a11y`, `playbook`, `snapshot`, `visual-regression-testing`, `swiftui`
@@ -22,4 +27,4 @@
 - **Applications and Examples:** Demonstrates usage scenarios and provides links to example applications.
 - **Conclusion:** Highlights the benefits of using Playbook for modern app development workflows.
 
-<LinkCard title="Read Full Documentation" href="https://playbook-ui.github.io/playbook-ios/documentation/playbooksnapshot/" />
+<LinkCard title="Go to Github Repository" href="https://github.com/playbook-ui/playbook-ios" />

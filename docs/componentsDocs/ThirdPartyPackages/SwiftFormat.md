@@ -1,7 +1,12 @@
-### SwiftFormat: A Tool for Formatting Swift Code
+---
+title: SwiftFormat
+description: A command-line tool and Xcode Extension for formatting Swift code.
+---
+
+A command-line tool and Xcode Extension for formatting Swift code.
 
 <details>
-**URL:** [https://github.com/nicklockwood/SwiftFormat](https://github.com/nicklockwood/SwiftFormat)
+**URL:** https://github.com/nicklockwood/SwiftFormat
 
 **Authors:** Nick Lockwood and contributors
 
@@ -22,4 +27,4 @@
 - **Applications and Examples:** Practical applications in enhancing code readability and maintainability in Swift projects.
 - **Conclusion:** Recap of SwiftFormat's utility in enforcing coding standards across different development environments.
 
-<LinkCard title="Read Full Article" href="https://github.com/nicklockwood/SwiftFormat" />
+<LinkCard title="Go to Github Repository" href="https://github.com/nicklockwood/SwiftFormat" />

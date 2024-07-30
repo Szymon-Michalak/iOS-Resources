@@ -1,8 +1,13 @@
-### FileKit: Simple and Expressive File Management in Swift
+---
+title: FileKit
+description: Simple and expressive file management in Swift.
+---
+
+Simple and expressive file management in Swift.
 
 <details>
 
-**URL:** [nvzqz.github.io/FileKit/docs/](https://nvzqz.github.io/FileKit/docs/)
+**URL:** https://github.com/nvzqz/FileKit
 
 **Authors:**  
 - [nvzqz](https://github.com/nvzqz)
@@ -37,4 +42,4 @@
 - **Applications and Examples:** Practical examples of how to use FileKit for common file management tasks.
 - **Conclusion:** Highlights the benefits of using FileKit for developers looking to simplify file operations in Swift.
 
-<LinkCard title="Read Full Documentation" href="https://nvzqz.github.io/FileKit/docs/" />
+<LinkCard title="Read Full Documentation" href="https://github.com/nvzqz/FileKit" />

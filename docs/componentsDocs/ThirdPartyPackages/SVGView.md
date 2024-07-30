@@ -1,10 +1,14 @@
-### SVGView: SVG Parser and Renderer in SwiftUI
+---
+title: SVGView
+description: SVG parser and renderer written in SwiftUI.
+---
+
+SVG parser and renderer written in SwiftUI.
 
 <details>
-**URL:** [SVGView GitHub Repository](https://github.com/exyte/SVGView)
+**URL:** https://github.com/exyte/SVGView
 
-**Authors:**  
-exyte
+**Authors:** exyte
 
 **Tags:**  
 `SwiftUI`, `SVG`, `Parser`, `Renderer`
@@ -25,4 +29,4 @@ exyte
 - **Installation:** Provides instructions for Swift Package Manager, CocoaPods, and Carthage.
 - **Requirements:** Lists compatible platforms and Xcode versions.
 
-<LinkCard title="Read Full Article" href="https://github.com/exyte/SVGView" />
+<LinkCard title="Go to Github Repository" href="https://github.com/exyte/SVGView" />

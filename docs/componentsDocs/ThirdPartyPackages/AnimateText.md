@@ -1,12 +1,12 @@
-### AnimateText for SwiftUI
+---
+title: AnimateText
+description: This library for animating text. Developed with SwiftUI. This library supports iOS/macOS.
+---
 
-Provide a concise summary of the article or video. What are the main topics covered? What is the primary focus of the content?
+This library for animating text. Developed with SwiftUI. This library supports iOS/macOS.
 
 <details>
-**URL:** [https://github.com/jasudev/AnimateText/tree/main](https://github.com/jasudev/AnimateText/tree/main)
-
-**Published:** N/A  
-**Last Updated:** N/A
+**URL:** https://github.com/jasudev/AnimateText/tree/main
 
 **Authors:** `jasudev`
 
@@ -28,4 +28,4 @@ Provide a concise summary of the article or video. What are the main topics cove
 - **Applications and Examples:** Practical demonstrations of animating text using different effects.
 - **Conclusion:** Recap of the library's capabilities and potential benefits for developers.
 
-<LinkCard title="Read Full Article" href="https://github.com/jasudev/AnimateText/tree/main" />
+<LinkCard title="Go to Github Repository" href="https://github.com/jasudev/AnimateText/tree/main" />

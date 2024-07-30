@@ -1,7 +1,12 @@
-### Charts: Beautiful Charts Library for iOS
+---
+title: Charts
+description: Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart.
+---
+
+Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart.
 
 <details>
-**URL:** [Charts GitHub Repository](https://github.com/ChartsOrg/Charts)
+**URL:** https://github.com/ChartsOrg/Charts
 
 **Authors:** [Daniel Gindi](https://github.com/danielgindi), [Piero Mairoldi](https://github.com/pmairoldi), [Liu Xuan](https://github.com/liuxuan30), and others.
 
@@ -22,4 +27,4 @@
 - **Applications and Examples:** Provides demo projects and links to third-party tutorials for practical implementations.
 - **Conclusion:** Emphasizes the library's efficiency in chart creation across Apple platforms.
 
-<LinkCard title="Read Full Article" href="https://github.com/ChartsOrg/Charts" />
+<LinkCard title="Go to Github Repository" href="https://github.com/ChartsOrg/Charts" />

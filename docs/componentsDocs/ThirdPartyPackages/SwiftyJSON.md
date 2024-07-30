@@ -1,10 +1,12 @@
-### SwiftyJSON: Simplifying JSON Handling in Swift
+---
+title: SwiftyJSON
+description: The better way to deal with JSON data in Swift.
+---
+
+The better way to deal with JSON data in Swift.
 
 <details>
-**URL:** [SwiftyJSON GitHub Repository](https://github.com/SwiftyJSON/SwiftyJSON)
-
-**Published:** Not specified  
-**Last Updated:** Not specified
+**URL:** https://github.com/SwiftyJSON/SwiftyJSON
 
 **Authors:** 
 - [LukeTangPL](https://github.com/LukeTangPL)
@@ -46,4 +48,4 @@
 - **Conclusion:** 
   - Recap of how SwiftyJSON enhances Swift development by providing a more developer-friendly approach to JSON handling.
 
-<LinkCard title="Read Full Article" href="https://github.com/SwiftyJSON/SwiftyJSON" />
+<LinkCard title="Go to Github Repository" href="https://github.com/SwiftyJSON/SwiftyJSON" />

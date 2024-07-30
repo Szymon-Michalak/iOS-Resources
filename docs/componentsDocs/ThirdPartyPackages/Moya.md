@@ -1,14 +1,14 @@
-### Moya: Network Abstraction Layer in Swift
+---
+title: Moya
+description: Network abstraction layer written in Swift.
+---
 
-Provide a concise summary of the article or video. What are the main topics covered? What is the primary focus of the content?
+Network abstraction layer written in Swift.
 
 <details>
-**URL:** [https://moya.github.io](https://moya.github.io)
+**URL:** https://github.com/Moya/Moya
 
-**Published:** Not specified  
-**Last Updated:** Not specified
-
-**Authors:** `[Authors mentioned in the repository]`
+**Authors:** Moya
 
 **Tags:**  
 `swift`, `networking`, `rxswift`, `reactiveswift`, `alamofire`, `hacktoberfest`
@@ -28,4 +28,4 @@ Provide a concise summary of the article or video. What are the main topics cove
 - **Applications and Examples:** Provides practical examples and use cases for implementing Moya in iOS projects.
 - **Conclusion:** Highlights Moya's benefits and its role in improving codebase maintainability.
 
-<LinkCard title="Read Full Article" href="https://moya.github.io" />
+<LinkCard title="Go to Github Repository" href="https://github.com/Moya/Moya" />

@@ -1,10 +1,12 @@
-### Compose Beautiful Preference Panels with Setting
+---
+title: Setting
+description: Compose beautiful preference panels.
+---
+
+Compose beautiful preference panels.
 
 <details>
-**URL:** [Setting Repository on GitHub](https://github.com/aheze/Setting)
-
-**Published:** N/A  
-**Last Updated:** N/A
+**URL:** https://github.com/aheze/Setting
 
 **Authors:** `aheze`
 
@@ -26,4 +28,4 @@
 - **Applications and Examples:** Demonstrations of creating nested pages, custom components, and dynamic UI elements.
 - **Conclusion:** Summary of the versatility and ease of use of Setting in SwiftUI development.
 
-<LinkCard title="Read Full Article" href="https://github.com/aheze/Setting" />
+<LinkCard title="Go to Github Repository" href="https://github.com/aheze/Setting" />

@@ -1,11 +1,12 @@
-### SwiftUI Introspect
+---
+title: SwiftUI Introspect
+description: SwiftUI Introspect enables developers to access underlying UIKit or AppKit components from within SwiftUI views.
+---
+
 SwiftUI Introspect enables developers to access underlying UIKit or AppKit components from within SwiftUI views.
 
 <details>
-**URL:** [GitHub Repository](https://github.com/siteline/swiftui-introspect)
-
-**Published:** N/A  
-**Last Updated:** N/A
+**URL:** https://github.com/siteline/swiftui-introspect
 
 **Authors:** [List of Contributors](https://github.com/siteline/swiftui-introspect/graphs/contributors)
 
@@ -25,4 +26,4 @@ SwiftUI Introspect enables developers to access underlying UIKit or AppKit compo
 - **Install:** Installation instructions via Swift Package Manager and CocoaPods.
 - **Introspection:** Lists components that can be introspected with links to detailed documentation.
 
-<LinkCard title="Read Full Article" href="https://github.com/siteline/swiftui-introspect" />
+<LinkCard title="Go to Github Repository" href="https://github.com/siteline/swiftui-introspect" />
