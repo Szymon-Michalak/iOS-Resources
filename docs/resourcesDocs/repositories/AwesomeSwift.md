@@ -1,9 +1,9 @@
 ---
 title: Awesome Swift
-description: A comprehensive list of Swift libraries and resources. It includes tools, frameworks, and libraries across various categories like UI, networking, and data management. The list is continuously updated with contributions from the community.
+description: A list of Swift libraries and resources. It includes tools, frameworks, and libraries across various categories like UI, networking, and data management. The list is continuously updated with contributions from the community.
 ---
 
-The "Awesome Swift" GitHub repository curated by Matteo Crippa is a comprehensive collection of Swift resources. It includes libraries, frameworks, tools, tutorials, and articles for iOS development. The repository is designed to help developers find high-quality resources for learning and improving their Swift programming skills.
+The "Awesome Swift" GitHub repository curated by Matteo Crippa is a collection of Swift resources. It includes libraries, frameworks, tools, tutorials, and articles for iOS development. The repository is designed to help developers find high-quality resources for learning and improving their Swift programming skills.
 
 <details>
 **URL:** https://github.com/matteocrippa/awesome-swift

@@ -3,7 +3,7 @@ title: The Swift Arcade Data Structures and Algorithms Bootcamp
 description: This Udemy course covers fundamental computer science concepts crucial for interviews at major tech companies like Google, Apple, Facebook, Amazon, and Spotify. Topics include arrays, linked lists, big O notation, stacks & queues, hash tables, binary trees, dynamic programming, sorting algorithms, graphs, and more.
 ---
 
-The Swift Arcade: Data Structures and Algorithms Bootcamp on Udemy is a comprehensive course designed to teach Swift developers essential data structures and algorithms. The course covers various topics with practical examples, helping developers understand and implement efficient solutions in Swift.
+The Swift Arcade: Data Structures and Algorithms Bootcamp on Udemy is a course designed to teach Swift developers essential data structures and algorithms. The course covers various topics with practical examples, helping developers understand and implement efficient solutions in Swift.
 
 <details>
 **URL:** [The Swift Arcade: Data Structures and Algorithms Bootcamp](https://www.udemy.com/course/the-swift-arcade-data-structures-and-algorithms-bootcamp/)

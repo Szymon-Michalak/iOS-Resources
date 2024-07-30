@@ -3,9 +3,9 @@ title: Articles
 description: Articles about UI design
 ---
 
-# Articles
-
 ## 6 UI Hacks I Wish I Knew As A Beginner
+
+The article discusses practical tips to enhance UI design through effective typography and spacing techniques. It emphasizes the importance of typography in creating visually appealing designs and explores methods to optimize text readability and layout.
 
 <details>
 **URL:** https://www.youtube.com/watch?v=88XxC0_zs74
@@ -18,10 +18,7 @@ description: Articles about UI design
 `UI design`, `typography`, `spacing`, `UX design`
 </details>
 
-### Summary
-The article discusses practical tips to enhance UI design through effective typography and spacing techniques. It emphasizes the importance of typography in creating visually appealing designs and explores methods to optimize text readability and layout.
-
-### Key Points
+#### Key Points
 - Typography is crucial for UI design, influencing both aesthetics and usability.
 - Line height should be carefully adjusted to improve readability; typical ranges are suggested based on examples from prominent websites.
 - Letter spacing can significantly impact the crispness and readability of headings, but should be used sparingly in body text.
@@ -30,7 +27,7 @@ The article discusses practical tips to enhance UI design through effective typo
 - Establishing hierarchy through font sizes, weights, and subtle color changes helps maintain visual clarity and professionalism.
 - Strategic spacing around text elements, guided by their relationships, improves visual cohesion and user experience.
 
-### Summary of Contents
+#### Summary of Contents
 - **Introduction:** Introduces the importance of typography and spacing in UI design.
 - **Main Sections:**
   - Typography Essentials: Discusses line height and letter spacing adjustments.

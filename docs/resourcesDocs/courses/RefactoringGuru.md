@@ -1,9 +1,9 @@
 ---
 title: Refactoring.Guru
-description: This resource offers a comprehensive catalog of design patterns in Swift, covering creational, structural, and behavioral patterns. Each pattern includes a main article, conceptual example, usage in Swift, and real-world example, providing a thorough understanding of how to apply these patterns in Swift development.
+description: This resource offers a catalog of design patterns in Swift, covering creational, structural, and behavioral patterns. Each pattern includes a main article, conceptual example, usage in Swift, and real-world example, providing a thorough understanding of how to apply these patterns in Swift development.
 ---
 
-Refactoring Guru provides a comprehensive guide to design patterns in Swift. It covers various design patterns, including creational, structural, and behavioral patterns, with practical Swift examples. The site is aimed at helping developers understand and implement these patterns to write more maintainable and efficient code.
+Refactoring Guru provides a guide to design patterns in Swift. It covers various design patterns, including creational, structural, and behavioral patterns, with practical Swift examples. The site is aimed at helping developers understand and implement these patterns to write more maintainable and efficient code.
 
 <details>
 **URL:** [Refactoring Guru - Design Patterns in Swift](https://refactoring.guru/design-patterns/swift)

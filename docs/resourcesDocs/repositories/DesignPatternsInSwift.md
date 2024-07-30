@@ -3,7 +3,7 @@ title: Design Patterns-In-Swift
 description: A collection of design patterns implemented in Swift 5.0.
 ---
 
-The "Design Patterns in Swift" GitHub repository by Ochococo provides a comprehensive collection of design patterns implemented in Swift. This repository is a valuable resource for developers looking to understand and apply design patterns to write more maintainable and scalable Swift code.
+The "Design Patterns in Swift" GitHub repository by Ochococo provides a collection of design patterns implemented in Swift. This repository is a valuable resource for developers looking to understand and apply design patterns to write more maintainable and scalable Swift code.
 
 <details>
 **URL:** https://github.com/ochococo/Design-Patterns-In-Swift

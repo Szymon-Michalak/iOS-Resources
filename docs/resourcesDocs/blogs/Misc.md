@@ -1,6 +1,7 @@
 ---
 title: Single Articles
 description: Single Articles
+sidebar_position: 1
 ---
 
 ### There are 2 ways to violate ‘S’ in SOLID

@@ -1,11 +1,11 @@
 ---
 title: "Working with Data in SwiftUI"
-description: A comprehensive visual reference guide for managing and handling data in SwiftUI. This book covers fundamental concepts, practical examples, and advanced techniques for working with various data sources in SwiftUI applications.
+description: A visual reference guide for managing and handling data in SwiftUI. This book covers fundamental concepts, practical examples, and advanced techniques for working with various data sources in SwiftUI applications.
 
 sidebar_label:  Working with Data
 ---
 
-A comprehensive visual reference guide for managing and handling data in SwiftUI. This book covers fundamental concepts, practical examples, and advanced techniques for working with various data sources in SwiftUI applications.
+A visual reference guide for managing and handling data in SwiftUI. This book covers fundamental concepts, practical examples, and advanced techniques for working with various data sources in SwiftUI applications.
 
 <details>
 **URL:** https://www.bigmountainstudio.com/essentials

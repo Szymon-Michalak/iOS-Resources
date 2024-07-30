@@ -1,11 +1,11 @@
 ---
 title: Objective-C for Swift Developers
-description: A comprehensive guide aimed at Swift developers who want to learn Objective-C. The book covers fundamental concepts, syntax differences, and practical projects to help developers become proficient in Objective-C.
+description: A guide aimed at Swift developers who want to learn Objective-C. The book covers fundamental concepts, syntax differences, and practical projects to help developers become proficient in Objective-C.
 
 sidebar_label:  Objective-C for Swift Developers
 ---
 
-A comprehensive guide aimed at Swift developers who want to learn Objective-C. The book covers fundamental concepts, syntax differences, and practical projects to help developers become proficient in Objective-C.
+A guide aimed at Swift developers who want to learn Objective-C. The book covers fundamental concepts, syntax differences, and practical projects to help developers become proficient in Objective-C.
 
 <details>
 **URL:** https://www.hackingwithswift.com/store/objective-c-for-swift-developers

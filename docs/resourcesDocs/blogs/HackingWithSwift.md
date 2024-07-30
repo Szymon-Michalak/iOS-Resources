@@ -1,9 +1,9 @@
 ---
 title: Hacking with Swift
-description: Hacking with Swift provides an extensive array of free Swift tutorials focused on iOS development using both UIKit and SwiftUI frameworks. The tutorials are project-based, offering practical insights and hands-on learning.
+description: Hacking with Swift is a platform offering a vast array of tutorials, articles, and resources for Swift and SwiftUI developers. Created by Paul Hudson, it caters to developers at all skill levels with a focus on practical, real-world projects.
 ---
 
-Hacking with Swift is a comprehensive platform offering a vast array of tutorials, articles, and resources for Swift and SwiftUI developers. Created by Paul Hudson, it caters to developers at all skill levels with a focus on practical, real-world projects.
+Hacking with Swift is a platform offering a vast array of tutorials, articles, and resources for Swift and SwiftUI developers. Created by Paul Hudson, it caters to developers at all skill levels with a focus on practical, real-world projects.
 
 <details>
 **URL:** https://www.hackingwithswift.com

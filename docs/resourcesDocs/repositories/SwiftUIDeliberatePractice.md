@@ -3,7 +3,7 @@ title: SwiftUI Deliberate Practice
 description: A repository of SwiftUI projects aimed at deliberate practice.
 ---
 
-The "SwiftUI Apprentice" GitHub repository by J. Rasmusson provides a comprehensive collection of SwiftUI examples and tutorials. It is designed to help developers learn and apply SwiftUI to create modern, responsive user interfaces for iOS applications.
+The "SwiftUI Apprentice" GitHub repository by J. Rasmusson provides a collection of SwiftUI examples and tutorials. It is designed to help developers learn and apply SwiftUI to create modern, responsive user interfaces for iOS applications.
 
 <details>
 **URL:** https://github.com/jrasmusson/swiftui

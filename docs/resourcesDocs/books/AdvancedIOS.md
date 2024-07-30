@@ -1,11 +1,11 @@
 ---
 title: "Advanced iOS: Volume One"
-description: A comprehensive guide to mastering advanced iOS development techniques, focusing on real-world projects to implement features such as SiriKit, iMessage apps, rich notifications, and more.
+description: A guide to mastering advanced iOS development techniques, focusing on real-world projects to implement features such as SiriKit, iMessage apps, rich notifications, and more.
 
 sidebar_label:  Advanced iOS
 ---
 
-A comprehensive guide to mastering advanced iOS development techniques, focusing on real-world projects to implement features such as SiriKit, iMessage apps, rich notifications, and more.
+A guide to mastering advanced iOS development techniques, focusing on real-world projects to implement features such as SiriKit, iMessage apps, rich notifications, and more.
 
 <details>
 **URL:** https://www.hackingwithswift.com/store/advanced-ios-1

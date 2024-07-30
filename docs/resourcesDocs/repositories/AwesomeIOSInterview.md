@@ -1,9 +1,9 @@
 ---
 title: Awesome iOS Interview
-description: This repository contains a comprehensive collection of resources for iOS interview preparation, covering a wide range of topics from UIKit to Swift. It includes articles, questions, and guides to help developers excel in iOS interviews.
+description: This repository contains a collection of resources for iOS interview preparation, covering a wide range of topics from UIKit to Swift. It includes articles, questions, and guides to help developers excel in iOS interviews.
 ---
 
-The GitHub repository "Awesome iOS Interview" curated by Vladislav Dashkevich provides a comprehensive collection of resources to help developers prepare for iOS interviews. It includes links to important topics such as Swift, Objective-C, data structures, algorithms, design patterns, and practical coding tasks. The repository also features tips on interview preparation, common questions, and best practices for solving problems during interviews.
+The GitHub repository "Awesome iOS Interview" curated by Vladislav Dashkevich provides a collection of resources to help developers prepare for iOS interviews. It includes links to important topics such as Swift, Objective-C, data structures, algorithms, design patterns, and practical coding tasks. The repository also features tips on interview preparation, common questions, and best practices for solving problems during interviews.
 
 <details>
 **URL:** https://github.com/dashvlas/awesome-ios-interview

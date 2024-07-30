@@ -1,11 +1,11 @@
 ---
 title: "Pro Swift"
-description: A comprehensive guide for experienced Swift developers looking to deepen their understanding of the language and its capabilities. This book covers advanced Swift programming techniques, focusing on writing clean, efficient, and idiomatic Swift code.
+description: A guide for experienced Swift developers looking to deepen their understanding of the language and its capabilities. This book covers advanced Swift programming techniques, focusing on writing clean, efficient, and idiomatic Swift code.
 
 sidebar_label:  Pro Swift
 ---
 
-A comprehensive guide for experienced Swift developers looking to deepen their understanding of the language and its capabilities. This book covers advanced Swift programming techniques, focusing on writing clean, efficient, and idiomatic Swift code.
+A guide for experienced Swift developers looking to deepen their understanding of the language and its capabilities. This book covers advanced Swift programming techniques, focusing on writing clean, efficient, and idiomatic Swift code.
 
 <details>
 **URL:** https://www.hackingwithswift.com/store/pro-swift

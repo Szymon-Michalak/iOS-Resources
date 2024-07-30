@@ -1,11 +1,11 @@
 ---
 title: Understanding Swift
-description: A comprehensive guide to understanding the Swift programming language, designed to answer common questions and explain key features in a practical context. This book is aimed at helping both beginners and experienced developers deepen their understanding of Swift.
+description: A guide to understanding the Swift programming language, designed to answer common questions and explain key features in a practical context. This book is aimed at helping both beginners and experienced developers deepen their understanding of Swift.
 
 sidebar_label:  Understanding Swift
 ---
 
-A comprehensive guide to understanding the Swift programming language, designed to answer common questions and explain key features in a practical context. This book is aimed at helping both beginners and experienced developers deepen their understanding of Swift.
+A guide to understanding the Swift programming language, designed to answer common questions and explain key features in a practical context. This book is aimed at helping both beginners and experienced developers deepen their understanding of Swift.
 
 <details>
 **URL:** https://www.hackingwithswift.com/quick-start/understanding-swift

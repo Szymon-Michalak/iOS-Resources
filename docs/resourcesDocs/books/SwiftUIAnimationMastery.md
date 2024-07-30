@@ -1,11 +1,11 @@
 ---
 title: "SwiftUI Animations Mastery"
-description: A comprehensive visual guide to mastering animations in SwiftUI. This book covers fundamental concepts, practical examples, and advanced techniques for creating animations in SwiftUI applications.
+description: A visual guide to mastering animations in SwiftUI. This book covers fundamental concepts, practical examples, and advanced techniques for creating animations in SwiftUI applications.
 
 sidebar_label: SwiftUI Animations Mastery
 ---
 
-A comprehensive visual guide to mastering animations in SwiftUI. This book covers fundamental concepts, practical examples, and advanced techniques for creating animations in SwiftUI applications.
+A visual guide to mastering animations in SwiftUI. This book covers fundamental concepts, practical examples, and advanced techniques for creating animations in SwiftUI applications.
 
 <details>
 **URL:** https://www.bigmountainstudio.com/animations

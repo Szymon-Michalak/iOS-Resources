@@ -1,9 +1,9 @@
 ---
 title: Kavsoft
-description: Kavsoft's YouTube channel offers comprehensive video tutorials focused on SwiftUI and iOS development. The content is designed to help developers of all skill levels through detailed, step-by-step guides and practical examples.
+description: Kavsoft's YouTube channel offers video tutorials focused on SwiftUI and iOS development. The content is designed to help developers of all skill levels through detailed, step-by-step guides and practical examples.
 ---
 
-Kavsoft's YouTube channel offers comprehensive video tutorials focused on SwiftUI and iOS development. The content is designed to help developers of all skill levels through detailed, step-by-step guides and practical examples.
+Kavsoft's YouTube channel offers video tutorials focused on SwiftUI and iOS development. The content is designed to help developers of all skill levels through detailed, step-by-step guides and practical examples.
 
 <details>
 **URL:** https://www.youtube.com/@Kavsoft

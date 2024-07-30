@@ -1,3 +1,8 @@
+---
+title: Essential Developer
+description: Essential Developer
+---
+
 ## iOS Architect Crash Course
 
 The iOS Architect Crash Course is designed to help developers master the skills necessary to become proficient in iOS architecture. This course covers essential principles and best practices for designing robust and scalable iOS applications.

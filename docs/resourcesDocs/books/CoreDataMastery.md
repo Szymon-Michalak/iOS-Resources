@@ -1,11 +1,11 @@
 ---
 title: "Core Data Mastery in SwiftUI"
-description: A comprehensive visual reference guide for SwiftUI developers to master Core Data. The book covers fundamental concepts, practical examples, and advanced techniques for working with Core Data in SwiftUI applications.
+description: A visual reference guide for SwiftUI developers to master Core Data. The book covers fundamental concepts, practical examples, and advanced techniques for working with Core Data in SwiftUI applications.
 
 sidebar_label:  Core Data Mastery
 ---
 
-A comprehensive visual reference guide for SwiftUI developers to master Core Data. The book covers fundamental concepts, practical examples, and advanced techniques for working with Core Data in SwiftUI applications.
+A visual reference guide for SwiftUI developers to master Core Data. The book covers fundamental concepts, practical examples, and advanced techniques for working with Core Data in SwiftUI applications.
 
 <details>
 **URL:** https://www.bigmountainstudio.com/core-data

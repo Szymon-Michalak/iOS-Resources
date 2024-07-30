@@ -1,11 +1,11 @@
 ---
 title: Data Structures & Algorithms in Swift
-description: A comprehensive guide to understanding and implementing data structures and algorithms using Swift. This book is designed to help developers learn the fundamentals of data structures and algorithms, along with practical implementations in Swift.
+description: A guide to understanding and implementing data structures and algorithms using Swift. This book is designed to help developers learn the fundamentals of data structures and algorithms, along with practical implementations in Swift.
 
 sidebar_label: Data Structures & Algorithms
 ---
 
-A comprehensive guide to understanding and implementing data structures and algorithms using Swift. This book is designed to help developers learn the fundamentals of data structures and algorithms, along with practical implementations in Swift.
+A guide to understanding and implementing data structures and algorithms using Swift. This book is designed to help developers learn the fundamentals of data structures and algorithms, along with practical implementations in Swift.
 
 <details>
 **URL:** https://www.kodeco.com/books/data-structures-algorithms-in-swift/v4.0
