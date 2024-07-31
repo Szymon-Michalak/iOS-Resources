@@ -34,15 +34,16 @@ Recreate Code is a Substack publication offering a variety of articles, tutorial
 ### Recreating iOS Style Welcome Screen Using SwiftUI and Xcode
 
 <details>
-**URL:** [Recreating iOS style Welcome Screen - by Nav Singh](https://recreatecode.substack.com/p/recreating-ios-style-welcome-screen)
 
-**Published:** AUG 27, 2020  
-**Last Updated:** N/A
+**URL:** https://recreatecode.substack.com/p/recreating-ios-style-welcome-screen
+
+**Published:** Aug 27, 2020  
 
 **Authors:** `Nav Singh`
 
 **Tags:**  
 `SwiftUI`, `Xcode`, `iOS Development`
+
 </details>
 
 #### Key Points

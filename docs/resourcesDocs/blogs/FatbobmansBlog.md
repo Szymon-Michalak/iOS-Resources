@@ -6,6 +6,7 @@ description: Fatbobman's Blog is a platform offering a wide range of tutorials, 
 Fatbobman's Blog is a platform offering a wide range of tutorials, articles, and insights focused on Swift, SwiftUI, and iOS development. The content is designed to help developers at various skill levels improve their knowledge and stay updated with the latest industry trends.
 
 <details>
+
 **URL:** https://fatbobman.com/en/
 
 **Authors:** `Fatbobman`
@@ -26,6 +27,7 @@ Fatbobman's Blog is a platform offering a wide range of tutorials, articles, and
    - **Newsletter:** Available for regular updates and news.
    - **Collections:** Curated collections of articles on specific topics.
    - **Discord Community:** A place for discussion and support.
+
 </details>
 
 <LinkCard title="Visit Fatbobman's Blog" href="https://fatbobman.com/en/" />
@@ -33,6 +35,7 @@ Fatbobman's Blog is a platform offering a wide range of tutorials, articles, and
 ---
 
 ## UI
+
 ### GeometryReader: Blessing or Curse?
 
 The article explores the controversial use of GeometryReader in SwiftUI, addressing common criticisms and misunderstandings. It discusses its role in obtaining geometric information and its impact on layout and performance.
@@ -68,13 +71,14 @@ The article explores the controversial use of GeometryReader in SwiftUI, address
 
 
 ### Layout in SwiftUI Way
+
 The article explores various techniques in SwiftUI for achieving complex layout requirements, aiming to clarify its powerful yet sometimes confusing layout system. It emphasizes practical examples and comparisons to aid developers in mastering SwiftUI's layout capabilities.
 
 <details>
 
 **URL:** https://fatbobman.com/en/posts/layout-in-swiftui-way/  
 **Published:** Mar 1, 2023  
-**Last Updated:** Not specified  
+
 **Authors:** `Fatbobman`  
 **Tags:**
 `SwiftUI`, `iOS Development`, `Layout Design`

@@ -1,4 +1,4 @@
-# Find the N Smallest Elements in a Collection - Discussion
+# Find the N Smallest - Discussion
 
 ## Edge Cases
 1. **Empty Collection**: If the collection is empty, the function should return an empty array.

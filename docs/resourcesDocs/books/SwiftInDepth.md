@@ -8,15 +8,16 @@ sidebar_label: Swift In Depth
 A detailed guide aimed at helping Swift developers master the language, combining best practices, advanced techniques, and real-world scenarios to enhance coding skills and application development.
 
 <details>
+
 **URL:** https://www.oreilly.com/library/view/swift-in-depth/9781617295188/
 
 **Published:** 2019  
-**Last Updated:** 2019
 
 **Authors:** `Tjeerd in ’t Veen`
 
 **Tags:**  
 `Swift`, `iOS Development`, `Advanced Programming`, `Best Practices`, `Functional Programming`
+
 </details>
 
 #### Key Points

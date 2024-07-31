@@ -37,12 +37,15 @@ Stewart Lynch's YouTube channel provides a variety of video tutorials focused on
 Stewart Lynch shares insights and tips gleaned from his extensive experience in SwiftUI development. Despite setbacks, he presents valuable lessons on SwiftUI intricacies, ranging from UI enhancements to localization techniques.
 
 <details>
+
 **URL:** https://www.youtube.com/watch?v=_XZHzl3R1Fo
+
 **Published:** May 12, 2024
-**Last Updated:** N/A
+
 **Authors:** `Stewart Lynch`  
 **Tags:** 
 `SwiftUI`, `iOS Development`, `Tips and Tricks`  
+
 </details>
 
 #### Key Points

@@ -8,15 +8,16 @@ sidebar_label:  Working with Data
 A visual reference guide for managing and handling data in SwiftUI. This book covers fundamental concepts, practical examples, and advanced techniques for working with various data sources in SwiftUI applications.
 
 <details>
+
 **URL:** https://www.bigmountainstudio.com/essentials
 
 **Published:** November 16, 2023  
-**Last Updated:** November 16, 2023
 
 **Authors:** `Mark Moeykens`
 
 **Tags:**  
 `SwiftUI`, `Data Management`, `iOS Development`, `Programming`, `Visual Guide`
+
 </details>
 
 ### Key Points

@@ -35,15 +35,16 @@ The Swift Dev is a blog focused on Swift and iOS development, featuring a range 
 Learn various methods for running tasks in parallel using Swift, including traditional frameworks and the new structured concurrency API.
 
 <details>
-**URL:** [https://theswiftdev.com/running-tasks-in-parallel/](https://theswiftdev.com/running-tasks-in-parallel/)
+
+**URL:** https://theswiftdev.com/running-tasks-in-parallel/
 
 **Published:** 2023/02/09  
-**Last Updated:** 2023/02/09
 
 **Authors:** Tibor Bödecs
 
 **Tags:**  
 `Swift Concurrency`, `Grand Central Dispatch`, `Operation Queues`, `Structured Concurrency`
+
 </details>
 
 #### Key Points
@@ -65,15 +66,16 @@ Learn various methods for running tasks in parallel using Swift, including tradi
 Learn the principles of multi-threading with the GCD framework in Swift. Queues, tasks, groups—everything you'll ever need to know.
 
 <details>
-**URL:** [https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/](https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/)
+
+**URL:** https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/
 
 **Published:** 2018/07/10  
-**Last Updated:** N/A
 
 **Authors:** The.Swift.Dev
 
 **Tags:**  
 `Swift`, `Grand Central Dispatch`, `Concurrency`, `Multi-threading`
+
 </details>
 
 #### Key Points

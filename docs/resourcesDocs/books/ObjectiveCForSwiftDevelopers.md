@@ -8,15 +8,16 @@ sidebar_label:  Objective-C for Swift Developers
 A guide aimed at Swift developers who want to learn Objective-C. The book covers fundamental concepts, syntax differences, and practical projects to help developers become proficient in Objective-C.
 
 <details>
+
 **URL:** https://www.hackingwithswift.com/store/objective-c-for-swift-developers
 
 **Published:** 2019  
-**Last Updated:** 2019
 
 **Authors:** `Paul Hudson`
 
 **Tags:**  
 `Objective-C`, `Swift`, `iOS Development`, `Programming`, `Transition Guide`
+
 </details>
 
 ### Key Points

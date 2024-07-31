@@ -35,15 +35,17 @@ Swift Forums is an official platform for discussing the Swift programming langua
 ### Codable, SwiftConcurrency, Swift 6 - Fundamentally Incompatible?
 
 <details>
-**URL:** [Codable, SwiftConcurrency, Swift 6 - Fundamentally incompatible?](https://forums.swift.org/t/codable-swiftconcurrency-swift-6-fundamentally-incompatible/73114)
+
+**URL:** https://forums.swift.org/t/codable-swiftconcurrency-swift-6-fundamentally-incompatible/73114
 
 **Published:** July 11, 2024  
 **Last Updated:** July 16, 2024
 
-**Authors:** Discussion community on Swift Forums
+**Authors:** N/A
 
 **Tags:**  
 `concurrency`, `foundation`, `swift 6`, `protocols`
+
 </details>
 
 #### Key Points

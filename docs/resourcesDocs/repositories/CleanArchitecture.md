@@ -5,15 +5,16 @@ description: SwiftUI sample app using Clean Architecture. Examples of working wi
 
 
 <details>
-**URL:** [https://github.com/nalexn/clean-architecture-swiftui](https://github.com/nalexn/clean-architecture-swiftui)
+
+**URL:** https://github.com/nalexn/clean-architecture-swiftui
 
 **Published:** N/A  
-**Last Updated:** N/A
 
 **Authors:** Alexey Naumov, contributors
 
 **Tags:**  
 `swift`, `sample`, `demo`, `architecture`, `mvvm`, `coredata`, `clean-architecture`, `swiftui`, `example-project`, `mvvm-architecture`, `interactor`, `swiftui-example`
+
 </details>
 
 #### Key Points

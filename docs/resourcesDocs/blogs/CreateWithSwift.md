@@ -6,6 +6,7 @@ description: Create with Swift is a platform designed for Swift and SwiftUI deve
 Create with Swift is a platform designed for Swift and SwiftUI developers, offering a variety of tutorials, articles, and guides. The site is known for its emphasis on advanced topics and practical applications, making it a valuable resource for developers aiming to enhance their skills and stay updated with the latest trends in iOS development.
 
 <details>
+
 **URL:** https://www.createwithswift.com
 
 **Authors:** `Create with Swift Team`
@@ -27,6 +28,7 @@ Create with Swift is a platform designed for Swift and SwiftUI developers, offer
    - **Newsletter:** Available for regular updates and news.
    - **E-Books/Guides:** Downloadable e-books and guides for in-depth learning.
    - **Certifications:** Available for completed courses and tutorials, offering a credential for developers.
+
 </details>
 
 <LinkCard title="Visit Create with Swift" href="https://www.createwithswift.com" />
@@ -43,7 +45,7 @@ This tutorial explores using the TipKit framework in SwiftUI to display contextu
 
 **URL:** https://www.createwithswift.com/displaying-tips-based-on-parameters-and-events-with-tipkit  
 **Published:** Jun 29, 2024  
-**Last Updated:** N/A  
+
 **Authors:**
 `Tiago Gomes Pereira`, `Matteo Altobello`  
 **Tags:**
@@ -73,13 +75,14 @@ This tutorial explores using the TipKit framework in SwiftUI to display contextu
 ## Accessibility
 
 ### Understanding VoiceOver Rotor
+
 This article explores the VoiceOver rotor, a crucial accessibility feature in iOS apps. It details how the rotor enhances navigation for users with visual impairments by allowing customizable commands like text highlighting, organizational navigation, and typing methods.
 
 <details>
 
 **URL:** https://www.createwithswift.com/understanding-accessibility-rotors-and-how-to-use-them  
 **Published:** Jun 27, 2024  
-**Last Updated:** N/A  
+
 **Authors:**
  - Pasquale Vittoriosi
  - Matteo Altobello

@@ -8,15 +8,16 @@ sidebar_label:  SwiftUI Views Mastery
 A visual reference guide for SwiftUI developers, this book provides an extensive overview of various SwiftUI views, modifiers, and techniques. It includes practical examples, detailed descriptions, and visual aids to help developers master SwiftUI.
 
 <details>
+
 **URL:** https://www.bigmountainstudio.com/views
 
 **Published:** January 27, 2024  
-**Last Updated:** January 27, 2024
 
 **Authors:** `Mark Moeykens`
 
 **Tags:**  
 `SwiftUI`, `iOS Development`, `Views`, `Modifiers`, `Visual Reference`
+
 </details>
 
 ### Key Points

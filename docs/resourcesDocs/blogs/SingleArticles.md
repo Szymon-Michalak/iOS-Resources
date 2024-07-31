@@ -9,10 +9,10 @@ sidebar_position: 1
 Provide a deep dive into the Single Responsibility principle within SOLID, examining practical iOS architecture challenges and solutions.
 
 <details>
-**URL:** [https://isaac-weisberg.medium.com/there-are-2-ways-to-violate-s-in-solid-9c327e7e4b40](https://isaac-weisberg.medium.com/there-are-2-ways-to-violate-s-in-solid-9c327e7e4b40)
+
+**URL:** https://isaac-weisberg.medium.com/there-are-2-ways-to-violate-s-in-solid-9c327e7e4b40
 
 **Published:** Apr 30, 2021  
-**Last Updated:** Apr 30, 2021
 
 **Author:** Isaac Weisberg
 
@@ -40,10 +40,10 @@ Provide a deep dive into the Single Responsibility principle within SOLID, exami
 ### Formatted Strings in iOS Localization
 
 <details>
-**URL:** [Formatted Strings | kean.blog](https://kean.blog/post/formatted-strings)
+
+**URL:** https://kean.blog/post/formatted-strings
 
 **Published:** November 29, 2020  
-**Last Updated:** N/A
 
 **Authors:** Alex Grebenyuk
 
@@ -74,10 +74,10 @@ Provide a deep dive into the Single Responsibility principle within SOLID, exami
 ### Enhancing Search in Pulse with SwiftUI Features
 
 <details>
-**URL:** [https://kean.blog/post/pulse-search](https://kean.blog/post/pulse-search)
+
+**URL:** https://kean.blog/post/pulse-search
 
 **Published:** January 24, 2023  
-**Last Updated:** N/A
 
 **Author:** Alex Grebenyuk
 
@@ -108,15 +108,16 @@ Provide a deep dive into the Single Responsibility principle within SOLID, exami
 ### Multi-cursor editing in Xcode
 
 <details>
-**URL:** [Multi-cursor editing in Xcode](https://sarunw.com/posts/multi-cursor-editing-in-xcode/)
+
+**URL:** https://sarunw.com/posts/multi-cursor-editing-in-xcode/
 
 **Published:** 11 Nov 2020  
-**Last Updated:** 11 Nov 2020
 
 **Authors:** `Sarun Wongpatcharapakorn`
 
 **Tags:**  
 `Xcode`, `Workflow`
+
 </details>
 
 #### Key Points
@@ -139,15 +140,16 @@ Provide a deep dive into the Single Responsibility principle within SOLID, exami
 ### Writing Good Unit Tests
 
 <details>
-**URL:** [Writing good unit tests](https://blog.devgenius.io/writing-good-unit-tests-2158be9ee82d)
+
+**URL:** https://blog.devgenius.io/writing-good-unit-tests-2158be9ee82d
 
 **Published:** Oct 17, 2023  
-**Last Updated:** N/A
 
 **Authors:** `Chris Mash`
 
 **Tags:**  
 `Unit Testing`, `Software Development`, `Test Driven Development`, `TDD`
+
 </details>
 
 #### Key Points
@@ -171,15 +173,16 @@ Provide a deep dive into the Single Responsibility principle within SOLID, exami
 ### Double Optional Bindings in SwiftUI
 
 <details>
-**URL:** [https://phlippieb.dev/posts/double-optional-bindings/](https://phlippieb.dev/posts/double-optional-bindings/)
+
+**URL:** https://phlippieb.dev/posts/double-optional-bindings/
 
 **Published:** Tue Jun 25 2024  
-**Last Updated:** Not specified
 
 **Authors:** Phlippie Bosman
 
 **Tags:**  
 `SwiftUI`, `iOS Development`, `Optional Types`, `UI Design`
+
 </details>
 
 #### Key Points
@@ -200,15 +203,16 @@ Provide a deep dive into the Single Responsibility principle within SOLID, exami
 ### The Advanced Guide to UserDefaults in Swift
 
 <details>
-**URL:** [https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/](https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/)
 
-**Published:** 9 DECEMBER 2019  
-**Last Updated:** N/A
+**URL:** https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/
+
+**Published:** Dec 9, 2019  
 
 **Authors:** Vadim Bulavin
 
 **Tags:**  
 `Swift`, `UserDefaults`, `Property Wrappers`
+
 </details>
 
 #### Key Points
@@ -235,12 +239,13 @@ The Swift Programming Language book, available on Swift.org, provides comprehens
 
 <details>
 
-**URL:** [The Swift Programming Language](https://docs.swift.org/swift-book/documentation/the-swift-programming-language)
+**URL:** https://docs.swift.org/swift-book/documentation/the-swift-programming-language
 
 **Authors:** `Apple Inc.`
 
 **Tags:**  
 `Swift`, `iOS Development`, `Programming Language`, `Reference`, `Guide`
+
 </details>
 
 #### Key Points
@@ -258,18 +263,18 @@ The Swift Programming Language book, available on Swift.org, provides comprehens
 <LinkCard title="Read The Swift Programming Language" href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language" />
 
 ### The Sound of Software
-Provide a concise summary of the article or video. What are the main topics covered? What is the primary focus of the content?
 
 <details>
-**URL:** [https://notboring.software/words/the-sound-of-software](https://notboring.software/words/the-sound-of-software)
+
+**URL:** https://notboring.software/words/the-sound-of-software
 
 **Published:** April 25, 2024  
-**Last Updated:** N/A
 
 **Authors:** Andy & Thomas Williams
 
 **Tags:**  
 `sound design`, `software development`, `user experience`, `audio implementation`
+
 </details>
 
 #### Key Points
@@ -296,10 +301,9 @@ Provide a concise summary of the article or video. What are the main topics cove
 Learn how the CustomDebugStringConvertible protocol and @DebugDescription macro in Xcode 16 enhance debugging by providing clear, custom debug outputs.
 
 <details>
-**URL:** [Using @DebugDescription in Xcode 16](https://digitalbunker.dev/debug-description-macro-xcode-16/?ref=createwithswift.com)
+**URL:** https://digitalbunker.dev/debug-description-macro-xcode-16/?ref=createwithswift.com
 
 **Published:** July 21, 2024  
-**Last Updated:** -
 
 **Authors:** `Aryaman Sharda`
 
@@ -327,15 +331,16 @@ Learn how the CustomDebugStringConvertible protocol and @DebugDescription macro 
 ### Customizing the Appearance of Symbol Images in SwiftUI
 
 <details>
-**URL:** [Customizing the Appearance of Symbol Images in SwiftUI](https://nilcoalescing.com/blog/CustomizingTheAppearanceOfSymbolImagesInSwiftUI/)
+
+**URL:** https://nilcoalescing.com/blog/CustomizingTheAppearanceOfSymbolImagesInSwiftUI/
 
 **Published:** 22 July 2024  
-**Last Updated:** N/A
 
 **Author:** Natalia Panferova
 
 **Tags:**  
 `iOS`, `macOS`, `SwiftUI`
+
 </details>
 
 #### Key Points
@@ -357,13 +362,16 @@ Learn how the CustomDebugStringConvertible protocol and @DebugDescription macro 
 ### Async await in Swift: The Full Toolkit
 
 <details>
-**URL:** [Async await in Swift: The Full Toolkit](https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com)
 
-**Published:** July 22, 2024  
+**URL:** https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com
+
+**Published:** July 22, 2024 
+
 **Authors:** Jacob Bartlett
 
 **Tags:**  
 `Swift`, `Concurrency`, `Async/Await`, `Swift Actors`, `Sendable`, `Task Groups`, `AsyncSequence`, `AsyncStream`, `Async Algorithms`
+
 </details>
 
 #### Key Points

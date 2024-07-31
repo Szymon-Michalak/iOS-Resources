@@ -8,15 +8,16 @@ sidebar_label:  Core Data Mastery
 A visual reference guide for SwiftUI developers to master Core Data. The book covers fundamental concepts, practical examples, and advanced techniques for working with Core Data in SwiftUI applications.
 
 <details>
+
 **URL:** https://www.bigmountainstudio.com/core-data
 
 **Published:** September 3, 2023  
-**Last Updated:** September 3, 2023
 
 **Authors:** `Mark Moeykens`
 
 **Tags:**  
 `Core Data`, `SwiftUI`, `iOS Development`, `Data Persistence`, `Programming`
+
 </details>
 
 ### Key Points

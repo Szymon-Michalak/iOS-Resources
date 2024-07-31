@@ -8,15 +8,16 @@ sidebar_label:  Advanced iOS
 A guide to mastering advanced iOS development techniques, focusing on real-world projects to implement features such as SiriKit, iMessage apps, rich notifications, and more.
 
 <details>
+
 **URL:** https://www.hackingwithswift.com/store/advanced-ios-1
 
 **Published:** May 25, 2019  
-**Last Updated:** May 25, 2019
 
 **Authors:** `Paul Hudson`
 
 **Tags:**  
 `iOS Development`, `Swift`, `Advanced Techniques`, `SiriKit`, `iMessage`, `Notifications`
+
 </details>
 
 ### Key Points

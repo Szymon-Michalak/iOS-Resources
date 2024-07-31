@@ -8,15 +8,16 @@ sidebar_label:  Pro Swift
 A guide for experienced Swift developers looking to deepen their understanding of the language and its capabilities. This book covers advanced Swift programming techniques, focusing on writing clean, efficient, and idiomatic Swift code.
 
 <details>
+
 **URL:** https://www.hackingwithswift.com/store/pro-swift
 
 **Published:** May 26, 2019  
-**Last Updated:** May 26, 2019
 
 **Authors:** `Paul Hudson`
 
 **Tags:**  
 `Swift`, `Advanced Programming`, `iOS Development`, `Functional Programming`, `Patterns`
+
 </details>
 
 ### Key Points

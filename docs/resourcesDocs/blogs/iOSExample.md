@@ -35,12 +35,12 @@ iOS Example is a platform offering a wide range of tutorials, libraries, and exa
 ### Download View with Button and Animated Circle
 
 <details>
-**URL:** [Download view with button and animated circle](https://iosexample.com/download-view-with-button-and-animated-circle/)
+
+**URL:** https://iosexample.com/download-view-with-button-and-animated-circle/
 
 **Published:** September 5, 2023  
-**Last Updated:** N/A
 
-**Authors:** Not specified
+**Authors:** N/A
 
 **Tags:**  
 `iOS`, `UI`, `Animations`, `Buttons`, `Swift`

@@ -6,6 +6,7 @@ description: Donny Wals is an experienced iOS developer who shares his knowledge
 Donny Wals is an experienced iOS developer who shares his knowledge through a variety of resources including blog posts, books, courses, and workshops. His website is a valuable source for learning Swift and iOS development, featuring content for developers at all skill levels.
 
 <details>
+
 **URL:** https://www.donnywals.com
 
 **Authors:** `Donny Wals`
@@ -26,6 +27,7 @@ Donny Wals is an experienced iOS developer who shares his knowledge through a va
    - **Newsletter:** Available for regular updates and news.
    - **Books and Courses:** Multiple books and courses available for in-depth learning.
    - **Workshops:** Regular workshops for hands-on learning experiences.
+
 </details>
 
 <LinkCard title="Visit Donny Wals" href="https://www.donnywals.com/" />
@@ -33,9 +35,11 @@ Donny Wals is an experienced iOS developer who shares his knowledge through a va
 ---
 
 ### @preconcurrency usage in Swift Explained
+
 Provides insights into using the @preconcurrency attribute in Swift to manage concurrency issues in existing projects and libraries.
 
 <details>
+
 **URL:** [https://www.donnywals.com/preconcurrency-usage-in-swift-explained/](https://www.donnywals.com/preconcurrency-usage-in-swift-explained/)
 
 **Published:** May 28, 2024
@@ -62,4 +66,3 @@ Provides insights into using the @preconcurrency attribute in Swift to manage co
 - **Conclusion:** Summarizes the benefits of @preconcurrency in easing the adoption of strict concurrency in Swift projects.
 
 <LinkCard title="Read Full Article" href="https://www.donnywals.com/preconcurrency-usage-in-swift-explained/" />
-

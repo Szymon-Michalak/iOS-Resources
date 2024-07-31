@@ -34,18 +34,20 @@ Swift in Depth is a platform dedicated to advancing Swift and mobile engineering
 ---
 
 ### Receiving UI designs as a Developer
+
 Provides insights and strategies for app developers when receiving UI designs, emphasizing collaboration with designers and efficient feature implementation.
 
 <details>
-**URL:** [Receiving UI designs as a developer](https://swiftindepth.com/articles/receiving-designs/)
 
-**Published:** Not specified  
-**Last Updated:** Not specified
+**URL:** https://swiftindepth.com/articles/receiving-designs/
+
+**Published:** N/A
 
 **Authors:** `Tjeerd in 't Veen`
 
 **Tags:**  
 `UI design`, `iOS development`, `Productivity`, `Collaboration`
+
 </details>
 
 #### Key Points
@@ -69,18 +71,20 @@ Provides insights and strategies for app developers when receiving UI designs, e
 
 
 ### Testing challenges in a mobile environment
+
 This article explores the unique challenges faced in testing mobile applications, emphasizing the importance of thorough testing practices and strategies for mitigating risks.
 
 <details>
+
 **URL:** https://swiftindepth.com/articles/mobile_testing_challenges/
 
 **Published:** N/A  
-**Last Updated:** N/A
 
 **Authors:** `Tjeerd in 't Veen`
 
 **Tags:**  
 `mobile testing`, `iOS development`, `software testing`
+
 </details>
 
 #### Key Points
@@ -105,7 +109,8 @@ This article explores the unique challenges faced in testing mobile applications
 ### UI Tests, but Easier
 
 <details>
-**URL:** [https://swiftindepth.com/articles/uitests-easier/]
+
+**URL:** https://swiftindepth.com/articles/uitests-easier/
 
 **Published:** [Date of Publication]  
 **Last Updated:** [Date of Last Update, if applicable]
@@ -114,6 +119,7 @@ This article explores the unique challenges faced in testing mobile applications
 
 **Tags:**  
 `UI Testing`, `iOS Development`, `Testing Automation`
+
 </details>
 
 #### Key Points
@@ -137,10 +143,10 @@ This article explores the unique challenges faced in testing mobile applications
 ### Uh oh, you picked the wrong UI architecture
 
 <details>
-**URL:** https://swiftindepth.com/articles/ui-architectures/](https://swiftindepth.com/articles/ui-architectures/
+
+**URL:** https://swiftindepth.com/articles/ui-architectures/
 
 **Published:** Not specified  
-**Last Updated:** Not specified
 
 **Authors:** Tjeerd in 't Veen
 

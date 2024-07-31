@@ -6,15 +6,16 @@ description: A practical guide with over 60 recipes for developing and improving
 A practical guide with over 60 recipes for developing and improving iOS applications using Swift 5.3. This book covers a wide range of topics, from basic Swift programming to advanced iOS application development techniques.
 
 <details>
+
 **URL:** https://www.oreilly.com/library/view/swift-cookbook/9781839211195/
 
 **Published:** 2021  
-**Last Updated:** 2021
 
 **Authors:** `Keith Moon`, `Chris Barker`
 
 **Tags:**  
 `Swift`, `iOS Development`, `Recipes`, `Programming`, `Swift 5.3`
+
 </details>
 
 ### Key Points

@@ -8,15 +8,16 @@ sidebar_label:  Swift for Beginners
 A beginner-friendly guide to learning Swift programming, this book covers the fundamentals of the Swift language, including its syntax, key features, and best practices for developing iOS applications.
 
 <details>
+
 **URL:** https://www.oreilly.com/library/view/swift-for-beginners/9780134289793/
 
 **Published:** 2015  
-**Last Updated:** 2015
 
 **Authors:** `Boisy G. Pitre`
 
 **Tags:**  
 `Swift`, `Programming`, `iOS Development`, `Beginner Guide`
+
 </details>
 
 ### Key Points

@@ -8,15 +8,16 @@ sidebar_label:  Hacking with iOS (SwiftUI)
 A hands-on guide to learning Swift and iOS development using SwiftUI. This book covers a series of real-world projects that teach Swift programming and iOS development through practical, step-by-step tutorials.
 
 <details>
+
 **URL:** https://www.hackingwithswift.com/store/hacking-with-ios
 
 **Published:** March 2, 2022  
-**Last Updated:** March 2, 2022
 
 **Authors:** `Paul Hudson`
 
 **Tags:**  
 `SwiftUI`, `Swift`, `iOS Development`, `Tutorials`, `Programming`
+
 </details>
 
 ### Key Points

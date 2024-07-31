@@ -32,10 +32,12 @@ SwiftRocks is a blog by Bruno Rocha, a software engineer at Spotify. The blog fo
 ---
 
 ### How necessary are the programming fundamentals?
+
 Provide insights into the relevance of computer science fundamentals in programming careers, despite common misconceptions and interview practices.
 
 <details>
-**URL:** [https://swiftrocks.com/how-necessary-are-the-programming-fundamentals](https://swiftrocks.com/how-necessary-are-the-programming-fundamentals)
+
+**URL:** https://swiftrocks.com/how-necessary-are-the-programming-fundamentals
 
 **Published:** 18 May 2021  
 **Last Updated:** 05 Nov 2023

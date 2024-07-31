@@ -2,21 +2,22 @@
 title: Combine Mastery in SwiftUI
 description: A visual reference guide for mastering Combine in SwiftUI. This book covers the fundamental concepts of Combine, practical examples, and advanced techniques to effectively use Combine with SwiftUI applications.
 
-sidebar_label:  Combine Mastery
+sidebar_label: Combine Mastery
 ---
 
 A visual reference guide for mastering Combine in SwiftUI. This book covers the fundamental concepts of Combine, practical examples, and advanced techniques to effectively use Combine with SwiftUI applications.
 
 <details>
+
 **URL:** https://www.bigmountainstudio.com/combine
 
 **Published:** September 4, 2023  
-**Last Updated:** September 4, 2023
 
 **Authors:** `Mark Moeykens`
 
 **Tags:**  
 `Combine`, `SwiftUI`, `iOS Development`, `Programming`, `Reactive Programming`
+
 </details>
 
 ### Key Points

@@ -8,15 +8,16 @@ sidebar_label: Test-Driven iOS Development
 This resource is a comprehensive guide to applying Test-Driven Development (TDD) in iOS app development using Swift 5.5. It covers the essentials of TDD, including unit tests, integration tests, and UI tests, providing practical examples and exercises throughout.
 
 <details>
+
 **URL:** https://www.oreilly.com/library/view/test-driven-ios-development/9781803232485/
 
 **Published:** March 2022  
-**Last Updated:** March 2022
 
 **Authors:** `Dr. Dominik Hauser`
 
 **Tags:**  
 `TDD`, `Swift`, `iOS Development`, `Unit Testing`, `Xcode`, `Combine`, `SwiftUI`
+
 </details>
 
 ### Key Points

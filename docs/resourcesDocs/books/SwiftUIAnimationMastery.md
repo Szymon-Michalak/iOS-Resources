@@ -8,15 +8,16 @@ sidebar_label: SwiftUI Animations Mastery
 A visual guide to mastering animations in SwiftUI. This book covers fundamental concepts, practical examples, and advanced techniques for creating animations in SwiftUI applications.
 
 <details>
+
 **URL:** https://www.bigmountainstudio.com/animations
 
 **Published:** January 21, 2024  
-**Last Updated:** January 21, 2024
 
 **Authors:** `Mark Moeykens`
 
 **Tags:**  
 `SwiftUI`, `Animations`, `iOS Development`, `Programming`, `Visual Guide`
+
 </details>
 
 ### Key Points

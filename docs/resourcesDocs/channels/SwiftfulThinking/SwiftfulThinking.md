@@ -6,6 +6,7 @@ description: Swiftful Thinking's YouTube channel offers comprehensive video tuto
 Swiftful Thinking's YouTube channel offers comprehensive video tutorials focused on Swift and SwiftUI. The content is designed to help developers of all skill levels improve their coding skills through detailed, step-by-step guides and practical examples.
 
 <details>
+
 **URL:** https://www.youtube.com/c/SwiftfulThinking
 
 **Authors:** `Nick Sarno`
@@ -23,6 +24,7 @@ Swiftful Thinking's YouTube channel offers comprehensive video tutorials focused
 **Additional Features:**
    - **Playlists:** Curated playlists for structured learning.
    - **Community Discord:** Engagement with viewers and updates.
+
 </details>
 
 <LinkCard title="Visit Swiftful Thinking on YouTube" href="https://www.youtube.com/c/SwiftfulThinking" />

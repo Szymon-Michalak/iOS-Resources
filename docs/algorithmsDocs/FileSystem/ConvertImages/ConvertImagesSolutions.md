@@ -1,4 +1,4 @@
-# Convert Images to PNG - Solutions
+# Convert Images - Solutions
 
 ## Approach 1: Iterative File Processing with UIKit
 ### Description

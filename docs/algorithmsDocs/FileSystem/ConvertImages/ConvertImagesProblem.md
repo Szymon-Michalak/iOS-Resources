@@ -1,4 +1,4 @@
-# Template
+# Convert Images
 
 ## Problem Description
 Write a function that accepts a directory path and converts all image files in that directory to PNG format. The function should handle JPEG and JPG files, converting them to PNG and saving them with the same name but a `.png` extension. If the directory is empty or contains no image files, the function should return an appropriate message.

@@ -35,15 +35,16 @@ Holy Swift is a platform offering a variety of tutorials, articles, and guides f
 ### Common Mistakes to Avoid When Using Enums in Swift
 
 <details>
-**URL:** [Common Mistakes to Avoid When Using Enums in Swift](https://holyswift.app/common-mistakes-to-avoid-when-using-enums-in-swift/)
 
-**Published:** [Date of Publication]  
-**Last Updated:** [Date of Last Update, if applicable]
+**URL:** https://holyswift.app/common-mistakes-to-avoid-when-using-enums-in-swift/
+
+**Published:** N/A
 
 **Authors:** `Leo Pugliese`
 
 **Tags:**  
 `Swift`, `iOS Development`, `Enum`, `Best Practices`
+
 </details>
 
 #### Key Points

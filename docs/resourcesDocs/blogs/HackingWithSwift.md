@@ -6,6 +6,7 @@ description: Hacking with Swift is a platform offering a vast array of tutorials
 Hacking with Swift is a platform offering a vast array of tutorials, articles, and resources for Swift and SwiftUI developers. Created by Paul Hudson, it caters to developers at all skill levels with a focus on practical, real-world projects.
 
 <details>
+
 **URL:** https://www.hackingwithswift.com
 
 **Authors:** `Paul Hudson`
@@ -27,6 +28,7 @@ Hacking with Swift is a platform offering a vast array of tutorials, articles, a
    - **Newsletter:** Available for regular updates and news.
    - **Books and Courses:** Extensive collection of books and online courses.
    - **Slack Community:** Active community for discussion and support.
+
 </details>
 
 <LinkCard title="Visit Hacking with Swift" href="https://www.hackingwithswift.com" />
@@ -37,7 +39,8 @@ Hacking with Swift is a platform offering a vast array of tutorials, articles, a
 Learn how to enhance List performance with a simple SwiftUI trick.
 
 <details>
-**URL:** [https://www.hackingwithswift.com/articles/210/how-to-fix-slow-list-updates-in-swiftui](https://www.hackingwithswift.com/articles/210/how-to-fix-slow-list-updates-in-swiftui)
+
+**URL:** https://www.hackingwithswift.com/articles/210/how-to-fix-slow-list-updates-in-swiftui 
 
 **Published:** November 3rd 2023  
 **Last Updated:** N/A
@@ -46,6 +49,7 @@ Learn how to enhance List performance with a simple SwiftUI trick.
 
 **Tags:**  
 `SwiftUI`, `iOS Development`, `Performance Optimization`
+
 </details>
 
 #### Key Points

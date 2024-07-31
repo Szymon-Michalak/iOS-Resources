@@ -8,15 +8,16 @@ sidebar_label: Data Structures & Algorithms
 A guide to understanding and implementing data structures and algorithms using Swift. This book is designed to help developers learn the fundamentals of data structures and algorithms, along with practical implementations in Swift.
 
 <details>
+
 **URL:** https://www.kodeco.com/books/data-structures-algorithms-in-swift/v4.0
 
-**Published:** 2021  
-**Last Updated:** 2021
+**Published:** Sep 15, 2021
 
 **Authors:** `Kelvin Lau`, `Vincent Ngo`
 
 **Tags:**  
 `Swift`, `Data Structures`, `Algorithms`, `iOS Development`, `Programming`
+
 </details>
 
 ### Key Points

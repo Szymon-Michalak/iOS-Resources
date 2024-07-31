@@ -35,10 +35,10 @@ Point-Free is a video series that explores advanced topics in Swift programming.
 ### UIKit Styling with Functions
 
 <details>
-**URL:** [https://www.pointfree.co/episodes/ep3-uikit-styling-with-functions](https://www.pointfree.co/episodes/ep3-uikit-styling-with-functions)
+
+**URL:** https://www.pointfree.co/episodes/ep3-uikit-styling-with-functions
 
 **Published:** Feb 12, 2018  
-**Last Updated:** N/A
 
 **Authors:** Point-Free
 

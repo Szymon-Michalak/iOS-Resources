@@ -1,3 +1,5 @@
+# Find N Smallest
+
 ### Problem
 
 Write an extension for all collections that returns the N smallest elements as an array, sorted smallest first, where N is an integer parameter.

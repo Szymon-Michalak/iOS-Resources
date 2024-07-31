@@ -8,15 +8,16 @@ sidebar_label:  Understanding Swift
 A guide to understanding the Swift programming language, designed to answer common questions and explain key features in a practical context. This book is aimed at helping both beginners and experienced developers deepen their understanding of Swift.
 
 <details>
+
 **URL:** https://www.hackingwithswift.com/quick-start/understanding-swift
 
 **Published:** June 5, 2020  
-**Last Updated:** June 5, 2020
 
 **Authors:** `Paul Hudson`
 
 **Tags:**  
 `Swift`, `Programming`, `iOS Development`, `Reference Guide`
+
 </details>
 
 ### Key Points

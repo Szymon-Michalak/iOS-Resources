@@ -34,21 +34,24 @@ Swift by Sundell is a platform providing high-quality articles, podcasts, and ne
 ---
 
 ## Foundation
+
 ### Working with Files and Folders in Swift
 
 Provide a detailed exploration of utilizing file system APIs in Swift for various platforms, emphasizing practical considerations and implementation strategies.
 
 <details>
-**URL:** [Working with files and folders in Swift](https://www.swiftbysundell.com/articles/working-with-files-and-folders-in-swift/)
+
+**URL:** https://www.swiftbysundell.com/articles/working-with-files-and-folders-in-swift/
 
 **Published:** 30 Aug 2020  
-**Last Updated:** N/A
 
 **Authors:** John Sundell
 
 **Tags:**  
 `file system`, `data`, `state management`
+
 </details>
+
 #### Key Points
 - Discusses fundamental Swift types like URL and Data for file operations.
 - Highlights accessing bundled resources using Bundle.main.
@@ -69,7 +72,8 @@ Provide a detailed exploration of utilizing file system APIs in Swift for variou
 ### Launch Arguments in Swift
 
 <details>
-**URL:** [Launch arguments in Swift](https://www.swiftbysundell.com/articles/launch-arguments-in-swift/)
+
+**URL:** https://www.swiftbysundell.com/articles/launch-arguments-in-swift/
 
 **Published:** 20 May 2018
 
@@ -77,6 +81,7 @@ Provide a detailed exploration of utilizing file system APIs in Swift for variou
 
 **Tags:**  
 `scripting`, `debugging`, `ui testing`
+
 </details>
 
 #### Key Points
@@ -97,20 +102,22 @@ Provide a detailed exploration of utilizing file system APIs in Swift for variou
 <LinkCard title="Read Full Article" href="https://www.swiftbysundell.com/articles/launch-arguments-in-swift/" />
 
 ## Debuging
+
 ### Feature Flags in Swift
 
 Provide a mechanism to gradually roll out new implementations and functionalities in Swift applications using feature flags.
 
 <details>
-**URL:** [Feature flags in Swift](https://www.swiftbysundell.com/articles/feature-flags-in-swift/)
+
+**URL:** https://www.swiftbysundell.com/articles/feature-flags-in-swift/
 
 **Published:** 25 Mar 2018  
-**Last Updated:** -
 
 **Authors:** John Sundell
 
 **Tags:**  
 `architecture`, `feature flags`, `maintenance`
+
 </details>
 
 #### Key Points
@@ -131,10 +138,12 @@ Provide a mechanism to gradually roll out new implementations and functionalitie
 <LinkCard title="Read Full Article" href="https://www.swiftbysundell.com/articles/feature-flags-in-swift/" />
 
 ## API Design
+
 ### Using @autoclosure when designing Swift APIs
 
 <details>
-**URL:** [Using @autoclosure when designing Swift APIs](https://www.swiftbysundell.com/articles/using-autoclosure-when-designing-swift-apis/)
+
+**URL:** https://www.swiftbysundell.com/articles/using-autoclosure-when-designing-swift-apis/
 
 **Published:** 28 May 2017
 
@@ -142,6 +151,7 @@ Provide a mechanism to gradually roll out new implementations and functionalitie
 
 **Tags:**  
 `language features`, `api design`
+
 </details>
 
 #### Key Points

@@ -8,15 +8,16 @@ sidebar_label:  Hacking with iOS (UIKit)
 A hands-on guide to learning iOS app development using the UIKit framework. This book covers a series of real-world projects that teach Swift programming and iOS development through practical, step-by-step tutorials.
 
 <details>
+
 **URL:** https://www.hackingwithswift.com/store/hacking-with-ios
 
 **Published:** October 26, 2019  
-**Last Updated:** October 26, 2019
 
 **Authors:** `Paul Hudson`
 
 **Tags:**  
 `Swift`, `iOS Development`, `UIKit`, `Programming`, `Tutorials`
+
 </details>
 
 ### Key Points

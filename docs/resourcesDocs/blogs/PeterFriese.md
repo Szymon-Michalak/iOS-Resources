@@ -33,16 +33,21 @@ Peter Friese's Blog is a platform focused on Swift, SwiftUI, and Firebase develo
 ---
 
 ## UI
+
 ### SwiftUI Hero Animations with NavigationTransition
+
 <details>
-**URL:** [SwiftUI Hero Animations with NavigationTransition](https://peterfriese.dev/blog/2024/hero-animation/?ref=createwithswift.com)
+
+**URL:** https://peterfriese.dev/blog/2024/hero-animation/?ref=createwithswift.com
 
 **Published:** Jun 21, 2024  
-**Last Updated:** Jun 21, 2024
+
 **Authors:** `Peter Friese`  
 **Tags:**  
 `SwiftUI`, `iOS Development`, `Animation`, `NavigationTransition`
+
 </details>
+
 #### Summary
 
 This article explores the implementation of hero animations using SwiftUI's NavigationTransition protocol, aiming to replicate the visually appealing transitions seen in applications like the App Store's Today view. It details the steps to enhance UI interactions and improve user experience with minimal code.

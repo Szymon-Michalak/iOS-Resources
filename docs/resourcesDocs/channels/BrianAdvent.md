@@ -6,7 +6,8 @@ description: Follow along with Brian Advent to learn iOS and macOS development t
 Brian Advent's YouTube channel provides high-quality video tutorials focused on iOS development, Swift, and SwiftUI. It features step-by-step guides, practical examples, and in-depth explanations designed to help developers of all levels improve their skills and stay updated with the latest trends in iOS development.
 
 <details>
-**URL:** [Brian Advent - YouTube](https://www.youtube.com/@BrianAdvent)
+
+**URL:** https://www.youtube.com/@BrianAdvent
 
 **Authors:** `Brian Advent`
 
@@ -25,6 +26,7 @@ Brian Advent's YouTube channel provides high-quality video tutorials focused on 
 **Additional Features:**
    - **Playlists:** Curated playlists for structured learning.
    - **Community Tab:** Engagement with viewers and updates.
+
 </details>
 
 <LinkCard title="Visit Brian Advent on YouTube" href="https://www.youtube.com/@BrianAdvent" />

@@ -36,10 +36,10 @@ objc.io is a platform that publishes books, videos, and articles focused on adva
 ### The Art of Code Review: A Dropbox Story
 
 <details>
-**URL:** [The Art of Code Review: A Dropbox Story](https://www.objc.io/issues/22-scale/dropbox/)
+
+**URL:** https://www.objc.io/issues/22-scale/dropbox/
 
 **Published:** March 2015  
-**Last Updated:** N/A
 
 **Author:** [Ashley Nelson-Hornstein](https://twitter.com/ashleynh)
 

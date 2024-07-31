@@ -6,6 +6,7 @@ description: Daniel Steinberg's YouTube channel offers a variety of iOS developm
 Daniel Steinberg's YouTube channel provides educational content focused on Swift and iOS development. His videos include tutorials, lectures, and insights aimed at helping developers improve their programming skills and stay updated with the latest industry trends.
 
 <details>
+
 **URL:** https://www.youtube.com/@dimsumthinking
 
 **Authors:** `Daniel Steinberg`
@@ -25,6 +26,7 @@ Daniel Steinberg's YouTube channel provides educational content focused on Swift
 **Additional Features:**
    - **Playlists:** Curated playlists for structured learning.
    - **Community Tab:** Engagement with viewers and updates.
+
 </details>
 
 <LinkCard title="Visit Daniel Steinberg on YouTube" href="https://www.youtube.com/@dimsumthinking" />

@@ -17,7 +17,7 @@ RapidAPI Hub is a platform that enables developers to find, connect, and manage 
 
 **Integration:**
 - **Platforms Supported:** Web, Mobile, Desktop
-- **API Documentation:** [RapidAPI Documentation](https://docs.rapidapi.com/)
+- **API Documentation:** https://docs.rapidapi.com/
 
 **Community and Support:**
 - **Support Channels:** Forums, Help Center, Email Support
@@ -53,7 +53,7 @@ Reqres is a free API service providing simulated RESTful endpoints for testing a
 
 **Integration:**
 - **Platforms Supported:** Web
-- **API Documentation:** [Reqres API Documentation](https://reqres.in/)
+- **API Documentation:** https://reqres.in/
 
 **Community and Support:**
 - **Support Channels:** Website resources
