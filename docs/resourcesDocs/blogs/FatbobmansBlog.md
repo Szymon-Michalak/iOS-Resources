@@ -104,3 +104,33 @@ The article explores various techniques in SwiftUI for achieving complex layout 
 - **Conclusion:** Summarizes key insights and recommendations for choosing the right layout approach in SwiftUI.
 
 <LinkCard title="Read Full Article" href="https://fatbobman.com/en/posts/layout-in-swiftui-way/" />
+
+### How to Tile Images in SwiftUI
+This article delves into two methods for image tiling in SwiftUI and introduces an alternative approach using a less common Image construction method. The discussion highlights the limitations of the commonly used `resizable` modifier and explores more flexible options introduced in recent SwiftUI updates.
+
+<details>
+**URL:** https://fatbobman.com/en/posts/how-to-tile-images-in-swiftui/
+
+**Published:** July 31, 2024
+
+**Authors:** [Fatbobman](https://twitter.com/fatbobman)
+
+**Tags:**  
+`SwiftUI`, `Image Tiling`, `iOS Development`, `UI Design`
+</details>
+
+#### Key Points
+- The `resizable` modifier is a widely known method for tiling images in SwiftUI but comes with limitations such as lack of control over image size and selection.
+- iOS 15 introduced the `foregroundStyle` modifier with `ImagePaint`, which provides a more intuitive and controllable method for image tiling.
+- Custom `Image` construction methods offer advanced tiling capabilities but may have compatibility issues with some SwiftUI features and system versions.
+- SF Symbols can be used for tiling with the custom `Image` approach to maintain full control over styling and rendering.
+
+#### Summary of Contents
+- **Introduction:** The article begins by addressing the common approach to image tiling in SwiftUI and the need for more flexible solutions.
+- **resizable Modifier:** Details how to use the `resizable` modifier for tiling images and its limitations.
+- **foregroundStyle and ImagePaint:** Explains the benefits of using `foregroundStyle` with `ImagePaint` for better control and flexibility.
+- **Custom Image Construction:** Covers advanced techniques for creating custom `Image` instances to handle tiling, including examples and potential issues.
+- **SF Symbols:** Discusses how to tile SF Symbols and the advantages of using custom `Image` methods to maintain symbol features and compatibility.
+- **Conclusion:** Emphasizes the importance of exploring new SwiftUI tools and methods to enhance UI design and functionality.
+
+<LinkCard title="Read Full Article" href="https://fatbobman.com/en/posts/how-to-tile-images-in-swiftui/" />

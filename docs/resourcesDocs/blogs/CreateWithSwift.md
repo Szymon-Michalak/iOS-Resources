@@ -108,3 +108,33 @@ This article explores the VoiceOver rotor, a crucial accessibility feature in iO
 - **Conclusion:** Recap on the benefits of using VoiceOver rotor for app accessibility.
 
 <LinkCard title="Read Full Article" href="https://www.createwithswift.com/understanding-accessibility-rotors-and-how-to-use-them/" />
+
+### Translating Text in Your SwiftUI App with the Translation Framework
+
+This article explains how to use the Translation framework to integrate text translation features into a SwiftUI app. Introduced at WWDC24, this framework allows developers to use machine learning models for on-device translation, enhancing user experience without requiring an internet connection.
+
+<details>
+**URL:** https://www.createwithswift.com/translating-text-in-your-swiftui-app-with-the-translation-framework/
+
+**Published:** August 1, 2024
+
+**Authors:** Matteo Altobello
+
+**Tags:**  
+`SwiftUI`, `Translation`, `WWDC24`, `iOS`, `Machine Learning`
+</details>
+
+#### Key Points
+- The Translation API, introduced at WWDC24, allows on-device text translation without needing an internet connection.
+- The `translationPresentation(isPresented:text:attachmentAnchor:arrowEdge:replacementAction:)` modifier enables adding a translation overlay to SwiftUI views.
+- The overlay can either show the translated text or replace the original text with the translation.
+- Testing the translation feature requires running the app on a physical device, as the Simulator and Preview do not support translation tasks.
+- On iPadOS and macOS, the translation overlay appears as a popover, which can be customized using the `arrowEdge` parameter.
+
+#### Summary of Contents
+- **Introduction:** Overview of the Translation API's capabilities and significance.
+- **Translation Presentation:** Detailed instructions on using the `translationPresentation` modifier in SwiftUI.
+- **Replace Text in the View:** How to replace the original text with the translated text using the `replacementAction` parameter.
+- **Platform-Specific Considerations:** Differences in presentation for iPadOS and macOS, including popover customization.
+
+<LinkCard title="Read Full Article" href="https://www.createwithswift.com/translating-text-in-your-swiftui-app-with-the-translation-framework/" />
