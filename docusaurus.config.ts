@@ -52,8 +52,8 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          blogSidebarTitle: 'Recent questions',
+          blogSidebarCount: 'ALL',
           editUrl:
             'https://github.com/Szymon-Michalak/iOS-Resources',
           remarkPlugins: [remarkMath],
@@ -126,7 +126,7 @@ const config: Config = {
             position: 'left',
             label: 'Design',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Interview Questions', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
