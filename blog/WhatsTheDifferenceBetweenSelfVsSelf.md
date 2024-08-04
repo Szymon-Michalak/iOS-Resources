@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 In the context of protocols and extensions, `Self` refers to the type that conforms to the protocol whereas `self` refers to the value inside that type.
 
 Consider this extension:

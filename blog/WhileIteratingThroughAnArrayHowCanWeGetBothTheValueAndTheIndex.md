@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 We can accomplish this easily with the help of the `enumerated()`function.
 ```swift
 let title = ["Ace", "The", "iOS", "Interview"]

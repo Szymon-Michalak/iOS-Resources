@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [general]
 ---
 
-
 Our application's `AppDelegate` allows us to easily handle our application’s lifecycle changes.
 
 `UIApplication` will trigger one of the following delegate methods whenever our application changes its lifecycle status.

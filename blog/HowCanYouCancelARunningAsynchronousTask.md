@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [concurrency]
 ---
 
-
 Let’s look at canceling a task on a `DispatchQueue` first. In order to do this, we’ll just need to maintain a reference to the `DispatchWorkItem`:
 
 ```swift

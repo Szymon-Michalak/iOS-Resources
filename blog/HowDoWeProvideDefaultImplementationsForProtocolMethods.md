@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 By leveraging Swift extensions, we can provide a default implementation for methods and properties declared in aprotocol.
 
 This helps reduce boilerplate and duplicated code in classes that implement theprotocol while still allowing them to easily override the default implementation.

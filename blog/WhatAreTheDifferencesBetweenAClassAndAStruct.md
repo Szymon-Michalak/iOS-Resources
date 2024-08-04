@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [general]
 ---
 
-
 | Features               | Classes     | Structs |
 |------------------------|-------------|---------|
 | Type                   | Reference   | Value   |

@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 Yes, Swift is a statically-type language - a language where variable types are known at compile time.
 
 In order for a Swift program to compile successfully, the compiler must have all of the necessary information about the types of every class, function, and property. To make things easier for the programmer and to help reduce the verbosity of our code, Swift supports type inference. This enables a compiler to deduce the type of a particular expression automatically when it compiles your code, simply by examining the values you provide.

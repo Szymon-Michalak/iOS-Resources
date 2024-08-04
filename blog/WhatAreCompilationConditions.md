@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 Compilation conditions or compiler directives are keywords we can use to influence the
 compilation process itself. We can use system compiler directives like `DEBUG` or easily define our own custom flags in our project’s build settings.
 

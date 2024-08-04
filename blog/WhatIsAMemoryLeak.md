@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [memory]
 ---
 
-
 Memory leaks occur when a program incorrectly manages memory allocations such that memory that is no longer needed is not released. Additionally, it is also possible for a memory leak to occur when an object is in memory, but cannot be accessed by the running application.
 
 In iOS, most memory leaks are a result of retain cycles.

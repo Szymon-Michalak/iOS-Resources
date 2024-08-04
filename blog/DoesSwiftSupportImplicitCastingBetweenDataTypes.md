@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 Swift **does not** support implicit casting.
 
 Take the following expression involving `Doubles`, `Floats`, and `Integers`:

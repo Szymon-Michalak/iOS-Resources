@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 In mathematics and computer science, a higher-order function is a function that takes one or more functions as arguments or returns a function.
 
 Functional programming is a programming paradigm in which we try to leverage these higher-order functions.

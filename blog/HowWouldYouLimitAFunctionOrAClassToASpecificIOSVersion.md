@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 We can accomplish this by using availability attributes. This language feature allows us to add support for newer APIs, methods, or classes while still maintaining backwards compatibility.
 
 ```swift

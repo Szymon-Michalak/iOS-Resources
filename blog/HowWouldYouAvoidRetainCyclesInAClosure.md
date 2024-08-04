@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [memory]
 ---
 
-
 **This will build off our understanding of ARC from the previous questions.**
 
 Often times, closures will introduce retain cycles. Since a closure is a reference type it maintains a `strong` reference to all of the objects referenced in the body of the closure thereby increasing their retain count.

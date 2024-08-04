@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [uikit]
 ---
 
-
 At its core, AutoLayout is a constraint solver. It will take some number of views and their constraints and try to formulate an arrangement that satisfies all of them.
 
 Sometimes in this process, AutoLayout will make a view smaller than you’d like or may make it larger than you intend it to be.

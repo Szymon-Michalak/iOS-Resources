@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [testing]
 ---
 
-
 TheXCTestframework includes a `measure()` function for profiling code execution times. We can call this method within our testing target to measure the performance of a block of code:
 
 ```swift

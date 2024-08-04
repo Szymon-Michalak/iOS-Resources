@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [general]
 ---
 
-
 There’s no right or wrong answer here as the question is inherently subjective, but it’s a great opportunity for you to demonstrate that you understand the challenges and limitations with each approach (`.xib` vs `.storyboard` vs programmatically).
 
 **Storyboards**

@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [general]
 ---
 
-
 In the event that the keys in a JSON response do not match the variable names in your `Codable` model exactly, you can use the `CodingKey` protocol to bridge specific properties that differ only in naming.
 
 Simply put, the `CodingKey` protocol provides you with more granular control of the `Codable` protocol’s serialization and deserialization behavior.We can utilize thisprotocolwith the help of a nested enum defined within our Codable model.

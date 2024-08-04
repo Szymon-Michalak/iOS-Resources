@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [general]
 ---
 
-
 If you’re applying for an older company like YouTube, Facebook, or even Google, you’ll likely have to work with both Objective-C and Swift within the same project.
 
 As part of that workflow, it’s useful to know how to expose variables, classes, and methods declared in Swift to the Objective-C runtime and vice-versa.

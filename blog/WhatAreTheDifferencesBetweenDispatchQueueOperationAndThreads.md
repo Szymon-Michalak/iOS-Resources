@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [concurrency]
 ---
 
-
 The differences between DispatchQueues, Operations, and Threads can be difficult to distinguish, so let's take a moment to review their similarities and differences.
 
 **Threads**

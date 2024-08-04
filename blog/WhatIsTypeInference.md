@@ -1,10 +1,9 @@
 ---
-slug: What is type inference?
-title: WhatIsTypeInference
+slug: WhatIsTypeInference
+title: What is type inference?
 authors: [szymon]
 tags: [swift]
 ---
-
 
 Type inference is the mechanism that enables Swift to infer the type of a variable without us having to specify it explicitly. This generally lends itself to writing cleaner and more concise
 code without compromising readability or type safety.

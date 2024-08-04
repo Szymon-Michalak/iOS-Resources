@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [uikit]
 ---
 
-
 Just like `setNeedsLayout()` tells the system the layout needs to be updated, `setNeedsDisplay()` informs the system that the view’scontent needs to be redrawn. This function queues the redrawing task and returns immediately. The view is only redrawn at the next drawing cycle at which point any and all views are updated.
 
 Typically, you will only need to call `setNeedsDisplay()` if you are also overriding `drawRect()` in your implementation. As would be the case if you were working on a `customUIControlor` if your view contained some custom shapes or effects.

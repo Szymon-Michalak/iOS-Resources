@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [general]
 ---
 
-
 `URLSession` is the main object responsible for managing `HTTP` & `HTTPS` requests in iOS.
 
 In order to create a `URLSession`, we need to initialize it with a `URLSessionConfiguration` type:

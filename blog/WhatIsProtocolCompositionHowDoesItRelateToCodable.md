@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 The `Codable` protocol is a prime example of Swift’sprotocol composition feature which allows you to easily combine existing protocols together using the `&` operator.
 
 For example, the `Codable` protocol is actually thecombination of the `Encodable` and `Decodable` protocols.

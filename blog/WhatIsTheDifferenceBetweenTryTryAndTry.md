@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 All of these options are different ways of calling a function that can throw an error.
 
 `try!` is the most dangerous option of the bunch andshould seldomly be used as it involves force unwrapping an `Optional` value.

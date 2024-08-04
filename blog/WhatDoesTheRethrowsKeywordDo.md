@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 You’re likely already familiar with the `throws` keyword which is one of the simplest mechanisms for propagating an error in our code.
 
 Swift also includes the `rethrows` keyword which indicates that a function accepts a throwing function as a parameter. More specifically, functions declared with the `rethrows` keyword **must have at least one** throwing function parameter.

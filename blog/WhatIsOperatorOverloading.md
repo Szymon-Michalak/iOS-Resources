@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [general]
 ---
 
-
 Operator overloading allows you to change how existing operators interact with custom types in your codebase. Leveraging this language feature correctly can greatly improve the readability of your code.
 
 For example, let’s say we had a struct to representmoney:

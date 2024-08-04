@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [uikit]
 ---
 
-
 All UI updates should be performed on the Main Thread.
 
 When your application launches, the `UIApplication` is set up on the Main Thread. From here, all of the views in your app ultimately descend from this `UIApplication` instance.

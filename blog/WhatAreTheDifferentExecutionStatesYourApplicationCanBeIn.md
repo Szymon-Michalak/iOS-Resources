@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [general]
 ---
 
-
 There are 5 distinct states an iOS app can find itself in:
 
 **Not running**

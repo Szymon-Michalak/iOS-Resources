@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [general]
 ---
 
-
 Here are the different stages of a `UIViewController`’s lifecycle:
 
 `loadView()`

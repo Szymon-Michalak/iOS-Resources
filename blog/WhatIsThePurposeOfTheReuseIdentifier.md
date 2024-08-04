@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [uikit]
 ---
 
-
 One of the performance optimizations `UITableViewsandUICollectionViews` make is to only initialize enough cells to fill the user’s screen. Then, whenever the user scrolls, instead of instantiating a new cell, it can just replace the contents of an existing previously allocated cell *the cell that is about to be scrolled off the screen*. This approach is not only very performant, but also utilizes less memory.
 
 Imagine a `UITableView` with multiple custom `UITableViewCells`.In order to perform the optimization mentioned above, the `UITableView` needsto be able to quickly find a cell that differs only in content, but shares the same layout.

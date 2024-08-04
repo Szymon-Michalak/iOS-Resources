@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [uikit]
 ---
 
-
 All `UIViews` have an `.intrinsicContentSize` property that specifies the amount of space the `UIView` needs to show its content in an ideal manner.
 
 If you've ever used `UITableView.automaticDimension`,this is deferring to the `UITableViewCell`'s intrinsic content size to figure out the appropriate height for the cell.

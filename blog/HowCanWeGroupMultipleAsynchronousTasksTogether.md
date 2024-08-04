@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [concurrency]
 ---
 
-
 Swift’s `DispatchGroup` allows us to group together and monitor the completion status of multiple asynchronous tasks.
 
 With `DispatchGroup`, we attach multiple work itemsto a group and schedule them for asynchronous execution on the same queue or on different queues. Then, when all of the work items are finished executing, the `DispatchGroup` executes its notify completion handler.

@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [testing]
 ---
 
-
 Whenever we run tests, we'll often want each test to run independently. More specifically, we want to ensure that each test is executed under identical conditions and the end state of one test doesn't inadvertently influence the start state of another test.
 
 TheXCTestframework provides two functions we canuse to ensure these conditions are met - `setUp()` and `tearDown()`. These functions allow us toprepare and clean up all allocations and dependencies before the next test is run.

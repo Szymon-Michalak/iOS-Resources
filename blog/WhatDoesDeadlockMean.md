@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [concurrency]
 ---
 
-
 Deadlocks occur when threads sharing the same resource are waiting on one another to release access to the resource in order for them to complete their respective tasks.
 
 > Interviewer: “Explain deadlock and I’ll give you the job.”

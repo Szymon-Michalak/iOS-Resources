@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [uikit]
 ---
 
-
 With AutoLayout, you can simply change a view’s constraints and let the system figure out how to resize that view and all of its neighbors.
 
 In interviews, I often see candidates mix AutoLayout constraint changes with manual changes to a view’s frame. This combination of two different layout paradigms really complicates the logic and is often error-prone. I’d recommend you stick with AutoLayout whenever possible.

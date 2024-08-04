@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [uikit]
 ---
 
-
 The default implementation of this function uses any constraints you have set to determine the size and position of all of the view’s subviews. Overriding this method allows you to perform a more precise layout of a view’s subviews by setting the frame rectangles of your subviews directly.
 
 Typically, you would only override this function if AutoLayout wasn’t offering the behavior you wanted.

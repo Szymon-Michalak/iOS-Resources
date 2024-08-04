@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [general]
 ---
 
-
 Every iOS interview I've done has dealt with `UITableViews` in some capacity. Most often, it will involve hitting some API and showing the response in a `UITableView` like we did in Assessment #1.
 
 As you prepare for your interviews, you should aim to be able to create a `UITableView` with custom `UITableViewCell` swithout referring to any documentation.Ideally, this set up process should become second nature to you.

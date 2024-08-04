@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [testing]
 ---
 
-
 Arrange, Act, and Assert describe the ideal structure for a unit test.
 
 Firstly, you have to **arrange** all the necessary inputsand preconditions. Secondly, you perform some **action** or operation on the object to be tested.And finally, you **assert** that the expected outcome has occurred.

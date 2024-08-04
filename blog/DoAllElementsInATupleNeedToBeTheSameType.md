@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 Tuples are a very convenient way to group elements together without having to create a custom object or struct to encapsulate them.
 
 To create a tuple in Swift, simply specify a comma separated list of values within a set of parentheses like this:

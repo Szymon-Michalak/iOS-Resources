@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [general]
 ---
 
-
 Delegates and notifications are different mechanisms for informing objects about events or actions taking place in other parts of your app. Though they differ fundamentally in how they communicate, both of these options can help reduce coupling between entities in your code.
 
 Let's look at delegates first.

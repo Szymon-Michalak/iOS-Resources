@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 When we declare a function in Swift, we can specify defaults for our parameters by specifying values within the method declaration:
 
 ```swift

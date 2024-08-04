@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [general]
 ---
 
-
 Code signing is a process that helps you verify the authenticity of the app or software you’re installing and ensures that it hasn’t been tampered with since the developer released it. The code signing process consists of a series of smaller steps: requesting a certificate, receiving a
 certificate, generating a provisioning profile, and finally signing the application.
 

@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [testing]
 ---
 
-
 User interface tests allow us to test our application’s behavior from the user’s perspective. It helps us to ensure that our application’s UI interactions, animations, and various user flows continue to work correctly as our application evolves.
 
 While unit testing focuses on the inputs and outputs of the functions within our codebase, UI Testing aims to verify user-facing behavior.

@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 A deinitializer is a function that is called right before aclassis deallocated. Deinitializers are only available onclasstypes and eachclasscan onlyhave one deinitializer. This function does not accept any parameters.
 
 You create a deinitializer using the deinit keyword:

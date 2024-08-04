@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [concurrency]
 ---
 
-
 The quality-of-service (QoS) options available on `DispatchQueue` allow us to categorize the importance of the work we’re scheduling.
 The system will then intelligently prioritize tasks with higher quality-of-service designations.
 

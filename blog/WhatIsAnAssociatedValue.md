@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 An associated value is the term used to describe the value accompanying acasein a Swift enum. Associated values allow us to present more nuanceddata by adding contextual information to ourcases.
 
 ```swift

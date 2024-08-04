@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [uikit]
 ---
 
-
 When you’re working with designers daily, it’s important to understand the difference between a point and a pixel.
 
 As you probably know, a pixel is the smallest addressable element of your display or device.

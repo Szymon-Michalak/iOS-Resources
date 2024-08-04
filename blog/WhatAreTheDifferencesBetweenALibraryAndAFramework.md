@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [general]
 ---
 
-
 TL;DR: The difference between a library and a framework is that you’ll typically call a library, but a framework will call you.
 
 **Library**

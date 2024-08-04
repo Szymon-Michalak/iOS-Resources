@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [concurrency]
 ---
 
-
 Continuing on from the previous question, let’s see how we can prevent race conditions.
 
 The solution comes down to ensuring synchronized write access to the shared resource. This would allow us to maintain the performance benefit of having multiple threads read from a shared resource simultaneously, but if any thread(s) wants to update the resource, we’ll need

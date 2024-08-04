@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 Unfortunately, there’s no one size fits all answer here, but the following explanation might provide a starting point.
 
 The main focus of your answer should be on discussing an approach for isolating the bug, understanding how to replicate it consistently, how you would go about resolving the issue, creating a new release, and finally what preventative measures you would introduce as a result.

@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [uikit]
 ---
 
-
 Both pushing and presenting presentation styles have their own default behavior and conventions, so it’s important to understand the differences between the two.
 
 A push transition will add another `UIViewController` to aUINavigationController’s view hierarchy. The `UIViewController` that originates thepush should belong to the same UINavigationControlleras the `UIViewController` thatis being added to the stack.

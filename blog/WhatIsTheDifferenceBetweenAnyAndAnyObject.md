@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 When we need to work with non-specific types, we have two options to pick from: `Any` and `AnyObject`.
 
 `Any` is used to refer to any instance of a `class`, `struct`, `function`, `enum`, etc. This is particularly useful when you’re working with a variety of data:

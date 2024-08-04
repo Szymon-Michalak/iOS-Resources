@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 The `defer` keyword allows us to specify code that shouldbe executed only when we are leaving the current function’s scope.
 
 It's commonly used for releasing a shared resource, closing a connection, or performing any last-minute cleanup.

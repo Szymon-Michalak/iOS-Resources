@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 Imagine we have the following `protocol`:
 
 ```swift

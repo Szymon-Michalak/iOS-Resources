@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 If you’re applying to an older company, they’ll likely have a substantial part of their codebase still in Objective-C. So, you’ll need to be comfortable with using both Objective-C and Swift in the same project.
 
 This attribute is used to make your Swift code accessible to the Objective-C runtime.

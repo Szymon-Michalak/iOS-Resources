@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 Understanding how an `Optional` is implemented relies on a solid understanding of `value types` and `enums`.
 
 Here’s a simplified version of Swift’s `Optional` implementation:

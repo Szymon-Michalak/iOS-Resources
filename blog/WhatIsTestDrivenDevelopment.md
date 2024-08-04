@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [testing]
 ---
 
-
 Test-Driven Development (TDD) is a software development process relying on software requirements first being converted to test cases prior to writing any production code. Then, the correctness of all subsequent development is measured against those tests.
 
 A typical TDD workflow would look like this:

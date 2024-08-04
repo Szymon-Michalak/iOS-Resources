@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [uikit]
 ---
 
-
 Simply put, `viewDidLayoutSubviews()` allows you to make customizations to views after they’ve been positioned by `AutoLayout`, but before they are visible to the user.
 
 Whenever the bounds change for a `UIViewController’s` view (i.e. device rotation), it’s likely that the position and size of all the subviews will need to be updated as well. So, the system will `calllayoutSubviews()` to perform this change.

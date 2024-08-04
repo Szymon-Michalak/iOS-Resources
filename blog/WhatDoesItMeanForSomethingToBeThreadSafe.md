@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [concurrency]
 ---
 
-
 Code is considered thread-safe when it functions correctly during simultaneous execution by one or more threads. More specifically, thread safety ensures that some shared resource can only be modified by **one** thread at any given time.
 
 Consider a scenario where your application has multiple threads all trying to access the same shared resource. Some threads may simply be attempting to read from the resource while other threads are trying to modify it.

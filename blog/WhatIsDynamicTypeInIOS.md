@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [uikit]
 ---
 
-
 Introduced in iOS 10, Dynamic Type allows developers to automatically scale their application's font size up or down to accommodate users with accessibility issues or users that need increased visibility. It can also accommodate those who can read smaller text allowing more information to appear on the screen.
 
 Developers can choose to support Dynamic Text on a view-by-view basis. If you choose to add support for Dynamic Text, you can usetraitCollection.preferredContentSizeCategory to retrieve the user's preferred content size and modify your UI styling accordingly.

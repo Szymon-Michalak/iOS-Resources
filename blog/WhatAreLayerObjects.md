@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [uikit]
 ---
 
-
 Every `UIView` has a `CALayer` property which is responsible for the actual rendering of visual content and animations.
 
 That’s why we’ll often write code like this:

@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [uikit]
 ---
 
-
 Building off the previous answer, let’s take a closer look at the differences between `layoutIfNeeded()` and `setNeedsLayout()`.
 
 **setNeedsLayout()**

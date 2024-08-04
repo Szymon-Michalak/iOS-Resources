@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 The `typealias` keyword allows us to define our own keyword to represent an existing data type in our application. This does not create a new type - it simply provides a new name for an existing type.
 
 An excellent example is Swift's `Codable` protocol which is implemented as a `typealias`.

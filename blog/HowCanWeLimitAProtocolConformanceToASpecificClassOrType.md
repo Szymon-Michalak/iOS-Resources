@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 There may be situations where we want to limit conformance of aprotocolto a certain type.
 
 For example, conformance to `Numeric` is restricted to types that also conform to `AdditiveArithmetic` and `ExpressibleByIntegerLiteral`:

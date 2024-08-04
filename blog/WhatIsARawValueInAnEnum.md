@@ -5,7 +5,6 @@ authors: [szymon]
 tags: [swift]
 ---
 
-
 Enumerations provide a common type for a group of related values thereby enabling you to work with those values type-safely within your code.
 
 While we can use associated values to relate some required data to an `enum` case, we can use an `enum` ’s `rawValue` property in instances where a hard-coded default value will suffice.
