@@ -1,7 +1,7 @@
 ---
 slug: WhatAreTheDifferencesBetweenAClassAndAStruct
 title: What are the differences between a class and a struct?
-authors: [ace-the-ios-interview, ace-the-ios-interview-alt]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
 
