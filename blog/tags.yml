@@ -6,7 +6,23 @@ ios:
   label: iOS
   permalink: /ios
   description: iOS tag description
-info:
-  label: Info
-  permalink: /info
-  description: Info tag description
+general:
+  label: General
+  permalink: /general
+  description: General tag description
+uikit:
+  label: UIKit
+  permalink: /uikit
+  description: UIKit tag description
+concurrency:
+  label: Concurrency
+  permalink: /concurrency
+  description: Concurrency tag description
+memory:
+  label: Memory Management
+  permalink: /memory-management
+  description: Memory Management tag description
+testing:
+  label: Testing
+  permalink: /testing
+  description: Testing tag description
