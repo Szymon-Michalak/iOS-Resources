@@ -1,5 +1,5 @@
 ---
-title: Reference
+title: 📖 Reference
 description: Reference
 ---
 ### 📄 Swiftly
@@ -163,3 +163,31 @@ Provide a concise summary of the article or video. What are the main topics cove
 - **Conclusion:** Summary of key takeaways and considerations for developers using Swift Strings.
 
 <LinkCard title="Read Full Article" href="https://useyourloaf.com/blog/swift-string-cheat-sheet/" />
+
+
+### Reintech Tech Glossary
+
+The [Reintech Tech Glossary](https://reintech.io/glossary) is an extensive resource designed to provide clear and concise definitions of key terms and concepts related to modern recruiting and remote team management.
+
+<details>
+**URL:** [Reintech Glossary](https://reintech.io/glossary)
+
+**Tags:**  
+`Recruiting`, `Remote Teams`, `Technology`, `Career Management`, `Soft Skills`
+
+**Authors:** `Reintech Team`
+</details>
+
+#### Key Points
+- Provides definitions across various domains like technologies, recruiting, engineering, and career management.
+- Includes soft skills essential for remote team management.
+- Useful for both technical and non-technical professionals.
+
+#### Summary of Contents
+- **Introduction:** Overview of the glossary and its purpose.
+- **Main Sections:** Terms categorized by domain.
+- **Technical Details:** Detailed definitions and explanations.
+- **Applications and Examples:** Practical applications in professional settings.
+- **Conclusion:** Emphasis on the glossary's value for continuous learning.
+
+<LinkCard title="Explore the Reintech Glossary" href="https://reintech.io/glossary" />

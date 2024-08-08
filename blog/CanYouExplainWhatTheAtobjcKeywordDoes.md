@@ -18,7 +18,7 @@ tags: [swift]
     - [Using Objective-C Runtime Features in Swift | Apple Developer](https://developer.apple.com/documentation/swift/using-objective-c-runtime-features-in-swift)
 </details>
 
-:::note[TL/DR]
+:::info[TL/DR]
 The `@objc` keyword makes Swift code accessible to Objective-C.
 :::
 If you’re applying to an older company, they’ll likely have a substantial part of their codebase still in Objective-C. So, you’ll need to be comfortable with using both Objective-C and Swift in the same project.

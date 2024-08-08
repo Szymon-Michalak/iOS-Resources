@@ -1,8 +1,8 @@
 ---
-title: "SwiftUI Animations Mastery"
+title: 📘 SwiftUI Animations Mastery
 description: A visual guide to mastering animations in SwiftUI. This book covers fundamental concepts, practical examples, and advanced techniques for creating animations in SwiftUI applications.
 
-sidebar_label: SwiftUI Animations Mastery
+sidebar_label: 📘 SwiftUI Animations Mastery
 ---
 
 A visual guide to mastering animations in SwiftUI. This book covers fundamental concepts, practical examples, and advanced techniques for creating animations in SwiftUI applications.

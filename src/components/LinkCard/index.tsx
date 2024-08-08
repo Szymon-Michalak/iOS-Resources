@@ -6,6 +6,7 @@ import styles from './LinkCard.module.css';
 
 const LinkCard = ({ title, description, ...attributes }) => {
   return (
+    <>
     <a {...attributes}>
     <div className={styles.slLinkCard}>
       <span className={clsx(styles.slFlex, styles.stack)}>
@@ -17,6 +18,8 @@ const LinkCard = ({ title, description, ...attributes }) => {
       <Icon name="right-arrow" size="1.333em" className={clsx(styles.icon, styles.rtlFlip)} />
     </div>
     </a>
+    <br />
+    </>
   );
 };
 

@@ -1,8 +1,8 @@
 ---
-title: Practical Tips for Junior iOS Developers
+title: 📗 Practical Tips for Junior iOS Developers
 description: A guide for junior iOS developers, packed with practical tips and best practices drawn from real-world experiences in iOS development.
 
-sidebar_label: Practical Tips for Junior iOS Developers
+sidebar_label: 📗 Practical Tips for Junior iOS Developers
 ---
 
 A guide for junior iOS developers, this book is packed with practical tips and best practices drawn from real-world experiences in iOS development.
@@ -123,4 +123,3 @@ A guide for junior iOS developers, this book is packed with practical tips and b
 - Emphasis on hands-on learning and building real-world projects.
 
 <LinkCard title="Link to Resource" href="https://aryamansharda.gumroad.com/l/fjTSv" />
-```

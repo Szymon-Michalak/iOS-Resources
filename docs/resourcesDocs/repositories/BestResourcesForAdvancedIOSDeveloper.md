@@ -1,5 +1,5 @@
 ---
-title: Best resources for Advanced iOS Developer
+title: 🏅 Best resources for Advanced iOS Developer
 description: Collection of articles and videos about iOS development and Swift, curated by Pavlo Shadov.
 ---
 

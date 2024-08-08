@@ -34,7 +34,7 @@ Sean Allen's YouTube channel provides a wealth of video tutorials focused on iOS
 
 ## Videos 
 
-# Course Overview: iOS Development with UIKit
+# iOS Dev Interview Prep - FULL COURSE
 
 <details>
 **URL:** https://www.youtube.com/watch?v=JzngncpZLuw

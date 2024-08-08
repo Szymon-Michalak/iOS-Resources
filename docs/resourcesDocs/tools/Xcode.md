@@ -1,5 +1,5 @@
 ---
-title: 🛠️ Xcode
+title: 💻 Xcode
 description: Xcode
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Swift Cookbook
+title: 📘 Swift Cookbook
 description: A practical guide with over 60 recipes for developing and improving iOS applications using Swift 5.3. This book covers a wide range of topics, from basic Swift programming to advanced iOS application development techniques.
 ---
 

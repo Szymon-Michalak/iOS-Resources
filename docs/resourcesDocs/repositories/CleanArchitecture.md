@@ -1,5 +1,5 @@
 ---
-title: SwiftUI Clean Architecture
+title: 🏗️ SwiftUI Clean Architecture
 description: SwiftUI sample app using Clean Architecture. Examples of working with CoreData persistence, networking, dependency injection, unit testing, and more.
 ---
 

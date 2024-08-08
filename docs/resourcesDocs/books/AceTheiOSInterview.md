@@ -1,8 +1,8 @@
 ---
-title: Ace the iOS Interview
+title: 📘 Ace the iOS Interview
 description: A guide by Aryaman Sharda, providing insights and practical assessments to help developers ace their iOS interviews. This book includes detailed explanations of iOS concepts, real-world problem-solving examples, and interview strategies.
 
-sidebar_label: Ace the iOS Interview
+sidebar_label: 📘 Ace the iOS Interview
 ---
 
 A guide by Aryaman Sharda, providing insights and practical assessments to help developers ace their iOS interviews. This book includes detailed explanations of iOS concepts, real-world problem-solving examples, and interview strategies.

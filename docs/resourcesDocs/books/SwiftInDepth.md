@@ -2,7 +2,7 @@
 title: Swift In Depth
 description: A detailed guide aimed at helping Swift developers master the language, combining best practices, advanced techniques, and real-world scenarios to enhance coding skills and application development.
 
-sidebar_label: Swift In Depth
+sidebar_label: 📕 Swift In Depth
 ---
 
 A detailed guide aimed at helping Swift developers master the language, combining best practices, advanced techniques, and real-world scenarios to enhance coding skills and application development.

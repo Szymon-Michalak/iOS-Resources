@@ -1,5 +1,5 @@
 ---
-title: Compiler
+title:  🛠️ Compiler
 description: Compiler
 ---
 

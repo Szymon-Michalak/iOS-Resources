@@ -1,8 +1,8 @@
 ---
-title: Combine Mastery in SwiftUI
+title: 📘 Combine Mastery in SwiftUI
 description: A visual reference guide for mastering Combine in SwiftUI. This book covers the fundamental concepts of Combine, practical examples, and advanced techniques to effectively use Combine with SwiftUI applications.
 
-sidebar_label: Combine Mastery
+sidebar_label: 📘 Combine Mastery
 ---
 
 A visual reference guide for mastering Combine in SwiftUI. This book covers the fundamental concepts of Combine, practical examples, and advanced techniques to effectively use Combine with SwiftUI applications.

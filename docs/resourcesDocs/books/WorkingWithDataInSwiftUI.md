@@ -1,8 +1,8 @@
 ---
-title: "Working with Data in SwiftUI"
+title: 📘 Working with Data in SwiftUI
 description: A visual reference guide for managing and handling data in SwiftUI. This book covers fundamental concepts, practical examples, and advanced techniques for working with various data sources in SwiftUI applications.
 
-sidebar_label:  Working with Data
+sidebar_label: 📘 Working with Data
 ---
 
 A visual reference guide for managing and handling data in SwiftUI. This book covers fundamental concepts, practical examples, and advanced techniques for working with various data sources in SwiftUI applications.

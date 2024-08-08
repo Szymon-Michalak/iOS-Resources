@@ -1,5 +1,5 @@
 ---
-title: Design Patterns-In-Swift
+title: 🧩 Design Patterns-In-Swift
 description: A collection of design patterns implemented in Swift 5.0.
 ---
 

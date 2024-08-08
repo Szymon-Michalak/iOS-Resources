@@ -1,8 +1,8 @@
 ---
-title: "Hacking with iOS: SwiftUI Edition"
+title: "📗 Hacking with iOS: SwiftUI Edition"
 description: A hands-on guide to learning Swift and iOS development using SwiftUI. This book covers a series of real-world projects that teach Swift programming and iOS development through practical, step-by-step tutorials.
 
-sidebar_label:  Hacking with iOS (SwiftUI)
+sidebar_label: 📗 Hacking with iOS (SwiftUI)
 ---
 
 A hands-on guide to learning Swift and iOS development using SwiftUI. This book covers a series of real-world projects that teach Swift programming and iOS development through practical, step-by-step tutorials.

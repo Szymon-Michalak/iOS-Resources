@@ -1,5 +1,5 @@
 ---
-title: Version Control
+title: 🗂️ Version Control
 description: Version Control
 ---
 

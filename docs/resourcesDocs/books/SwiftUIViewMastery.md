@@ -1,8 +1,8 @@
 ---
-title: SwiftUI Views Mastery
+title: 📘 SwiftUI Views Mastery
 description: A visual reference guide for SwiftUI developers, this book provides an extensive overview of various SwiftUI views, modifiers, and techniques. It includes practical examples, detailed descriptions, and visual aids to help developers master SwiftUI.
 
-sidebar_label:  SwiftUI Views Mastery
+sidebar_label: 📘 SwiftUI Views Mastery
 ---
 
 A visual reference guide for SwiftUI developers, this book provides an extensive overview of various SwiftUI views, modifiers, and techniques. It includes practical examples, detailed descriptions, and visual aids to help developers master SwiftUI.

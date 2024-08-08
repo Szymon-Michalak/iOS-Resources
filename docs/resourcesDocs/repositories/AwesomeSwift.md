@@ -1,5 +1,5 @@
 ---
-title: Awesome Swift
+title: 🚀 Awesome Swift
 description: A list of Swift libraries and resources. It includes tools, frameworks, and libraries across various categories like UI, networking, and data management. The list is continuously updated with contributions from the community.
 ---
 

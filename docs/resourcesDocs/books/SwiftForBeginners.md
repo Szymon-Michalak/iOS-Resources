@@ -1,8 +1,8 @@
 ---
-title: Swift for Beginners
+title: 📗 Swift for Beginners
 description: A beginner-friendly guide to learning Swift programming, this book covers the fundamentals of the Swift language, including its syntax, key features, and best practices for developing iOS applications.
 
-sidebar_label:  Swift for Beginners
+sidebar_label: 📗 Swift for Beginners
 ---
 
 A beginner-friendly guide to learning Swift programming, this book covers the fundamentals of the Swift language, including its syntax, key features, and best practices for developing iOS applications.

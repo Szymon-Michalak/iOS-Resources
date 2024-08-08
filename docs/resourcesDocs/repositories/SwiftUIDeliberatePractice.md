@@ -1,5 +1,5 @@
 ---
-title: SwiftUI Deliberate Practice
+title: 🏋️‍♂️ SwiftUI Deliberate Practice
 description: A repository of SwiftUI projects aimed at deliberate practice.
 ---
 
