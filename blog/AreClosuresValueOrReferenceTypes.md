@@ -11,7 +11,7 @@ tags: [general]
   **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
 
   **Additional Sources:**
-    - 
+    - [Mastering Closures in Swift: From Basics to Advanced Techniques](https://medium.com/swift-and-beyond/mastering-closures-in-swift-from-basics-to-advanced-techniques-a603d294258b)
   
   **Further Reading:**
     - [Closures Are Reference Types | Swift.org](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures/#Closures-Are-Reference-Types)

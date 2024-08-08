@@ -1,10 +1,25 @@
 ---
 slug: DoesSwiftSupportImplicitCastingBetweenDataTypes
 title: Does Swift support implicit casting between data types?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
 
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+    - [Type casting in Swift | Log Rocket](https://blog.logrocket.com/type-casting-in-swift/)
+  
+  **Further Reading:**
+    - [Type Casting | Swift.org](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/typecasting/)
+</details>
+
+:::note[TL/DR]
+Swift **does not** support implicit casting.
+:::
 Swift **does not** support implicit casting.
 
 Take the following expression involving `Doubles`, `Floats`, and `Integers`:
