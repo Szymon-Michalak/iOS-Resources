@@ -55,3 +55,25 @@ This checklist provides a comprehensive guide for reviewing iOS pull requests, e
 
 <LinkCard title="Visit Checklist" href="https://github.com/aryamansharda/iOS-Pull-Request-Checklist" />
 
+### iOS Asset Names
+
+[iOS Asset Names](https://github.com/dkhamsing/ios-asset-names) is a repository providing a comprehensive guide for naming iOS assets. Created by `dkhamsing`, it outlines best practices and conventions for managing icons and assets efficiently in iOS projects.
+
+<details>
+**URL:** https://github.com/dkhamsing/ios-asset-names
+
+**Authors:** `dkhamsing`
+
+**Support Channels:** GitHub Issues, Twitter
+
+</details>
+
+**Key Features:**
+- Logical grouping of assets
+- Guidelines for PNG, PDF, and icon fonts
+- Emphasis on uniqueness and consistency
+
+**Pros:** Detailed naming conventions, supports multiple asset types  
+**Cons:** Initial setup effort required
+
+<LinkCard title="Visit iOS Asset Names" href="https://github.com/dkhamsing/ios-asset-names" />

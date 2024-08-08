@@ -389,3 +389,35 @@ Learn how the CustomDebugStringConvertible protocol and @DebugDescription macro 
 - **Conclusion:** Encourages developers to integrate Swift concurrency tools into their coding practices for enhanced performance and scalability.
 
 <LinkCard title="Read Full Article" href="https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com" />
+
+### Understanding SwiftUI's PreferenceKeys
+This article explains how SwiftUI’s PreferenceKeys allow data to flow upwards from child views to parent views, complementing the traditional downward flow of data. PreferenceKeys are crucial for scenarios where you need to pass information up the view hierarchy without relying on bindings.
+
+<details>
+**URL:** [Understanding SwiftUI's PreferenceKeys](https://swiftlogic.io/posts/understanding-swiftui-preferencekeys/)
+
+**Published:** July 21, 2024  
+**Last Updated:** Not specified
+
+**Authors:** Osaretin Uyigue
+
+**Tags:**  
+`swift`, `ios development`, `swiftui`, `preference keys`, `data flow`, `data binding`
+</details>
+
+#### Key Points
+- PreferenceKeys enable data flow from child to parent views in SwiftUI, opposite to Environment variables.
+- Implementing the `PreferenceKey` protocol involves defining a `Value`, a `defaultValue`, and a `reduce` function to manage and combine values.
+- Custom PreferenceKeys can be created to pass specific data types, such as view dimensions, up the view hierarchy.
+- Practical examples include custom navigation titles using PreferenceKeys to dynamically set view titles based on child views.
+
+#### Summary of Contents
+- **Introduction:** Overview of PreferenceKeys and their role in SwiftUI’s data flow mechanism.
+- **How it Works:** Explanation of how PreferenceKeys allow data to move up the view hierarchy without bindings.
+- **How PreferenceKeys Work:** Detailed breakdown of the `PreferenceKey` protocol and its components.
+- **Creating a Custom PreferenceKey:** Example of creating a `HeightPreferenceKey` to track and pass view heights.
+- **Using PreferenceKeys in Views:** Illustration of using PreferenceKeys in `ChildView` and `ParentView` for dynamic data handling.
+- **Real-World Use Case: Custom Navigation Title:** Example of implementing a custom navigation view that uses a PreferenceKey for setting titles.
+- **Conclusion:** Recap of the benefits and practical applications of PreferenceKeys in SwiftUI.
+
+<LinkCard title="Read Full Article" href="https://swiftlogic.io/posts/understanding-swiftui-preferencekeys/" />
