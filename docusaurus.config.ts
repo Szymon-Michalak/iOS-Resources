@@ -46,7 +46,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Szymon-Michalak/iOS-Resources',
+            'https://github.com/Szymon-Michalak/iOS-Resources/blob/main/',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
@@ -55,7 +55,7 @@ const config: Config = {
           blogSidebarTitle: 'Recent questions',
           blogSidebarCount: 'ALL',
           editUrl:
-            'https://github.com/Szymon-Michalak/iOS-Resources',
+            'https://github.com/Szymon-Michalak/iOS-Resources/blob/main/',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
