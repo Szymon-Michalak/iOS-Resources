@@ -122,9 +122,9 @@ const config: Config = {
         },
         {
             type: 'docSidebar',
-            sidebarId: 'designSidebar',
+            sidebarId: 'deepdivesSidebar',
             position: 'left',
-            label: 'Design',
+            label: 'Deep Dives',
         },
         {to: '/blog', label: 'Interview Questions', position: 'left'},
         {
