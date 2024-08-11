@@ -1,0 +1,190 @@
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* item around content */
+  .timeline__item {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .timeline__item::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -13px;
+    background-color: rgb(46, 46, 46);
+    border: 4px solid #000000;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the item to the left */
+  .timeline__item--left {
+    left: 0;
+  }
+  
+  /* Place the item to the right */
+  .timeline__item--right {
+    left: 50%;
+  }
+  
+  /* Add arrows to the left item (pointing right) */
+  .timeline__item--left::before {
+    content: "";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid rgb(54, 54, 54);
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent rgb(54, 54, 54);
+  }
+  
+  /* Add arrows to the right item (pointing left) */
+  .timeline__item--right::before {
+    content: "";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid rgb(78, 78, 78);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgb(54, 54, 54) transparent transparent;
+  }
+  
+  /* Fix the circle for items on the right side */
+  .timeline__item--right::after {
+    left: -13px;
+  }
+  
+  /* The actual content */
+  .timeline__content {
+    padding: 20px 30px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 6px;
+  }
+  
+  
+  
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+    .timeline::after {
+      left: 31px;
+    }
+    
+    .timeline__item {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+    
+    .timeline__item::before {
+      left: 60px;
+      border: medium solid rgb(68, 68, 68);
+      border-width: 10px 10px 10px 0;
+      border-color: transparent rgb(0, 0, 0);
+    }
+  
+    .timeline__item--left::after, .timeline__item--right::after {
+      left: 15px;
+    }
+    
+    .timeline__item--right {
+      left: 0%;
+    }
+  }
+  
+  :root {
+    --ifm-link-color: var(--ifm-color-emphasis-800);
+    --ifm-link-hover-color: var(--ifm-color-emphasis-700);
+    --ifm-link-hover-decoration: none;
+  }
+  
+  [data-theme='dark'] {
+
+  }
+  
+  .timeline__content {
+    box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 15%);
+    border: 1px solid var(--ifm-color-emphasis-200);
+    transition: all var(--ifm-transition-fast) ease;
+    transition-property: border, box-shadow;
+
+    background-color: var(--ifm-card-background-color);
+    border-radius: var(--ifm-card-border-radius);
+    box-shadow: var(--ifm-global-shadow-lw);
+    overflow: hidden;
+    padding: 1rem !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .timeline__content:hover {
+    border-color: var(--ifm-color-primary);
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    line-height: var(--link-card-line-height-headings);
+  }
+  
+  
+  .stack {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .title {
+    color: var(--link-card-title-color);
+    font-weight: 600;
+    font-size: var(--link-card-font-size-lg);
+  }
+  
+  .description {
+    color: var(--link-card-description-color);
+    line-height: 1.5;
+  }
+  
+  .icon {
+    color: var(--link-card-icon-color);
+  }
+  
+  /* Hover state */
+  .slLinkCard:hover {
+    border-color: var(--ifm-color-primary);
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+    cursor: pointer;
+  }
+  
+  .slLinkCard:hover .icon {
+    color: var(--link-card-icon-hover);
+  }
+  
