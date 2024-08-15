@@ -56,8 +56,6 @@ const TimelineItem = ({
                     style={style}>
 
                     {children}
-
-                    <Icon name="right-arrow" size="1.333em" className={clsx(styles.icon, styles.rtlFlip)} />
                 </div>
             </a>
         </div>
