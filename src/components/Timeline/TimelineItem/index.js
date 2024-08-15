@@ -2,8 +2,6 @@ import React, { CSSProperties } from 'react';
 import clsx from 'clsx';
 import styles from '../styles.module.css';
 
-import Icon from './Icon'; // Ensure the path is correct based on your file structure
-
 
 const TimelineItem = ({
     className, // Custom classes for the button
