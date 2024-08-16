@@ -1,9 +1,24 @@
 ---
 slug: WhatAreTheDifferentURLSessionConfigurationOptions
 title: What are the different URLSessionConfiguration options?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 `URLSession` is the main object responsible for managing `HTTP` & `HTTPS` requests in iOS.
 

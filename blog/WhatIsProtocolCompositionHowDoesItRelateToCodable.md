@@ -1,9 +1,24 @@
 ---
 slug: WhatIsProtocolCompositionHowDoesItRelateToCodable
 title: What is protocol composition? How does it relate to Codable?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 The `Codable` protocol is a prime example of Swift’sprotocol composition feature which allows you to easily combine existing protocols together using the `&` operator.
 

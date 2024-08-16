@@ -1,9 +1,24 @@
 ---
 slug: WhatIsAnAnonymousFunction
 title: What is an anonymous function?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 An anonymous function is a function definition that isn’t bound to an identifier. For example, most closures are considered anonymous functions. They can help make code more readable by allowing you to define all of the relevant logic in one place.
 

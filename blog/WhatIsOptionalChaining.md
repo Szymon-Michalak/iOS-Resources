@@ -1,9 +1,24 @@
 ---
 slug: WhatIsOptionalChaining
 title: What is optional chaining?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Optional chaining is a convenient way of unwrapping multiple `Optional` properties sequentially. If any of the `Optional` values in theexpression resolve tonil, the entire expression will resolve tonil.
 

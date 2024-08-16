@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenLayoutIfNeededAndSetNeedsLayout
 title: What is the difference between layoutIfNeeded() and setNeedsLayout()?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Building off the previous answer, let’s take a closer look at the differences between `layoutIfNeeded()` and `setNeedsLayout()`.
 

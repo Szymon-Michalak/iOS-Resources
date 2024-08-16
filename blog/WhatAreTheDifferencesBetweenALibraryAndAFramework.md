@@ -1,11 +1,26 @@
 ---
 slug: WhatAreTheDifferencesBetweenALibraryAndAFramework
 title: What are the differences between a library and a framework?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
 
-TL;DR: The difference between a library and a framework is that you’ll typically call a library, but a framework will call you.
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+The difference between a library and a framework is that you’ll typically call a library, but a framework will call you.
+:::
+
+
 
 **Library**
 

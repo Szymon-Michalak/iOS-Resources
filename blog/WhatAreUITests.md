@@ -1,9 +1,24 @@
 ---
 slug: WhatAreUITests
 title: What are UI tests?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [testing]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 User interface tests allow us to test our application’s behavior from the user’s perspective. It helps us to ensure that our application’s UI interactions, animations, and various user flows continue to work correctly as our application evolves.
 

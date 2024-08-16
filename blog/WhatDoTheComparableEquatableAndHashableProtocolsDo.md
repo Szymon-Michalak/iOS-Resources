@@ -1,9 +1,24 @@
 ---
 slug: WhatDoTheComparableEquatableAndHashableProtocolsDo
 title: What do the Comparable, Equatable, and Hashable protocols do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 **Equatable**
 Implementing this protocol allows one instance of an object to be compared for equality with another instance of an object of the same type. You’ve probably leveraged this protocol without realizing it as theEquatableprotocol is what allowsus to use `==` to check the equality of two objects.

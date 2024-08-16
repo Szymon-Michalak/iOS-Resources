@@ -1,9 +1,24 @@
 ---
 slug: OnWhatThreadShouldAllUIUpdatesBeMade
 title: On what thread should all UI updates be made?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 All UI updates should be performed on the Main Thread.
 

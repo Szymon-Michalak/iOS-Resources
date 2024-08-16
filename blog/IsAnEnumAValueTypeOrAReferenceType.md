@@ -1,9 +1,24 @@
 ---
 slug: IsAnEnumAValueTypeOrAReferenceType
 title: Is an enum a value type or a reference type?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 In Swift, an `enum` is a value type (other value types include `structs` and `tuples`).
 

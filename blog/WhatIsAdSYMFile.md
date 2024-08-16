@@ -1,9 +1,24 @@
 ---
 slug: WhatIsAdSYMFile
 title: What is a .dSYM file?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Whenever we upload our app to Apple, we remove some information (called symbols) from the compiled executable which specify exactly what functions and variables are being referenced.
 

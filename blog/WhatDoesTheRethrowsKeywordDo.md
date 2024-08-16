@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesTheRethrowsKeywordDo
 title: What does the rethrows keyword do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 You’re likely already familiar with the `throws` keyword which is one of the simplest mechanisms for propagating an error in our code.
 

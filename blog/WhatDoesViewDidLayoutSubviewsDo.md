@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesViewDidLayoutSubviewsDo
 title: What does viewDidLayoutSubviews() do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Simply put, `viewDidLayoutSubviews()` allows you to make customizations to views after they’ve been positioned by `AutoLayout`, but before they are visible to the user.
 

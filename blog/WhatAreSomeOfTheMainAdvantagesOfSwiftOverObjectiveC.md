@@ -1,9 +1,24 @@
 ---
 slug: WhatAreSomeOfTheMainAdvantagesOfSwiftOverObjectiveC
 title: What are some of the main advantages of Swift over Objective-C?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 **Swift is easier to read**
 Objective-C is constrained by C conventions, and arguably cannot be updated unless C itself is updated. By doing away with many legacy conventions like semicolons and parentheses for conditional expressions, Swift is simpler, easier to read, and more expressive.

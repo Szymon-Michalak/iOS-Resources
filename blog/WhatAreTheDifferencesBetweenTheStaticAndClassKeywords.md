@@ -1,9 +1,24 @@
 ---
 slug: WhatAreTheDifferencesBetweenTheStaticAndClassKeywords
 title: What are the differences between the static and class keywords?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Both static and class keywords enable us to attach methods directly to a type rather than to an instance of the type. However, they differ in their ability to support inheritance.
 

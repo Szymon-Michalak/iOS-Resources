@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenTheDesignatedAndConvenienceInitializer
 title: What is the difference between the designated and convenience initializer?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Every class requires a designated initializer as it’s responsible for initializing stored properties and calling the `superclass’s` `init()`.
 

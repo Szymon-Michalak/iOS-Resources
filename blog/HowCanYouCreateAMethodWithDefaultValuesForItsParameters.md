@@ -1,9 +1,24 @@
 ---
 slug: HowCanYouCreateAMethodWithDefaultValuesForItsParameters
 title: How can you create a method with default values for its parameters?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 When we declare a function in Swift, we can specify defaults for our parameters by specifying values within the method declaration:
 

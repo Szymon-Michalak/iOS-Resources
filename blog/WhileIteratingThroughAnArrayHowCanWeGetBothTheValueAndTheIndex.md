@@ -1,9 +1,24 @@
 ---
 slug: WhileIteratingThroughAnArrayHowCanWeGetBothTheValueAndTheIndex
 title: While iterating through an array, how can we get both the value and the index?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 We can accomplish this easily with the help of the `enumerated()`function.
 ```swift

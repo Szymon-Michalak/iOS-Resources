@@ -1,9 +1,24 @@
 ---
 slug: WhatIsAnInoutParameter
 title: What is an inout parameter?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Whenever you pass a value type into a function, only a copy of the value is passed along. As a result, even if you attempt to change the value of that parameter inside the function, the variable at the calling site will still maintain its original value.
 

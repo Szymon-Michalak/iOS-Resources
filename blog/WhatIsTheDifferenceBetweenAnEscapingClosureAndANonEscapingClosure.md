@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenAnEscapingClosureAndANonEscapingClosure
 title: What is the difference between an escaping closure and a non-escaping closure?
-authors: [apple]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 If you’ve ever tried to pass in a closure as a parameter to a function, you might have encountered a warning from Xcode prompting you to add the @escaping keyword to your parameter declaration. Let’s take a closer look at the difference between an escaping and
 non-escaping closure.

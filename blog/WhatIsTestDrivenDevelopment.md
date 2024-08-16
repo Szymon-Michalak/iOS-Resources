@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTestDrivenDevelopment
 title: What is Test Driven Development?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [testing]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Test-Driven Development (TDD) is a software development process relying on software requirements first being converted to test cases prior to writing any production code. Then, the correctness of all subsequent development is measured against those tests.
 

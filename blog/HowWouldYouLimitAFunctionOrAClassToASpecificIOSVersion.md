@@ -1,9 +1,24 @@
 ---
 slug: HowWouldYouLimitAFunctionOrAClassToASpecificIOSVersion
 title: How would you limit a function or a class to a specific iOS version?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 We can accomplish this by using availability attributes. This language feature allows us to add support for newer APIs, methods, or classes while still maintaining backwards compatibility.
 

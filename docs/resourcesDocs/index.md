@@ -1,5 +1,5 @@
 ---
-title: 💡 Start Here
+title: 💡 About Resources
 description: Where to start
 sidebar_position: 1
 ---

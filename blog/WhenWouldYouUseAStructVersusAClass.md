@@ -1,9 +1,24 @@
 ---
 slug: WhenWouldYouUseAStructVersusAClass
 title: When would you use a struct versus a class?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Typically, you’ll want to use astructif any of thefollowing conditions apply:
 

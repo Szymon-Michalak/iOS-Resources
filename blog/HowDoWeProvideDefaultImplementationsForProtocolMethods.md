@@ -1,9 +1,24 @@
 ---
 slug: HowDoWeProvideDefaultImplementationsForProtocolMethods
 title: How do we provide default implementations for protocol methods?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 By leveraging Swift extensions, we can provide a default implementation for methods and properties declared in aprotocol.
 

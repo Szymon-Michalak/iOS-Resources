@@ -1,9 +1,24 @@
 ---
 slug: WhatAreLayerObjects
 title: What are layer objects?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Every `UIView` has a `CALayer` property which is responsible for the actual rendering of visual content and animations.
 

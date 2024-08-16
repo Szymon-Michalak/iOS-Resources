@@ -1,9 +1,24 @@
 ---
 slug: HowCanWeLimitAProtocolConformanceToASpecificClassOrType
 title: How can we limit a protocol conformance to a specific class or type?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 There may be situations where we want to limit conformance of aprotocolto a certain type.
 

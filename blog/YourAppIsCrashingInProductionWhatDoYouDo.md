@@ -1,9 +1,24 @@
 ---
 slug: YourAppIsCrashingInProductionWhatDoYouDo
 title: Your app is crashing in production. What do you do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Unfortunately, there’s no one size fits all answer here, but the following explanation might provide a starting point.
 

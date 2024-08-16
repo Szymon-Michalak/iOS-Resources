@@ -5,6 +5,21 @@ authors: [szymon]
 tags: [swift]
 ---
 
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
+
 The `lazy` keyword allows you to defer the initialization of a variable until the first time it’s used; it’s similar to the concept of "lazy loading".
 
 In the following example, the fake User variable will not be initialized until the first time the property is accessed. This allows us to prevent the slow process of creating the object until we’re absolutely sure we’ll need it:

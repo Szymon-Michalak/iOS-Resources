@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesTheTypealiasKeywordDo
 title: What does the typealias keyword do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 The `typealias` keyword allows us to define our own keyword to represent an existing data type in our application. This does not create a new type - it simply provides a new name for an existing type.
 

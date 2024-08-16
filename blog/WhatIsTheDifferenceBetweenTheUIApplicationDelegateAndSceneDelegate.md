@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenTheUIApplicationDelegateAndSceneDelegate
 title: What is the difference between the UIApplicationDelegate and SceneDelegate?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Prior to iOS 13, the `AppDelegate` was the main entrypoint for your application. This is where you would typically start the configuration of your third-party dependencies and establish the
 starting conditions for your application.

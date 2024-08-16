@@ -1,9 +1,24 @@
 ---
 slug:  HowCanYouCancelARunningAsynchronousTask
 title:  How can you cancel a running asynchronous task?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [concurrency]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Let’s look at canceling a task on a `DispatchQueue` first. In order to do this, we’ll just need to maintain a reference to the `DispatchWorkItem`:
 

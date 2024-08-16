@@ -1,9 +1,24 @@
 ---
 slug: WhatAreOurOptionsForUnwrappingOptionalsInSwift
 title: What are our options for unwrapping optionals in Swift?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 ### What are our options for unwrapping optionals in Swift?
 

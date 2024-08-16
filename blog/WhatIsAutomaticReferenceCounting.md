@@ -1,9 +1,24 @@
 ---
 slug: WhatIsAutomaticReferenceCounting
 title: What is automatic reference counting?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [memory]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 In simple terms, ARC is a compile time feature that helps us manage memory on iOS. ARC simply counts how many `strong` references there areto an object and when the count is zero, that object can be freed from memory.
 

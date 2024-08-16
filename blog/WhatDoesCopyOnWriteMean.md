@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesCopyOnWriteMean
 title: What does copy on write mean?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 We know that when we’re working with types that use pass-by-value semantics, we’re passing around a copy of the value instead of a direct memory reference.
 

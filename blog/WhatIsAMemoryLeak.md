@@ -1,9 +1,24 @@
 ---
 slug: WhatIsAMemoryLeak
 title: What is a memory leak?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [memory]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Memory leaks occur when a program incorrectly manages memory allocations such that memory that is no longer needed is not released. Additionally, it is also possible for a memory leak to occur when an object is in memory, but cannot be accessed by the running application.
 

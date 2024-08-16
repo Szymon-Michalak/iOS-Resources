@@ -1,9 +1,24 @@
 ---
 slug: WhatAreTheDifferencesBetweenAxibAndAstoryboardFile
 title: What are the differences between a .xib and a .storyboard file?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Both a `.xib` and `.storyboard` are stored as XML filesand are both converted to binary files - `.nibs`- at compile time.
 

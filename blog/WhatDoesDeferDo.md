@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesDeferDo
 title: What does defer do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 The `defer` keyword allows us to specify code that shouldbe executed only when we are leaving the current function’s scope.
 

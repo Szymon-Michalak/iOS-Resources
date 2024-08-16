@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesArrangeActAndAssertMeanWithRespectToUnitTests
 title: What does Arrange, Act, and Assert mean with respect to unit tests?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [testing]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Arrange, Act, and Assert describe the ideal structure for a unit test.
 

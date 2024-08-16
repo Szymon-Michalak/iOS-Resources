@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenPushingAndPresentingANewView
 title: What is the difference between pushing and presenting a new view?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Both pushing and presenting presentation styles have their own default behavior and conventions, so it’s important to understand the differences between the two.
 

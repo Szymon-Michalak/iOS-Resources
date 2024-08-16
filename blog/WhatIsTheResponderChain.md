@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheResponderChain
 title: What is the Responder Chain?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 iOS handles all user interaction - touch, press, shake, etc. - through something called the Responder Chain. This is essentially the hierarchy of all objects that have an opportunity to respond to user input.
 

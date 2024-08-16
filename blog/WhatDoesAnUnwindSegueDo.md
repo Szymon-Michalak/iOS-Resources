@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesAnUnwindSegueDo
 title: What does an unwind segue do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 You can use an unwind segue to jump to any `UIViewController` further up your `UIViewController` hierarchy while simultaneously destroying all other `UIViewControllers` in between. More specifically, you can use it to navigate back through one or more push, modal, or popover segues.
 

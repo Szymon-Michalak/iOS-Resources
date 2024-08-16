@@ -1,9 +1,24 @@
 ---
 slug: WhatIsAUnitTest
 title: What is a unit test?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [testing]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 A unit test is a type of automated test used to validate the correctness of a piece of code by providing an exhaustive list of inputs and ensuring that the expected outputs are returned.
 

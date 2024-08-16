@@ -1,9 +1,24 @@
 ---
 slug: WhatWouldHappenIfAStructHadAReferenceTypeInIt
 title: What would happen if a struct had a reference type in it?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 In Swift, value types can contain reference types and reference types can contain value types.
 

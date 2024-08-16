@@ -1,9 +1,24 @@
 ---
 slug: WhatIsSnapshotTesting
 title: What is Snapshot Testing?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [testing]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Snapshot Testing involves comparing the UI of an application against a set of reference images to ensure correctness.
 

@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenASerialAndAConcurrentQueue
 title: What is the difference between a serial and a concurrent queue?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [concurrency]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 We can create both types of queues with the help of `DispatchQueue` which is built on top of Grand Central Dispatch.
 

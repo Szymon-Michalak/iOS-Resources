@@ -1,9 +1,24 @@
 ---
 slug: WhatAreTrailingClosures
 title: What are trailing closures?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Trailing closures are simply syntactic sugar in Swift that allow us to implement closures without a ton of boilerplate code. When the ﬁnal parameter in a call to a function is a closure, trailing closures allow you to deﬁne the closure’s contents outside of the function call.
 

@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesItMeanForSomethingToBeThreadSafe
 title: What does it mean for something to be thread safe?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [concurrency]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Code is considered thread-safe when it functions correctly during simultaneous execution by one or more threads. More specifically, thread safety ensures that some shared resource can only be modified by **one** thread at any given time.
 

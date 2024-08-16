@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenBoundsAndFrame
 title: What is the difference between bounds and frame?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 This question is asked frequently during interviews, particularly as part of an initial phone screen or online assessment.
 

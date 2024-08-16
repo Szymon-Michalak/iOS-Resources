@@ -1,9 +1,24 @@
 ---
 slug: WhatIsOperatorOverloading
 title: What is operator overloading?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Operator overloading allows you to change how existing operators interact with custom types in your codebase. Leveraging this language feature correctly can greatly improve the readability of your code.
 

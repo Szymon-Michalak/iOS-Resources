@@ -1,9 +1,24 @@
 ---
 slug: HowCanWeGroupMultipleAsynchronousTasksTogether
 title: How can we group multiple asynchronous tasks together?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [concurrency]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Swift’s `DispatchGroup` allows us to group together and monitor the completion status of multiple asynchronous tasks.
 

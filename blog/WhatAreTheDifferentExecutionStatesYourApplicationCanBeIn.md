@@ -1,9 +1,24 @@
 ---
 slug: WhatAreTheDifferentExecutionStatesYourApplicationCanBeIn
 title: What are the different execution states your application can be in?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 There are 5 distinct states an iOS app can find itself in:
 

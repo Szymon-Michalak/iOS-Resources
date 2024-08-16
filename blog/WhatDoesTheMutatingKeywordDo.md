@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesTheMutatingKeywordDo
 title: What does the mutating keyword do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 In Swift,structsare value types which means the properties contained within are immutable by default. So, if we want to be able to modify the values within astruct, we’ll need to use the `mutating` keyword. This keyword only applies to **valuetypes** as reference types are not immutable in this way.
 

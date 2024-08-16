@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesAppThinningMean
 title: What does app thinning mean?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 As the name suggests, app thinning - introduced in iOS 9 - helps developers reduce the size of their app’s executable. This reduction in size is accomplished through three mechanisms; slicing, bitcode, and the use of on-demand resources.
 

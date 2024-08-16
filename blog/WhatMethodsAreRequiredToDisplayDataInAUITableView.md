@@ -1,9 +1,24 @@
 ---
 slug: WhatMethodsAreRequiredToDisplayDataInAUITableView
 title: What methods are required to display data in a UITableView?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Every iOS interview I've done has dealt with `UITableViews` in some capacity. Most often, it will involve hitting some API and showing the response in a `UITableView` like we did in Assessment #1.
 

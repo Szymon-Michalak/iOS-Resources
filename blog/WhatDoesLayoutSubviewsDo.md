@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesLayoutSubviewsDo
 title: What does layoutSubviews() do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 The default implementation of this function uses any constraints you have set to determine the size and position of all of the view’s subviews. Overriding this method allows you to perform a more precise layout of a view’s subviews by setting the frame rectangles of your subviews directly.
 

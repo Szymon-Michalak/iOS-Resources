@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenTheAppIDAndTheBundleID
 title: What is the difference between the App ID and the Bundle ID?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 During phone screens, especially for Senior iOS roles, I’ve been tested on my understanding of provisioning profiles, development and distribution certificates, App Store Connect, and everything related to managing an iOS release.
 

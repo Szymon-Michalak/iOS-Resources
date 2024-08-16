@@ -1,9 +1,24 @@
 ---
 slug: WhatIsARawValueInAnEnum
 title: What is a raw value in an enum?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Enumerations provide a common type for a group of related values thereby enabling you to work with those values type-safely within your code.
 

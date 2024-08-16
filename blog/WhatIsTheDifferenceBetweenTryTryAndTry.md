@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenTryTryAndTry
 title: What is the difference between try, try!, and try??
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 All of these options are different ways of calling a function that can throw an error.
 

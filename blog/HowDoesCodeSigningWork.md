@@ -1,9 +1,24 @@
 ---
 slug: HowDoesCodeSigningWork
 title: How does code signing work?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Code signing is a process that helps you verify the authenticity of the app or software you’re installing and ensures that it hasn’t been tampered with since the developer released it. The code signing process consists of a series of smaller steps: requesting a certificate, receiving a
 certificate, generating a provisioning profile, and finally signing the application.
@@ -53,3 +68,7 @@ Here’s what’s happening under the hood:
 3. The UDID of the device you are attempting to run the executable on is compared against the UDIDs listed in the provisioning profile.
 4. The Bundle ID and Entitlements are checked against their respective counterparts in the provisioning profile.
 5. If everything goes well, the app is installed on the device.
+
+:::tip[In Bullets]
+
+:::

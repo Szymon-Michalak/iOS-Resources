@@ -1,9 +1,24 @@
 ---
 slug: WhatIsYourPreferredWayOfCreatingViews
 title: What is your preferred way of creating views?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 There’s no right or wrong answer here as the question is inherently subjective, but it’s a great opportunity for you to demonstrate that you understand the challenges and limitations with each approach (`.xib` vs `.storyboard` vs programmatically).
 

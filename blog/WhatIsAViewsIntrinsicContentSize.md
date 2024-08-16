@@ -1,9 +1,24 @@
 ---
 slug: WhatIsAViewsIntrinsicContentSize
 title: What is a view’s intrinsic content size?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 All `UIViews` have an `.intrinsicContentSize` property that specifies the amount of space the `UIView` needs to show its content in an ideal manner.
 

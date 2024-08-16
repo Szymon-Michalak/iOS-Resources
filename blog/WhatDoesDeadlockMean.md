@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesDeadlockMean
 title: What does deadlock mean?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [concurrency]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Deadlocks occur when threads sharing the same resource are waiting on one another to release access to the resource in order for them to complete their respective tasks.
 

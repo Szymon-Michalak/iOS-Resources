@@ -1,9 +1,24 @@
 ---
 slug: HowDoYouCreateInteroperabilityBetweenObjectiveCAndSwift
 title: How do you create interoperability between Objective-C and Swift?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 If you’re applying for an older company like YouTube, Facebook, or even Google, you’ll likely have to work with both Objective-C and Swift within the same project.
 

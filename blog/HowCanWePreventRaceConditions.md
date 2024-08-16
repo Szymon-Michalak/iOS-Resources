@@ -1,9 +1,24 @@
 ---
 slug: HowCanWePreventRaceConditions
 title: How can we prevent race conditions [the reader-writer problem]?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [concurrency]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Continuing on from the previous question, let’s see how we can prevent race conditions.
 

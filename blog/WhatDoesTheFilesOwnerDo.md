@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesTheFilesOwnerDo
 title: What does the File’s Owner do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 When you load a `.xib` file and specify the `owner` property,the class responsible for loading the `.xib` now becomes the File's Owner.
 ```swift

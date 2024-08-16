@@ -1,9 +1,24 @@
 ---
 slug: WhatIsBehaviorDrivenDevelopment
 title: What is Behavior Driven Development?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [concurrency]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Behavior Driven Development (BDD) is a software development methodology that aims to document and design an application based around the behavior the end user is expected to experience. In other words, it is behavior and results focused instead of implementation focused.
 

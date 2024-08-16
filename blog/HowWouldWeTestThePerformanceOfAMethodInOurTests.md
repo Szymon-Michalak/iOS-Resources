@@ -1,9 +1,24 @@
 ---
 slug: HowWouldWeTestThePerformanceOfAMethodInOurTests
 title: How would we test the performance of a method in our tests?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [testing]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 TheXCTestframework includes a `measure()` function for profiling code execution times. We can call this method within our testing target to measure the performance of a block of code:
 

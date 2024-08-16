@@ -1,9 +1,24 @@
 ---
 slug: WhatIsCodeCoverage
 title: What is code coverage? 
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Code coverage allows you to measure what percentage of your codebase is being exercised by your unit tests. More importantly, it helps you identify what sections of your codebase your tests **_don’t_** cover.
 

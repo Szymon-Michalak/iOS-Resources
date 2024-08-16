@@ -1,9 +1,24 @@
 ---
 slug: HowWouldYouDebugViewLayoutIssues
 title: How would you debug view layout issues?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 As an iOS developer, layout problems are an inevitability. From breaking constraints to weird UI issues occurring only at runtime (text truncation, alpha value issues, broken animations, etc.), debugging layout issues in iOS can be tricky.
 

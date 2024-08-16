@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenTheStackAndTheHeap
 title: What is the difference between the stack and the heap?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 The system uses the stack to store anything on the immediate thread of execution; it is tightly managed and optimized by the CPU.
 

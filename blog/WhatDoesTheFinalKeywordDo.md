@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesTheFinalKeywordDo
 title: What does the final keyword do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Imagine you are working on a SDK or a particularly sensitive piece of code - something that needs to be performant, secure, etc. You’d likely want to ensure that your code is used in exactly the way you intend it to be.
 

@@ -1,9 +1,24 @@
 ---
 slug: HowWouldYouAvoidRetainCyclesInAClosure
 title: How would you avoid retain cycles in a closure?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [memory]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 **This will build off our understanding of ARC from the previous questions.**
 

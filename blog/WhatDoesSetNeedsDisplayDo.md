@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesSetNeedsDisplayDo
 title: What does setNeedsDisplay() do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Just like `setNeedsLayout()` tells the system the layout needs to be updated, `setNeedsDisplay()` informs the system that the view’scontent needs to be redrawn. This function queues the redrawing task and returns immediately. The view is only redrawn at the next drawing cycle at which point any and all views are updated.
 

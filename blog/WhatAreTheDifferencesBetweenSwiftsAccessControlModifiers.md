@@ -1,9 +1,24 @@
 ---
 slug: WhatAreTheDifferencesBetweenSwiftsAccessControlModifiers
 title: What are the differences between Swift’s access control modifiers?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Access controls allow us to restrict parts of our code from other source code files and modules.
 

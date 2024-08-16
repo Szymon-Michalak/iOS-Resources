@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenIsAsAsAndAs
 title: What is the difference between is, as, as?, and as!?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Typecasting is a method of changing an entity from one data type to another.
 

@@ -1,9 +1,24 @@
 ---
 slug: WhatAreThePurposesOfSetUpAndTearDownInTheXCTestFramework
 title: What are the purposes of setUp() and tearDown() in the XCTest framework?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [testing]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Whenever we run tests, we'll often want each test to run independently. More specifically, we want to ensure that each test is executed under identical conditions and the end state of one test doesn't inadvertently influence the start state of another test.
 

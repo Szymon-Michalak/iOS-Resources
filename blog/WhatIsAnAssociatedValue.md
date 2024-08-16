@@ -1,9 +1,24 @@
 ---
 slug: WhatIsAnAssociatedValue
 title: What is an associated value?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 An associated value is the term used to describe the value accompanying acasein a Swift enum. Associated values allow us to present more nuanceddata by adding contextual information to ourcases.
 

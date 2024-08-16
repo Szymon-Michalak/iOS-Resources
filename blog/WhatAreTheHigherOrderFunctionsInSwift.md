@@ -1,9 +1,24 @@
 ---
 slug: WhatAreTheHigherOrderFunctionsInSwift
 title: What are the higher order functions in Swift?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 In mathematics and computer science, a higher-order function is a function that takes one or more functions as arguments or returns a function.
 

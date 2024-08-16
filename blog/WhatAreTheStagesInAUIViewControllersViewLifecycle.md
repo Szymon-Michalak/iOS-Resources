@@ -1,9 +1,24 @@
 ---
 slug: WhatAreTheStagesInAUIViewControllersViewLifecycle
 title: What are the stages in a UIViewController’s view lifecycle?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Here are the different stages of a `UIViewController`’s lifecycle:
 

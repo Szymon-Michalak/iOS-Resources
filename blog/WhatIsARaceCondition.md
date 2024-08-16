@@ -1,9 +1,24 @@
 ---
 slug: WhatIsARaceCondition
 title: What is a race condition?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [concurrency]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 A race condition occurs when there are multiple threads accessing the same memory concurrently and at least one of the threads is trying to update the information stored there (a.k.a a write task).
 

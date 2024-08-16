@@ -1,9 +1,24 @@
 ---
 slug: HowWouldYouAnimateAViewThatHasAConstraint
 title: How would you animate a view that has a constraint?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 With AutoLayout, you can simply change a view’s constraints and let the system figure out how to resize that view and all of its neighbors.
 

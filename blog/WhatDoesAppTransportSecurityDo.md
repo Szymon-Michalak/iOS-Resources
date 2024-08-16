@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesAppTransportSecurityDo
 title: What does App Transport Security do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 App Transport Security (a.k.a ATS) is Apple’s mechanism to ensure developer’s use HTTPS in their app’s communications.
 

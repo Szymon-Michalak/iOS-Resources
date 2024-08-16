@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesTheCaseIterableProtocolDo
 title: What does the CaseIterable protocol do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 As the name suggests,`CaseIterable` is a protocol that provides a handy way of iterating through all of the individual cases in anenum.
 

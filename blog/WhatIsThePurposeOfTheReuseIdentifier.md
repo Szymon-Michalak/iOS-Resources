@@ -1,9 +1,24 @@
 ---
 slug: WhatIsThePurposeOfTheReuseIdentifier
 title: What is the purpose of the reuseIdentifier?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 One of the performance optimizations `UITableViewsandUICollectionViews` make is to only initialize enough cells to fill the user’s screen. Then, whenever the user scrolls, instead of instantiating a new cell, it can just replace the contents of an existing previously allocated cell *the cell that is about to be scrolled off the screen*. This approach is not only very performant, but also utilizes less memory.
 

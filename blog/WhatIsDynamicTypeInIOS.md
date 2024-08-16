@@ -1,9 +1,24 @@
 ---
 slug: WhatIsDynamicTypeInIOS
 title: What is Dynamic Type in iOS?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Introduced in iOS 10, Dynamic Type allows developers to automatically scale their application's font size up or down to accommodate users with accessibility issues or users that need increased visibility. It can also accommodate those who can read smaller text allowing more information to appear on the screen.
 

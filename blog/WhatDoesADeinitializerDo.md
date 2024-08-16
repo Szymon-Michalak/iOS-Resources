@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesADeinitializerDo
 title: What does a deinitializer do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 A deinitializer is a function that is called right before aclassis deallocated. Deinitializers are only available onclasstypes and eachclasscan onlyhave one deinitializer. This function does not accept any parameters.
 

@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenADynamicLibraryAndAStaticLibrary
 title: What is the difference between a dynamic library and a static library?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 As your application matures and your application size and launch speed start to suffer, you'll likely find yourself re-evaluating how you integrate libraries into your project.
 

@@ -1,9 +1,24 @@
 ---
 slug: WhatAreGenericsAndWhatProblemDoTheySolve
 title: What are generics and what problem do they solve?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Generic classes and functions not only allow you to write more reusable code, but they also help you write less code overall. In simple terms, generics allow you to write the code once, but apply it to a variety of different data types.
 

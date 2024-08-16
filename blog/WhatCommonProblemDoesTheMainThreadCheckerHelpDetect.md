@@ -1,9 +1,24 @@
 ---
 slug: WhatCommonProblemDoesTheMainThreadCheckerHelpDetect
 title: What common problem does the Main Thread Checker help detect?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Quite simply, it’s a means of identifying code that should be running on the main thread but is running on a background thread instead.
 

@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesItMeanToBeAFirstClassFunctionOrType
 title: What does it mean to be a first class function or type?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 A first-class citizen is an entity that can be passed as an argument, returned from a function, modified, or assigned to a variable. So, a programming language is said to have first-class functions if it treats functions as first-class citizens.
 

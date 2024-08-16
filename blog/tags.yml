@@ -26,3 +26,7 @@ testing:
   label: Testing
   permalink: /testing
   description: Testing tag description
+design_patterns:
+  label: Design Patterns
+  permalink: /design-patterns
+  description: Design Patterns tag description

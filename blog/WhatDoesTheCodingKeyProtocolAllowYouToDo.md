@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesTheCodingKeyProtocolAllowYouToDo
 title: What does the CodingKey protocol allow you to do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 In the event that the keys in a JSON response do not match the variable names in your `Codable` model exactly, you can use the `CodingKey` protocol to bridge specific properties that differ only in naming.
 

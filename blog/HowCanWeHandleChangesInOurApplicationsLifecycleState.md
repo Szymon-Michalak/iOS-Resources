@@ -1,9 +1,24 @@
 ---
 slug: HowCanWeHandleChangesInOurApplicationsLifecycleState
 title: How can we handle changes in our application’s lifecycle state?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Our application's `AppDelegate` allows us to easily handle our application’s lifecycle changes.
 

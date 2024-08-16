@@ -1,9 +1,24 @@
 ---
 slug: WhatAreTheDifferencesBetweenDispatchQueueOperationAndThreads
 title: What are the differences between DispatchQueue, Operation, and Threads?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [concurrency]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 The differences between DispatchQueues, Operations, and Threads can be difficult to distinguish, so let's take a moment to review their similarities and differences.
 

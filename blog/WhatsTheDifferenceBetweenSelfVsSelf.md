@@ -1,9 +1,24 @@
 ---
 slug: WhatsTheDifferenceBetweenSelfVsSelf
 title: What's the difference between Self vs self?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 In the context of protocols and extensions, `Self` refers to the type that conforms to the protocol whereas `self` refers to the value inside that type.
 

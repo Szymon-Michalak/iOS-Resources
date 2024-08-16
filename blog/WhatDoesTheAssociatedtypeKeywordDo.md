@@ -1,9 +1,24 @@
 ---
 slug: WhatDoesTheAssociatedtypeKeywordDo
 title: What does the associatedtype keyword do?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Imagine we have the following `protocol`:
 

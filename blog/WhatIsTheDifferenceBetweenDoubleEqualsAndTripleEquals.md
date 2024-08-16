@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenDoubleEqualsAndTripleEquals
 title: What is the difference between == and ===?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 In the example below, we have a simpleEngineclassthat implements the `Equatable` protocol. This allows us to provide a custom implementation for the `==` operator.
 

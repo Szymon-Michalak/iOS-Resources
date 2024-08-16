@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenStrongWeakAndUnowned
 title: What is the difference between strong, weak, and unowned?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [memory]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Please see the previous answer’s explanation of Automatic Reference Counting.
 

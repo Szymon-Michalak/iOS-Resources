@@ -1,9 +1,24 @@
 ---
 slug: WhatAreSwiftsDifferentAssertionOptions
 title: What are Swift’s different assertion options?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Assertions allow us to terminate the execution of our program if a condition is not met at runtime.
 

@@ -1,9 +1,24 @@
 ---
 slug: WhatIsAPlaceholderConstraint
 title: What is a placeholder constraint?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 There may be cases where a constraint can only meaningfully be set at runtime. Perhaps you don't know which subview to constrain a constraint too or maybe you don't know what the constant value of the constraint should be.
 

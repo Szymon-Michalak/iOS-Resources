@@ -1,9 +1,24 @@
 ---
 slug: WhatAreTheDifferencesBetweenKeychainAndUserDefaults
 title: What are the differences between Keychain and UserDefaults?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 `UserDefaults` and `Keychain` are both useful in storing small `key-value pairs` on the user's device, but their security capabilities differ greatly.
 

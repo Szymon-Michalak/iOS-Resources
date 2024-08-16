@@ -17,7 +17,7 @@ tags: [swift]
     - [Type Casting | Swift.org](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/typecasting/)
 </details>
 
-:::note[TL/DR]
+:::info[TL/DR]
 Swift **does not** support implicit casting.
 :::
 Swift **does not** support implicit casting.

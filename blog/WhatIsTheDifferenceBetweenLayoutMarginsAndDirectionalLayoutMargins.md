@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenLayoutMarginsAndDirectionalLayoutMargins
 title: What is the difference between layout margins and directional layout margins?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [uikit]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 `layoutMargins` is a property of a `UIView` that allows the developer to specify the top,left, bottom, and right insets for a view’s margin. The system defaults a `UIView` to an inset of 16
 pixels on all edges.

@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenStaticAndDynamicDispatch
 title: What is the difference between static and dynamic dispatch?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Swift, like many other languages, allows a `class` to override methods and properties declared in its `superclass`. As a result, the program has to determine at **runtime** the correct version of the method or property to use.
 

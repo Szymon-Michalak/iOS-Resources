@@ -1,9 +1,24 @@
 ---
 slug: HowDoYouUseTheResultType
 title: How do you use the Result type?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 The `Result` type is a convenient way for us to handleboth the success and failure cases of an operation while maintaining code readability.
 

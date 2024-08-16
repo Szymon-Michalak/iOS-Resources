@@ -1,9 +1,24 @@
 ---
 slug: WhatAreTheDifferencesBetweenADelegateAndANotification
 title: What are the differences between a delegate and a notification?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [general]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 Delegates and notifications are different mechanisms for informing objects about events or actions taking place in other parts of your app. Though they differ fundamentally in how they communicate, both of these options can help reduce coupling between entities in your code.
 

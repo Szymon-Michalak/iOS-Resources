@@ -1,9 +1,24 @@
 ---
 slug: WhatIsTheDifferenceBetweenAnyAndAnyObject
 title: What is the difference between Any and AnyObject?
-authors: [szymon]
+authors: [ace-the-ios-interview]
 tags: [swift]
 ---
+
+<details>
+  <summary>**Sources & Resources**</summary>
+
+  **Main Source:** [Ace the iOS Interview](https://aryamansharda.gumroad.com/l/tcvck)
+
+  **Additional Sources:**
+
+  **Further Reading:**
+
+</details>
+
+:::info[TL/DR]
+
+:::
 
 When we need to work with non-specific types, we have two options to pick from: `Any` and `AnyObject`.
 
