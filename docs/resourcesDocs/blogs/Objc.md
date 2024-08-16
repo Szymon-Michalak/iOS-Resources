@@ -33,6 +33,8 @@ objc.io is a platform that publishes books, videos, and articles focused on adva
 
 ---
 
+## Best Practices
+
 ### The Art of Code Review: A Dropbox Story
 
 <details>
@@ -65,6 +67,8 @@ objc.io is a platform that publishes books, videos, and articles focused on adva
 
 <LinkCard title="Read Full Article" href="https://www.objc.io/issues/22-scale/dropbox/" />
 
+
+## Debugging
 
 ### LLDB Debugging
 This blog post offers an in-depth guide to using LLDB (Low-Level Debugger), a powerful debugging tool integrated into Xcode. It is aimed at iOS and macOS developers who wish to improve their debugging skills and effectively troubleshoot issues within their code.

@@ -34,7 +34,7 @@ Fatbobman's Blog is a platform offering a wide range of tutorials, articles, and
 
 ---
 
-## UI
+## SwiftUI
 
 ### GeometryReader: Blessing or Curse?
 

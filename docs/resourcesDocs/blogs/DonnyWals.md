@@ -34,6 +34,8 @@ Donny Wals is an experienced iOS developer who shares his knowledge through a va
 
 ---
 
+## Concurrency 
+
 ### @preconcurrency usage in Swift Explained
 
 Provides insights into using the @preconcurrency attribute in Swift to manage concurrency issues in existing projects and libraries.

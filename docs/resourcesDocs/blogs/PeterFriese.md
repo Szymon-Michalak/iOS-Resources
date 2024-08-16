@@ -32,7 +32,7 @@ Peter Friese's Blog is a platform focused on Swift, SwiftUI, and Firebase develo
 
 ---
 
-## UI
+## SwiftUI
 
 ### SwiftUI Hero Animations with NavigationTransition
 

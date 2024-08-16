@@ -35,7 +35,7 @@ Create with Swift is a platform designed for Swift and SwiftUI developers, offer
 
 ---
 
-## UI
+## SwiftUI
 
 ### Displaying tips based on parameters and events with TipKit
 

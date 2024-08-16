@@ -32,6 +32,8 @@ Holy Swift is a platform offering a variety of tutorials, articles, and guides f
 
 ---
 
+## Best Practices
+
 ### Common Mistakes to Avoid When Using Enums in Swift
 
 <details>

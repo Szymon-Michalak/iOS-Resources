@@ -4,6 +4,9 @@ description: Single Articles
 sidebar_position: 1
 ---
 
+
+## Best Practices
+
 ### There are 2 ways to violate ‘S’ in SOLID
 
 Provide a deep dive into the Single Responsibility principle within SOLID, examining practical iOS architecture challenges and solutions.
@@ -37,39 +40,105 @@ Provide a deep dive into the Single Responsibility principle within SOLID, exami
 
 <LinkCard title="Read Full Article" href="https://isaac-weisberg.medium.com/there-are-2-ways-to-violate-s-in-solid-9c327e7e4b40" />
 
-### Formatted Strings in iOS Localization
+### Writing Good Unit Tests
 
 <details>
 
-**URL:** https://kean.blog/post/formatted-strings
+**URL:** https://blog.devgenius.io/writing-good-unit-tests-2158be9ee82d
 
-**Published:** November 29, 2020  
+**Published:** Oct 17, 2023  
 
-**Authors:** Alex Grebenyuk
+**Authors:** `Chris Mash`
 
 **Tags:**  
-`iOS Development`, `Localization`, `NSAttributedString`, `XMLParser`, `HTML`
+`Unit Testing`, `Software Development`, `Test Driven Development`, `TDD`
 
 </details>
 
 #### Key Points
-- Discusses common poor practices in localizing formatted strings in iOS apps.
-- Covers problems with concatenated strings and substring lookup approaches.
-- Introduces using HTML and `NSAttributedString` for better localization but highlights drawbacks.
-- Proposes a solution using `XMLParser` to parse basic XML tags for improved control and performance.
+- Importance of writing good unit tests for ensuring code correctness and future maintainability.
+- Characteristics of good unit tests: validation of expected behaviors, isolation from dependencies, and meaningful coverage.
+- Benefits of Test Driven Development (TDD) in improving test quality and code design.
+- Strategies for verifying expected values, preventing unexpected function calls, and ensuring test pre-requisites are met.
 
 #### Summary of Contents
-- **Introduction:** Challenges of localizing text with rich formatting in iOS.
-- **Poor Practices:**
-  - Concatenated Strings: Issues with hard-coded sentence structures and translation complexities.
-  - Substring Lookup: Problems with applying attributes to substrings, leading to maintenance issues.
-  - HTML: Use of HTML for rich text formatting and its limitations in iOS apps.
-- **Proposed Solution:** Introduces a lightweight solution using `XMLParser` for parsing XML-like tags.
-- **Technical Details:** Details on using `NSAttributedString` and `XMLParser`.
-- **Applications and Examples:** Practical examples of implementing the proposed solution.
-- **Conclusion:** Advocates for using `XMLParser` for handling formatted strings in iOS apps due to its simplicity and performance benefits.
+- **Introduction:** Emphasizes the role of unit tests in code reliability and maintenance.
+- **What do good unit tests look like?:** Criteria for effective unit tests, including behavior validation and isolation principles.
+- **Verify expected values:** Contrasts poor and improved examples of tests validating expected outcomes.
+- **Verify unexpected function calls aren’t made:** Discusses techniques to prevent unintended function calls in tests.
+- **Verify expected behavior:** Examines examples of testing specific behaviors in isolated units.
+- **Verify pre-requisites of your test:** Strategies for ensuring test conditions are met before execution.
+- **How to get good unit tests?:** Advocates for TDD as a methodology to foster effective testing habits.
+- **Conclusion:** Summarizes the importance of early testing and quality assurance practices in software development.
 
-<LinkCard title="Read Full Article" href="https://kean.blog/post/formatted-strings" />
+<LinkCard title="Read Full Article" href="https://blog.devgenius.io/writing-good-unit-tests-2158be9ee82d" />
+
+### The Advanced Guide to UserDefaults in Swift
+
+<details>
+
+**URL:** https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/
+
+**Published:** Dec 9, 2019  
+
+**Authors:** Vadim Bulavin
+
+**Tags:**  
+`Swift`, `UserDefaults`, `Property Wrappers`
+
+</details>
+
+#### Key Points
+- UserDefaults in Swift manages persistent storage for key-value pairs using .plist files.
+- It supports storing data types such as String, Date, Bool, Int, Double, Float, Array, Dictionary, and URL.
+- Large data should be avoided due to performance reasons, especially on platforms like tvOS.
+- Custom objects are not recommended for UserDefaults due to compatibility issues.
+- Swift 5 introduced property wrappers, enhancing type-safety and allowing observation of UserDefaults changes.
+
+#### Summary of Contents
+- **Introduction:** Overview of UserDefaults and its evolution with Swift 5.
+- **UserDefaults Overview:** Discusses supported data types and best practices for usage.
+- **UserDefaults Internal Structure:** Details the per-domain storage model and performance considerations.
+- **Implementing Key-Value Storage:** Guide on implementing type-safe storage using property wrappers.
+- **Observing UserDefaults Value Changes:** Explanation on extending UserDefaults with property wrapper observation.
+- **Source Code:** Links to the implementation example and project repository.
+- **Summary:** Key takeaways emphasizing UserDefaults' use cases and best practices.
+
+<LinkCard title="Read Full Article" href="https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/" />
+
+
+## SwiftUI
+
+### Double Optional Bindings in SwiftUI
+
+<details>
+
+**URL:** https://phlippieb.dev/posts/double-optional-bindings/
+
+**Published:** Tue Jun 25 2024  
+
+**Authors:** Phlippie Bosman
+
+**Tags:**  
+`SwiftUI`, `iOS Development`, `Optional Types`, `UI Design`
+
+</details>
+
+#### Key Points
+- Discusses the usage of double optional types in SwiftUI for managing sheet presentation and item editing.
+- Shows how SwiftUI utilizes optional bindings to control the visibility of sheets.
+- Highlights the use of optional types to distinguish between creating new items and editing existing ones.
+- Provides practical examples of implementing double optional bindings in SwiftUI views.
+
+#### Summary of Contents
+- **Introduction:** Introduces the concept of using double optional types in SwiftUI views.
+- **Optional Binding for Sheet Visibility:** Explains how SwiftUI uses optional bindings to show or dismiss sheets based on state changes.
+- **Optional Binding for Item Editing:** Demonstrates the use of optional types to differentiate between creating new items and editing existing ones.
+- **Practical Examples:** Provides code examples and scenarios where double optional bindings are applied in SwiftUI development.
+- **Conclusion:** Summarizes the benefits and challenges of using double optional types in SwiftUI UI design.
+
+<LinkCard title="Read Full Article" href="https://phlippieb.dev/posts/double-optional-bindings/" />
+
 
 ### Enhancing Search in Pulse with SwiftUI Features
 
@@ -105,6 +174,73 @@ Provide a deep dive into the Single Responsibility principle within SOLID, exami
 
 <LinkCard title="Read Full Article" href="https://kean.blog/post/pulse-search" />
 
+
+### Understanding SwiftUI's PreferenceKeys
+This article explains how SwiftUI’s PreferenceKeys allow data to flow upwards from child views to parent views, complementing the traditional downward flow of data. PreferenceKeys are crucial for scenarios where you need to pass information up the view hierarchy without relying on bindings.
+
+<details>
+**URL:** [Understanding SwiftUI's PreferenceKeys](https://swiftlogic.io/posts/understanding-swiftui-preferencekeys/)
+
+**Published:** July 21, 2024  
+**Last Updated:** Not specified
+
+**Authors:** Osaretin Uyigue
+
+**Tags:**  
+`swift`, `ios development`, `swiftui`, `preference keys`, `data flow`, `data binding`
+</details>
+
+#### Key Points
+- PreferenceKeys enable data flow from child to parent views in SwiftUI, opposite to Environment variables.
+- Implementing the `PreferenceKey` protocol involves defining a `Value`, a `defaultValue`, and a `reduce` function to manage and combine values.
+- Custom PreferenceKeys can be created to pass specific data types, such as view dimensions, up the view hierarchy.
+- Practical examples include custom navigation titles using PreferenceKeys to dynamically set view titles based on child views.
+
+#### Summary of Contents
+- **Introduction:** Overview of PreferenceKeys and their role in SwiftUI’s data flow mechanism.
+- **How it Works:** Explanation of how PreferenceKeys allow data to move up the view hierarchy without bindings.
+- **How PreferenceKeys Work:** Detailed breakdown of the `PreferenceKey` protocol and its components.
+- **Creating a Custom PreferenceKey:** Example of creating a `HeightPreferenceKey` to track and pass view heights.
+- **Using PreferenceKeys in Views:** Illustration of using PreferenceKeys in `ChildView` and `ParentView` for dynamic data handling.
+- **Real-World Use Case: Custom Navigation Title:** Example of implementing a custom navigation view that uses a PreferenceKey for setting titles.
+- **Conclusion:** Recap of the benefits and practical applications of PreferenceKeys in SwiftUI.
+
+<LinkCard title="Read Full Article" href="https://swiftlogic.io/posts/understanding-swiftui-preferencekeys/" />
+
+### Customizing the Appearance of Symbol Images in SwiftUI
+
+<details>
+
+**URL:** https://nilcoalescing.com/blog/CustomizingTheAppearanceOfSymbolImagesInSwiftUI/
+
+**Published:** 22 July 2024  
+
+**Author:** Natalia Panferova
+
+**Tags:**  
+`iOS`, `macOS`, `SwiftUI`
+
+</details>
+
+#### Key Points
+- Explains how to customize SF Symbols in SwiftUI apps.
+- Covers adjustments for size, color, rendering modes, variable values, and design variants.
+- Highlights best practices for maintaining symbol image integrity.
+
+#### Summary of Contents
+- **Introduction:** Introduction to SF Symbols and their use in SwiftUI apps.
+- **Size:** Techniques for adjusting symbol size using the `font()` and `imageScale()` modifiers.
+- **Color:** Methods for customizing symbol colors using the `foregroundStyle()` modifier.
+- **Rendering Mode:** Overview of different rendering modes (`monochrome`, `hierarchical`, `palette`, `multicolor`) and their effects.
+- **Variable Value:** Explanation of using variable values to dynamically change symbol appearance.
+- **Design Variants:** Discussion on different symbol design variants (`slash`, `fill`, shapes) and their applications.
+- **Conclusion:** Emphasizes the importance of using these customization techniques to enhance app aesthetics and user experience.
+
+<LinkCard title="Read Full Article" href="https://nilcoalescing.com/blog/CustomizingTheAppearanceOfSymbolImagesInSwiftUI/" />
+
+
+## Xcode and Workflow
+
 ### Multi-cursor editing in Xcode
 
 <details>
@@ -137,130 +273,111 @@ Provide a deep dive into the Single Responsibility principle within SOLID, exami
 
 <LinkCard title="Read Full Article" href="https://sarunw.com/posts/multi-cursor-editing-in-xcode/" />
 
-### Writing Good Unit Tests
+### Using @DebugDescription in Xcode 16
+Learn how the CustomDebugStringConvertible protocol and @DebugDescription macro in Xcode 16 enhance debugging by providing clear, custom debug outputs.
+
+<details>
+**URL:** https://digitalbunker.dev/debug-description-macro-xcode-16/?ref=createwithswift.com
+
+**Published:** July 21, 2024  
+
+**Authors:** `Aryaman Sharda`
+
+**Tags:**  
+`iOS & Swift`, `Debugging`, `Xcode 16`
+</details>
+
+#### Key Points
+- Introduces the CustomDebugStringConvertible protocol for customizing debug outputs of custom types.
+- Discusses the @DebugDescription macro, enhancing debug visibility directly in Xcode's Variable Inspector.
+- Highlights benefits such as improved debugging experience without additional print statements.
+- Mentions alternatives for those not yet using Xcode 16, such as LLDB Type Summaries.
+- References discussions from Swift forums on the evolution and proposals related to @DebugDescription.
+
+#### Summary of Contents
+- **Introduction:** Overview of challenges in debugging custom types and the importance of clear debug outputs.
+- **Using CustomDebugStringConvertible:** Explains how to implement the protocol to customize debug descriptions for custom types.
+- **@DebugDescription Macro:** Introduces the macro and its role in displaying debugDescription in Xcode's Variable Inspector.
+- **How It Works:** Details the process of LLDB's expression evaluation and its implications for debugging.
+- **Macro Alternatives:** Discusses using LLDB Type Summaries as an alternative for older Xcode versions.
+- **Conclusion:** Emphasizes the practical benefits of adopting @DebugDescription and suggests further reading on the topic.
+
+<LinkCard title="Read Full Article" href="https://digitalbunker.dev/debug-description-macro-xcode-16/?ref=createwithswift.com" />
+
+
+
+## Localization
+
+### Formatted Strings in iOS Localization
 
 <details>
 
-**URL:** https://blog.devgenius.io/writing-good-unit-tests-2158be9ee82d
+**URL:** https://kean.blog/post/formatted-strings
 
-**Published:** Oct 17, 2023  
+**Published:** November 29, 2020  
 
-**Authors:** `Chris Mash`
+**Authors:** Alex Grebenyuk
 
 **Tags:**  
-`Unit Testing`, `Software Development`, `Test Driven Development`, `TDD`
+`iOS Development`, `Localization`, `NSAttributedString`, `XMLParser`, `HTML`
 
 </details>
 
 #### Key Points
-- Importance of writing good unit tests for ensuring code correctness and future maintainability.
-- Characteristics of good unit tests: validation of expected behaviors, isolation from dependencies, and meaningful coverage.
-- Benefits of Test Driven Development (TDD) in improving test quality and code design.
-- Strategies for verifying expected values, preventing unexpected function calls, and ensuring test pre-requisites are met.
+- Discusses common poor practices in localizing formatted strings in iOS apps.
+- Covers problems with concatenated strings and substring lookup approaches.
+- Introduces using HTML and `NSAttributedString` for better localization but highlights drawbacks.
+- Proposes a solution using `XMLParser` to parse basic XML tags for improved control and performance.
 
 #### Summary of Contents
-- **Introduction:** Emphasizes the role of unit tests in code reliability and maintenance.
-- **What do good unit tests look like?:** Criteria for effective unit tests, including behavior validation and isolation principles.
-- **Verify expected values:** Contrasts poor and improved examples of tests validating expected outcomes.
-- **Verify unexpected function calls aren’t made:** Discusses techniques to prevent unintended function calls in tests.
-- **Verify expected behavior:** Examines examples of testing specific behaviors in isolated units.
-- **Verify pre-requisites of your test:** Strategies for ensuring test conditions are met before execution.
-- **How to get good unit tests?:** Advocates for TDD as a methodology to foster effective testing habits.
-- **Conclusion:** Summarizes the importance of early testing and quality assurance practices in software development.
+- **Introduction:** Challenges of localizing text with rich formatting in iOS.
+- **Poor Practices:**
+  - Concatenated Strings: Issues with hard-coded sentence structures and translation complexities.
+  - Substring Lookup: Problems with applying attributes to substrings, leading to maintenance issues.
+  - HTML: Use of HTML for rich text formatting and its limitations in iOS apps.
+- **Proposed Solution:** Introduces a lightweight solution using `XMLParser` for parsing XML-like tags.
+- **Technical Details:** Details on using `NSAttributedString` and `XMLParser`.
+- **Applications and Examples:** Practical examples of implementing the proposed solution.
+- **Conclusion:** Advocates for using `XMLParser` for handling formatted strings in iOS apps due to its simplicity and performance benefits.
 
-<LinkCard title="Read Full Article" href="https://blog.devgenius.io/writing-good-unit-tests-2158be9ee82d" />
+<LinkCard title="Read Full Article" href="https://kean.blog/post/formatted-strings" />
 
-### Double Optional Bindings in SwiftUI
+## Concurrency
+
+### Async await in Swift: The Full Toolkit
 
 <details>
 
-**URL:** https://phlippieb.dev/posts/double-optional-bindings/
+**URL:** https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com
 
-**Published:** Tue Jun 25 2024  
+**Published:** July 22, 2024 
 
-**Authors:** Phlippie Bosman
+**Authors:** Jacob Bartlett
 
 **Tags:**  
-`SwiftUI`, `iOS Development`, `Optional Types`, `UI Design`
+`Swift`, `Concurrency`, `Async/Await`, `Swift Actors`, `Sendable`, `Task Groups`, `AsyncSequence`, `AsyncStream`, `Async Algorithms`
 
 </details>
 
 #### Key Points
-- Discusses the usage of double optional types in SwiftUI for managing sheet presentation and item editing.
-- Shows how SwiftUI utilizes optional bindings to control the visibility of sheets.
-- Highlights the use of optional types to distinguish between creating new items and editing existing ones.
-- Provides practical examples of implementing double optional bindings in SwiftUI views.
+- Detailed exploration of Swift's concurrency features including async/await, tasks, task groups, actors, and more.
+- Practical examples illustrate how to optimize code performance with concurrency.
+- Explanation of concepts like re-entrancy, interleaving, and thread safety through Sendable protocol.
+- Introduction to advanced topics such as continuations, AsyncSequence, AsyncStream, and Async Algorithms.
+- Emphasis on practical application in real-world scenarios like network requests and UI updates.
 
 #### Summary of Contents
-- **Introduction:** Introduces the concept of using double optional types in SwiftUI views.
-- **Optional Binding for Sheet Visibility:** Explains how SwiftUI uses optional bindings to show or dismiss sheets based on state changes.
-- **Optional Binding for Item Editing:** Demonstrates the use of optional types to differentiate between creating new items and editing existing ones.
-- **Practical Examples:** Provides code examples and scenarios where double optional bindings are applied in SwiftUI development.
-- **Conclusion:** Summarizes the benefits and challenges of using double optional types in SwiftUI UI design.
+- **Introduction:** Overview of Swift concurrency tools and their importance in modern iOS development.
+- **Main Sections:** Detailed explanations and examples of async/await, async let, Task, Task group, Actors, MainActor, and Sendable.
+- **Technical Details:** Discusses nuances of async functions, structured concurrency, and cooperative cancellation.
+- **Applications and Examples:** Practical examples including fetching data from APIs, handling UI updates, and managing complex asynchronous workflows.
+- **Conclusion:** Encourages developers to integrate Swift concurrency tools into their coding practices for enhanced performance and scalability.
 
-<LinkCard title="Read Full Article" href="https://phlippieb.dev/posts/double-optional-bindings/" />
+<LinkCard title="Read Full Article" href="https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com" />
 
-### The Advanced Guide to UserDefaults in Swift
 
-<details>
 
-**URL:** https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/
-
-**Published:** Dec 9, 2019  
-
-**Authors:** Vadim Bulavin
-
-**Tags:**  
-`Swift`, `UserDefaults`, `Property Wrappers`
-
-</details>
-
-#### Key Points
-- UserDefaults in Swift manages persistent storage for key-value pairs using .plist files.
-- It supports storing data types such as String, Date, Bool, Int, Double, Float, Array, Dictionary, and URL.
-- Large data should be avoided due to performance reasons, especially on platforms like tvOS.
-- Custom objects are not recommended for UserDefaults due to compatibility issues.
-- Swift 5 introduced property wrappers, enhancing type-safety and allowing observation of UserDefaults changes.
-
-#### Summary of Contents
-- **Introduction:** Overview of UserDefaults and its evolution with Swift 5.
-- **UserDefaults Overview:** Discusses supported data types and best practices for usage.
-- **UserDefaults Internal Structure:** Details the per-domain storage model and performance considerations.
-- **Implementing Key-Value Storage:** Guide on implementing type-safe storage using property wrappers.
-- **Observing UserDefaults Value Changes:** Explanation on extending UserDefaults with property wrapper observation.
-- **Source Code:** Links to the implementation example and project repository.
-- **Summary:** Key takeaways emphasizing UserDefaults' use cases and best practices.
-
-<LinkCard title="Read Full Article" href="https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/" />
-
-### The Swift Programming Language
-
-The Swift Programming Language book, available on Swift.org, provides comprehensive documentation on Swift. It covers the basics of the language, advanced topics, and practical examples, making it an essential resource for both beginners and experienced developers.
-
-<details>
-
-**URL:** https://docs.swift.org/swift-book/documentation/the-swift-programming-language
-
-**Authors:** `Apple Inc.`
-
-**Tags:**  
-`Swift`, `iOS Development`, `Programming Language`, `Reference`, `Guide`
-
-</details>
-
-#### Key Points
-- Extensive guide covering all aspects of Swift.
-- Includes practical examples and advanced topics.
-- Authoritative resource for Swift programming.
-
-#### Summary of Contents
-- **Introduction:** Overview of Swift and its benefits.
-- **Basics:** Syntax, variables, constants, and basic data types.
-- **Advanced Topics:** Protocols, generics, error handling, and concurrency.
-- **Practical Examples:** Code snippets and real-world use cases.
-- **Appendix:** Additional resources and references for further learning.
-
-<LinkCard title="Read The Swift Programming Language" href="https://docs.swift.org/swift-book/documentation/the-swift-programming-language" />
+## Design
 
 ### The Sound of Software
 
@@ -297,127 +414,4 @@ The Swift Programming Language book, available on Swift.org, provides comprehens
 
 <LinkCard title="Read Full Article" href="https://notboring.software/words/the-sound-of-software" />
 
-### Using @DebugDescription in Xcode 16
-Learn how the CustomDebugStringConvertible protocol and @DebugDescription macro in Xcode 16 enhance debugging by providing clear, custom debug outputs.
 
-<details>
-**URL:** https://digitalbunker.dev/debug-description-macro-xcode-16/?ref=createwithswift.com
-
-**Published:** July 21, 2024  
-
-**Authors:** `Aryaman Sharda`
-
-**Tags:**  
-`iOS & Swift`, `Debugging`, `Xcode 16`
-</details>
-
-#### Key Points
-- Introduces the CustomDebugStringConvertible protocol for customizing debug outputs of custom types.
-- Discusses the @DebugDescription macro, enhancing debug visibility directly in Xcode's Variable Inspector.
-- Highlights benefits such as improved debugging experience without additional print statements.
-- Mentions alternatives for those not yet using Xcode 16, such as LLDB Type Summaries.
-- References discussions from Swift forums on the evolution and proposals related to @DebugDescription.
-
-#### Summary of Contents
-- **Introduction:** Overview of challenges in debugging custom types and the importance of clear debug outputs.
-- **Using CustomDebugStringConvertible:** Explains how to implement the protocol to customize debug descriptions for custom types.
-- **@DebugDescription Macro:** Introduces the macro and its role in displaying debugDescription in Xcode's Variable Inspector.
-- **How It Works:** Details the process of LLDB's expression evaluation and its implications for debugging.
-- **Macro Alternatives:** Discusses using LLDB Type Summaries as an alternative for older Xcode versions.
-- **Conclusion:** Emphasizes the practical benefits of adopting @DebugDescription and suggests further reading on the topic.
-
-<LinkCard title="Read Full Article" href="https://digitalbunker.dev/debug-description-macro-xcode-16/?ref=createwithswift.com" />
-
-### Customizing the Appearance of Symbol Images in SwiftUI
-
-<details>
-
-**URL:** https://nilcoalescing.com/blog/CustomizingTheAppearanceOfSymbolImagesInSwiftUI/
-
-**Published:** 22 July 2024  
-
-**Author:** Natalia Panferova
-
-**Tags:**  
-`iOS`, `macOS`, `SwiftUI`
-
-</details>
-
-#### Key Points
-- Explains how to customize SF Symbols in SwiftUI apps.
-- Covers adjustments for size, color, rendering modes, variable values, and design variants.
-- Highlights best practices for maintaining symbol image integrity.
-
-#### Summary of Contents
-- **Introduction:** Introduction to SF Symbols and their use in SwiftUI apps.
-- **Size:** Techniques for adjusting symbol size using the `font()` and `imageScale()` modifiers.
-- **Color:** Methods for customizing symbol colors using the `foregroundStyle()` modifier.
-- **Rendering Mode:** Overview of different rendering modes (`monochrome`, `hierarchical`, `palette`, `multicolor`) and their effects.
-- **Variable Value:** Explanation of using variable values to dynamically change symbol appearance.
-- **Design Variants:** Discussion on different symbol design variants (`slash`, `fill`, shapes) and their applications.
-- **Conclusion:** Emphasizes the importance of using these customization techniques to enhance app aesthetics and user experience.
-
-<LinkCard title="Read Full Article" href="https://nilcoalescing.com/blog/CustomizingTheAppearanceOfSymbolImagesInSwiftUI/" />
-
-### Async await in Swift: The Full Toolkit
-
-<details>
-
-**URL:** https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com
-
-**Published:** July 22, 2024 
-
-**Authors:** Jacob Bartlett
-
-**Tags:**  
-`Swift`, `Concurrency`, `Async/Await`, `Swift Actors`, `Sendable`, `Task Groups`, `AsyncSequence`, `AsyncStream`, `Async Algorithms`
-
-</details>
-
-#### Key Points
-- Detailed exploration of Swift's concurrency features including async/await, tasks, task groups, actors, and more.
-- Practical examples illustrate how to optimize code performance with concurrency.
-- Explanation of concepts like re-entrancy, interleaving, and thread safety through Sendable protocol.
-- Introduction to advanced topics such as continuations, AsyncSequence, AsyncStream, and Async Algorithms.
-- Emphasis on practical application in real-world scenarios like network requests and UI updates.
-
-#### Summary of Contents
-- **Introduction:** Overview of Swift concurrency tools and their importance in modern iOS development.
-- **Main Sections:** Detailed explanations and examples of async/await, async let, Task, Task group, Actors, MainActor, and Sendable.
-- **Technical Details:** Discusses nuances of async functions, structured concurrency, and cooperative cancellation.
-- **Applications and Examples:** Practical examples including fetching data from APIs, handling UI updates, and managing complex asynchronous workflows.
-- **Conclusion:** Encourages developers to integrate Swift concurrency tools into their coding practices for enhanced performance and scalability.
-
-<LinkCard title="Read Full Article" href="https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com" />
-
-### Understanding SwiftUI's PreferenceKeys
-This article explains how SwiftUI’s PreferenceKeys allow data to flow upwards from child views to parent views, complementing the traditional downward flow of data. PreferenceKeys are crucial for scenarios where you need to pass information up the view hierarchy without relying on bindings.
-
-<details>
-**URL:** [Understanding SwiftUI's PreferenceKeys](https://swiftlogic.io/posts/understanding-swiftui-preferencekeys/)
-
-**Published:** July 21, 2024  
-**Last Updated:** Not specified
-
-**Authors:** Osaretin Uyigue
-
-**Tags:**  
-`swift`, `ios development`, `swiftui`, `preference keys`, `data flow`, `data binding`
-</details>
-
-#### Key Points
-- PreferenceKeys enable data flow from child to parent views in SwiftUI, opposite to Environment variables.
-- Implementing the `PreferenceKey` protocol involves defining a `Value`, a `defaultValue`, and a `reduce` function to manage and combine values.
-- Custom PreferenceKeys can be created to pass specific data types, such as view dimensions, up the view hierarchy.
-- Practical examples include custom navigation titles using PreferenceKeys to dynamically set view titles based on child views.
-
-#### Summary of Contents
-- **Introduction:** Overview of PreferenceKeys and their role in SwiftUI’s data flow mechanism.
-- **How it Works:** Explanation of how PreferenceKeys allow data to move up the view hierarchy without bindings.
-- **How PreferenceKeys Work:** Detailed breakdown of the `PreferenceKey` protocol and its components.
-- **Creating a Custom PreferenceKey:** Example of creating a `HeightPreferenceKey` to track and pass view heights.
-- **Using PreferenceKeys in Views:** Illustration of using PreferenceKeys in `ChildView` and `ParentView` for dynamic data handling.
-- **Real-World Use Case: Custom Navigation Title:** Example of implementing a custom navigation view that uses a PreferenceKey for setting titles.
-- **Conclusion:** Recap of the benefits and practical applications of PreferenceKeys in SwiftUI.
-
-<LinkCard title="Read Full Article" href="https://swiftlogic.io/posts/understanding-swiftui-preferencekeys/" />

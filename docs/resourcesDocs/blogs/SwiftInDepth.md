@@ -33,6 +33,8 @@ Swift in Depth is a platform dedicated to advancing Swift and mobile engineering
 
 ---
 
+## Best Practices
+
 ### Receiving UI designs as a Developer
 
 Provides insights and strategies for app developers when receiving UI designs, emphasizing collaboration with designers and efficient feature implementation.
@@ -69,6 +71,42 @@ Provides insights and strategies for app developers when receiving UI designs, e
 
 <LinkCard title="Read Full Article" href="https://swiftindepth.com/articles/receiving-designs/" />
 
+
+### Uh oh, you picked the wrong UI architecture
+
+<details>
+
+**URL:** https://swiftindepth.com/articles/ui-architectures/
+
+**Published:** Not specified  
+
+**Authors:** Tjeerd in 't Veen
+
+**Tags:**  
+`UI architectures`, `RxSwift`, `MVVM`, `SwiftUI`, `UIKit`, `Mobile development`
+
+</details>
+
+#### Key Points
+- The article discusses the transient nature of UI architectures, likening them to fashion trends that come and go.
+- It emphasizes the importance of choosing architectures based on actual problem-solving needs rather than following trends.
+- Examples from the author’s experience highlight the challenges of integrating new architectures like RxSwift into large codebases.
+- Advocates for simplicity in architecture choices and the value of controlled experimentation over wholesale adoption of new technologies.
+- Discusses current trends like SwiftUI and Combine, and their impact on established patterns like UIKit and MVVM.
+
+#### Summary of Contents
+- **Introduction:** Explores the analogy of UI architectures as fashion trends and introduces the article’s central theme.
+- **Alignment Tools:** Discusses various UI architecture options and their pros and cons, emphasizing personal and team preferences.
+- **Choose the simplest solution possible:** Advises prioritizing simplicity in architecture choices unless complexity is necessary.
+- **What problem are you really solving?:** Encourages identifying root causes of development challenges beyond UI architecture.
+- **Making space for experimentation:** Proposes conducting controlled experiments with new technologies rather than full-scale migrations.
+- **Trends leave again:** Reflects on the evolution of UI architecture trends and their cyclic nature.
+- **Conclusion:** Summarizes the benefits of sticking to a few proven architectures for codebase predictability and team alignment.
+
+<LinkCard title="Read Full Article" href="https://swiftindepth.com/articles/ui-architectures/" />
+
+
+## Testing
 
 ### Testing challenges in a mobile environment
 
@@ -139,36 +177,3 @@ This article explores the unique challenges faced in testing mobile applications
 - **Conclusion:** Summarizes the benefits of adopting a structured approach to UI test automation for improved efficiency and readability.
 
 <LinkCard title="Read Full Article" href="https://swiftindepth.com/articles/uitests-easier/" />
-
-### Uh oh, you picked the wrong UI architecture
-
-<details>
-
-**URL:** https://swiftindepth.com/articles/ui-architectures/
-
-**Published:** Not specified  
-
-**Authors:** Tjeerd in 't Veen
-
-**Tags:**  
-`UI architectures`, `RxSwift`, `MVVM`, `SwiftUI`, `UIKit`, `Mobile development`
-
-</details>
-
-#### Key Points
-- The article discusses the transient nature of UI architectures, likening them to fashion trends that come and go.
-- It emphasizes the importance of choosing architectures based on actual problem-solving needs rather than following trends.
-- Examples from the author’s experience highlight the challenges of integrating new architectures like RxSwift into large codebases.
-- Advocates for simplicity in architecture choices and the value of controlled experimentation over wholesale adoption of new technologies.
-- Discusses current trends like SwiftUI and Combine, and their impact on established patterns like UIKit and MVVM.
-
-#### Summary of Contents
-- **Introduction:** Explores the analogy of UI architectures as fashion trends and introduces the article’s central theme.
-- **Alignment Tools:** Discusses various UI architecture options and their pros and cons, emphasizing personal and team preferences.
-- **Choose the simplest solution possible:** Advises prioritizing simplicity in architecture choices unless complexity is necessary.
-- **What problem are you really solving?:** Encourages identifying root causes of development challenges beyond UI architecture.
-- **Making space for experimentation:** Proposes conducting controlled experiments with new technologies rather than full-scale migrations.
-- **Trends leave again:** Reflects on the evolution of UI architecture trends and their cyclic nature.
-- **Conclusion:** Summarizes the benefits of sticking to a few proven architectures for codebase predictability and team alignment.
-
-<LinkCard title="Read Full Article" href="https://swiftindepth.com/articles/ui-architectures/" />
