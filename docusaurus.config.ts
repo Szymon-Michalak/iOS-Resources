@@ -52,7 +52,7 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
-          blogSidebarTitle: 'Recent questions',
+          blogSidebarTitle: 'All questions',
           blogSidebarCount: 'ALL',
           editUrl:
             'https://github.com/Szymon-Michalak/iOS-Resources/blob/main/',
