@@ -128,7 +128,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Interview Questions', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Szymon-Michalak',
           label: 'GitHub',
           position: 'right',
         },
