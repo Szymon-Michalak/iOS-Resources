@@ -36,35 +36,36 @@ Donny Wals is an experienced iOS developer who shares his knowledge through a va
 
 ## Concurrency 
 
-### @preconcurrency usage in Swift Explained
+### 🔵 @preconcurrency Usage in Swift Explained
 
-Provides insights into using the @preconcurrency attribute in Swift to manage concurrency issues in existing projects and libraries.
+This article by Donny Wals provides a comprehensive overview of the **`@preconcurrency` attribute** in **Swift**. It explains how developers can use this attribute to **incrementally adopt strict concurrency checks** in their projects, even when dealing with **legacy code** or **dependencies** that haven't yet been updated for modern concurrency standards. The post includes practical examples and use cases that illustrate how to apply **`@preconcurrency`** in various scenarios, ensuring smoother transitions to **Swift's concurrency model**.
 
 <details>
 
-**URL:** [https://www.donnywals.com/preconcurrency-usage-in-swift-explained/](https://www.donnywals.com/preconcurrency-usage-in-swift-explained/)
+**URL:** https://www.donnywals.com/preconcurrency-usage-in-swift-explained/
 
 **Published:** May 28, 2024
 
-**Authors:** Donny Wals
+**Authors:** `Donny Wals`
 
 **Tags:**  
-`Swift Concurrency`, `@preconcurrency`, `Xcode`, `MainActor`, `Sendable`
+`Swift`, `Concurrency`, `Swift 6`, `Xcode`
+
 </details>
 
 #### Key Points
-- Introduces @preconcurrency as a tool for handling strict concurrency in Swift.
-- Explains usage scenarios for @preconcurrency with imports, types, functions, and protocols.
-- Discusses implications for library authors and projects transitioning to Swift Concurrency.
-- Highlights how @preconcurrency can suppress warnings from modules not updated for modern concurrency rules.
-- Emphasizes the role of @preconcurrency in maintaining compatibility between old and new codebases.
+- The **`@preconcurrency` attribute** helps in managing **concurrency warnings** from outdated modules by **suppressing them** when importing these modules.
+- It allows developers to **update their code incrementally**, avoiding the **breaking changes** that **strict concurrency checks** might introduce.
+- The attribute can be applied not only to **imports** but also to **classes**, **functions**, and **protocols** to maintain compatibility with **older codebases**.
 
 #### Summary of Contents
-- **Introduction:** Introduction to @preconcurrency and its role in Swift concurrency management.
-- **@preconcurrency Imports:** Managing imports to suppress concurrency-related warnings from external modules.
-- **Adding @preconcurrency:** Guidelines for applying @preconcurrency to types, functions, and protocols.
-- **Technical Details:** Discusses the impact on ABI stability and code compatibility.
-- **Applications and Examples:** Provides code examples demonstrating the use of @preconcurrency in different contexts.
-- **Conclusion:** Summarizes the benefits of @preconcurrency in easing the adoption of strict concurrency in Swift projects.
+- **Introduction to `@preconcurrency`:** Overview of the attribute and its importance in adopting strict concurrency checks in Swift.
+- **Using `@preconcurrency` with Imports:** Detailed explanation of how to suppress concurrency warnings for modules that aren't fully compliant with **Swift's concurrency model**.
+- **Applying `@preconcurrency` to Types and Functions:** Examples of using the attribute in **class declarations** to maintain compatibility with **older code**.
+- **In Summary:** Recap of how **`@preconcurrency`** facilitates a **gradual transition** to **strict concurrency checks** as **Swift 6** approaches.
+
+#### Additional Resources
+- **Enabling Concurrency Warnings in Xcode 15:** [Link to resource](https://www.donnywals.com/enabling-concurrency-warnings-in-xcode-15/)
+- **Level Up Your Swift Concurrency Skills:** [Practical Swift Concurrency Course](https://donnyplus.com/p/practical-swift-concurrency-the-video-course)
 
 <LinkCard title="Read Full Article" href="https://www.donnywals.com/preconcurrency-usage-in-swift-explained/" />

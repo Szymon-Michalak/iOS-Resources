@@ -36,101 +36,108 @@ Fatbobman's Blog is a platform offering a wide range of tutorials, articles, and
 
 ## SwiftUI
 
-### GeometryReader: Blessing or Curse?
+### 🔵 GeometryReader: Blessing or Curse?
 
-The article explores the controversial use of GeometryReader in SwiftUI, addressing common criticisms and misunderstandings. It discusses its role in obtaining geometric information and its impact on layout and performance.
+**GeometryReader** has been a **staple in SwiftUI** since its inception, but it has also been the subject of significant debate. While some developers criticize it for **disrupting layouts** or causing **performance issues**, others find it **invaluable for certain use cases**. This article delves into the **common criticisms** of GeometryReader and provides a balanced view, examining whether the problems lie with the **tool itself** or with developers' **expectations**.
 
 <details>
 
-**URL:** https://fatbobman.com/en/posts/geometryreader-blessing-or-curse/  
+**URL:** https://fatbobman.com/en/posts/geometryreader-blessing-or-curse/
+
 **Published:** Nov 9, 2023  
-**Last Updated:** Jun 18, 2024  
-**Authors:** `Fatbobman`  
-**Tags:**
-`SwiftUI`, `GeometryReader`, `Layout`, `Swift`
+**Updated:** Jun 18, 2024  
+**Authors:** `Fatbobman`
+
+**Tags:**  
+`SwiftUI`, `GeometryReader`, `iOS Development`, `Layout`, `Performance`
 
 </details>
 
 #### Key Points
-
-- GeometryReader is criticized for disrupting layout and lacking precise geometry information.
-- It's often misunderstood as a layout container when its primary role is to read geometry.
-- Performance issues arise from its use in complex layouts and its impact on view updates.
-- SwiftUI updates introduced alternatives to some GeometryReader functionalities.
+- **Criticism of GeometryReader:** Common issues include **layout disruption**, **incorrect geometry information**, **rigidity in view layouts**, and **performance concerns**.
+- **Understanding GeometryReader:** It is primarily a tool for **reading geometry information**, not necessarily for **defining layouts**, which is often misunderstood.
+- **Layout Logic and Use Cases:** GeometryReader **occupies all available space** and **aligns child views at the origin**, making it suitable for certain tasks but not as a **general-purpose layout container**.
+- **Performance Considerations:** Proper use of GeometryReader, especially with **new SwiftUI APIs**, can mitigate **performance issues** that arise from incorrect or **excessive use**.
+- **Alternatives:** SwiftUI now offers more **refined tools for layout**, reducing the need to rely heavily on **GeometryReader**.
 
 #### Summary of Contents
+- **Introduction to GeometryReader:** Overview of its role in **SwiftUI** and the reasons behind its **divisive reputation**.
+- **Common Criticisms:** Detailed examination of the most frequent complaints about **GeometryReader**, including its impact on **layout** and **performance**.
+- **What GeometryReader Really Does:** Clarification of its purpose as a **geometry information reader**, not a **layout tool**.
+- **Is GeometryReader a Layout Container?** Exploration of how **GeometryReader handles layout** and when it should be used as a **container**.
+- **Correct Usage Patterns:** Examples and tips for using **GeometryReader effectively** without falling into common traps.
+- **Performance Issues and Solutions:** Discussion of how to avoid **performance pitfalls** when using **GeometryReader**, especially in **complex layouts**.
+- **Alternatives to GeometryReader:** Overview of other **SwiftUI tools** that can achieve similar goals more **efficiently**.
 
-- **Introduction:** Discusses the historical context and developer sentiments towards GeometryReader.
-- **Criticism and Misunderstandings:** Analyzes criticisms regarding layout disruption and inaccurate geometry.
-- **Functionality and Usage:** Explores how GeometryReader functions as a geometry information provider.
-- **Performance Considerations:** Details performance implications and alternatives.
-- **Examples and Recommendations:** Provides practical examples and alternatives for typical use cases.
-- **Conclusion:** Summarizes the role and impact of GeometryReader in SwiftUI development.
+#### Additional Resources
+- **[SwiftUI Layout: The Mystery of Size](https://fatbobman.com/en/posts/layout-dimensions-1/):** A deep dive into **SwiftUI's layout system**.
+- **[Several Ways to Center Views in SwiftUI](https://fatbobman.com/en/posts/centering_the_view_in_swiftui/):** Tips and techniques for **centering views** in different scenarios.
+- **[Safely Updating The View State](https://swiftui-lab.com/state-changes/):** Best practices for managing **state changes** in **SwiftUI**.
 
 <LinkCard title="Read Full Article" href="https://fatbobman.com/en/posts/geometryreader-blessing-or-curse/" />
 
-
-### Layout in SwiftUI Way
-
-The article explores various techniques in SwiftUI for achieving complex layout requirements, aiming to clarify its powerful yet sometimes confusing layout system. It emphasizes practical examples and comparisons to aid developers in mastering SwiftUI's layout capabilities.
+### 🔴 Layout in SwiftUI Way
+This article by **Fatbobman** demonstrates the **power and flexibility** of **SwiftUI's layout system** by showcasing multiple ways to achieve the same layout. It helps developers gain a better understanding of **SwiftUI's layout logic** through various approaches, making it a valuable read for those working with **complex UI designs** in **SwiftUI**.
 
 <details>
 
-**URL:** https://fatbobman.com/en/posts/layout-in-swiftui-way/  
-**Published:** Mar 1, 2023  
+**URL:** https://fatbobman.com/en/posts/layout-in-swiftui-way/
 
-**Authors:** `Fatbobman`  
-**Tags:**
-`SwiftUI`, `iOS Development`, `Layout Design`
+**Published:** March 1, 2023
+
+**Authors:** `Fatbobman`
+
+**Tags:**  
+`SwiftUI`, `iOS`, `Layout`, `UI Development`
 
 </details>
 
 #### Key Points
-
-- Demonstrates multiple methods in SwiftUI for handling complex layout designs.
-- Discusses the use of `offset`, `alignmentGuide`, `ScrollView`, `LayoutPriority`, `NameSpace`, and `Layout Protocol` for different layout scenarios.
-- Highlights pros and cons of each approach and their suitability for different use cases.
-- Provides practical insights and code examples to deepen understanding of SwiftUI's layout mechanics.
+- Demonstrates **multiple layout solutions** for the same **UI requirement**, highlighting **SwiftUI's flexibility**.
+- Explains the use of techniques such as **`offset`**, **`alignmentGuide`**, **`NameSpace`**, **`ScrollView`**, and **custom Layout protocols**.
+- Provides **in-depth code examples** for each approach, making it easier for developers to apply these techniques in their projects.
 
 #### Summary of Contents
+- **Introduction:** The article begins by addressing common concerns about **SwiftUI's capabilities** in handling **complex layouts** and sets the stage for the solutions provided.
+- **Various Approaches:** The main content is structured around different layout techniques, including **`offset`**, **`alignmentGuide`**, **`NameSpace`**, **`ScrollView`**, and **layout priority management**, each with detailed explanations and **code snippets**.
+- **Custom Layout Protocol:** A deeper dive into creating **custom layouts** using **SwiftUI's Layout protocol**, offering a more advanced solution for specific scenarios.
+- **Conclusion:** Emphasizes that the upper limit of **layout ability** depends on the developer's understanding of the tools **SwiftUI** provides.
 
-- **Introduction:** Overview of SwiftUI's layout system and its perceived complexities.
-- **Offset:** Demonstrates using `offset` for basic vertical alignment adjustments.
-- **AlignmentGuide:** Explains the use of `alignmentGuide` for precise layout alignment.
-- **NameSpace:** Introduces `NameSpace` and `matchedGeometryEffect` for animation and layout synchronization.
-- **ScrollView:** Discusses how to use `ScrollView` for handling scrolling and dynamic content.
-- **LayoutPriority:** Covers `layoutPriority` for managing view priorities within layouts.
-- **Layout Protocol:** Introduces the `Layout` protocol for creating custom layout containers.
-- **Conclusion:** Summarizes key insights and recommendations for choosing the right layout approach in SwiftUI.
+#### Additional Resources
+- **[SwiftUI Layout: The Mystery of Size](https://fatbobman.com/en/posts/layout-dimensions-1/):** Further reading on **SwiftUI layout dimensions** and **size management**.
+- **[In-Depth Exploration of Overlay and Background Modifiers in SwiftUI](https://fatbobman.com/en/posts/in-depth-exploration-of-overlay-and-background-modifiers-in-swiftui/):** A related post that discusses **overlay and background modifiers** in detail.
 
 <LinkCard title="Read Full Article" href="https://fatbobman.com/en/posts/layout-in-swiftui-way/" />
 
-### How to Tile Images in SwiftUI
-This article delves into two methods for image tiling in SwiftUI and introduces an alternative approach using a less common Image construction method. The discussion highlights the limitations of the commonly used `resizable` modifier and explores more flexible options introduced in recent SwiftUI updates.
+### 🔵 How to Tile Images in SwiftUI
+This article, authored by **Fatbobman** and published on **July 31, 2024**, explores various methods to achieve **image tiling** in **SwiftUI**, moving beyond the commonly known **`resizable` modifier**. The post introduces more advanced techniques, such as using the **`foregroundStyle` modifier** with **`ImagePaint`**, and discusses a **custom approach** for tiling **SF Symbols** across different **iOS versions**. The insights provided are valuable for developers looking to enhance their **SwiftUI capabilities**, especially in scenarios requiring **precise image control** and **flexibility**.
 
 <details>
+
 **URL:** https://fatbobman.com/en/posts/how-to-tile-images-in-swiftui/
 
 **Published:** July 31, 2024
 
-**Authors:** [Fatbobman](https://twitter.com/fatbobman)
+**Authors:** `Fatbobman`
 
 **Tags:**  
-`SwiftUI`, `Image Tiling`, `iOS Development`, `UI Design`
+`SwiftUI`, `iOS Development`, `Image Tiling`
+
 </details>
 
 #### Key Points
-- The `resizable` modifier is a widely known method for tiling images in SwiftUI but comes with limitations such as lack of control over image size and selection.
-- iOS 15 introduced the `foregroundStyle` modifier with `ImagePaint`, which provides a more intuitive and controllable method for image tiling.
-- Custom `Image` construction methods offer advanced tiling capabilities but may have compatibility issues with some SwiftUI features and system versions.
-- SF Symbols can be used for tiling with the custom `Image` approach to maintain full control over styling and rendering.
+- **`resizable` Modifier:** Commonly used for **tiling images**, but has limitations such as difficulty **adjusting image size** and only working with **`Image` types**.
+- **`foregroundStyle` Modifier with `ImagePaint`:** A more flexible and **SwiftUI-styled** approach that offers greater **control** over the **tiling process**.
+- **Custom Image Creation:** Techniques for creating **custom images** to tile **SF Symbols** across different **iOS versions**, ensuring **compatibility** and retaining **symbol control features**.
 
 #### Summary of Contents
-- **Introduction:** The article begins by addressing the common approach to image tiling in SwiftUI and the need for more flexible solutions.
-- **resizable Modifier:** Details how to use the `resizable` modifier for tiling images and its limitations.
-- **foregroundStyle and ImagePaint:** Explains the benefits of using `foregroundStyle` with `ImagePaint` for better control and flexibility.
-- **Custom Image Construction:** Covers advanced techniques for creating custom `Image` instances to handle tiling, including examples and potential issues.
-- **SF Symbols:** Discusses how to tile SF Symbols and the advantages of using custom `Image` methods to maintain symbol features and compatibility.
-- **Conclusion:** Emphasizes the importance of exploring new SwiftUI tools and methods to enhance UI design and functionality.
+- **Resizable Modifier:** Describes the usage of **`resizable`** with **`resizingMode: .tile`**, highlighting its **advantages** and **limitations**.
+- **ForegroundStyle with ImagePaint:** Explains how to use **`foregroundStyle`** and **`ImagePaint`** for more **controllable** and **intuitive image tiling** in **SwiftUI**.
+- **Custom Image for SF Symbols:** Discusses creating **custom images** for **SF Symbols** to achieve **tiling** while maintaining **full control** over **symbol attributes** across different **iOS versions**.
+
+#### Additional Resources
+- **[Several Ways to Center Views in SwiftUI](https://fatbobman.com/en/posts/centering_the_view_in_swiftui/):** An exploration of various techniques to **center views** in **SwiftUI**.
+- **[Mixing Text and Image in SwiftUI](https://fatbobman.com/en/posts/mixing_text_and_graphics_with_text_in_swiftui/):** Tips and tricks for **combining text and images** effectively in **SwiftUI**.
+- **[Mastering Safe Area in SwiftUI](https://fatbobman.com/en/posts/safearea/):** A deep dive into managing the **safe area** in **SwiftUI layouts**.
 
 <LinkCard title="Read Full Article" href="https://fatbobman.com/en/posts/how-to-tile-images-in-swiftui/" />

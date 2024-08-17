@@ -37,36 +37,36 @@ Hacking with Swift is a platform offering a vast array of tutorials, articles, a
 
 ## SwiftUI
 
-### How to fix slow List updates in SwiftUI
-Learn how to enhance List performance with a simple SwiftUI trick.
+### 🔵 How to Fix Slow List Updates in SwiftUI
+
+This article addresses a common issue in **SwiftUI** where sorting or filtering large datasets in a `List` view can lead to significant **performance delays**. The article explains why these delays occur and presents a simple, one-line solution to mitigate the problem using the **`.id(UUID())` modifier**. Additionally, it delves into the **mechanics of SwiftUI** that cause the issue and discusses the **trade-offs** involved with the fix, such as losing **animations** during list updates.
 
 <details>
 
-**URL:** https://www.hackingwithswift.com/articles/210/how-to-fix-slow-list-updates-in-swiftui 
+**URL:** https://www.hackingwithswift.com/articles/210/how-to-fix-slow-list-updates-in-swiftui
 
-**Published:** November 3rd 2023  
-**Last Updated:** N/A
+**Published:** November 3rd, 2023
 
-**Authors:** Paul Hudson
+**Authors:** `Paul Hudson`
 
 **Tags:**  
-`SwiftUI`, `iOS Development`, `Performance Optimization`
+`SwiftUI`, `Performance`, `Optimization`
 
 </details>
 
 #### Key Points
-- Demonstrates the issue of slow updates in SwiftUI Lists when managing large datasets.
-- Introduces a one-line fix using `.id(UUID())` to improve List update performance dramatically.
-- Discusses the underlying cause of the issue related to SwiftUI's reconciliation process.
-- Emphasizes the importance of understanding SwiftUI's view lifecycle for effective performance optimization.
-- Notes the trade-off of losing row animations with the proposed fix.
+- The problem occurs when a **large list** in **SwiftUI** takes significant time to update after **sorting** or **filtering**.
+- The root cause is **SwiftUI's process** of comparing old and new list items to animate changes, which is **computationally expensive** for large datasets.
+- The **`.id(UUID())` modifier** effectively resolves this issue by forcing **SwiftUI** to treat the list as a **new one**, thus bypassing the expensive comparison process.
 
 #### Summary of Contents
-- **Introduction:** Explains the problem of slow List updates in SwiftUI due to inefficient row comparison.
-- **Our problem code:** Provides a sample SwiftUI code snippet illustrating the issue with List performance.
-- **The one-line fix for slow SwiftUI lists:** Introduces the `.id(UUID())` modifier and demonstrates its application to resolve the issue.
-- **What makes it slow?:** Explores the technical reasons behind the performance bottleneck and introduces Xcode's Instruments for profiling.
-- **It's a different list, promise!:** Clarifies how the `.id()` modifier optimizes List updates by signaling SwiftUI of a list change.
-- **Conclusion:** Summarizes the effectiveness of the proposed fix and discusses the potential impact on user experience versus performance gains.
+- **Problem Explanation:** The article begins by demonstrating the problem with a **code example** that causes performance delays in a **SwiftUI `List`** when shuffled.
+- **The Fix:** Introduces a **one-line solution** using **`.id(UUID())`** that dramatically **improves performance**.
+- **Deep Dive:** The article explains why the fix works, including a discussion of **SwiftUI’s list comparison process**.
+- **Trade-offs:** It concludes with a discussion on the **trade-offs**, such as the **loss of animations** when using this fix.
+
+#### Additional Resources
+- **SwiftUI Performance Optimization Techniques:** [Further Reading](#)
+- **Understanding State and Binding in SwiftUI:** [Further Reading](#)
 
 <LinkCard title="Read Full Article" href="https://www.hackingwithswift.com/articles/210/how-to-fix-slow-list-updates-in-swiftui" />

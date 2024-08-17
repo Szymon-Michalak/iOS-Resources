@@ -37,104 +37,104 @@ Create with Swift is a platform designed for Swift and SwiftUI developers, offer
 
 ## SwiftUI
 
-### Displaying tips based on parameters and events with TipKit
+### 🟢 Displaying tips based on parameters and events with TipKit
 
-This tutorial explores using the TipKit framework in SwiftUI to display contextual tips based on specific parameters and events within an application. It demonstrates how to configure and present tips using @Parameter property wrappers and Event types.
+This article explains how to use the **TipKit framework** in a **SwiftUI app** to **trigger tips** based on specific **parameters** and **user events**. The tutorial provides detailed **code examples** demonstrating how to **configure** and **display tips** after certain **actions** are performed by the user or when specific **conditions** are met.
 
 <details>
 
-**URL:** https://www.createwithswift.com/displaying-tips-based-on-parameters-and-events-with-tipkit  
-**Published:** Jun 29, 2024  
+**URL:** [Displaying tips based on parameters and events with TipKit](https://www.createwithswift.com/displaying-tips-based-on-parameters-and-events-with-tipkit/)
 
-**Authors:**
-`Tiago Gomes Pereira`, `Matteo Altobello`  
-**Tags:**
-`SwiftUI`, `TipKit`, `iOS Development`, `Parameter Rules`, `Event Rules`
+**Published:** Jun 29, 2024
+
+**Authors:** `Tiago Gomes Pereira, Matteo Altobello`
+
+**Tags:**  
+`SwiftUI`, `TipKit`, `iOS`, `Event-driven`, `Swift`
 
 </details>
 
 #### Key Points
-
-- Introduces TipKit framework for SwiftUI apps.
-- Shows how to define and trigger tips based on parameter values using @Parameter property.
-- Demonstrates setting up tips based on event occurrences using Event type.
-- Provides practical examples and code snippets for implementing both parameter and event-based tip rules.
-- Emphasizes the importance of using Tips.configure() and Tips.resetDatastore() methods for tip management.
+- Demonstrates how to use the **`@Parameter` property wrapper** to control when **tips** are shown in an app.
+- Provides a practical example of using the **`Event` type** to display **tips** after a user accesses a view multiple times.
+- Emphasizes the importance of resetting the datastore during testing with **`Tips.resetDatastore()`**.
 
 #### Summary of Contents
+- **Introduction:** Overview of **TipKit's role** in enhancing user interaction by displaying **context-specific tips**.
+- **Parameter Rules:** Explanation and example of how to use **parameters** to **conditionally show tips**.
+- **Event-driven Tips:** Guide on setting up **tips** to appear after certain **events** or **user actions** occur multiple times.
+- **Conclusion:** Final thoughts on the benefits of using **TipKit** for **user experience improvement** in **SwiftUI apps**.
 
-- **Introduction:** Overview of TipKit framework and its role in enhancing user experience through contextual tips.
-- **Showing the tips using parameter rules:** Discusses using @Parameter property wrapper to control tip presentation based on specific conditions.
-- **Showing the tips based on events:** Explains using Event type to trigger tips after specific actions or view visits.
-- **Technical Details:** Covers usage of Rule macros and TipView component in SwiftUI.
-- **Applications and Examples:** Provides code examples illustrating implementation of parameter and event rules in SwiftUI views.
-- **Conclusion:** Highlights benefits of using TipKit for improving app usability and user engagement.
+#### Additional Resources
+- **Using TipKit on a SwiftUI app:** [Link to related tutorial](https://www.createwithswift.com/using-tipkit-on-a-swiftui-app/)
+- **TipKit Documentation:** [Link to official documentation](https://developer.apple.com/documentation/tipkit?ref=createwithswift.com)
 
-<LinkCard title="Read Full Article" href="https://www.createwithswift.com/displaying-tips-based-on-parameters-and-events-with-tipkit" />
+<LinkCard title="Read Full Article" href="https://www.createwithswift.com/displaying-tips-based-on-parameters-and-events-with-tipkit/" />
 
 ## Accessibility
 
-### Understanding VoiceOver Rotor
-
-This article explores the VoiceOver rotor, a crucial accessibility feature in iOS apps. It details how the rotor enhances navigation for users with visual impairments by allowing customizable commands like text highlighting, organizational navigation, and typing methods.
+### 🔵 Understanding VoiceOver rotor
+This article explores the **VoiceOver rotor**, a **key feature** in **iOS** that enhances **accessibility** for users with **partial or no sight**. It covers the rotor's **default options**, such as **text highlighting** and **navigation styles**, and provides a guide on how developers can create **custom rotor items** in **SwiftUI** using the **`accessibilityRotor` modifier**. This is essential for developers looking to make their applications more **accessible**.
 
 <details>
 
-**URL:** https://www.createwithswift.com/understanding-accessibility-rotors-and-how-to-use-them  
-**Published:** Jun 27, 2024  
+**URL:** https://www.createwithswift.com/understanding-accessibility-rotors-and-how-to-use-them/
 
-**Authors:**
- - Pasquale Vittoriosi
- - Matteo Altobello
+**Published:** Jun 27, 2024
 
-**Tags:**
-`Accessibility`, `VoiceOver`, `iOS Development`, `SwiftUI`
+**Authors:** `Pasquale Vittoriosi, Matteo Altobello`
+
+**Tags:**  
+`Accessibility`, `iOS`, `SwiftUI`, `VoiceOver`
 
 </details>
 
-#### Key Points
+**Key Points**
+- The **VoiceOver rotor** is a **contextual wheel** that allows users to **customize navigation** and **interaction** with content.
+- **Default rotor options** include **text highlighting**, **navigating through sections**, and **typing styles**.
+- Developers can create **custom rotor items** in **SwiftUI** to tailor the **VoiceOver experience** to their app's needs.
 
-- Explanation of the VoiceOver rotor and its functionality.
-- Customization options available in the VoiceOver rotor settings.
-- Practical applications of the rotor in enhancing user navigation and interaction.
-- Guide on creating custom VoiceOver rotor items using SwiftUI.
+**Summary of Contents**
+- **Introduction to VoiceOver rotor:** Explanation of what the **VoiceOver rotor** is and how it functions.
+- **Default Rotor Options:** Overview of the **standard rotor options** available in **iOS**, such as "**Headings**," "**Links**," and "**Form controls**."
+- **Custom Rotor Creation in SwiftUI:** A guide on how to implement **custom rotor items** in **SwiftUI** using the **`accessibilityRotor` modifier**.
 
-#### Summary of Contents
-
-- **Introduction:** Overview of VoiceOver and its impact on accessibility.
-- **VoiceOver Rotor:** Detailed explanation of how the rotor works and its customizable features.
-- **Rotor Options:** Discussion on default and customizable rotor options.
-- **Creating Custom Rotors:** Guide on implementing custom rotor items in SwiftUI.
-- **Conclusion:** Recap on the benefits of using VoiceOver rotor for app accessibility.
+**Additional Resources**
+- **[Understanding VoiceOver and How to Use It](https://www.createwithswift.com/understanding-voiceover-and-how-to-use-it/):** Detailed overview of **VoiceOver** and its general usage.
+- **[AccessibilityRotorContentBuilder](https://developer.apple.com/documentation/swiftui/accessibilityrotorcontentbuilder?ref=createwithswift.com):** Apple documentation on the **`AccessibilityRotorContentBuilder`** used in creating **custom rotor items**.
 
 <LinkCard title="Read Full Article" href="https://www.createwithswift.com/understanding-accessibility-rotors-and-how-to-use-them/" />
 
-### Translating Text in Your SwiftUI App with the Translation Framework
+### 🟢 Translating Text in Your SwiftUI App with the Translation Framework
 
-This article explains how to use the Translation framework to integrate text translation features into a SwiftUI app. Introduced at WWDC24, this framework allows developers to use machine learning models for on-device translation, enhancing user experience without requiring an internet connection.
+Discover how to use the **Translation framework** introduced at **WWDC24** to provide **text translation features** within a **SwiftUI app**. This guide walks you through the **integration process**, using **machine learning models** that run **locally on the device** to offer seamless **translations** without the need for an internet connection.
 
 <details>
-**URL:** https://www.createwithswift.com/translating-text-in-your-swiftui-app-with-the-translation-framework/
+
+**URL:** [Original Blog Post](https://www.createwithswift.com/translating-text-in-your-swiftui-app-with-the-translation-framework/)
 
 **Published:** August 1, 2024
 
-**Authors:** Matteo Altobello
+**Authors:** `Matteo Altobello`
 
 **Tags:**  
-`SwiftUI`, `Translation`, `WWDC24`, `iOS`, `Machine Learning`
+`swiftui`, `ios`, `translation`, `machine-learning`, `wwdc24`
+
 </details>
 
 #### Key Points
-- The Translation API, introduced at WWDC24, allows on-device text translation without needing an internet connection.
-- The `translationPresentation(isPresented:text:attachmentAnchor:arrowEdge:replacementAction:)` modifier enables adding a translation overlay to SwiftUI views.
-- The overlay can either show the translated text or replace the original text with the translation.
-- Testing the translation feature requires running the app on a physical device, as the Simulator and Preview do not support translation tasks.
-- On iPadOS and macOS, the translation overlay appears as a popover, which can be customized using the `arrowEdge` parameter.
+- Introduced during **WWDC24**, the **Translation API** allows developers to integrate **text translation** directly into their **SwiftUI apps**.
+- The **Translation framework** operates entirely **on-device**, ensuring **privacy** and **offline capabilities**.
+- The **`translationPresentation` modifier** is used to display a **translation overlay**, enabling easy integration of **translation features**.
 
 #### Summary of Contents
-- **Introduction:** Overview of the Translation API's capabilities and significance.
-- **Translation Presentation:** Detailed instructions on using the `translationPresentation` modifier in SwiftUI.
-- **Replace Text in the View:** How to replace the original text with the translated text using the `replacementAction` parameter.
-- **Platform-Specific Considerations:** Differences in presentation for iPadOS and macOS, including popover customization.
+- **Translation API Overview:** Learn about the new **Translation framework**, its benefits, and its implementation within **SwiftUI**.
+- **Using the `translationPresentation` Modifier:** Step-by-step guide to attaching the **translation overlay** to a **SwiftUI view**.
+- **Text Replacement Feature:** Instructions on how to use the **`replacementAction` parameter** to update **UI elements** with **translated text**.
+
+#### Additional Resources
+- **[Translation Framework Documentation](https://developer.apple.com/documentation/translation):** Official documentation for the **Translation framework**.
+- **[WWDC24 Session on Translation API](https://developer.apple.com/videos/play/wwdc2024/10084/):** Watch the session to get more insights on the **Translation API**.
+- **[SwiftUI Documentation](https://developer.apple.com/documentation/swiftui):** Explore more about **SwiftUI** and its powerful features.
 
 <LinkCard title="Read Full Article" href="https://www.createwithswift.com/translating-text-in-your-swiftui-app-with-the-translation-framework/" />
