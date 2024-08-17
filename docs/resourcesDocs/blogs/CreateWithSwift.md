@@ -35,7 +35,7 @@ Create with Swift is a platform designed for Swift and SwiftUI developers, offer
 
 ---
 
-## SwiftUI
+## **SwiftUI**
 
 ### 🟢 Displaying tips based on parameters and events with TipKit
 
@@ -71,7 +71,7 @@ This article explains how to use the **TipKit framework** in a **SwiftUI app** t
 
 <LinkCard title="Read Full Article" href="https://www.createwithswift.com/displaying-tips-based-on-parameters-and-events-with-tipkit/" />
 
-## Accessibility
+## **Accessibility**
 
 ### 🔵 Understanding VoiceOver rotor
 This article explores the **VoiceOver rotor**, a **key feature** in **iOS** that enhances **accessibility** for users with **partial or no sight**. It covers the rotor's **default options**, such as **text highlighting** and **navigation styles**, and provides a guide on how developers can create **custom rotor items** in **SwiftUI** using the **`accessibilityRotor` modifier**. This is essential for developers looking to make their applications more **accessible**.

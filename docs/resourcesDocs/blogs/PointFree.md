@@ -32,35 +32,41 @@ Point-Free is a video series that explores advanced topics in Swift programming.
 
 ---
 
-## UIKit
+## **UIKit**
 
-### UIKit Styling with Functions
+### 🔵 UIKit Styling with Functions
+
+This blog post explores various approaches to **styling UI components** in **UIKit**, focusing on the **composability** and **reusability** of styles. It introduces different methods, including **UIAppearance**, **subclassing**, **object composition**, and **function composition**, each with practical examples. These techniques aim to solve common **styling problems** in **iOS development** by enhancing **flexibility** and reducing **redundancy**.
 
 <details>
 
 **URL:** https://www.pointfree.co/episodes/ep3-uikit-styling-with-functions
 
-**Published:** Feb 12, 2018  
+**Published:** February 12, 2018
 
-**Authors:** Point-Free
+**Authors:** `Point-Free`
 
 **Tags:**  
-`iOS Development`, `UIKit`, `Functional Programming`, `UI Styling`
+`UIKit`, `iOS Development`, `Swift`, `UI Styling`
 
 </details>
 
 #### Key Points
-- The episode explores the use of plain functions for enhancing composability and reusability in styling UIKit components.
-- Discussions focus on challenges with traditional approaches like UIAppearance and subclassing.
-- Function composition is introduced as a flexible alternative to manage complex UI styling requirements.
+- **UIAppearance:** A protocol that allows **reusable styling** by configuring **view properties** at the **class level**.
+- **Subclassing:** A common approach to manage **reusable styles** by creating **base classes** and inheriting them.
+- **Object Composition:** Preferring **composition over inheritance** by defining **reusable styles** through **static properties**.
+- **Function Composition:** Using **functions** to create **reusable** and **composable styles**, solving the **diamond inheritance problem**.
 
 #### Summary of Contents
-- **Introduction:** Introduces the problem of reusable UI styling and sets the context for applying functional programming concepts.
-- **UIAppearance:** Discusses the limitations and usage of UIAppearance for styling UIButton instances.
-- **Subclassing:** Explores subclassing as another approach to achieve reusable styles but highlights limitations and complexities.
-- **Object Composition:** Advocates for using object composition over inheritance for managing reusable styles effectively.
-- **Functions:** Introduces the concept of styling functions as composable units for configuring UI components.
-- **Function Composition:** Shows how function composition (using `<>` operator) can streamline the process of combining multiple styling functions.
-- **Conclusion:** Emphasizes the advantages of functional programming paradigms in UIKit styling, offering greater flexibility and maintainability.
+- **Introduction:** Overview of the abstract concepts covered in previous episodes and their application to **UIKit**.
+- **UIAppearance:** Explanation of how **UIAppearance** works and its limitations.
+- **Subclassing:** Discussion of **subclassing** as a solution for **reusable styling**, including examples of **base** and **specialized buttons**.
+- **Object Composition:** Demonstrates the use of **static properties** to achieve **composition over inheritance**.
+- **Functions:** Introduction to using **functions** for styling, leading to more **flexible** and **reusable code**.
+- **Function Composition:** Details on composing **functions** to create complex, **reusable styles** without relying on **inheritance**.
+
+#### Additional Resources
+- **[Episode on Side Effects](https://www.pointfree.co/episodes/ep2-side-effects):** Explores the concept of **side effects** in **Swift** and introduces **function composition**.
+- **[Algebraic Data Types](https://www.pointfree.co/episodes/ep4-algebraic-data-types):** The next episode that discusses **algebraic data types** and their use in **Swift**.
 
 <LinkCard title="Read Full Article" href="https://www.pointfree.co/episodes/ep3-uikit-styling-with-functions" />

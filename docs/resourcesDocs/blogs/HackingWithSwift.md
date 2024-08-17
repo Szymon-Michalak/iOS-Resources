@@ -35,7 +35,7 @@ Hacking with Swift is a platform offering a vast array of tutorials, articles, a
 
 ---
 
-## SwiftUI
+## **SwiftUI**
 
 ### 🔵 How to Fix Slow List Updates in SwiftUI
 

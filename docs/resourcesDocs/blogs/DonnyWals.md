@@ -34,7 +34,7 @@ Donny Wals is an experienced iOS developer who shares his knowledge through a va
 
 ---
 
-## Concurrency 
+## **Concurrency** 
 
 ### 🔵 @preconcurrency Usage in Swift Explained
 

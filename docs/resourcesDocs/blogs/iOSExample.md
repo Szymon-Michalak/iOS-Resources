@@ -32,7 +32,7 @@ iOS Example is a platform offering a wide range of tutorials, libraries, and exa
 
 ---
 
-## SwiftUI
+## **SwiftUI**
 
 ### Download View with Button and Animated Circle
 

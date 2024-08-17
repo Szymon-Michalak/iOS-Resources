@@ -33,139 +33,146 @@ Swift by Sundell is a platform providing high-quality articles, podcasts, and ne
 
 ---
 
-## Foundation
+## **Foundation**
 
-### Working with Files and Folders in Swift
+### 🔵 Working with Files and Folders in Swift
 
-Provide a detailed exploration of utilizing file system APIs in Swift for various platforms, emphasizing practical considerations and implementation strategies.
+This article explores **various APIs in Swift** for handling **files and folders**, which are **crucial tasks** for any app dealing with **long-term data persistence**. The discussion includes how to use **`URL`** and **`Data`** types for **reading and writing files**, managing **bundles and modules** in apps, and working with **system-defined** and **custom folders** using **`FileManager`**. **Practical code examples** are provided throughout to demonstrate the **implementation**, with a focus on **cross-platform compatibility** and **best practices**.
 
 <details>
 
-**URL:** https://www.swiftbysundell.com/articles/working-with-files-and-folders-in-swift/
+**URL:** [Working with files and folders in Swift](https://www.swiftbysundell.com/articles/working-with-files-and-folders-in-swift/)
 
-**Published:** 30 Aug 2020  
+**Published:** 30 Aug 2020
 
-**Authors:** John Sundell
+**Authors:** `John Sundell`
 
 **Tags:**  
-`file system`, `data`, `state management`
+`file-system`, `data`, `state-management`, `Swift 5.2`
 
 </details>
 
-#### Key Points
-- Discusses fundamental Swift types like URL and Data for file operations.
-- Highlights accessing bundled resources using Bundle.main.
-- Covers strategies for cross-platform compatibility with FileManager.
-- Emphasizes best practices for writing and managing files in different system folders.
-- Advocates for parameter-based dependency injection for flexible file loading.
+#### **Key Points**
+- The article covers **essential Swift APIs** for interacting with the **file system**, including **`URL`**, **`Data`**, and **`FileManager`**.
+- It highlights the **differences** in file handling across **Apple platforms**, with a focus on **sandboxing** and **system-defined folders**.
+- **Practical code examples** show how to **manage files and folders effectively**, both in **app bundles** and within **custom directories**.
 
-#### Summary of Contents
-- **Introduction:** Overview of the importance of file system operations in app development.
-- **URLs, Locations, and Data:** Using URLs and Data types for reading files, handling paths, and expanding tilde characters.
-- **Bundles and Modules:** Accessing bundled resources using Bundle.main and handling unit testing bundles.
-- **Storing Files within System-Defined Folders:** Using FileManager to write files to system folders like Documents and Caches, ensuring platform compatibility.
-- **Managing Custom Folders:** Creating, modifying, and checking custom folders with FileManager for better file organization.
-- **Conclusion:** Summarizes the versatility of Swift's file system APIs across Apple platforms and Linux, with a recommendation for further exploration.
+#### **Summary of Contents**
+- **URLs, Locations, and Data:** Discusses how to use **`URL`** and **`Data`** types to **read and write files**.
+- **Bundles and Modules:** Explains accessing **internal files** within **app bundles** and the importance of managing **multiple bundles**.
+- **Storing Files within System-Defined Folders:** Covers **writing files** to **system-defined locations** like **`Documents`** and **`Library`** using **`FileManager`**.
+- **Managing Custom Folders:** Discusses how to **create and manage custom folders** within **system-defined directories**.
+
+#### **Additional Resources**
+- **[Files Library](https://github.com/JohnSundell/Files):** An **object-oriented wrapper** around **system APIs** like **`FileManager`** for managing **files** in Swift.
+- **[Caching in Swift](https://www.swiftbysundell.com/articles/caching-in-swift):** A related article on how to effectively **cache data** in Swift applications.
 
 <LinkCard title="Read Full Article" href="https://www.swiftbysundell.com/articles/working-with-files-and-folders-in-swift/" />
 
-### Launch Arguments in Swift
+### 🔵 Launch Arguments in Swift
+This article by **John Sundell** explores how to effectively use **launch arguments** in **Swift**, particularly for **iOS development**. **Launch arguments** are typically used with **command-line tools**, but this article demonstrates their usefulness in **debugging**, **testing**, and **feature flagging** within **iOS apps**. By integrating **launch arguments**, developers can **streamline** their workflow, quickly setting up specific **app states**, simulating **network conditions**, and more.
 
 <details>
 
-**URL:** https://www.swiftbysundell.com/articles/launch-arguments-in-swift/
+**URL:** [Launch arguments in Swift](https://www.swiftbysundell.com/articles/launch-arguments-in-swift/)
 
 **Published:** 20 May 2018
 
-**Authors:** John Sundell
+**Authors:** `John Sundell`
 
 **Tags:**  
-`scripting`, `debugging`, `ui testing`
+`scripting`, `debugging`, `ui-testing`
 
 </details>
 
 #### Key Points
-- Swift provides methods to parse and utilize launch arguments for iOS app development.
-- CommandLine.arguments and UserDefaults are primary APIs used to access and parse launch arguments.
-- Launch arguments are valuable for debugging, UI testing, and feature flag management.
-- They allow developers to modify app behavior dynamically without code changes.
-- Usage of launch arguments should be contained and managed to avoid unintended behavior in release builds.
+- **Swift’s `CommandLine` API** can be used to access **launch arguments**, making it easy to switch between different **app states**.
+- **`UserDefaults`** can parse **launch arguments** into useful data types like **`Bool`**, **`Int`**, and **`Double`**, providing more flexibility.
+- Practical applications include **debugging** **network issues**, **overriding** **feature flags**, and setting specific **app states** for **UI testing**.
 
 #### Summary of Contents
-- **Introduction:** Overview of using launch arguments beyond command line tools in Swift.
-- **Parsing and Usage:** Detailed explanation of CommandLine.arguments and UserDefaults for handling launch arguments.
-- **Debugging and UI Testing:** Applications of launch arguments in debugging network delays, setting app states, and UI testing setup.
-- **Feature Flags and Overrides:** How launch arguments facilitate feature flag overrides during development.
-- **Containment and Best Practices:** Recommendations for organizing launch argument handling code to prevent accidental inclusion in production builds.
-- **Conclusion:** Benefits of using launch arguments to streamline app development and testing workflows.
+- **Parsing Launch Arguments:** How to use **`CommandLine`** and **`UserDefaults`** for handling **launch arguments**.
+- **Passing Launch Arguments:** Methods to pass arguments using **Xcode** for **testing** and **debugging**.
+- **Debug Actions:** Using **launch arguments** to simulate conditions like **slow network performance**.
+- **Overriding Feature Flags:** Simplifying **feature development** by **overriding server-based feature flags** locally.
+- **Setting State:** Automating repetitive tasks like **resetting the app state** or **pre-populating data** for **testing**.
+
+#### Additional Resources
+- **Feature flags in Swift:** Learn more about using **feature flags** in **iOS development**.
+- **Getting started with Xcode UI testing in Swift:** A guide to using **Xcode's UI testing** features.
 
 <LinkCard title="Read Full Article" href="https://www.swiftbysundell.com/articles/launch-arguments-in-swift/" />
 
-## Debuging
+## **Debuging**
 
-### Feature Flags in Swift
+### 🔵 Feature Flags in Swift
 
-Provide a mechanism to gradually roll out new implementations and functionalities in Swift applications using feature flags.
+This blog post by **John Sundell** provides an in-depth look at using **feature flags** in **Swift development**. **Feature flags** are essential tools for **gradually rolling out new features**, performing **A/B testing**, and managing different **code paths** at **compile time** or **runtime**. The article discusses various strategies, including **conditional compilation**, **static flags**, and **runtime flags**, with practical **code examples** for each.
 
 <details>
 
-**URL:** https://www.swiftbysundell.com/articles/feature-flags-in-swift/
+**URL:** [Feature flags in Swift](https://www.swiftbysundell.com/articles/feature-flags-in-swift/)
 
-**Published:** 25 Mar 2018  
+**Published:** 25 Mar 2018
 
-**Authors:** John Sundell
+**Authors:** `John Sundell`
 
 **Tags:**  
-`architecture`, `feature flags`, `maintenance`
+`Swift`, `feature flags`, `architecture`, `maintenance`
 
 </details>
 
 #### Key Points
-- Feature flags allow gating of code based on conditions at compile or runtime.
-- They enable gradual feature rollout, risk mitigation, and A/B testing.
-- Types include conditional compilation, static flags, and runtime flags.
-- Practical benefits include early bug detection, simplified merge conflicts, and internal feature previews.
-- Runtime flags support dynamic configuration but increase complexity and testing challenges.
+- **Feature flags** help in **rolling out new implementations gradually**, **reducing the risk** of big changes, and enabling **A/B testing**.
+- **Conditional compilation** allows developers to remove certain **code blocks** from **production builds** using **compiler flags**.
+- **Static feature flags** provide a simple way to control **feature availability** at **runtime** but cannot be modified after **compilation**.
+- **Runtime feature flags** offer greater **flexibility** by allowing **dynamic control** of features, though they add **complexity** to the app's **maintenance** and **debugging**.
 
 #### Summary of Contents
-- **Introduction:** Introduction to the concept and benefits of feature flags.
-- **Conditional Compilation:** Using compiler flags to conditionally compile code based on predefined conditions.
-- **Static Flags:** Defining feature flags in code using static properties to enable/disable features.
-- **Runtime Flags:** Loading flags at runtime, allowing dynamic feature configuration but complicating maintenance.
-- **Applications and Examples:** Practical scenarios and examples of implementing feature flags in Swift code.
-- **Conclusion:** Recap of benefits and considerations when using feature flags in Swift development.
+- **Conditional Compilation:** Explanation of how to use **compiler flags** to gate **code blocks** during the **build process**.
+- **Static Flags:** Discussion on using **static properties** in a **FeatureFlags** struct to manage **feature availability**.
+- **Runtime Flags:** Overview of dynamically controlling **feature flags** using **backend systems**, with an example of **loading flags** from a **JSON response**.
+
+#### Additional Resources
+- **A/B Testing:** [Wikipedia on A/B Testing](https://en.wikipedia.org/wiki/A/B_testing)
+- **Using @autoclosure when designing Swift APIs:** [Link to article](https://www.swiftbysundell.com/articles/using-autoclosure-when-designing-swift-apis)
 
 <LinkCard title="Read Full Article" href="https://www.swiftbysundell.com/articles/feature-flags-in-swift/" />
 
-## API Design
+## **API Design**
 
-### Using @autoclosure when designing Swift APIs
+### 🟢 Using @autoclosure When Designing Swift APIs
+
+The article discusses how Swift's **`@autoclosure`** attribute can simplify API design by **deferring the execution** of expressions until needed. It highlights the advantages of using **`@autoclosure`** in **reducing verbosity**, **improving readability**, and **enhancing performance**. Examples include its use in **assertions**, **animations**, **error handling**, and **default value assignments** in dictionaries.
 
 <details>
 
-**URL:** https://www.swiftbysundell.com/articles/using-autoclosure-when-designing-swift-apis/
+**URL:** [Using @autoclosure when designing Swift APIs](https://www.swiftbysundell.com/articles/using-autoclosure-when-designing-swift-apis/)
 
 **Published:** 28 May 2017
 
-**Authors:** John Sundell
+**Authors:** `John Sundell`
 
 **Tags:**  
-`language features`, `api design`
+`language features`, `api design`, `Swift 5.0`
 
 </details>
 
 #### Key Points
-- Swift’s `@autoclosure` attribute defers execution of expressions until needed.
-- It simplifies API design by wrapping arguments in closures automatically.
-- Examples include enhancing readability in assertions and reducing verbosity in animations and error handling.
-- Enables type inference and reduces syntax clutter when dealing with default values.
+- **`@autoclosure`** wraps an argument in a closure, **deferring its execution** until it's actually needed.
+- Simplifies function calls by **removing the need for explicit closures** at the call site.
+- Used in the **Swift standard library**, such as in **`assert`**, to avoid **unnecessary evaluations** in production builds.
+- Enhances **API design** by **reducing verbosity** without sacrificing **code readability** or **performance**.
 
 #### Summary of Contents
-- **Introduction:** Introduces the concept of `@autoclosure` in Swift, highlighting its role in deferring expression evaluation.
-- **Inlining Assignments:** Shows how `@autoclosure` simplifies animation code by allowing inline expression evaluation.
-- **Passing Errors as Expressions:** Demonstrates using `@autoclosure` for error handling in Swift's Optional type extensions.
-- **Type Inference Using Default Values:** Explains how `@autoclosure` aids in type inference and reduces syntax in extracting values from dictionaries.
-- **Conclusion:** Emphasizes the benefits of using `@autoclosure` to enhance code readability and performance.
+- **Introduction:** Overview of **`@autoclosure`** and its primary use cases.
+- **Inlining Assignments:** How **`@autoclosure`** can reduce syntax cruft in **animation functions**.
+- **Passing Errors as Expressions:** Using **`@autoclosure`** in **error handling** within custom APIs.
+- **Type Inference with Default Values:** Improving **type inference** when extracting values from **untyped dictionaries**.
+- **Conclusion:** The balance between **reducing verbosity** and maintaining **code expressiveness**.
+
+#### Additional Resources
+- **Swift Standard Library: Assert Implementation:** [Link to GitHub](https://github.com/apple/swift/blob/master/stdlib/public/core/Assert.swift)
+- **Further Reading on Closures in Swift:** [Link to Swift Documentation](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
 
 <LinkCard title="Read Full Article" href="https://www.swiftbysundell.com/articles/using-autoclosure-when-designing-swift-apis/" />
-

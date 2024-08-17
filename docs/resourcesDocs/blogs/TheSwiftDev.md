@@ -31,7 +31,7 @@ The Swift Dev is a blog focused on Swift and iOS development, featuring a range 
 
 ---
 
-## Concurrency
+## **Concurrency**
 
 ### Running Tasks in Parallel
 Learn various methods for running tasks in parallel using Swift, including traditional frameworks and the new structured concurrency API.

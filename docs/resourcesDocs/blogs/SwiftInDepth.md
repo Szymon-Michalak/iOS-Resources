@@ -33,147 +33,160 @@ Swift in Depth is a platform dedicated to advancing Swift and mobile engineering
 
 ---
 
-## Best Practices
+## **Best Practices**
 
-### Receiving UI designs as a Developer
+### 🔵 Receiving UI Designs as a Developer
 
-Provides insights and strategies for app developers when receiving UI designs, emphasizing collaboration with designers and efficient feature implementation.
+This article provides **strategies for developers** when **receiving UI designs**. It highlights the importance of **critical thinking**, **communication**, and **proactive problem-solving** with designers. The tips include dealing with **best-case scenarios**, **prioritizing features**, **verifying existing components**, **stress-testing designs**, and **discussing time investments**.
 
 <details>
 
-**URL:** https://swiftindepth.com/articles/receiving-designs/
+**URL:** [https://swiftindepth.com/articles/receiving-designs/](https://swiftindepth.com/articles/receiving-designs/)
 
-**Published:** N/A
+**Published:** [Date of publication]
 
 **Authors:** `Tjeerd in 't Veen`
 
 **Tags:**  
-`UI design`, `iOS development`, `Productivity`, `Collaboration`
+`UI Design`, `Software Development`, `iOS`, `Swift`
 
 </details>
 
 #### Key Points
-- Emphasizes the importance of reviewing UI designs collaboratively with designers.
-- Advises on handling real-life data discrepancies compared to ideal design scenarios.
-- Recommends prioritizing and potentially deprioritizing features based on mutual agreement.
-- Suggests verifying existing components to avoid redundancy and speed up development.
-- Proposes techniques for anticipating and addressing potential UI design flaws early on.
-- Encourages developers to quantify implementation consequences to facilitate decision-making.
+- **Handling Best-Case Scenarios:** Real-life data may not match the **perfect content** in designs. Always ask for **worst-case scenario designs** to ensure the **UI holds up** under **real-world conditions**.
+- **Prioritization:** Not all design elements have **equal importance**. Work with the designer to identify which features can be **deprioritized** to **speed up delivery**.
+- **Component Verification:** Before building new components, check if something similar **already exists** in the codebase to avoid **redundancy** and **save time**.
+- **Stress Testing Designs:** Consider **edge cases** and ask questions that might reveal **potential issues** in the design, such as **handling empty states** or **large text**.
+- **Time Investment Discussions:** Quantify the **time required** for complex design elements and discuss their worth with the team, shifting the conversation from **binary decisions** to **strategic prioritization**.
 
 #### Summary of Contents
-- **Introduction:** Discusses the common practice of receiving UI designs and the need for strategic review.
-- **Designs often encompass best-case scenarios:** Highlights challenges with real-life data and the importance of robust design validation.
-- **Not everything has equal priority:** Advises on prioritization and efficient feature delivery.
-- **Verify the existence of current components:** Recommends checking for existing solutions to prevent duplicating efforts.
-- **Try to break the design:** Provides methods for identifying and addressing potential UI flaws and edge cases.
-- **Talk about time-investments and start thinking in a less binary fashion:** Encourages quantifying implementation impacts for informed decision-making.
-- **Conclusion:** Summarizes the collaborative approach between developers and designers for better app outcomes.
+- **Designs often encompass best-case scenarios:** Discusses the reality of handling **imperfect data** and the importance of validating designs against **worst-case scenarios**.
+- **Not everything has equal priority:** Emphasizes the need to **reassess priorities** with the designer to avoid unnecessary work and **speed up delivery**.
+- **Verify the existence of current components:** Suggests **verifying existing components** to avoid duplication and save **development time**.
+- **Try to break the design:** Recommends asking tough questions to uncover **potential issues** early on in the design process.
+- **Talk about time investments:** Encourages developers to discuss the **time required** for specific design elements with the team, focusing on **strategic decision-making**.
+
+#### Additional Resources
+- **Mobile System Design Book:** A resource for **mobile engineers** covering topics like **large app architectures** and **delivering reusable components**.
+- **Swift in Depth Articles:** More articles on **Swift** and **iOS development** by the author.
 
 <LinkCard title="Read Full Article" href="https://swiftindepth.com/articles/receiving-designs/" />
 
 
-### Uh oh, you picked the wrong UI architecture
+### 🔵 Uh oh, you picked the wrong UI architecture
+
+This article explores the transient nature of **UI architectures** in **mobile development**, such as **RxSwift** and **SwiftUI**, highlighting the importance of **simplicity** and **alignment within teams**. The author discusses how **trends** can influence **decision-making** but cautions against overhauling codebases based solely on what's popular. Instead, the article advocates for **controlled experimentation** and sticking to **solutions that work well** for the team.
 
 <details>
 
-**URL:** https://swiftindepth.com/articles/ui-architectures/
+**URL:** [https://swiftindepth.com/articles/ui-architectures/](https://swiftindepth.com/articles/ui-architectures/)
 
-**Published:** Not specified  
+**Published:** [Date of publication]
 
-**Authors:** Tjeerd in 't Veen
+**Authors:** `Tjeerd in 't Veen`
 
 **Tags:**  
-`UI architectures`, `RxSwift`, `MVVM`, `SwiftUI`, `UIKit`, `Mobile development`
+`UI Architecture`, `Mobile Development`, `Swift`, `RxSwift`, `SwiftUI`
 
 </details>
 
 #### Key Points
-- The article discusses the transient nature of UI architectures, likening them to fashion trends that come and go.
-- It emphasizes the importance of choosing architectures based on actual problem-solving needs rather than following trends.
-- Examples from the author’s experience highlight the challenges of integrating new architectures like RxSwift into large codebases.
-- Advocates for simplicity in architecture choices and the value of controlled experimentation over wholesale adoption of new technologies.
-- Discusses current trends like SwiftUI and Combine, and their impact on established patterns like UIKit and MVVM.
+- **UI architectures** are similar to **fashion trends**—constantly changing and often based on **personal preferences**.
+- Developers should focus on **solving actual problems** rather than following **trends** for the sake of it.
+- **Simple solutions** often suffice, and adopting a **new architecture** should be considered only when necessary.
+- **Controlled experimentation** with **new technologies** or **architectures** can provide valuable insights without overhauling the entire codebase.
+- **Trends** in **UI architectures** will continue to evolve, so it's important to stay **adaptable**.
 
 #### Summary of Contents
-- **Introduction:** Explores the analogy of UI architectures as fashion trends and introduces the article’s central theme.
-- **Alignment Tools:** Discusses various UI architecture options and their pros and cons, emphasizing personal and team preferences.
-- **Choose the simplest solution possible:** Advises prioritizing simplicity in architecture choices unless complexity is necessary.
-- **What problem are you really solving?:** Encourages identifying root causes of development challenges beyond UI architecture.
-- **Making space for experimentation:** Proposes conducting controlled experiments with new technologies rather than full-scale migrations.
-- **Trends leave again:** Reflects on the evolution of UI architecture trends and their cyclic nature.
-- **Conclusion:** Summarizes the benefits of sticking to a few proven architectures for codebase predictability and team alignment.
+- **Introduction:** The nature of **UI architectures** and their **trend-driven evolution**.
+- **Alignment tools:** The role of **personal preferences** in choosing **UI architectures** and the importance of **alignment within teams**.
+- **Choose the simplest solution possible:** Advice on prioritizing **simplicity** over following **trends**.
+- **What problem are you really solving?:** Encourages a focus on **actual problems** rather than perceived issues with **architecture**.
+- **Making space for experimentation:** Advocates for **controlled experiments** to explore **new architectures**.
+- **Trends leave again:** Observations on the **transient nature** of trends like **RxSwift** and **SwiftUI**.
+
+#### Additional Resources
+- **[Coordinators in iOS](https://khanlou.com/2015/01/the-coordinator/):** Article on the **Coordinator pattern**.
+- **[Mobile System Design](https://www.mobilesystemdesign.com):** The author's book covering **UI patterns** and **Dependency Injection**.
 
 <LinkCard title="Read Full Article" href="https://swiftindepth.com/articles/ui-architectures/" />
 
+## **Testing**
 
-## Testing
+### 🔵 Testing Challenges in a Mobile Environment
 
-### Testing challenges in a mobile environment
-
-This article explores the unique challenges faced in testing mobile applications, emphasizing the importance of thorough testing practices and strategies for mitigating risks.
+This article provides insights into the unique **challenges** faced when **testing** in **mobile environments**. It emphasizes the importance of **early and thorough testing** to prevent issues before code is merged. The article also highlights the difficulties of **rollbacks**, the necessity of testing **build-to-build updates**, and the limitations of relying solely on **manual testing**.
 
 <details>
 
 **URL:** https://swiftindepth.com/articles/mobile_testing_challenges/
 
-**Published:** N/A  
+**Published:** [Date not provided]
 
 **Authors:** `Tjeerd in 't Veen`
 
 **Tags:**  
-`mobile testing`, `iOS development`, `software testing`
+`mobile-testing`, `unit-testing`, `iOS`, `damage-prevention`
 
 </details>
 
 #### Key Points
-- Mobile engineers lack the luxury of quick rollbacks and must ensure rigorous testing due to limited deployment flexibility.
-- Implementing feature flags allows for controlled feature releases and quick incident response.
-- Challenges with unit testing in a mobile context include testing in isolation and codebase complexity.
-- Testing build-to-build updates is crucial to catch migration and performance issues early.
-- Manual testing serves as a safety net but is limited in verifying all possible user environments.
-- Encourages finding enjoyment in writing tests to enhance testing culture and effectiveness.
+- **No Quick Rollbacks:** Unlike **web** or **backend systems**, **mobile environments** do not allow for **quick rollbacks**, making **damage control** difficult.
+- **Damage Prevention by Testing Early:** Implementing comprehensive **system** or **component testing** before merging code can prevent major issues.
+- **Test Build-to-Build Updates:** It is crucial to test how an app handles updates from previous versions to avoid **migration issues**.
+- **Limitations of Manual Testing:** **Manual testing** alone is insufficient due to the multitude of **device** and **environment combinations** that need to be considered.
+- **Finding Fun in Writing Tests:** Embracing **testing** as a **creative** and **helpful process** can improve the **testing experience** and outcomes.
 
 #### Summary of Contents
-- **Introduction:** Discusses the specific challenges of testing mobile applications compared to web or backend systems.
-- **No quick rollbacks:** Highlights the lack of deployment flexibility and the impact of rigorous testing processes.
-- **Damage prevention by testing early:** Advocates for early and comprehensive testing to prevent issues before deployment.
-- **Be sure to test build-to-build updates:** Emphasizes testing migration and performance on different device configurations.
-- **Manual testing is a safety net:** Acknowledges the limitations of manual testing in covering diverse user environments.
-- **Finding fun in writing tests:** Encourages developers to innovate in testing practices to make the process more engaging.
-- **Learn more:** Promotes further exploration of mobile testing techniques through recommended resources.
+- **No Quick Rollbacks:** Discusses the challenges of **rolling back** in **mobile environments** and the importance of strong **release processes**.
+- **Damage Prevention by Testing Early:** Encourages testing **systems** as a whole before merging to avoid post-release issues.
+- **Test Build-to-Build Updates:** Stresses the importance of checking app behavior during **build updates**, especially for **database migrations**.
+- **Limitations of Manual Testing:** Highlights the **combinatorial explosion** of possible test scenarios and the limitations of **manual testing**.
+- **Finding Fun in Writing Tests:** Suggests a **mindset shift** to find enjoyment and creativity in writing tests, which can lead to better **testing practices**.
+
+#### Additional Resources
+- **[Shift-left testing approaches](https://swiftindepth.com/articles/shift-left-testing-approaches):** Explores specific approaches to **testing early** in the development cycle.
+- **[Mobile System Design book](https://www.mobilesystemdesign.com):** A book that covers topics like **system design interviews**, **large app architectures**, and delivering **reusable components**.
 
 <LinkCard title="Read Full Article" href="https://swiftindepth.com/articles/mobile_testing_challenges/" />
 
-### UI Tests, but Easier
+### 🔵 UI Tests, but easier
+
+This article introduces a technique to simplify and accelerate the process of writing **UI tests** in **iOS development**. By **abstracting** complex UI test steps into small, **English-like scripts**, the approach enhances **readability** and reduces **cognitive load**, making it easier for developers to write and maintain **UI tests**.
+
+The technique involves **refactoring** traditional UI tests into a more **expressive language** by encapsulating **element-hunting** into small, reusable **methods**. This approach transforms the tests into higher-level abstractions, allowing them to read more like **English sentences** rather than code. As a result, the tests become more **maintainable** and **scalable**, with a significant reduction in **complexity**.
+
+By focusing on key actions such as **navigateToCourseOverview()**, **verifyUserIsOnCourseOverviewScreen()**, and **makeSureCourseNavigationWorks()**, developers can **group test steps** into reusable **scenarios**. This not only makes the tests easier to understand but also **improves efficiency** in testing larger flows within the application.
+
+In summary, the article highlights the benefits of **creating an expressive UI testing language** in **Swift**—one that is more **intuitive** and less taxing on developers’ cognitive resources.
 
 <details>
 
 **URL:** https://swiftindepth.com/articles/uitests-easier/
 
-**Published:** [Date of Publication]  
-**Last Updated:** [Date of Last Update, if applicable]
+**Published:** Not provided
 
 **Authors:** `Tjeerd in 't Veen`
 
 **Tags:**  
-`UI Testing`, `iOS Development`, `Testing Automation`
+`UI Testing`, `Swift`, `iOS Development`
 
 </details>
 
 #### Key Points
-- Introduces a method to simplify writing UI Tests by creating a more expressive, English-like scripting language.
-- Highlights the challenges of traditional UI test writing, including cognitive load and readability issues.
-- Demonstrates the transformation of complex UI tests into concise, readable scripts using Swift.
-- Emphasizes the benefits of abstraction in test scripting for easier maintenance and scalability.
+- **Simplifies** writing UI tests by using higher-level **abstractions**.
+- Enhances test **readability** by encapsulating complex steps into **methods**.
+- Reduces **cognitive load** by turning UI tests into more **English-like scripts**.
+- Improves **maintainability** by **grouping** test steps into reusable **scenarios**.
 
 #### Summary of Contents
-- **Introduction:** Discusses common issues with traditional UI test writing, such as complexity and readability.
-- **Main Sections:**
-  - Describes the approach to treat UI tests as English-readable scripts to enhance comprehension and maintainability.
-  - Introduces the creation of methods encapsulating UI actions to simplify test writing.
-  - Discusses the advantages of using enums in Swift to organize and simplify test scripts.
-- **Technical Details:** Includes Swift code examples demonstrating the implementation of the proposed method.
-- **Applications and Examples:** Provides examples of transforming detailed UI interactions into high-level scenarios.
-- **Conclusion:** Summarizes the benefits of adopting a structured approach to UI test automation for improved efficiency and readability.
+- **Introduction:** Discusses the challenges of writing traditional UI tests and introduces the concept of an **English-readable script**.
+- **Thinking of UI Tests as an English-readable script:** Describes the process of **refactoring** UI tests into higher-level **abstractions** using static methods.
+- **Defining a language:** Explains how to encapsulate **element-hunting** into tiny methods, effectively creating a **language** for UI testing.
+- **Combining test-scripts into full-scale scenarios:** Demonstrates how to aggregate smaller test scripts into comprehensive test **scenarios**.
+
+#### Additional Resources
+- **Mobile System Design Book:** [Mobile System Design](https://www.mobilesystemdesign.com)
+- **Author's Twitter:** [Tjeerd in 't Veen](https://twitter.com/tjeerdintveen)
 
 <LinkCard title="Read Full Article" href="https://swiftindepth.com/articles/uitests-easier/" />

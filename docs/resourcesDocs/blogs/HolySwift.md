@@ -32,34 +32,37 @@ Holy Swift is a platform offering a variety of tutorials, articles, and guides f
 
 ---
 
-## Best Practices
+## **Best Practices**
 
-### Common Mistakes to Avoid When Using Enums in Swift
+### 🔵 Common Mistakes to Avoid When Using Enums in Swift
+
+This article explores **common mistakes developers make when using enums in Swift**, such as **poor cohesion** when mapping values, **lazy switch statements**, and **assumptions** about **automatic raw value incrementation**. It also provides **best practices** to improve **code reliability** and **maintainability** in **iOS development**.
 
 <details>
 
 **URL:** https://holyswift.app/common-mistakes-to-avoid-when-using-enums-in-swift/
 
-**Published:** N/A
+**Published:** August 17th, 2024
 
 **Authors:** `Leo Pugliese`
 
 **Tags:**  
-`Swift`, `iOS Development`, `Enum`, `Best Practices`
+`Swift`, `Enums`, `iOS`, `Best Practices`
 
 </details>
 
 #### Key Points
-- Discusses common mistakes iOS developers make when using enums in Swift.
-- Emphasizes the importance of cohesion in enum design and avoiding lazy switch practices.
-- Warns against assuming automatic raw value incrementation for enums.
+- **Lack of Cohesion:** Avoid **mapping network statuses** directly to **view statuses** without clear logic, which can lead to **maintainability issues**.
+- **Lazy Switch Cases:** Be cautious when using the **default clause** in **switch statements**; it can hide **unhandled cases** and lead to **unexpected behavior**.
+- **Assuming Raw Value Incrementation:** Never rely on **Swift's automatic raw value assignment** for **enums**, as it can lead to **fragile code**.
 
 #### Summary of Contents
-- **Introduction:** Introduces the significance of enums in Swift development.
-- **The Problem – Common Error Using Enum:** Highlights issues like lack of cohesion and improper mapping strategies.
-- **Lazy Switch or Using Default: Clause When You Shouldn’t:** Discusses pitfalls of lazy switch statements in handling enum cases.
-- **Assuming Automatic Raw Value Incrementation:** Advises against relying on automatic raw value assignments in enums.
-- **Conclusion – How to Avoid Common Enum Mistakes in Swift?:** Summarizes best practices to enhance code reliability and maintainability using enums.
+- **Lack of Cohesion When Mapping Values:** Discusses the problem of **mapping network statuses** to **view statuses** without considering future changes and how to **refactor** the code to maintain **cohesion**.
+- **Lazy Switch or Using Default Clause:** Explains the pitfalls of using **default clauses** in **switch statements** and recommends explicitly handling each **enum case**.
+- **Assuming Automatic Raw Value Incrementation:** Warns against relying on **Swift's automatic raw value incrementation** for **enums**, advising developers to use **explicit values** to avoid **bugs**.
+
+#### Additional Resources
+- **Swift Enums Documentation:** [Apple Developer Documentation](https://developer.apple.com/documentation/swift/enum)
+- **Swift: The Power of Enums:** [Related Article](https://holyswift.app/the-power-of-enums-in-swift)
 
 <LinkCard title="Read Full Article" href="https://holyswift.app/common-mistakes-to-avoid-when-using-enums-in-swift/" />
-

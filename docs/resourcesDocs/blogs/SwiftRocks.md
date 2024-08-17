@@ -31,7 +31,7 @@ SwiftRocks is a blog by Bruno Rocha, a software engineer at Spotify. The blog fo
 
 ---
 
-## Best Practices
+## **Best Practices**
 
 ### How necessary are the programming fundamentals?
 

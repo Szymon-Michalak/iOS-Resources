@@ -32,44 +32,45 @@ Peter Friese's Blog is a platform focused on Swift, SwiftUI, and Firebase develo
 
 ---
 
-## SwiftUI
+## **SwiftUI**
 
-### SwiftUI Hero Animations with NavigationTransition
+Certainly! Here's the entire blog post entry with key concepts, terms, and phrases emphasized for better readability:
+
+---
+
+### 🔵 SwiftUI Hero Animations with NavigationTransition
+
+This article provides an in-depth guide on **replicating the App Store's hero animation** using **SwiftUI's new `NavigationTransition` protocol**, introduced in **iOS 18**. It covers the **implementation process** step by step, focusing on creating **smooth** and **visually appealing transitions** between views in a **SwiftUI app**. The tutorial also includes instructions on **customizing the source view appearance**, adding **dismiss buttons**, enabling **drag-to-dismiss functionality**, and **scaling down views** during interaction. This guide is ideal for developers looking to enhance their **SwiftUI applications** with **dynamic UI animations**.
 
 <details>
 
-**URL:** https://peterfriese.dev/blog/2024/hero-animation/?ref=createwithswift.com
+**URL:** [SwiftUI Hero Animations with NavigationTransition](https://peterfriese.dev/blog/2024/hero-animation/)
 
-**Published:** Jun 21, 2024  
+**Published:** Jun 21, 2024
 
-**Authors:** `Peter Friese`  
+**Authors:** `Peter Friese`
+
 **Tags:**  
-`SwiftUI`, `iOS Development`, `Animation`, `NavigationTransition`
+`SwiftUI`, `iOS 18`, `UI Animation`, `NavigationTransition`
 
 </details>
 
-#### Summary
-
-This article explores the implementation of hero animations using SwiftUI's NavigationTransition protocol, aiming to replicate the visually appealing transitions seen in applications like the App Store's Today view. It details the steps to enhance UI interactions and improve user experience with minimal code.
-
 #### Key Points
-
-- Introduction to SwiftUI's NavigationTransition protocol for hero animations.
-- Step-by-step guide to implementing zoom animations for transitioning between views.
-- Customization options for adjusting the appearance of source views.
-- Techniques for adding dismiss buttons and implementing drag-to-dismiss functionality.
-- Insights into handling view highlighting and other UI tweaks.
-- Conclusion on leveraging SwiftUI 16 features to create engaging user interfaces.
+- Demonstrates how to **replicate the App Store’s hero animation** using **SwiftUI’s `NavigationTransition` protocol**.
+- Covers **customization of the source view appearance** for a more **visually appealing transition**.
+- Explains the addition of a **dismiss button** and **drag-to-dismiss functionality** for enhanced **user experience**.
+- Shows how to **implement scaling down effects** on the views during **user interaction**.
 
 #### Summary of Contents
+- **Replicating the App Store Hero Animation:** Overview of the **hero animation** and its importance in **visually rich UIs**. Introduction to using the **`NavigationTransition` protocol** in **SwiftUI**.
+- **Zooming from Zero to Hero:** Step-by-step guide to **setting up the basic hero animation** with **SwiftUI**, including **code snippets** and explanations.
+- **Adjusting the Appearance of the Source View:** Instructions on **customizing the source view appearance** using the **`matchedTransitionSource` modifier**.
+- **Adding a Dismiss Button:** How to create a **dismiss button** that overlays the content and removes the **navigation bar**.
+- **Dragging Down to Dismiss:** Implementation of the **drag-to-dismiss feature** using the **`onScrollGeometryChange` view modifier**.
+- **Scaling Down:** Guide to applying **scaling effects** to the views as they are **dragged down**, enhancing the **interactive experience**.
 
-- **Introduction:** Overview of SwiftUI hero animations and their importance in modern UI design.
-- **Zooming from zero to hero:** Implementing zoom animations with NavigationTransition.
-- **Adjusting the appearance of the source view:** Customizing source view appearance using SwiftUI modifiers.
-- **Adding a dismiss button:** Implementing dismiss functionality for improved UX.
-- **Dragging down to dismiss:** Utilizing onScrollGeometryChange for drag-to-dismiss functionality.
-- **Scaling down:** Implementing scaling effects for visual enhancements.
-- **Disable highlighting the source view:** Customizing button styles to disable view highlighting.
-- **Conclusion:** Recap of the benefits and ease of implementing hero animations with SwiftUI.
+#### Additional Resources
+- **Building Reusable SwiftUI Components:** [Interactive tutorial on building custom SwiftUI components](https://peterfriese.dev/tutorials/)
+- **Styling SwiftUI Views:** [How does view styling work?](https://peterfriese.dev/blog/2023/swiftui-styling-views)
 
 <LinkCard title="Read Full Article" href="https://peterfriese.dev/blog/2024/hero-animation/" />
