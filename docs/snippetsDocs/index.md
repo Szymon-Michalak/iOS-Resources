@@ -4,7 +4,7 @@ description: Where to start
 sidebar_position: 1
 ---
 
-The Snippets section on iOSwift.dev provides a collection of ready-to-use code snippets that help developers quickly implement specific functionalities in their Swift projects. These snippets cover a wide range of topics, including networking, data handling, user interfaces, and more. They are designed to be practical and easily integrated, saving developers time and effort.
+The Snippets section provides a collection of ready-to-use code snippets that help developers quickly implement specific functionalities in their Swift projects. These snippets cover a wide range of topics, including networking, data handling, user interfaces, and more. They are designed to be practical and easily integrated, saving developers time and effort.
 
 ## What You’ll Find
 
@@ -22,7 +22,3 @@ The Snippets section on iOSwift.dev provides a collection of ready-to-use code s
 ## Contributing
 
 If you have a useful code snippet that you believe could benefit others, you are encouraged to contribute. Submit your snippet for review, and it could be featured in this section.
-
-## Stay Updated
-
-New snippets are regularly added to this section. Be sure to check back for the latest additions that can help streamline your development process.

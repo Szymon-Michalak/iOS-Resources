@@ -4,7 +4,7 @@ description: Where to start
 sidebar_position: 1
 ---
 
-The Resources section on iOSwift.dev is a curated collection of essential materials for iOS developers. This includes a variety of blogs, books, YouTube channels, courses, repositories, and tools, all selected to help developers enhance their skills and knowledge in Swift and iOS development.
+The Resources section is a curated collection of essential materials for iOS developers. This includes a variety of blogs, books, YouTube channels, courses, repositories, and tools, all selected to help developers enhance their skills and knowledge in Swift and iOS development.
 
 ## What You’ll Find
 
@@ -23,13 +23,13 @@ The Resources section on iOSwift.dev is a curated collection of essential materi
 
 ## Contributing
 
-If you know of a valuable resource that could benefit other iOS developers, you are encouraged to contribute. Contact us with your suggestions, and after review, it could be featured here.
+If you know of a valuable resource that could benefit other iOS developers, you are encouraged to contribute. Contact me with your suggestions, and after review, it could be featured here.
 
 ## Stay Updated
 
 The Resources section is continuously updated with the latest and most relevant materials for iOS developers. Be sure to check back regularly for new additions.
 
-## Where to go next?
+## Where to go next
 
 If you're just starting your iOS adventure I strongly advise you to start with either Swiftful Thinking or Hacking with Swift by Paul Hudson. 
 
