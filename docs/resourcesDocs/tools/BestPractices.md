@@ -22,22 +22,22 @@ This checklist provides a comprehensive guide for reviewing iOS pull requests, e
 **Swift Version:** 5.0 and above
 </details>
 
-### Key Points
+#### Key Points
 - Ensures adherence to coding standards and best practices.
 - Focuses on code readability, performance, and security.
 - Covers aspects like architecture, testing, and documentation.
 
-### Use Cases
+#### Use Cases
 - Standardizing code review processes across teams.
 - Improving code quality and reducing technical debt.
 - Facilitating consistent and thorough code reviews.
 
-### Alternative Approaches
+#### Alternative Approaches
 - Using automated code review tools like SwiftLint.
 - Implementing custom code review guidelines tailored to specific projects.
 - Combining with peer review practices for comprehensive checks.
 
-### Checklist Categories
+#### Checklist Categories
 - **Code Quality:** Checks for code readability, maintainability, and adherence to standards.
 - **Architecture:** Ensures proper design patterns and architectural principles.
 - **Testing:** Verifies the presence and quality of unit and UI tests.
@@ -45,11 +45,11 @@ This checklist provides a comprehensive guide for reviewing iOS pull requests, e
 - **Performance:** Checks for efficient and optimized code.
 - **Security:** Ensures code is secure and free from vulnerabilities.
 
-### Related Resources
+#### Related Resources
 - [SwiftLint Documentation](https://realm.github.io/SwiftLint/)
 - [iOS Code Review Guidelines](#)
 
-### References
+#### References
 - [Apple's Official Swift Documentation](https://developer.apple.com/documentation/swift)
 - [iOS Code Quality Guide](#)
 

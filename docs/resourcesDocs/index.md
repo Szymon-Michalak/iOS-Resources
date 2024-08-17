@@ -18,18 +18,14 @@ The Resources section is a curated collection of essential materials for iOS dev
 ## Navigation and Use
 
 - **Search**: Use the search functionality to quickly locate specific resources.
-- **Categories**: Resources are organized by type—whether you’re looking for blogs, books, or tools, you’ll find them under the appropriate category.
+- **Categories**: Resources are organized by type — whether you’re looking for blogs, books, or tools, you’ll find them under the appropriate category.
 - **Tags**: Resources are tagged to help you discover related content easily.
 
 ## Contributing
 
 If you know of a valuable resource that could benefit other iOS developers, you are encouraged to contribute. Contact me with your suggestions, and after review, it could be featured here.
 
-## Stay Updated
-
-The Resources section is continuously updated with the latest and most relevant materials for iOS developers. Be sure to check back regularly for new additions.
-
-## Where to go next
+## Where To Go Next
 
 If you're just starting your iOS adventure I strongly advise you to start with either Swiftful Thinking or Hacking with Swift by Paul Hudson. 
 
