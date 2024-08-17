@@ -1,0 +1,9 @@
+position: 2
+label: 'Third Party Packages'
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: Third Party Packages overview
+customProps:
+  description: This description can be used in the swizzled DocCard

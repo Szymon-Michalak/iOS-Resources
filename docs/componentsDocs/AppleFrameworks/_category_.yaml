@@ -1,0 +1,9 @@
+position: 1
+label: 'Apple Frameworks'
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: Apple Frameworks overview
+customProps:
+  description: This description can be used in the swizzled DocCard
