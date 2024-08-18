@@ -34,32 +34,34 @@ iOS Example is a platform offering a wide range of tutorials, libraries, and exa
 
 ## **SwiftUI**
 
-### Download View with Button and Animated Circle
+### 🔵 Download view with button and animated circle
+
+This post presents a custom **iOS UI component** that combines a **download button** with an **animated circular progress indicator**. The project was developed based on instructions from a **YouTube channel**, providing a **visual and interactive element** that enhances user experience during download processes. The post includes links to the **GitHub repository** for accessing the full code and offers **images showcasing the component's design and functionality**.
 
 <details>
 
-**URL:** https://iosexample.com/download-view-with-button-and-animated-circle/
+**URL:** [Download view with button and animated circle](https://iosexample.com/download-view-with-button-and-animated-circle/)
 
-**Published:** September 5, 2023  
+**Published:** September 5, 2023
 
-**Authors:** N/A
+**Authors:** `Not specified`
 
 **Tags:**  
-`iOS`, `UI`, `Animations`, `Buttons`, `Swift`
+`Buttons`, `Circular`, `UI`, `iOS`, `SwiftUI`
 
 </details>
 
 #### Key Points
-- Introduces a download view in iOS featuring a button and animated circle.
-- Utilizes UIKit for creating interactive UI elements.
-- Provides visual feedback through animated circles to indicate download progress.
-- Demonstrates integration with GitHub for source code availability and customization.
+- **Custom iOS UI component** integrating a **download button** with an **animated circular indicator**.
+- Developed following **YouTube instructions**, offering a **visual element** to represent **download progress**.
+- Includes **images** to visually demonstrate the component's functionality.
 
 #### Summary of Contents
-- **Introduction:** Overview of the download view component for iOS.
-- **Main Sections:** Description of the UI elements used and their interactions.
-- **Technical Details:** Use of UIKit for button and animation handling.
-- **Applications and Examples:** GitHub integration and customization options.
-- **Conclusion:** Highlights the practical implementation and visual feedback for download actions.
+- **Introduction:** Overview of the **custom UI component** and its purpose.
+- **Images:** **Visual representations** of the button and circle animation in action.
+- **GitHub Link:** Access to the **source code** and further project details.
+
+#### Additional Resources
+- **GitHub Repository:** [View Github](https://github.com/diasatudinov/DownloadButton?ref=iosexample.com)
 
 <LinkCard title="Read Full Article" href="https://iosexample.com/download-view-with-button-and-animated-circle/" />

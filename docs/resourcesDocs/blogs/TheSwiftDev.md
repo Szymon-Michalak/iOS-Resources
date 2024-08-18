@@ -33,67 +33,74 @@ The Swift Dev is a blog focused on Swift and iOS development, featuring a range 
 
 ## **Concurrency**
 
-### Running Tasks in Parallel
-Learn various methods for running tasks in parallel using Swift, including traditional frameworks and the new structured concurrency API.
+### 🔵 **Running Tasks in Parallel in Swift**
+
+This blog post explores various methods for **running tasks in parallel** using **Swift**. It covers both traditional tools, such as **Grand Central Dispatch (GCD)** and **operation queues**, and newer techniques introduced with Swift's **structured concurrency API**. The post includes **detailed code examples** and highlights the benefits of each approach, particularly focusing on the ability to **limit the number of concurrent operations** for better **performance** and **resource management**.
 
 <details>
 
-**URL:** https://theswiftdev.com/running-tasks-in-parallel/
+**URL:** [**Running tasks in parallel - The.Swift.Dev.**](https://theswiftdev.com/running-tasks-in-parallel/)
 
-**Published:** 2023/02/09  
+**Published:** 2023/02/09
 
-**Authors:** Tibor Bödecs
+**Authors:** `Tibor Bödecs`
 
 **Tags:**  
-`Swift Concurrency`, `Grand Central Dispatch`, `Operation Queues`, `Structured Concurrency`
+`Concurrency`, `Swift`, `GCD`, `Structured Concurrency`, `Operation Queues`
 
 </details>
 
-#### Key Points
-- Discusses the benefits of running tasks in parallel to utilize multiple CPU cores efficiently.
-- Introduces Grand Central Dispatch (GCD) for managing concurrent operations with serial and concurrent dispatch queues.
-- Demonstrates using Operation Queues to control concurrent tasks and manage dependencies.
-- Introduces structured concurrency in Swift, highlighting the `withTaskGroup` function for managing concurrent tasks in a structured manner.
+#### **Key Points**
+- The blog post discusses three primary methods for **running parallel tasks** in Swift: **Grand Central Dispatch (GCD)**, **operation queues**, and **structured concurrency**.
+- It provides **code examples** for each method, demonstrating how to **perform operations in parallel** and **control the number of concurrent tasks**.
+- The post emphasizes the importance of **managing concurrency levels** to **optimize performance** and avoid overwhelming system resources.
 
-#### Summary of Contents
-- **Introduction:** Overview of the importance of parallelism in Swift programming.
-- **Grand Central Dispatch:** Explanation of GCD and its use in managing concurrent tasks.
-- **Operation Queues:** Example of using Operation Queues to handle concurrent tasks with limited concurrency.
-- **Structured Concurrency:** Introduction to structured concurrency using the `withTaskGroup` function for safer and more predictable concurrent programming.
-- **Conclusion:** Highlights the advantages of structured concurrency over traditional methods.
+#### **Summary of Contents**
+- **Grand Central Dispatch (GCD):** Overview of using `**DispatchQueue.concurrentPerform**` to **run tasks in parallel**.
+- **Operation Queues:** Explanation of how to use **operation queues** to **manage** and **limit concurrency** in **task execution**.
+- **Structured Concurrency:** Introduction to **task groups** in Swift's **structured concurrency API**, with examples of **limiting concurrent tasks** using a **custom helper function**.
+
+#### **Additional Resources**
+- **[Grand Central Dispatch Tutorial](https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/):** A detailed guide on **GCD** and its use in Swift.
+- **[Swift Structured Concurrency Proposal](https://github.com/apple/swift-evolution/blob/main/proposals/0304-structured-concurrency.md):** The official **Swift Evolution proposal** for **structured concurrency**.
 
 <LinkCard title="Read Full Article" href="https://theswiftdev.com/running-tasks-in-parallel/" />
 
-### Ultimate Grand Central Dispatch tutorial in Swift
-Learn the principles of multi-threading with the GCD framework in Swift. Queues, tasks, groups—everything you'll ever need to know.
+
+### 🔵 Ultimate Grand Central Dispatch Tutorial in Swift
+
+This comprehensive tutorial covers the **Grand Central Dispatch (GCD)** framework in **Swift**, focusing on the principles of **multi-threading**, **concurrency**, and **task management**. It provides detailed explanations of **synchronous** and **asynchronous execution**, **dispatch queues**, and advanced topics like **semaphores**, **DispatchWorkItem**, and **thread safety**. The tutorial is rich with practical examples and **codesnippets**, making it an invaluable resource for developers looking to **optimize** their applications using **GCD**.
 
 <details>
 
 **URL:** https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/
 
-**Published:** 2018/07/10  
+**Published:** 2018/07/10
 
-**Authors:** The.Swift.Dev
+**Authors:** `Tibor Bödecs`
 
 **Tags:**  
-`Swift`, `Grand Central Dispatch`, `Concurrency`, `Multi-threading`
+`concurrency`, `multi-threading`, `GCD`, `Swift`, `iOS Development`
 
 </details>
 
 #### Key Points
-- Introduction to Grand Central Dispatch (GCD) and its role in managing concurrency in Swift.
-- Explanation of synchronous and asynchronous task execution using GCD queues.
-- Overview of different types of dispatch queues: serial, concurrent, main, global, and custom.
-- Practical examples of using DispatchQueues for background tasks and UI updates.
-- Demonstration of advanced GCD features like DispatchWorkItem, DispatchGroups, and Semaphores.
-- Advice on avoiding common pitfalls such as deadlocks and race conditions.
+- **Understanding GCD:** Learn about the underlying **thread pool design pattern** and how **GCD** leverages **CPU cores** for efficient **task management**.
+- **Synchronous vs Asynchronous Execution:** Clear explanation of **blocking** vs **non-blocking** code and when to use each.
+- **Dispatch Queues:** Detailed exploration of **serial** and **concurrent queues**, including how to use **system-provided** and **custom queues** effectively.
+- **Advanced GCD Features:** Insight into using **semaphores**, **dispatch groups**, and **DispatchWorkItem** to handle complex **concurrency** scenarios.
+- **Thread Safety:** Essential tips on ensuring **thread safety** in **multi-threaded** applications, avoiding common pitfalls like **deadlocks** and **race conditions**.
 
 #### Summary of Contents
-- **Introduction:** Overview of GCD and its significance in Swift development.
-- **GCD Basics:** Explanation of dispatch queues and their types (serial, concurrent).
-- **Task Execution:** Synchronous vs. asynchronous execution with code examples.
-- **Advanced Features:** Detailed exploration of DispatchWorkItem, DispatchGroups, and Semaphores.
-- **Best Practices:** Recommendations for using GCD effectively and safely.
-- **Conclusion:** Recap of key concepts and recommendations for further learning.
+- **GCD Concurrency Tutorial for Beginners:** Introduction to the **GCD framework** and its importance in **multi-threading**.
+- **Synchronous and Asynchronous Execution:** Detailed discussion of **sync** vs **async tasks**, with practical examples.
+- **Dispatch Queues:** Explanation of **serial**, **concurrent**, **main**, **global**, and **custom queues**, and their use cases.
+- **Advanced GCD Techniques:** Coverage of **semaphores**, **dispatch groups**, **barriers**, and more for handling complex tasks.
+- **Thread-Safety:** Best practices for maintaining **thread safety** using **GCD** and related constructs.
+
+#### Additional Resources
+- **Ray Wenderlich's GCD Tutorial:** [Grand Central Dispatch Tutorial](https://www.raywenderlich.com/148513/grand-central-dispatch-tutorial-swift-3-part-1)
+- **Swift by Sundell's Deep Dive:** [A Deep Dive into Grand Central Dispatch in Swift](https://www.swiftbysundell.com/posts/a-deep-dive-into-grand-central-dispatch-in-swift)
+- **CPU Core and Threads Explained:** [What is the difference between cores and threads of a processor?](https://www.quora.com/What-is-the-difference-between-cores-and-threads-of-a-processor)
 
 <LinkCard title="Read Full Article" href="https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/" />
