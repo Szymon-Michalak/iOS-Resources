@@ -6,6 +6,8 @@ import LinkCard from '@site/src/components/LinkCard';
 import Timeline from '@site/src/components/Timeline';
 import TimelineItem from '@site/src/components/Timeline/TimelineItem';
 
+import Features from '@site/src/components/Features';
+
 export default {
   // Re-use the default mapping
   ...MDXComponents,
@@ -14,4 +16,5 @@ export default {
   LinkCard,
   Timeline,
   TimelineItem,
+  Features,
 };
