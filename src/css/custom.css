@@ -25,3 +25,8 @@
     --ifm-color-primary-lighter: #ee26ff;
     --ifm-color-primary-lightest: #f14dff;
   }
+
+  table {
+    display: inline-table;
+    width: 100%;
+  }
