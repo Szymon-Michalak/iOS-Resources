@@ -62,6 +62,10 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+            trackingID: 'G-N9DD46Z58P',
+            anonymizeIP: true,
+          },
       } satisfies Preset.Options,
     ],
   ],
