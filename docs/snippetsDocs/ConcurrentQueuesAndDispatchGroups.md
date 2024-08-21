@@ -49,8 +49,8 @@ group.notify(queue: .main) {
 - Use the main queue for any UI updates to maintain thread safety.
 
 ## Related Resources
-- [Using Dispatch Queues for Concurrency](./dispatch_queues_for_concurrency.md)
-- [Efficient Image Processing with GCD](./image_processing_gcd.md)
+
+
 
 ## References
 - [Documentation on Dispatch Queues](http://swiftbook.link/docs/dispatchqueue)

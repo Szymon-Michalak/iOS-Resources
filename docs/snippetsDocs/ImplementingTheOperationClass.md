@@ -114,8 +114,7 @@ To enable operation cancellation:
 2. Allow users to cancel operations through UI controls, calling `processingQueue.cancelAllOperations()` to cancel ongoing tasks.
 
 ## Related Resources
-- [Understanding Grand Central Dispatch (GCD)](./gcd_overview.md)
-- [Using Concurrent Queues for Image Processing](./image_processing_concurrent.md)
+
 
 ## References
 - [Apple's Operation Class Documentation](http://swiftbook.link/docs/operation)
