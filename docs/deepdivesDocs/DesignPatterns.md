@@ -1,5 +1,5 @@
 ---
-title: Design Patterns in iOS
+title: 🏛🧩 Design Patterns in iOS
 description: An in-depth exploration of design patterns in iOS development, focusing on classic, architectural, and advanced patterns to enhance your app’s structure and maintainability. 🏛🧩
 ---
 An in-depth exploration of design patterns in iOS development, focusing on classic, architectural, and advanced patterns to enhance your app’s structure and maintainability. 🏛🧩
