@@ -130,7 +130,7 @@ const config: Config = {
             type: 'docSidebar',
             sidebarId: 'deepdivesSidebar',
             position: 'left',
-            label: 'Deep Dives',
+            label: '🚧 Deep Dives (WIP)',
         },
         {to: '/interviewQuestions', label: 'Interview Questions', position: 'left'},
         {
