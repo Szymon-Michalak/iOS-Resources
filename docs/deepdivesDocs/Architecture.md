@@ -13,6 +13,8 @@ A structured journey through iOS app architecture, starting with fundamental des
 <TimelineItem url='#' level='beginner' align='right'>
 ### Understanding MVC (Model-View-Controller)
 Basics of MVC and its implementation in iOS.
+- [MVC in iOS](https://www.raywenderlich.com/136-model-view-controller-in-ios)
+- [MVC in iOS: Part 2](https://www.raywenderlich.com/137-model-view-controller-in-ios-part-2)
 </TimelineItem>
 
 <TimelineItem url='#' level='beginner' align='left'>

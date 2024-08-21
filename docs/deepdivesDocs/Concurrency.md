@@ -21,11 +21,15 @@ Overview of GCD and how to use it for concurrency.
 <TimelineItem url='#' level='beginner' align='right'>
 ### Introduction to Operation Queues
 Managing tasks with Operation and OperationQueue.
+- [Advanced iOS Concurrency: Operations [1]](https://uynguyen.github.io/2020/05/16/iOS-Concurrency-Operations/)
+- [Advanced iOS Concurrency: Async Operations [2]](https://uynguyen.github.io/2020/05/30/Advanced-iOS-Concurrency-Async-Operations-2/)
+- [Operation | Apple Developer](https://developer.apple.com/documentation/foundation/operation)
 </TimelineItem>
 
 <TimelineItem url='#' level='beginner' align='left'>
 ### Using Dispatch Queues Effectively
 Managing different types of dispatch queues.
+- [Working In Thread Safe on iOS](https://uynguyen.github.io/2018/06/05/Working-In-Thread-Safe-on-iOS/)
 </TimelineItem>
 
 <TimelineItem url='#' level='beginner' align='right'>
