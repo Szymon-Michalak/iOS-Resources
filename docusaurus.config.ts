@@ -51,6 +51,8 @@ const config: Config = {
           rehypePlugins: [rehypeKatex],
         },
         blog: {
+          blogTitle: "Interview Questions",
+          routeBasePath: "interviewQuestions",
           showReadingTime: true,
           blogSidebarTitle: 'All questions',
           blogSidebarCount: 'ALL',
@@ -130,7 +132,7 @@ const config: Config = {
             position: 'left',
             label: 'Deep Dives',
         },
-        {to: '/blog', label: 'Interview Questions', position: 'left'},
+        {to: '/interviewQuestions', label: 'Interview Questions', position: 'left'},
         {
           href: 'https://github.com/Szymon-Michalak',
           label: 'GitHub',
