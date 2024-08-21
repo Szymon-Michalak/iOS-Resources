@@ -255,6 +255,42 @@ This blog post by **Natalia Panferova** provides a comprehensive guide on **cust
 
 <LinkCard title="Read Full Article" href="https://nilcoalescing.com/blog/CustomizingTheAppearanceOfSymbolImagesInSwiftUI/" />
 
+### 🔵 How to Customise the SwiftUI List Style and Background Color
+
+This article dives deep into **customizing the appearance of SwiftUI List views**. The tutorial covers how to **adjust list background colors**, **modify separators**, and **use custom cells**. With step-by-step examples, you’ll learn how to make your List views stand out with **unique styles beyond the default options provided by SwiftUI**. Whether you're new to SwiftUI or looking to refine your UI design skills, this guide is packed with **practical tips and code snippets**.
+
+<details>
+
+**URL:** https://www.swiftyplace.com/blog/customise-list-view-appearance-in-swiftui-examples-beyond-the-default-stylings
+
+**Published:** 2023-02-01
+
+**Authors:** `Karin Prater`
+
+**Tags:**  
+`SwiftUI`, `iOS Development`, `UI Design`, `List Customization`
+
+</details>
+
+#### Key Points
+- Learn how to **customize SwiftUI List styles**, including **background colors**, **separators**, and **insets**.
+- Practical **code snippets** for implementing **unique list styles**.
+- Detailed examples of **customizing list row height** and modifying **section headers and footers**.
+
+#### Summary of Contents
+- **Example Data Structure:** Introduction to a custom `Food` struct used throughout the examples.
+- **Using a Custom Cell:** How to create and implement **custom cells** in your List view.
+- **List Separators:** Techniques for **hiding** and **coloring** row and section separators.
+- **List Row Size and Insets:** **Adjusting row height** and modifying **insets** for a more polished look.
+- **Changing the SwiftUI List Background Color:** Methods for changing both **list** and **cell background colors**.
+- **Extravagant Example:** A showcase of the full range of **customizations possible** with SwiftUI Lists.
+
+#### Additional Resources
+- **[SwiftUI List View: A Deep Dive into one of the most important components of SwiftUI.](https://www.swiftyplace.com/blog/swiftui-list-view-a-deep-dive-into-one-of-the-most-important-components-of-swiftui):** A comprehensive guide to understanding SwiftUI List views.
+- **[SwiftUI Layout Cookbook](https://www.swiftyplace.com/free-swiftui-layout-cookbook):** A free mini-book to **master SwiftUI layouts**.
+
+<LinkCard title="Read Full Article" href="https://www.swiftyplace.com/blog/customise-list-view-appearance-in-swiftui-examples-beyond-the-default-stylings" />
+
 ## **Xcode and Workflow**
 
 ### 🟢 Multi-Cursor Editing in Xcode
