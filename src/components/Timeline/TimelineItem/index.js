@@ -37,7 +37,6 @@ const TimelineItem = ({
         <div className={clsx(styles.timeline__item,
             itemalign
         )} >
-            <a href={url}>
                 <div className={clsx(styles.timeline__content,
                                 bgcolor,
                                 className,
@@ -55,7 +54,6 @@ const TimelineItem = ({
 
                     {children}
                 </div>
-            </a>
         </div>
     );
 };
