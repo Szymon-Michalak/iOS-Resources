@@ -291,6 +291,76 @@ This article dives deep into **customizing the appearance of SwiftUI List views*
 
 <LinkCard title="Read Full Article" href="https://www.swiftyplace.com/blog/customise-list-view-appearance-in-swiftui-examples-beyond-the-default-stylings" />
 
+### 🔵 Programmatically Trigger SwiftUI Actions
+
+This article discusses five different methods to programmatically trigger actions in SwiftUI, focusing on the onChange operator introduced in SwiftUI 2.0. It explores options ranging from basic boolean state management to advanced techniques using Combine and @Published properties.
+
+<details>
+
+**URL:** https://betterprogramming.pub/programmatically-trigger-swiftui-actions-be2dcb8acf0d
+
+**Published:** 2020-09-14
+
+**Authors:** `Mark Lucking`
+
+**Tags:**  
+`SwiftUI`, `iOS Development`, `State Management`, `Swift`
+
+</details>
+
+#### Key Points
+- **SwiftUI State Management:** The article delves into various techniques for managing state and triggering UI changes in SwiftUI.
+- **onChange Operator:** It highlights the new `onChange` operator in SwiftUI 2.0 and its applications.
+- **Advanced State Control:** Options 4 and 5 demonstrate more advanced state management strategies using `@Published` and `Combine`.
+
+#### Summary of Contents
+- **Introduction:** Overview of the need for triggering actions in SwiftUI, especially with the advent of SwiftUI 2.0.
+- **Option 1:** Simple boolean state control for toggling UI elements based on a timer.
+- **Option 2:** Enhanced state control using `onAppear` and `onDisappear` with the id modifier for more responsive UI updates.
+- **Option 3:** Introduction of `onChange` to directly observe and react to state changes within a view.
+- **Option 4:** Using `@Published` and `ObservableObject` to manage state across multiple views without tightly coupling them.
+- **Option 5:** Utilizing Combine’s `PassthroughSubject` for even looser coupling and greater control over state-driven actions.
+
+#### Additional Resources
+- **SwiftUI Documentation:** [SwiftUI 2.0 Overview](https://developer.apple.com/documentation/swiftui)
+- **Combine Framework:** [Introduction to Combine](https://developer.apple.com/documentation/combine)
+
+<LinkCard title="Read Full Article" href="https://betterprogramming.pub/programmatically-trigger-swiftui-actions-be2dcb8acf0d" />
+
+### 🟢 ScrollPosition for ScrollView in iOS 17 and SwiftUI 5
+
+This article discusses the new `scrollPosition` modifier in SwiftUI 5, introduced with iOS 17, which allows developers to control the initial scroll position within a `ScrollView`. The post includes code examples demonstrating how to implement this feature in various scenarios, such as creating a chat interface that starts at the bottom of the conversation.
+
+<details>
+
+**URL:** [Link to the original blog post](https://medium.com/devtechie/scrollposition-for-scrollview-in-ios-17-and-swiftui-5-d8f16707679b)
+
+**Published:** 2023-08-02
+
+**Authors:** `DevTechie`
+
+**Tags:**  
+`SwiftUI`, `iOS Development`, `iOS 17`, `ScrollView`, `Swift`
+
+</details>
+
+#### Key Points
+- The `scrollPosition` modifier in SwiftUI 5 enables developers to set the initial scroll position in a `ScrollView`.
+- It can be used to replicate UI patterns like starting a conversation view from the bottom, similar to Apple's Messages app.
+- The modifier supports various anchor points such as `.top`, `.center`, and `.bottom`, and it can be applied to both vertical and horizontal scrolls.
+
+#### Summary of Contents
+- **Introduction to scrollPosition Modifier:** This section introduces the `scrollPosition` modifier and its significance in controlling the scroll view's initial position.
+- **Chat Interface Example:** Detailed example of creating a chat interface where the scroll starts at the bottom, mimicking the behavior of messaging apps.
+- **Application in Horizontal Scroll:** Discusses how to apply `scrollPosition` to horizontal scrolls, including examples with images.
+- **Advanced Use Cases:** Explores other use cases, such as centering content in both horizontal and vertical scroll views.
+
+#### Additional Resources
+- **SwiftUI Documentation:** [SwiftUI `ScrollView` documentation](https://developer.apple.com/documentation/swiftui/scrollview)
+- **iOS 17 Developer Preview:** [Official Apple documentation for iOS 17](https://developer.apple.com/ios/)
+
+<LinkCard title="Read Full Article" href="https://medium.com/devtechie/scrollposition-for-scrollview-in-ios-17-and-swiftui-5-d8f16707679b" />
+
 ## **Xcode and Workflow**
 
 ### 🟢 Multi-Cursor Editing in Xcode
