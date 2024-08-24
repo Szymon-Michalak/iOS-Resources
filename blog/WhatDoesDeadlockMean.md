@@ -22,7 +22,7 @@ tags: [concurrency]
 
 Deadlocks occur when threads sharing the same resource are waiting on one another to release access to the resource in order for them to complete their respective tasks.
 
-> Interviewer: “Explain deadlock and I’ll give you the job.”
+> Interviewer: “Explain deadlock and I’ll give you the job.”  
 > Candidate: “Give me the job and I’ll explain deadlock to you.”
 
 Simply put, deadlock describes a situation in which you have two or more entities waiting on one another and, as a result, no progress is made. A deadlock can occur between any two entities. For instance, your code could be waiting for a file system operation to complete and the file system could be waiting for your code to complete execution.

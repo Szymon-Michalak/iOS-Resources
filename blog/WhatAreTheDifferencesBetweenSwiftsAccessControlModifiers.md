@@ -27,6 +27,7 @@ This enables us to abstract away certain implementation details and instead shar
 Swift provides five different access level modifiers that can be used on classes, structs, enums, properties, methods, and initializers.
 
 Going from the least to the most restrictive:
+
 **open:** classes and methods marked asopencan be subclassedand overridden outside of their
 defining module.
 

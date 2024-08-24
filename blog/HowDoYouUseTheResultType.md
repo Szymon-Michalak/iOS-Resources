@@ -20,7 +20,7 @@ tags: [swift]
 
 :::
 
-The `Result` type is a convenient way for us to handleboth the success and failure cases of an operation while maintaining code readability.
+The `Result` type is a convenient way for us to handle both the success and failure cases of an operation while maintaining code readability.
 
 Under the hood, the `Result` type, is an `enum` with two cases:
 

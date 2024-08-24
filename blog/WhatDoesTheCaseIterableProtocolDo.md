@@ -20,9 +20,9 @@ tags: [swift]
 
 :::
 
-As the name suggests,`CaseIterable` is a protocol that provides a handy way of iterating through all of the individual cases in anenum.
+As the name suggests,`CaseIterable` is a protocol that provides a handy way of iterating through all of the individual cases in an `enum`.
 
-When using anenumthat conforms to CaseIterable,you can access a collection of all of the enum’s cases by using the `allCases` property:
+When using an `enum` that conforms to `CaseIterable`,you can access a collection of all of the `enum’s` cases by using the `allCases` property:
 
 ```swift
 enum CompassDirection: CaseIterable {

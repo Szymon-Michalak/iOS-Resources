@@ -42,9 +42,9 @@ This type of behavior is called pass-by-value semantics and is helpful in preven
 
 Both a `class` and a `struct` can implement `protocols`, define `properties`, `methods`, `initializers`, and be extended, but only a `class` can support inheritance and by extension polymorphism.
 
-Since a struct requires less overhead to create andis safer to use due to it’s immutability and pass-by-value semantics, Apple’s recommendation isto start with a `struct` when you can and change to aclassonly when needed.
+Since a struct requires less overhead to create and is safer to use due to it’s immutability and pass-by-value semantics, Apple’s recommendation is to start with a `struct` when you can and change to aclassonly when needed.
 
-However, if the entity you’re working with contains a lot of data, then it’s probably useful for it to be a `class` so you can share a reference to it andonly incur the memory cost once.
+However, if the entity you’re working with contains a lot of data, then it’s probably useful for it to be a `class` so you can share a reference to it and only incur the memory cost once.
 
 :::tip[In Bullets]
 

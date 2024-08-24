@@ -20,7 +20,7 @@ tags: [swift]
 
 :::
 
-The `defer` keyword allows us to specify code that shouldbe executed only when we are leaving the current function’s scope.
+The `defer` keyword allows us to specify code that should be executed only when we are leaving the current function’s scope.
 
 It's commonly used for releasing a shared resource, closing a connection, or performing any last-minute cleanup.
 
@@ -47,4 +47,4 @@ You’ll see that regardless of whether the:
 ```swift
 try database.write(entry: "Hello world!")
 ```
-call succeeds or fails, we will always close out the database connection without having to duplicate the `disconnect()` call. Lastly, we can usedeferto write setup and cleanup code next to each other, even though they need to be executed at different times.
+call succeeds or fails, we will always close out the database connection without having to duplicate the `disconnect()` call. Lastly, we can use `defer` to write setup and cleanup code next to each other, even though they need to be executed at different times.

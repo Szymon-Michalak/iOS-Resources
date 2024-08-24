@@ -2,7 +2,7 @@
 slug: WhatDoesAppTransportSecurityDo
 title: What does App Transport Security do?
 authors: [ace-the-ios-interview]
-tags: [uikit]
+tags: [ios]
 ---
 
 <details>
@@ -26,4 +26,4 @@ As I’m sure you know, HTTPS is the secure variation of HTTP. In HTTPS, the sam
 
 TLS relies on encrypting the communication both ways - from the client to the server and the server to the client. So, with App Transport Security, Apple is ensuring that developers use HTTPS (and as a result TLS) in order to ensure privacy and security for all apps and customers.
 
-You can setNSAllowsArbitraryLoadstotruein yourapplication’s.plistwhich will disable the ATS requirement, but your app will likely be rejected unless you can provide a compelling justification to App Review.
+You can set `NSAllowsArbitraryLoads` to `true` in your application’s `.plist` which will disable the ATS requirement, but your app will likely be rejected unless you can provide a compelling justification to App Review.

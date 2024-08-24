@@ -20,9 +20,9 @@ tags: [swift]
 
 :::
 
-By leveraging Swift extensions, we can provide a default implementation for methods and properties declared in aprotocol.
+By leveraging Swift extensions, we can provide a default implementation for methods and properties declared in a `protocol`.
 
-This helps reduce boilerplate and duplicated code in classes that implement theprotocol while still allowing them to easily override the default implementation.
+This helps reduce boilerplate and duplicated code in classes that implement the `protocol` while still allowing them to easily override the default implementation.
 
 ```swift
 protocol Animal {
@@ -49,11 +49,11 @@ let whiskers = Cat()
 whiskers.makeNoise() // Meow!
 ```
 
-As you can see, we’ve provided the default implementation formakeNoise()in an extension.
+As you can see, we’ve provided the default implementation for `makeNoise()`in an extension.
 
-Dogis using the default implementation whileCatis free to provide a more specific implementation.
+`Dog` is using the default implementation while `Cat` is free to provide a more specific implementation.
 
-This same approach allows us to make certain functions in ourprotocoloptional. Since we have provided a default implementation in our extension, any entity that implements the protocolis no longer required to implement it.
+This same approach allows us to make certain functions in our `protocol` optional. Since we have provided a default implementation in our extension, any entity that implements the protocolis no longer required to implement it.
 
 ```swift
 protocol MyProtocol {
@@ -71,5 +71,5 @@ struct MyStruct: MyProtocol {
 }
 ```
 
-Alternatively, you can use `@objc` optional to make functions within your protocol optional.
-This would, however, restrict your `protocol` to onlybe implemented by `class` type objects, which would prevent your `protocol` from being used by `structs`, `enums`, etc. You’d also need to explicitly check if that optional method is implemented before you call it.
+Alternatively, you can use `@objc optional` to make functions within your protocol optional.
+This would, however, restrict your `protocol` to only be implemented by `class` type objects, which would prevent your `protocol` from being used by `structs`, `enums`, etc. You’d also need to explicitly check if that optional method is implemented before you call it.
