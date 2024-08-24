@@ -9,7 +9,7 @@ description: Problem Sources
 A comprehensive guide to learning Test-Driven Development (TDD) through various coding katas. These exercises are designed to help developers practice and master TDD principles and techniques.
 
 <details>
-**URL:** [Kata Log Rocks - TDD](https://kata-log.rocks/tdd)
+**URL:** https://kata-log.rocks/tdd
 
 **Published:** Not specified  
 **Last Updated:** Not specified
@@ -119,7 +119,7 @@ This resource is a comprehensive guide to competitive programming, focusing on l
 A comprehensive guide to advanced competitive programming techniques, designed to help programmers excel in programming contests like ACM ICPC and IOI. The book provides in-depth coverage of algorithms, data structures, problem-solving paradigms, and specific problem types encountered in competitive programming.
 
 <details>
-**URL:** [Not provided]
+**URL:** https://cpbook.net/
 
 **Published:** 2011  
 **Last Updated:** Not specified
@@ -172,14 +172,14 @@ A comprehensive guide to advanced competitive programming techniques, designed t
   - Encourages multiple readings and continuous practice
   - Aims to elevate the lower bound of programming contest knowledge and skills
 
-<LinkCard title="Link to Resource" href="[Not provided]" />
+<LinkCard title="Link to Resource" href="https://cpbook.net/" />
 
 ### 📚 Swift Coding Challenges
 
 A collection of Swift coding challenges designed to prepare developers for iOS interviews, test skills against peers, and improve problem-solving abilities. This resource covers various topics such as strings, numbers, files, collections, and algorithms.
 
 <details>
-**URL:** [Not provided]
+**URL:** https://www.hackingwithswift.com/books/coding-challenges
 
 **Published:** May 25, 2019  
 **Last Updated:** May 25, 2019
@@ -226,4 +226,49 @@ A collection of Swift coding challenges designed to prepare developers for iOS i
   - Encourages continuous practice and exploration of different coding problems
   - Stresses the value of developing problem-solving skills through regular coding challenges
 
-<LinkCard title="Link to Resource" href="[Not provided]" />
+<LinkCard title="Link to Resource" href="https://www.hackingwithswift.com/books/coding-challenges" />
+
+
+### Roadmap Resources for Competitive Programming
+
+This repository offers a structured collection of resources aimed at helping individuals improve their competitive programming skills. It includes practice problem sites, video tutorials, and guides on various programming topics, organized by difficulty levels.
+
+<details>
+
+**URL:** https://docs.google.com/document/d/1-7Co93b504uyXyMjjE8bnLJP3d3QXvp_m1UjvbvdR2Y/edit
+
+
+**Authors/Curators:** https://www.youtube.com/@ColinGalen
+
+**Tags:**  
+`Competitive Programming`, `Algorithms`, `Data Structures`, `Practice Problems`, `Tutorials`
+
+</details>
+
+#### Overview
+The Roadmap Resources repository is designed to provide a clear pathway for competitive programmers at various skill levels. It aggregates resources such as practice problem websites, educational videos, and essential topic guides. Whether you're just starting out or aiming to become a highly-rated coder, this repository helps you find the right materials to improve your skills systematically.
+
+#### Categories
+
+- **Practice Problem Sites:**  
+  This section lists websites where users can practice coding problems, from beginner to advanced levels. Examples include [Codeforces](https://codeforces.com/problemset), [CodeChef](https://www.codechef.com/), and [AtCoder](https://atcoder.jp/).
+
+- **Video Tutorials and Channels:**  
+  Curated list of YouTube channels and video playlists that cover various aspects of competitive programming, such as algorithm tutorials and live coding sessions. Featured channels include [SecondThread](https://www.youtube.com/c/SecondThread/videos) and [Errichto](https://www.youtube.com/c/Errichto/videos).
+
+- **Topic-Specific Guides:**  
+  This category includes links to articles and tutorials that focus on specific algorithms, data structures, and problem-solving techniques. Topics range from basic sorting and number theory to advanced graph algorithms and dynamic programming.
+
+- **Additional Resources:**  
+  A collection of miscellaneous resources, including comprehensive guides, books, and advanced topics for those looking to deepen their knowledge and skills further.
+
+#### Contribution Guidelines
+Contributions to this repository are encouraged, especially new resources or corrections to existing ones. Here’s how you can contribute:
+
+- **Submission Process:**  
+  Fork the repository, make your changes or additions, and submit a pull request with a description of your contribution.
+
+- **Guidelines:**  
+  Ensure that any new resources are of high quality, up-to-date, and relevant to competitive programming. Each addition should include a brief description and, where applicable, the difficulty level.
+
+<LinkCard title="Visit Roadmap Resources Repository" href="https://docs.google.com/document/d/1-7Co93b504uyXyMjjE8bnLJP3d3QXvp_m1UjvbvdR2Y/edit" />
