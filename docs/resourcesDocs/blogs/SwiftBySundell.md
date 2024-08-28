@@ -176,3 +176,35 @@ The article discusses how Swift's **`@autoclosure`** attribute can simplify API 
 - **Further Reading on Closures in Swift:** [Link to Swift Documentation](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
 
 <LinkCard title="Read Full Article" href="https://www.swiftbysundell.com/articles/using-autoclosure-when-designing-swift-apis/" />
+
+## **Design Patterns**
+### 🔵 Exploring the Builder Pattern in Swift
+
+The builder pattern is a powerful design pattern used to construct complex objects step by step. While it's more commonly seen in languages like Java, it's equally applicable in Swift, especially for creating objects with multiple configurations. This blog post explores how the builder pattern works, the problems it solves, and how you can implement it effectively in Swift. By understanding the builder pattern, you can make your objects more predictable, stateless, and easier to test.
+
+<details>
+
+**URL:** https://www.swiftbysundell.com/articles/using-the-builder-pattern-in-swift/
+
+**Published:** 2018-05-08 
+
+
+**Authors:** John Sundell
+
+**Tags:**  
+`design-patterns`, `swift`, `ios-development`, `builder-pattern`
+
+</details>
+
+#### Key Points
+- The builder pattern helps in reducing mutable state, making objects simpler and more predictable.
+- It is particularly useful when constructing complex objects with many configurations.
+- The builder pattern can also improve the encapsulation of an object’s creation process.
+
+#### Summary of Contents
+- **Building Objects:** This section explains the core idea of the builder pattern, demonstrating how it simplifies object construction by separating the construction process from the object itself.
+- **Separated Mutability:** Discusses how the builder pattern reduces the need for mutable state and prevents accidental sharing of mutable objects.
+- **Hiding Complexity:** Shows how the builder pattern can hide implementation details, providing a simpler API for complex tasks.
+- **Conclusion:** Reflects on the builder pattern's relevance in Swift, particularly when dealing with Objective-C APIs and when creating public APIs.
+
+<LinkCard title="Read Full Article" href="https://www.swiftbysundell.com/articles/using-the-builder-pattern-in-swift/" />
