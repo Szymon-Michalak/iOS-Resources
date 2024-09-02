@@ -1,4 +1,4 @@
-### Figma
+# Figma
 
 Figma is a collaborative interface design tool that allows developers and designers to create, prototype, and share interactive designs. It simplifies the design process by providing a platform for real-time collaboration, version control, and easy sharing of design assets.
 

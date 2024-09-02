@@ -1,10 +1,10 @@
-### 📕 Building Mobile Apps at Scale
+# 📕 Building Mobile Apps at Scale
 
-**Description**: *Building Mobile Apps at Scale* by Gergely Orosz is a comprehensive guide that delves into the complexities of scaling mobile app development in large teams. The book is structured into five parts, each addressing specific challenges that arise as mobile applications grow in complexity, user base, and team size. With insights drawn from real-world experiences at companies like Uber, the book provides invaluable advice on state management, performance optimization, compliance, modular architecture, and more.
+**Building Mobile Apps at Scale** by Gergely Orosz is a comprehensive guide that delves into the complexities of scaling mobile app development in large teams. The book is structured into five parts, each addressing specific challenges that arise as mobile applications grow in complexity, user base, and team size. With insights drawn from real-world experiences at companies like Uber, the book provides invaluable advice on state management, performance optimization, compliance, modular architecture, and more.
 
 <details>
 
-**URL:** [Link to the book if available online]
+**URL:** https://www.mobileatscale.com/
 
 **Published:** 2021-07-01
 
@@ -76,3 +76,5 @@
 - **Client-Side Data Migrations**: Handling complex data migrations on the client side.
 - **Forced Upgrading**: Managing and implementing forced upgrades effectively.
 - **App Size**: Strategies to optimize and reduce app size for better user experience.
+
+<LinkCard title="Link to Book" href="https://www.mobileatscale.com/" />

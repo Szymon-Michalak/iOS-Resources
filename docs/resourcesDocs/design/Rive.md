@@ -1,4 +1,4 @@
-### Rive
+# Rive
 
 Rive is a design tool for creating interactive motion graphics and animations that run on any platform. It allows designers and developers to collaborate seamlessly, bringing products and games to life with rich interactivity and animation.
 

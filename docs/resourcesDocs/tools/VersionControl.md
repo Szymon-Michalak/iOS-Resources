@@ -3,8 +3,6 @@ title: 🗂️ Version Control
 description: Version Control
 ---
 
-This resource provides access.
-
 ### Pre-commit
 
 Pre-commit is a framework for managing and maintaining multi-language pre-commit hooks. It helps identify and fix simple issues before submission to code review by running hooks on every commit, thus ensuring code quality and consistency.

@@ -1,4 +1,4 @@
-### Play
+# Play
 
 Play is a mobile design tool that empowers designers to create, iterate, and preview interactive mobile app designs directly on their iOS devices using SwiftUI. It offers a seamless integration between design and development, enabling real-time updates and immediate feedback on designs.
 
