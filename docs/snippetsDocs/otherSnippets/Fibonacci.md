@@ -7,9 +7,7 @@ A snippet for creating a UITableView that efficiently displays the Fibonacci seq
 
 <details>
 
-**URL:** [Full Implementation](https://github.com/aryamansharda/Fibonacci)
-
-**Source:** [Ace the iOS Interview](/docs/snippetsDocs/FetchingRemoteImages.md)
+**URL:** https://github.com/aryamansharda/Fibonacci
 
 **Author:** `Aryaman Sharda`
 
