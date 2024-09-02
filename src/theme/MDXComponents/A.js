@@ -3,8 +3,8 @@ import Link from '@docusaurus/Link';
 
 export default function MDXA(props) {
   return (
-    <div>
+    <span>
         🔗 <Link {...props} />
-    </div>
+    </span>
   );
 }
