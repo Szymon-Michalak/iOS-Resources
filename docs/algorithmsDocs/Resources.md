@@ -4,51 +4,6 @@ title: Resources
 description: Problem Sources
 ---
 
-### 🌐 Katas to Learn TDD
-
-A comprehensive guide to learning Test-Driven Development (TDD) through various coding katas. These exercises are designed to help developers practice and master TDD principles and techniques.
-
-<details>
-**URL:** https://kata-log.rocks/tdd
-
-**Published:** Not specified  
-**Last Updated:** Not specified
-
-**Authors:** `Kata Log Rocks`
-
-**Tags:**  
-`TDD`, `Katas`, `Software Development`, `Agile`, `Refactoring`, `Pair Programming`
-</details>
-
-#### Key Points
-- Collection of katas for different experience levels
-- Topics include Agile, BDD, SOLID principles, and more
-- Exercises designed to practice TDD and improve coding skills
-- Includes detailed descriptions and requirements for each kata
-
-#### Summary of Contents
-- **Introduction:**
-  - Overview of TDD and its importance in software development
-  - Instructions on how to approach the katas and practice TDD
-  
-- **Kata Categories:**
-  - **Starter:** Beginner-friendly katas to introduce TDD basics
-  - **Experienced:** Advanced katas for deeper TDD practice
-  - **Agile:** Exercises focused on Agile principles and practices
-  - **SOLID Principles:** Katas that emphasize SOLID design principles
-  - **Pair Programming:** Katas designed for collaborative coding
-  
-- **Example Katas:**
-  - Bowling Game Kata: Learn scoring logic for a bowling game using TDD
-  - Fizz Buzz Kata: Implement the classic Fizz Buzz problem with tests
-  - Game of Life Kata: Simulate Conway's Game of Life using TDD principles
-  
-- **Conclusion:**
-  - Encourages continuous practice and exploration of various katas
-  - Highlights the benefits of TDD in developing robust and maintainable code
-
-<LinkCard title="Link to Resource" href="https://kata-log.rocks/tdd" />
-
 ### 📚 Guide to Competitive Programming
 
 This resource is a comprehensive guide to competitive programming, focusing on learning and improving algorithms through programming contests. It covers various topics essential for competitive programming, from basic concepts to advanced techniques.
@@ -229,7 +184,7 @@ A collection of Swift coding challenges designed to prepare developers for iOS i
 <LinkCard title="Link to Resource" href="https://www.hackingwithswift.com/books/coding-challenges" />
 
 
-### Roadmap Resources for Competitive Programming
+### 🛣️ Roadmap Resources for Competitive Programming
 
 This repository offers a structured collection of resources aimed at helping individuals improve their competitive programming skills. It includes practice problem sites, video tutorials, and guides on various programming topics, organized by difficulty levels.
 
@@ -272,3 +227,48 @@ Contributions to this repository are encouraged, especially new resources or cor
   Ensure that any new resources are of high quality, up-to-date, and relevant to competitive programming. Each addition should include a brief description and, where applicable, the difficulty level.
 
 <LinkCard title="Visit Roadmap Resources Repository" href="https://docs.google.com/document/d/1-7Co93b504uyXyMjjE8bnLJP3d3QXvp_m1UjvbvdR2Y/edit" />
+
+### 🌐 Katas to Learn TDD
+
+A comprehensive guide to learning Test-Driven Development (TDD) through various coding katas. These exercises are designed to help developers practice and master TDD principles and techniques.
+
+<details>
+**URL:** https://kata-log.rocks/tdd
+
+**Published:** Not specified  
+**Last Updated:** Not specified
+
+**Authors:** `Kata Log Rocks`
+
+**Tags:**  
+`TDD`, `Katas`, `Software Development`, `Agile`, `Refactoring`, `Pair Programming`
+</details>
+
+#### Key Points
+- Collection of katas for different experience levels
+- Topics include Agile, BDD, SOLID principles, and more
+- Exercises designed to practice TDD and improve coding skills
+- Includes detailed descriptions and requirements for each kata
+
+#### Summary of Contents
+- **Introduction:**
+  - Overview of TDD and its importance in software development
+  - Instructions on how to approach the katas and practice TDD
+  
+- **Kata Categories:**
+  - **Starter:** Beginner-friendly katas to introduce TDD basics
+  - **Experienced:** Advanced katas for deeper TDD practice
+  - **Agile:** Exercises focused on Agile principles and practices
+  - **SOLID Principles:** Katas that emphasize SOLID design principles
+  - **Pair Programming:** Katas designed for collaborative coding
+  
+- **Example Katas:**
+  - Bowling Game Kata: Learn scoring logic for a bowling game using TDD
+  - Fizz Buzz Kata: Implement the classic Fizz Buzz problem with tests
+  - Game of Life Kata: Simulate Conway's Game of Life using TDD principles
+  
+- **Conclusion:**
+  - Encourages continuous practice and exploration of various katas
+  - Highlights the benefits of TDD in developing robust and maintainable code
+
+<LinkCard title="Link to Resource" href="https://kata-log.rocks/tdd" />
