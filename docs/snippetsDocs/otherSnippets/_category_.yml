@@ -1,0 +1,9 @@
+position: 9
+label: 'Other'
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: Other Snippets overview
+customProps:
+  description: This description can be used in the swizzled DocCard

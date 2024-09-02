@@ -1,0 +1,9 @@
+position: 8
+label: 'Networking and APIs'
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: Networking and APIs overview
+customProps:
+  description: This description can be used in the swizzled DocCard

@@ -1,0 +1,9 @@
+position: 7
+label: 'JSON and Codables'
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: JSON and Codables overview
+customProps:
+  description: This description can be used in the swizzled DocCard
