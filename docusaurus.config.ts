@@ -132,7 +132,7 @@ const config: Config = {
             position: 'left',
             label: '🚧 Deep Dives (WIP)',
         },
-        {to: '/interviewQuestions', label: 'Interview Questions', position: 'left'},
+        {to: '/interviewQuestions', label: '🚀 Interview Questions', position: 'left'},
         {
           href: 'https://github.com/Szymon-Michalak',
           label: 'GitHub',
