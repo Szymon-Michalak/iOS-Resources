@@ -105,3 +105,38 @@ This article addresses a common issue in **SwiftUI** where sorting or filtering 
 - **[What’s the difference between async let, tasks, and task groups?](https://www.hackingwithswift.com/concurrency/async-let-tasks-task-groups):** Detailed comparison of concurrency options in Swift.
 
 <LinkCard title="Read Full Article" href="https://www.hackingwithswift.com/concurrency/tasks/" />
+
+### 🔵 Using SwiftUI's `task()` Modifier
+
+Discover how SwiftUI's `task()` modifier simplifies concurrent task management, automatically starting and canceling tasks based on view lifecycle events. This guide by Paul Hudson dives deep into practical use cases and advanced implementations, including streaming data with `AsyncSequence`.
+
+<details>
+
+**URL:** https://www.hackingwithswift.com/quick-start/concurrency/how-to-run-tasks-using-swiftuis-task-modifier
+
+**Authors:** `Paul Hudson`  
+
+**Tags:**  
+`swiftui`, `concurrency`, `tasks`, `async-sequence`, `ios-development`
+
+</details>
+
+#### Key Points
+- **Core Functionality:**  
+  - Automatically starts tasks when views appear and cancels them when views disappear.
+  - Supports task identifiers to restart tasks upon changes in state.
+- **Advanced Use Cases:**  
+  - Fetching data for dynamic UI elements using `task(id:)`.
+  - Streaming real-time data with `AsyncSequence` and task cancellation.
+
+#### Summary of Contents
+- **Basic Usage:** The `task()` modifier fetches and decodes JSON for a messaging app, showcasing initial data loading.
+- **Advanced Task Management:** Explains handling dynamic state changes with `task(id:)` to adapt tasks to user interactions.
+- **Streaming Data:** Demonstrates real-time number generation using `AsyncSequence` and task cancellation in a detail view.
+
+#### Helpful Links
+- [How to create a task group and add tasks to it](https://www.hackingwithswift.com/quick-start/concurrency/how-to-create-a-task-group-and-add-tasks-to-it)  
+- [What’s the difference between async let, tasks, and task groups?](https://www.hackingwithswift.com/quick-start/concurrency/whats-the-difference-between-async-let-tasks-and-task-groups)  
+- [What’s the difference between a task and a detached task?](https://www.hackingwithswift.com/quick-start/concurrency/whats-the-difference-between-a-task-and-a-detached-task)  
+
+<LinkCard title="Read Full Article" href="https://www.hackingwithswift.com/quick-start/concurrency/how-to-run-tasks-using-swiftuis-task-modifier" />

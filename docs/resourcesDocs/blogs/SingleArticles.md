@@ -151,6 +151,196 @@ Effective communication with your app's customers is essential. While many compa
 
 <LinkCard title="Read Full Article" href="https://blog.eliperkins.com/great-release-notes" />
 
+### 🔵 Adapter Design Pattern in iOS
+
+The Adapter Design Pattern is a **structural design pattern** that enables objects with incompatible interfaces to collaborate by using an intermediary known as the **Adapter**. This pattern is highly valuable in iOS development, especially when integrating third-party libraries, adapting legacy code, or bridging different frameworks.
+
+<details>
+
+**URL:** https://blog.stackademic.com/adapter-design-pattern-in-ios-9e008ec29414
+
+**Published:** 2023-11-07
+
+**Authors:** `Stackademic`
+
+**Tags:**  
+`design-patterns`, `swift`, `ios-development`, `architecture`, `adapter-pattern`
+
+</details>
+
+#### Key Points
+- **Definition:** Allows incompatible interfaces to work together via a wrapper object.
+- **Core Components:** Target, Adapter, Adaptee, and Client.
+- **Use Cases:** Integrating third-party libraries, simplifying complex interfaces, and bridging frameworks.
+- **Advantages:** Enhances modularity, reusability, and separation of concerns in code.
+- **Disadvantages:** May increase complexity and dependency.
+
+#### Summary of Contents
+- **Introduction:** Overview of the Adapter Pattern and its significance in iOS.
+- **Core Components Explained:** Details of the pattern's four components (Target, Adapter, Adaptee, and Client).
+- **Examples:**
+  - **General Scenarios:** Printed photographs to digital, train systems with different engines.
+  - **iOS Specific:** Wrapping third-party libraries, adapting APIs.
+- **Step-by-Step Implementation in Swift:** 
+  - Creating the Target interface.
+  - Implementing the Adaptee.
+  - Designing the Adapter.
+  - Using the Adapter in the Client.
+- **Advantages and Disadvantages:** A balanced view of the pattern's trade-offs.
+
+<LinkCard title="Read Full Article" href="https://blog.stackademic.com/adapter-design-pattern-in-ios-9e008ec29414" />
+
+### 🔵 Facade Design Pattern in iOS
+
+The Facade Design Pattern is a **structural design pattern** that provides a unified interface to a set of interfaces in a subsystem, simplifying the interaction with complex systems. In iOS development, it is often used to streamline access to subsystems like network, database, and view layers.
+
+<details>
+
+**URL:** https://medium.com/@omar.saibaa/facade-design-pattern-in-ios-52138dd70e46
+
+**Published:** 2023-11-01
+
+**Authors:** `Omar Saibaa`
+
+**Tags:**  
+`design-patterns`, `swift`, `ios-development`, `facade-pattern`, `architecture`
+
+</details>
+
+#### Key Points
+- **Definition:** Provides a simplified interface to complex subsystems.
+- **Use Cases:** Frequently used in iOS apps for simplifying access to network layers, database interactions, or view components.
+- **Advantages:** Simplifies client code, decouples interfaces, reduces complexity, and improves performance through abstraction and caching.
+- **Disadvantages:** Can introduce additional complexity, abstraction penalties, and reduced flexibility in some cases.
+
+#### Summary of Contents
+- **Introduction:** Overview of the Facade Pattern and its role in simplifying subsystems.
+- **Examples:** Conceptual and real-world scenarios, such as:
+  - Restaurant menu as a façade for complex kitchen operations.
+  - Unified access to banking app subsystems for checking balances, transferring money, and deposits.
+  - Simplifying interactions in e-commerce apps like Amazon.
+  - Unified interfaces for Facebook-like apps managing network, database, and view layers.
+- **Implementation Steps:** A step-by-step guide to identifying subsystems, defining simplified interfaces, and creating facade classes to delegate requests.
+- **Code Examples:** Example implementations demonstrating the benefits of the pattern in various contexts.
+- **Advantages and Disadvantages:** Highlights the trade-offs when using this pattern.
+
+<LinkCard title="Read Full Article" href="https://medium.com/@omar.saibaa/facade-design-pattern-in-ios-52138dd70e46" />
+
+### 🔵 Flyweight Design Pattern in iOS
+
+The Flyweight Design Pattern is a **structural design pattern** focused on reducing memory usage by sharing intrinsic states among multiple objects. This approach minimizes redundancy and optimizes resource management in applications.
+
+<details>
+
+**URL:** https://thekrazyjames.medium.com/flyweight-design-pattern-in-ios-e5666433cd08
+
+**Published:** 2024-05-11
+
+**Authors:** `The Krazy James`
+
+**Tags:**  
+`design-patterns`, `swift`, `ios-development`, `flyweight-pattern`, `memory-optimization`
+
+</details>
+
+#### Key Points
+- **Definition:** Reduces memory usage by sharing intrinsic (immutable) states among objects.
+- **Intrinsic State:** Immutable properties like birthdate or nationality.
+- **Extrinsic State:** Mutable properties like expiration date or address.
+- **Advantages:** Saves memory usage by eliminating redundancy.
+- **Common Mistakes:** Avoid multiple instances of the same intrinsic state; use a factory or singleton to enforce uniqueness.
+
+#### Summary of Contents
+- **Introduction:** Overview of the Flyweight Pattern and its relevance in optimizing memory usage.
+- **Core Concepts:** Explanation of intrinsic and extrinsic states with examples from a driver’s license and passport system.
+- **Implementation:** A detailed breakdown of how to separate intrinsic and extrinsic states in Swift, with code examples.
+- **Common Mistakes:** Highlights pitfalls such as duplicating intrinsic states and suggests solutions like factories or singletons.
+- **Conclusion:** Discusses the pattern’s utility in scenarios like gaming, where shared textures reduce memory consumption.
+
+<LinkCard title="Read Full Article" href="https://thekrazyjames.medium.com/flyweight-design-pattern-in-ios-e5666433cd08" />
+
+
+Here is the **blog post** formatted strictly according to the **blog_post.md** template:
+
+---
+
+### 🔵 Composite Design Pattern in iOS
+
+The Composite Design Pattern is a **structural design pattern** that allows the composition of objects into tree structures to represent part-whole hierarchies. This pattern simplifies client code by allowing uniform treatment of individual and composite objects.
+
+<details>
+
+**URL:** [Original Blog Post](https://abdulahd1996.medium.com/composite-design-pattern-in-ios-766fe0627244)
+
+**Published:** [YYYY-MM-DD]
+
+**Authors:** `Abdulahd 1996`
+
+**Tags:**  
+`design-patterns`, `swift`, `ios-development`, `composite-pattern`, `architecture`
+
+</details>
+
+#### Key Points
+- **Definition:** Represents part-whole hierarchies, enabling clients to treat individual objects and composites uniformly.
+- **Use Cases:** Commonly used in file systems, GUI hierarchies, and analytics tracking in iOS.
+- **Advantages:** Promotes scalability, abstraction, and separation of concerns.
+- **Real-World Examples:** File systems, event tracking with multiple analytics services.
+
+#### Summary of Contents
+- **Introduction:** Explanation of the Composite Pattern and its role in managing hierarchies.
+- **Example Implementation:** 
+  - `Component`: The protocol defining the interface for both `Leaf` and `Composite` objects.
+  - `Leaf`: Simple objects like `TextFile` and `ImageFile`.
+  - `Composite`: Complex objects like `Folder` aggregating both files and subfolders.
+- **Real-World iOS Use Case:** Refactoring tightly coupled event tracking into a scalable design using `EventTracker` protocol and `CompositeTracker`.
+- **Code Examples:** Step-by-step implementation in Swift for hierarchical object management.
+- **Advantages:** Improves scalability, decouples client code, adheres to SOLID principles, and simplifies testing.
+
+<LinkCard title="Read Full Article" href="https://abdulahd1996.medium.com/composite-design-pattern-in-ios-766fe0627244" />
+
+### 🔵 SwiftUI MVVM-C: A Real-World Guide
+
+This article explores the implementation of the Model-View-ViewModel-Coordinator (MVVM-C) pattern in SwiftUI with a detailed, practical example. MVVM-C combines SwiftUI’s declarative syntax with a structured architectural approach, enabling scalable and maintainable app development.
+
+<details>
+
+**URL:** https://medium.com/swift-and-beyond/navigating-swiftly-understanding-swiftuis-mvvm-c-architecture-with-a-real-world-example-66aa97fa4090
+
+**Authors:** `Swift and Beyond`
+
+**Tags:**  
+`swiftui`, `mvvm-c`, `ios-development`, `app-architecture`, `navigation`
+
+</details>
+
+#### Key Points
+- **Definition:** MVVM-C is an architectural pattern that separates concerns into Models, Views, ViewModels, and Coordinators to manage complex navigation flows.
+- **Advantages:**
+  - Simplifies navigation flows.
+  - Improves modularity, scalability, and maintainability.
+  - Ensures separation of concerns.
+
+#### Summary of Contents
+- **Introduction:** Brief overview of the MVVM-C pattern and its importance in SwiftUI.
+- **Coordinator:** Central navigation hub managing the navigation stack with `pushPage()` and `clearNavigationStack()`.
+- **ViewModels:** Protocol-driven, reactive logic connecting the UI to the Coordinator.
+- **Views:** Declarative SwiftUI components leveraging `@ObservedObject` for state-driven UI updates.
+- **Gender Entry Example:** Demonstrates modular design using reusable components like `TextComponent` and `ButtonComponentView`.
+- **Code Walkthrough:** Full implementation of a SwiftUI app using MVVM-C, including reusable styles and navigation customization.
+
+#### UML Class Diagram
+![UML Class Diagram](https://miro.medium.com/v2/1*_7R5xZNND4QcY5ihQ9ErTg.png)
+
+#### Helpful Links
+- [Swift Documentation: MVVM in SwiftUI](https://developer.apple.com/documentation/swiftui)
+- [Apple Swift Blog](https://developer.apple.com/swift/blog/)
+
+<LinkCard title="Read Full Article" href="https://medium.com/swift-and-beyond/navigating-swiftly-understanding-swiftuis-mvvm-c-architecture-with-a-real-world-example-66aa97fa4090" />
+
+---
+
+Let me know if further refinements are needed!
 ## **SwiftUI**
 
 ### 🔵 Double Optional Bindings or Something idk
@@ -471,6 +661,40 @@ Managing sheet presentations in SwiftUI can become cumbersome, especially when s
 - **AzamSharp SwiftUI Courses:** [AzamSharp School](https://azamsharp.school) offers more resources on iOS development and workshops.
 
 <LinkCard title="Read Full Article" href="https://azamsharp.com/2024/08/18/global-sheets-pattern-swiftui.html" />
+
+### 🚀 Mastering SwiftUI Navigation with Coordinators
+
+Discover how to overcome SwiftUI’s navigation limitations and build scalable, production-ready apps by integrating UIKit’s Coordinator pattern into your projects.
+
+<details>
+
+**URL:** https://blog.jacobstechtavern.com/p/swiftui-apps-at-scale
+
+**Authors:** `Jacob’s Tech Tavern`  
+
+**Tags:**  
+`swiftui`, `navigation`, `coordinator-pattern`, `ios-development`, `uikit`
+
+</details>
+
+#### Key Points
+- **SwiftUI Navigation Challenge:** SwiftUI tightly couples navigation logic with views, hindering scalability and testability.
+- **Coordinator Pattern Solution:** Leverage the Coordinator pattern to decouple navigation from views, enabling a scalable and testable architecture.
+- **Hybrid Approach:** Combine the declarative power of SwiftUI with UIKit’s mature navigation system for seamless interoperability.
+
+#### Summary of Contents
+- **SwiftUI’s Evolution and Limitations:** A brief history of SwiftUI’s growth and its navigation challenges in complex apps.
+- **The Navigation Problem:** An in-depth explanation of why SwiftUI’s built-in navigation APIs fall short for large-scale apps.
+- **The Coordinator Pattern:** Step-by-step implementation of the Coordinator pattern to encapsulate navigation logic, using examples such as `AppCoordinator` and `NavigationContext`.
+- **Integration with UIKit:** Techniques for wrapping SwiftUI views in `UIHostingController` and using `UINavigationController` for seamless integration.
+- **Enhanced Control:** Advanced customizations using subclassed `UIHostingController` for styling and lifecycle management.
+
+#### Helpful Links
+- [SwiftUI Coordinator Example](https://github.com/pointfreeco/swift-composable-architecture)  
+- [How to Refactor Massive View Controllers](https://www.hackingwithswift.com/articles/159/how-to-refactor-massive-view-controllers)  
+
+<LinkCard title="Read Full Article" href="https://blog.jacobstechtavern.com/p/swiftui-apps-at-scale" />
+
 
 ## **Xcode and Workflow**
 
@@ -802,6 +1026,44 @@ This blog post, authored by Jacob Bartlett and published on July 22, 2024, provi
 
 <LinkCard title="Read Full Article" href="https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com" />
 
+### 🔵 Guide to Multi-Threading with GCD in iOS
+
+This article explores how **Grand Central Dispatch (GCD)** can be leveraged to implement multi-threading in iOS applications, enabling concurrent and parallel execution of tasks for optimal performance.
+
+<details>
+
+**URL:** https://betterprogramming.pub/guide-to-multi-threading-gcd-83009f5d62cb
+
+**Authors:** `Neel Bakshi`
+
+**Tags:**  
+`multi-threading`, `ios`, `swift`, `gcd`, `performance`, `dispatchqueues`
+
+</details>
+
+#### Key Points
+- **Multi-threading in iOS:** Achieved using threads, Grand Central Dispatch (GCD), or `OperationQueues`.
+- **Concurrency vs. Parallelism:**
+  - *Concurrency:* Time-sliced task execution giving the illusion of parallelism.
+  - *Parallelism:* True simultaneous execution across CPU cores.
+- **GCD Overview:** Provides tools to manage task execution on serial or concurrent queues.
+
+#### Summary of Contents
+- **Queues:** Fundamental components in GCD:
+  - *Serial Queues*: Process tasks sequentially in a FIFO manner.
+  - *Concurrent Queues*: Handle multiple tasks concurrently or in parallel.
+- **Executing Tasks:** Differences between `async` (non-blocking) and `sync` (blocking) task submissions.
+- **Dispatch Groups:** A tool to coordinate the completion of multiple tasks.
+- **Race Conditions:** Problems arising from concurrent resource access and their solutions:
+  - *Serial Queues*
+  - *Locks and Semaphores*
+  - *Barriers*
+
+#### Helpful Links
+- [Apple Documentation on Grand Central Dispatch](https://developer.apple.com/documentation/DISPATCH)
+
+<LinkCard title="Read Full Article" href="https://betterprogramming.pub/guide-to-multi-threading-gcd-83009f5d62cb" />
+
 ## **Design**
 
 ### 🔵 The Sound of Software
@@ -923,3 +1185,79 @@ In this blog post, we explore a practical and elegant solution to handling heter
 - **SwiftUI List Documentation:** Understand how to work with dynamic lists in SwiftUI.
 
 <LinkCard title="Read Full Article" href="https://www.swiftwithvincent.com/blog/storing-two-types-in-the-same-variable-using-either" />
+
+### 🔵 Static, V-Table, and Message Dispatches in Swift
+
+This article explores how method dispatches work in Swift, breaking down their types, behaviors, and the optimizations made by the compiler and runtime to efficiently resolve method calls.
+
+<details>
+
+**URL:** https://betterprogramming.pub/a-deep-dive-into-method-dispatches-in-swift-65a8e408a7d0
+
+**Authors:** Neel Bakshi
+
+**Tags:**  
+`swift`, `method-dispatch`, `ios-development`, `runtime-optimization`, `dynamic-dispatch`
+
+</details>
+
+#### Key Points
+- **Definition:** Method dispatches manage how functions are called and resolved during compile-time or runtime.
+- **Types of Dispatches:**
+  1. **Static Dispatch:** Used for methods that cannot be overridden. Fastest type due to direct memory address lookup.
+  2. **V-Table Dispatch:** Default for class methods. Uses compile-time tables to resolve method calls at runtime, supporting inheritance.
+  3. **Message Dispatch:** Enables Objective-C dynamic runtime capabilities like method swizzling and KVO.
+- **Optimizations:** Includes mechanisms like the `final` and `@objc` keywords to control dispatch behavior.
+
+#### Summary of Contents
+- **Introduction:** Explains the role of dispatch mechanisms in resolving method calls.
+- **Static Dispatch:** Demonstrates its usage with `static` and `final` keywords.
+- **V-Table Dispatch:** Explains the use of V-Tables for resolving overridden and non-overridden class methods, referencing SIL (Swift Intermediate Language) generation.
+- **Message Dispatch:** Covers its runtime flexibility and interaction with Objective-C runtime via `@objc` and `dynamic`.
+- **SIL Insights:** Includes examples of SIL-generated code to highlight differences in dispatch mechanisms.
+- **Trade-Offs:** Discusses performance impacts and use cases of each dispatch type.
+
+#### Helpful Links
+- [Method Dispatches in Swift — RightPoint](https://www.rightpoint.com/rplabs/switch-method-dispatch-table)
+- [@objc and dynamic SIL walkthrough — Swift Unboxed](https://swiftunboxed.com/interop/objc-dynamic/)
+- [Reducing dynamic dispatches — Apple Swift Blog](https://developer.apple.com/swift/blog/?id=27)
+
+<LinkCard title="Read Full Article" href="https://www.swiftwithvincent.com/blog/storing-two-types-in-the-same-variable-using-either" />
+
+
+## Networking
+
+### 🔴 "Network Connectivity on iOS with Swift"
+
+Learn best practices for handling **network connectivity** in iOS applications using **Swift**. This article dives into reliable methods, addressing common scenarios like checking connectivity, enabling/disabling app features, and attaching constraints to network operations. It highlights why outdated methods like `SCNetworkReachability` should be avoided and introduces modern solutions recommended by Apple, including **Adaptable Connectivity APIs** and `NWPathMonitor`.
+
+<details>
+
+**URL:** [Network Connectivity on iOS with Swift](https://www.vadimbulavin.com/network-connectivity-on-ios-with-swift/)
+
+**Published:** [Insert Date Here]
+
+**Authors:** `Vadim Bulavin`
+
+**Tags:**  
+`networking`, `swift`, `ios-development`, `urlsession`, `nwpathmonitor`
+
+</details>
+
+#### Key Points
+- **Avoid pre-flight checks:** Avoid relying on `SCNetworkReachability` for determining internet availability.
+- **Use Adaptable Connectivity APIs:** Enable the `waitsForConnectivity` flag in `URLSessionConfiguration` for seamless request handling.
+- **Leverage NWPathMonitor:** Monitor network status changes in real-time.
+- **Adopt Low Data Mode:** Respect user preferences for constrained networks with `allowsConstrainedNetworkAccess`.
+
+#### Summary of Contents
+- **Why Avoid Pre-flight Checks:** Explanation of inherent race conditions and unreliability.
+- **Enabling Adaptable Connectivity:** Demonstrates using `URLSessionConfiguration` with code examples.
+- **Handling Connectivity UI Updates:** Use `URLSessionDelegate` or `NWPathMonitor` for real-time UI adjustments.
+- **Network Operation Constraints:** Best practices for managing data usage, like adopting **Low Data Mode** or disabling expensive network operations.
+
+#### Additional Resources
+- **Apple Documentation:** [Networking Overview](https://developer.apple.com/library/archive/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/Platform-SpecificNetworkingTechnologies/Platform-SpecificNetworkingTechnologies.html)
+- **WWDC Videos:** [Advances in Networking, Part 1](https://developer.apple.com/videos/play/wwdc2019/712/), [Part 2](https://developer.apple.com/videos/play/wwdc2019/713/)
+
+<LinkCard title="Read Full Article" href="https://www.vadimbulavin.com/network-connectivity-on-ios-with-swift/" />

@@ -76,3 +76,79 @@ Runway is a platform designed to streamline mobile app release management. It of
 - **Cons:** Initial setup and configuration may require effort.
 
 <LinkCard title="Visit Runway" href="https://www.runway.team/" />
+
+### Codemagic
+
+**Codemagic** is a **CI/CD platform** optimized for mobile developers, enabling streamlined app builds, tests, and deployments for iOS, Android, and cross-platform frameworks like Flutter, React Native, and Unity. It automates the development pipeline, saving time and enhancing productivity for developers and teams.
+
+<details>
+
+**URL:** https://codemagic.io/
+
+**Authors:** `Codemagic Team by Nevercode`
+
+**Integration:**
+- **Supported Platforms:** iOS, Android, Flutter, React Native, Cordova, Ionic, Unity, and more.
+- **Key Integrations:** GitHub, GitLab, Bitbucket, Slack, Firebase, and App Store Connect.
+
+**Community and Support:**
+- **Support Channels:** Email Support, Documentation, and Developer Forums.
+- **Community Features:** Regular updates, webinars, and guides for improved workflow optimization.
+
+</details>
+
+**Key Features:**
+- **Automated Builds:** Configure workflows to automate building apps for multiple platforms.
+- **Continuous Testing:** Run automated tests on each commit to ensure code reliability.
+- **Seamless Deployment:** Directly deploy to App Store, Google Play, or private distribution platforms.
+- **Customizable Workflows:** Tailor the CI/CD pipeline to your app’s unique requirements.
+- **Cloud-Based Builds:** Leverage Codemagic’s robust cloud environment for fast and secure processing.
+
+**Use Cases:**
+- **Mobile App Development:** Streamlines the process of building, testing, and deploying mobile apps.
+- **Team Collaboration:** Facilitates continuous integration for teams working across multiple branches.
+- **Launch Readiness:** Simplifies app store submission workflows with built-in deployment tools.
+
+**Pros and Cons:**
+- **Pros:** User-friendly setup, extensive platform support, and efficient build times.
+- **Cons:** Pricing may vary depending on usage; requires configuration for advanced workflows.
+
+<LinkCard title="Get Started with Codemagic" href="https://codemagic.io/" />
+
+### Fastlane
+
+**Fastlane** is an open-source platform designed to simplify **iOS** and **Android** app deployment. It automates tedious tasks like building, signing, and deploying apps, allowing developers to focus on writing code. Fastlane integrates seamlessly with CI/CD pipelines, making it a powerful tool for mobile development workflows.
+
+<details>
+
+**URL:** https://fastlane.tools/
+
+**Authors:** `Fastlane Community (acquired by Google)`
+
+**Integration:**
+- **Supported Platforms:** iOS, Android.
+- **Key Integrations:** App Store Connect, Google Play, Firebase, GitHub Actions, Jenkins, and more.
+
+**Community and Support:**
+- **Support Channels:** Documentation, GitHub Issues, and Community Forums.
+- **Community Contributions:** Actively maintained by a vibrant open-source community.
+
+</details>
+
+**Key Features:**
+- **Automated Builds:** Handle build generation for iOS and Android with a single command.
+- **Code Signing Management:** Simplifies managing certificates and provisioning profiles.
+- **App Store Deployment:** Automates publishing to the App Store and Google Play.
+- **Custom Scripts:** Write and integrate custom scripts into Fastlane’s workflow for advanced use cases.
+- **Snapshot Testing:** Capture UI screenshots across multiple devices and languages effortlessly.
+
+**Use Cases:**
+- **Streamlined Deployment:** Simplifies repetitive deployment steps, such as signing and uploading builds.
+- **App Maintenance:** Automates tasks like metadata updates, version bumps, and changelog creation.
+- **Quality Assurance:** Assists in testing by managing beta distributions and generating screenshots.
+
+**Pros and Cons:**
+- **Pros:** Reduces manual effort, extensible with plugins, and widely supported by CI/CD tools.
+- **Cons:** Initial setup may be complex for beginners, and troubleshooting requires familiarity with the platform.
+
+<LinkCard title="Explore Fastlane" href="https://fastlane.tools/" />

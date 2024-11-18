@@ -297,3 +297,41 @@ Regex101 is an online tool designed to help developers test, debug, and optimize
 - **Debugging Complex Regex:** Analyze and optimize regular expressions by breaking down their components and testing various inputs.
 
 <LinkCard title="Visit Regex101" href="https://regex101.com" />
+
+### SwiftUI Field Guide
+
+The **SwiftUI Field Guide** is an interactive resource designed for developers looking to deepen their knowledge and expertise in **SwiftUI**. Packed with tutorials, examples, and best practices, this guide offers a hands-on approach to mastering Apple’s declarative framework for building user interfaces.
+
+<details>
+
+**URL:** https://www.swiftuifieldguide.com/
+
+**Authors:** `Chris Eidhof`
+
+**Integration:**
+- **Focus Area:** Comprehensive coverage of SwiftUI components, modifiers, and workflows.
+- **Supported Platforms:** iOS, macOS, tvOS, and watchOS.
+
+**Community and Support:**
+- **Support Channels:** Help Center, Email Support, Community Forums.
+- **Interactive Feedback:** Allows users to suggest content and interact with creators for guidance.
+
+</details>
+
+**Key Features:**
+- **Extensive Tutorials:** Step-by-step walkthroughs for building SwiftUI applications from scratch.
+- **Live Previews:** Real-time feedback with Swift Playgrounds and Xcode previews.
+- **Component Breakdown:** Detailed exploration of SwiftUI views, controls, and layout systems.
+- **Best Practices:** Tips and tricks to write clean, efficient, and reusable SwiftUI code.
+- **Interactive Playground:** Examples tailored for immediate implementation and experimentation.
+
+**Use Cases:**
+- **Learning SwiftUI:** Perfect for beginners and intermediate developers who want to explore SwiftUI fundamentals.
+- **Reference Guide:** Handy resource for quick lookup of modifiers, views, and best practices.
+- **Project Acceleration:** Accelerates development with ready-made examples and reusable code snippets.
+
+**Pros and Cons:**
+- **Pros:** Interactive learning, up-to-date examples, and focused coverage of SwiftUI concepts.
+- **Cons:** Limited to SwiftUI; may not address broader iOS development concerns.
+
+<LinkCard title="Explore SwiftUI Field Guide" href="https://www.swiftuifieldguide.com" />

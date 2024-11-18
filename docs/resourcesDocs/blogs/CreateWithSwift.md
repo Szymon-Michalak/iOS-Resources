@@ -131,6 +131,44 @@ This article explains how to use the **TipKit framework** in a **SwiftUI app** t
 
 <LinkCard title="Read Full Article" href="https://www.createwithswift.com/displaying-tips-based-on-parameters-and-events-with-tipkit/" />
 
+### 🎨 Mastering Blend Modes in SwiftUI
+
+Unlock the creative potential of SwiftUI's blend modes with this in-depth guide! Learn how to use blend modes effectively to create visually stunning interfaces, manipulate images, and add depth to your designs.
+
+<details>
+
+**URL:** https://www.createwithswift.com/mastering-blend-modes-in-swiftui/
+
+**Authors:** `Create With Swift`  
+
+**Tags:**  
+`swiftui`, `blend-modes`, `ui-design`, `ios-development`, `visual-effects`
+
+</details>
+
+#### Key Points
+- **Blend Mode Basics:**  
+  - Blend modes allow combining pixel colors across layers using mathematical formulas.
+  - Essential for overlays, lighting effects, and adding texture.
+- **Implementation in SwiftUI:**  
+  - Utilize `blendMode(_:)` to set blend modes for views.
+  - Create effects using pre-defined blend modes such as `.multiply`, `.screen`, `.overlay`, and more.
+- **Practical Use Cases:**  
+  - Enhance photo manipulation.
+  - Create rich visual effects for app backgrounds or UI components.
+
+#### Summary of Contents
+- **Understanding Blend Modes:** Explains the RGB model, alpha blending, and their role in creating new color effects.
+- **SwiftUI Implementation:** Shows how to use `blendMode(_:)` for applying effects.
+- **Categories of Blend Modes:** Discusses modes such as `.darken`, `.lighten`, `.overlay`, and `.hue`, with practical examples.
+- **Examples with Code and Images:** Provides code snippets and visuals demonstrating each blend mode in action.
+
+#### Helpful Links
+- [SwiftUI `blendMode(_:)` Documentation](https://developer.apple.com/documentation/swiftui/view/blendmode(_:))  
+- [SwiftUI `BlendMode` Enumeration](https://developer.apple.com/documentation/swiftui/blendmode)
+
+<LinkCard title="Read Full Article" href="https://www.createwithswift.com/mastering-blend-modes-in-swiftui/" />
+
 ## **Accessibility**
 
 ### 🔵 Understanding VoiceOver rotor
@@ -306,3 +344,38 @@ When developing apps, the focus often lies on creating an outstanding onboarding
 - **[Joe Macleod’s Work](https://www.andend.co/who-is-joe):** Insights from Joe Macleod, founder of a customer-ending business, focusing on sustainability and end-of-life product design.
 
 <LinkCard title="Read Full Article" href="https://www.createwithswift.com/navigating-digital-endings" />
+
+### 🟢 Giving Depth to Your App Icons: History, Tips, and Techniques
+
+This article explores the evolution of app icon design, providing practical guidance on creating distinctive, impactful icons. From skeuomorphism to flat design and beyond, it covers tools, workflows, and design principles to help developers and designers create app icons that stand out.
+
+<details>
+
+**URL:** https://www.createwithswift.com/giving-depth-to-your-app-icons/
+
+**Published:** 2024-10-03
+
+**Authors:** `Flora Damiano`
+
+**Tags:**  
+`icon-design`, `UI/UX`, `app-design`, `Swift`
+
+</details>
+
+#### Key Points
+- **Historical Insights:** Traces the evolution of app icon design, highlighting significant shifts like skeuomorphism, flat design, and Big Sur's clay-like aesthetics.
+- **Practical Techniques:** Includes tips for sketching, grid usage, and rendering app icons with depth and realism.
+- **Color and Depth:** Guides readers on choosing harmonious color palettes and adding depth with shadows, gradients, and textures.
+- **Avoiding Common Pitfalls:** Advises against transparency conflicts in iOS and emphasizes adhering to Apple’s Human Interface Guidelines.
+
+#### Summary of Contents
+- **App Icon Evolution:** From the Macintosh icons of 1984 to the clay-like designs of today, the article provides a comprehensive overview of the trends and influences in app icon design.
+- **Sketching Your Icon:** Encourages iterative sketching on paper or digitally, leveraging OS-specific icon grids for precision.
+- **Rendering and Refinement:** Offers step-by-step instructions on transforming sketches into polished icons, emphasizing the importance of simplicity, color harmony, and depth.
+- **Lighting and Textures:** Explains techniques for applying gradients, shadows, and textures to enhance depth and realism in icons.
+
+#### Additional Resources
+- **[Crafting Better App Icons](https://www.createwithswift.com/crafting-better-app-icons/):** Explores the key aspects behind creating better app icons.
+- **[Figma Community Template](https://www.figma.com/community/file/1313529893693600674/apple-grid-system):** Provides an Apple grid system for app icon design.
+
+<LinkCard title="Read Full Article" href="https://www.createwithswift.com/giving-depth-to-your-app-icons/" />

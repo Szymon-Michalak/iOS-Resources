@@ -88,3 +88,42 @@ Tasks in Swift are a key part of the concurrency framework introduced at WWDC 20
 - **[MainActor usage in Swift explained](https://www.avanderlee.com/swift/mainactor-dispatch-main-thread/):** How to dispatch tasks to the main thread using MainActor.
 
 <LinkCard title="Read Full Article" href="https://www.avanderlee.com/concurrency/tasks/" />
+
+### 🔵 Tasks in Swift Explained
+
+This article explores how **tasks** enable concurrency in Swift, allowing asynchronous operations using `async/await`. Tasks simplify multi-threading by abstracting verbosity associated with dispatch queues, enabling clean, concise, and efficient code.
+
+<details>
+
+**URL:** https://www.avanderlee.com/concurrency/tasks/
+
+**Authors:** `Antoine van der Lee`
+
+**Tags:**  
+`swift`, `tasks`, `concurrency`, `async-await`, `ios-development`
+
+</details>
+
+#### Key Points
+- **Tasks Overview:** Introduced in WWDC 2021, tasks create a concurrent environment from non-concurrent methods.
+- **Execution Characteristics:**  
+  - Tasks run immediately after creation.
+  - Support both synchronous and asynchronous operations.  
+  - Allow error handling and return values.
+- **Cancellation:** Tasks run regardless of references unless explicitly cancelled, with cancellation checks preventing unnecessary work.
+- **Priority Management:** Tasks have priorities (`low`, `medium`, `high`), influencing execution order.
+
+#### Summary of Contents
+- **Creating Tasks:** Demonstrates synchronous and asynchronous task creation.
+- **Executing Tasks:** Explains default immediate execution and task result handling.
+- **Cancellation:** Discusses cancellation techniques using `Task.cancel()`, `Task.checkCancellation()`, and `Task.isCancelled`.
+- **Priority Management:** Explains task priority levels and their impact on scheduling.
+- **Practical Examples:** Covers fetching images asynchronously and handling cancellation.
+
+#### Helpful Links
+- [Async/await in Swift explained with examples](https://www.avanderlee.com/swift/async-await/)  
+- [MainActor usage in Swift explained](https://www.avanderlee.com/swift/mainactor-dispatch-main-thread/)  
+- [Task Groups in Swift explained with examples](https://www.avanderlee.com/concurrency/task-groups-in-swift/)  
+- [Actors in Swift: how to use and prevent data races](https://www.avanderlee.com/swift/actors/)
+
+<LinkCard title="Read Full Article" href="https://www.avanderlee.com/concurrency/tasks/" />
