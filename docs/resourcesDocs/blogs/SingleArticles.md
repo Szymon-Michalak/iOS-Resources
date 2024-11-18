@@ -111,6 +111,46 @@ This blog post provides an in-depth exploration of **UserDefaults** in **Swift**
 
 <LinkCard title="Read Full Article" href="https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/" />
 
+### 🔵 Writing Effective Release Notes: A Guide for Developers
+
+Effective communication with your app's customers is essential. While many companies settle for generic phrases like "Bug fixes and performance improvements" in their release notes, **writing great release notes doesn't need to be hard**. Well-crafted release notes not only engage your users but also show your dedication to continually improving the app.
+
+<details>
+
+**URL:** https://blog.eliperkins.com/great-release-notes
+
+**Published:** 2024-09-01
+
+**Authors:** `Eli Perkins`
+
+**Tags:**  
+`release-notes`, `app-updates`, `customer-engagement`
+
+</details>
+
+#### Key Points
+- Writing release notes should focus on **the customer** rather than the company.
+- Clear and consistent communication in release notes **builds excitement** and informs users of important changes.
+- Avoid generic phrases; instead, **highlight the benefits** and outcomes of updates for the user.
+
+#### Summary of Contents
+
+- **Importance of Great Release Notes:** Release notes are a direct line of communication with your users. Properly crafted notes can enhance user engagement and show that you value their experience.
+  
+- **Guidelines for Writing Release Notes:** 
+  - **Naming & Capitalization:** Follow consistent rules for naming and capitalizing features.
+  - **Tone and Tense:** Use an active voice, avoid unnecessary words like "now," and focus on the user's experience.
+  - **What's New:** Emphasize the outcomes and behavior changes brought by new features.
+  - **Bug Fixes:** Be concise, front-load the fixes, and focus on how the fixes affect the user.
+  
+- **Handling No User-Facing Changes:** When no user-facing updates are available, it's okay to reuse previous release notes, especially for ongoing features. This keeps the communication relevant and consistent.
+
+#### Additional Resources
+- **[GitHub's Brand Content Guidelines](https://brand.github.com/brand-identity/attributes):** Follow these guidelines for consistent naming and capitalization.
+- **[GitHub Voice & Tone Guidelines](https://brand.github.com/brand-identity/voice-and-tone):** Ensure your release notes align with the overall brand voice.
+
+<LinkCard title="Read Full Article" href="https://blog.eliperkins.com/great-release-notes" />
+
 ## **SwiftUI**
 
 ### 🔵 Double Optional Bindings or Something idk
@@ -361,6 +401,77 @@ This article discusses the new `scrollPosition` modifier in SwiftUI 5, introduce
 
 <LinkCard title="Read Full Article" href="https://medium.com/devtechie/scrollposition-for-scrollview-in-ios-17-and-swiftui-5-d8f16707679b" />
 
+
+### 🟢 3 Ways to Share State in SwiftUI That You Need to Know
+
+This blog post explores various strategies for sharing state between views in SwiftUI, highlighting common patterns and best practices. We will dive into techniques like using singletons, dependency injection, environment objects, and stores, providing code examples and discussing the pros and cons of each approach.
+
+<details>
+
+**URL:** https://dev.to/amodrono/3-ways-to-share-state-in-swiftui-that-you-need-to-know-1ink
+
+**Published:** 2024-09-01
+
+**Authors:** `Amodrono`
+
+**Tags:**  
+`SwiftUI`, `iOS`, `State Management`, `Dependency Injection`, `EnvironmentObject`
+
+</details>
+
+#### Key Points
+- Understanding different methods to share state between views in SwiftUI.
+- Singleton patterns for global state access.
+- Dependency injection to maintain loosely coupled components.
+- Utilizing `@EnvironmentObject` for shared data across multiple views.
+- Implementing stores to manage complex state across an application.
+
+#### Summary of Contents
+- **Introduction:** A brief overview of the importance of state management in SwiftUI and why it’s crucial to have clean and maintainable code.
+- **Solution 1: Singletons:** Discussion on the singleton pattern, its implementation in SwiftUI, and scenarios where it’s most appropriate.
+- **Solution 2: Dependency Injection:** Explanation of dependency injection, with examples on how to pass view models down the view hierarchy.
+- **Using Environment Objects:** Introduction to `@EnvironmentObject` and how it simplifies state management across multiple views.
+- **Solution 3: Stores:** Detailed look at using a store pattern, inspired by Redux, for managing complex state in SwiftUI applications.
+- **Conclusion:** A summary of the best practices and recommendations for managing state in SwiftUI.
+
+<LinkCard title="Read Full Article" href="https://dev.to/amodrono/3-ways-to-share-state-in-swiftui-that-you-need-to-know-1ink" />
+
+### 🔵 Global Sheets Pattern in SwiftUI
+
+Managing sheet presentations in SwiftUI can become cumbersome, especially when scaling your app to include multiple sheets across different screens. This article introduces the Global Sheets Pattern, which simplifies sheet management by centralizing logic and streamlining code, making your app more maintainable and scalable.
+
+<details>
+
+**URL:** https://azamsharp.com/2024/08/18/global-sheets-pattern-swiftui.html
+
+**Published:** 2023-09-18
+
+**Authors:** `AzamSharp`
+
+**Tags:**  
+`SwiftUI`, `Swift`, `iOS`, `State Management`, `UI Patterns`
+
+</details>
+
+#### Key Points
+- The **Global Sheets Pattern** reduces redundancy by centralizing sheet management logic.
+- Utilizing an **enum-based approach** simplifies the code for managing multiple sheets.
+- **Custom environment values** offer flexibility in managing state and actions across different views.
+- **Simplified API** ensures maintainable and scalable architecture for managing sheets.
+
+#### Summary of Contents
+- **Displaying a Basic Sheet:** Introduces the basics of using the `isPresented` argument in SwiftUI for sheet presentations.
+- **Enum-Based Sheets:** Shows how to encapsulate sheet types with an enum to simplify code when managing multiple sheets.
+- **Global Sheets:** A more advanced pattern using custom environment values to globally manage sheets across an app.
+- **Handling OnDismiss:** Adds the capability to handle sheet dismissal by introducing a second closure for the `onDismiss` event.
+- **Stacked Sheets:** Briefly covers managing stacked sheets in specific cases where overlapping sheets are necessary.
+
+#### Additional Resources
+- **SwiftUI Documentation:** Official SwiftUI documentation on [sheet view modifiers](https://developer.apple.com/documentation/swiftui/view/sheet(isPresented:onDismiss:content:)).
+- **AzamSharp SwiftUI Courses:** [AzamSharp School](https://azamsharp.school) offers more resources on iOS development and workshops.
+
+<LinkCard title="Read Full Article" href="https://azamsharp.com/2024/08/18/global-sheets-pattern-swiftui.html" />
+
 ## **Xcode and Workflow**
 
 ### 🟢 Multi-Cursor Editing in Xcode
@@ -433,6 +544,45 @@ Learn how to enhance debugging in **Swift** by utilizing the **`CustomDebugStrin
 
 <LinkCard title="Read Full Article" href="https://digitalbunker.dev/debug-description-macro-xcode-16/?ref=createwithswift.com" />
 
+### 🔵 Testing Remote Push Notifications on iOS Simulator with Xcode 11.4+
+
+With the release of **Xcode 11.4**, Apple introduced the ability to simulate **remote push notifications** in the iOS **simulator**, making testing easier without the need for physical devices. This update provides two ways to simulate push notifications: via the **command line** and by **drag-and-drop** using an `.apns` file.
+
+<details>
+
+**URL:** [Apple Documentation – Creating the Remote Notification Payload](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)  
+**Published:** 2024-09-13  
+**Authors:** `ioswift.dev Team`  
+**Tags:**  
+`remote-notifications`, `Swift`, `iOS`, `Xcode`, `simctl`
+
+</details>
+
+#### Key Points
+- **Simulating Notifications**: Xcode 11.4 introduces the ability to simulate push notifications on the iOS simulator.
+- **Testing Methods**: Two ways to test notifications—via **command line** and by **drag-and-drop**.
+- **Payload Format**: Requires a valid **APNS payload** in JSON format, which can be referenced from Apple’s official documentation.
+
+#### Summary of Contents
+
+- **Creating the APNS Payload**:
+  - An example of an **APNS payload** that can be used for testing remote notifications.
+
+- **Testing via Command Line**:
+  - **`simctl push` command**: A step-by-step guide on how to use the `simctl` command to simulate push notifications on a running simulator.
+
+- **Drag-and-Drop Method**:
+  - A simple method where developers can **drag-and-drop** the `.apns` file onto the simulator.
+
+- **Troubleshooting**:
+  - Common issues with payload files and how to ensure they contain the `Simulator Target Bundle` key.
+
+#### Additional Resources
+- **[Apple Documentation – Creating the Notification Payload](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html):** Learn how to structure your APNS payload.
+- **[Xcode 11.4 Beta Release Notes](https://developer.apple.com/documentation/xcode_release_notes/xcode_11_4_beta_release_notes/):** Official release notes detailing the new features of Xcode 11.4.
+  
+<LinkCard title="Read Full Article" href="https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html" />
+
 ## **Localization**
 
 ### 🔵 Using XMLParser and NSAttributedString for Rich Text Formatting in Localizable Strings
@@ -470,6 +620,149 @@ This blog post discusses various methods for handling **rich text formatting** i
 <LinkCard title="Read Full Article" href="https://kean.blog/post/formatted-strings" />
 
 ## **Concurrency**
+
+### 🔵 Closures vs. Combine vs. Async-Await in Swift: A Comprehensive Comparison
+
+Explore the evolution of asynchronous coding methods in Swift, from closures to the Combine framework and the powerful Async-Await introduced in Swift 5.5. This comparison highlights the pros and cons of each method and how they have transformed Swift development.
+
+<details>
+
+**URL:** [https://medium.com/@GetInRhythm/closures-vs-combine-vs-async-await-993eb1da4d44](https://medium.com/@GetInRhythm/closures-vs-combine-vs-async-await-993eb1da4d44)
+
+**Published:** 2024-09-15
+
+**Authors:** `Mike Adams`
+
+**Tags:**  
+`swift`, `async-await`, `closures`, `combine`, `asynchronous programming`, `ios development`
+
+</details>
+
+#### Key Points
+- Swift offers three primary methods for asynchronous coding: **Closures**, **Combine**, and **Async-Await**.
+- **Closures** allow for flexible and customizable asynchronous operations but can lead to complex code structures, particularly with callback hell.
+- **Combine** simplifies handling asynchronous data streams and offers a declarative approach, making it a powerful framework for reactive programming.
+- **Async-Await** introduces a more readable, synchronous-looking syntax for asynchronous tasks, improving code clarity and reducing complexity.
+
+#### Summary of Contents
+- **Introduction:** Overview of the three asynchronous coding methods and their respective introductions in Swift.
+- **Closures:** Discusses closures as a versatile and foundational feature for asynchronous coding in Swift, particularly useful for handling network requests and UI updates.
+- **Combine:** Covers the reactive programming approach of Combine, including its key components (publishers and subscribers) and use cases like data stream management and asynchronous event handling.
+- **Async-Await:** Highlights Async-Await as a modern, language-level feature that simplifies asynchronous code, using familiar keywords like `await` and `async` to enhance readability and reduce callback complexity.
+- **Comparison of Code Examples:** Visual side-by-side comparison of closures, Combine, and Async-Await in terms of readability, complexity, and code maintainability.
+- **Resources:** Additional reading materials for deeper insights into Combine and Async-Await.
+
+<LinkCard title="Read Full Article" href="https://medium.com/@GetInRhythm/closures-vs-combine-vs-async-await-993eb1da4d44" />
+
+### 🔵 Swift Async-Await Explained: Simplifying Asynchronous Programming
+
+Discover the magic of Swift’s async-await, a powerful tool introduced in Swift 5.5 that simplifies asynchronous programming by eliminating callback complexity. This article explores how async-await works, its benefits, and how to implement it effectively in real-world scenarios.
+
+<details>
+
+**URL:** [https://www.dhiwise.com/post/swift-async-await-explained-simplifying-asynchronous](https://www.dhiwise.com/post/swift-async-await-explained-simplifying-asynchronous)
+
+**Published:** 2024-08-04
+
+**Authors:** `DhiWise Team`
+
+**Tags:**  
+`swift`, `async-await`, `asynchronous programming`, `ios development`, `concurrency`, `swift 5.5`
+
+</details>
+
+#### Key Points
+- Async-await in Swift significantly improves code readability and maintainability compared to older callback-based methods.
+- Handling errors in asynchronous functions becomes more consistent and robust with `async throws` and `await`.
+- Swift’s concurrency model ensures efficient task management and structured concurrency, reducing the risk of common multi-threading issues.
+  
+#### Summary of Contents
+- **Why Concurrency Matters:** Describes the importance of concurrency for modern apps and the limitations of traditional approaches.
+- **Swift’s Asynchronous Evolution:** Explores the shift from completion handlers and GCD to the more streamlined async-await syntax.
+- **The Game-Changer: Async Await:** Provides an overview of how async-await simplifies asynchronous tasks by allowing non-blocking, sequential code execution.
+- **Understanding Swift Async-Await:** Delves into the key concepts, such as `async` functions, the `await` keyword, and the difference between synchronous and asynchronous calls.
+- **Simplification of Asynchronous Code:** Compares the readability and maintainability of async-await versus older callback methods.
+- **Handling Errors in Async-Await:** Demonstrates how error handling is managed seamlessly in Swift's asynchronous code.
+- **Integration with Swift Concurrency Model:** Explains how async-await interacts with Swift’s broader concurrency features, including `Task` and `TaskGroup`.
+- **When to Use and Not to Use Async-Await:** Offers practical advice on when to apply async-await and when to stick with traditional approaches for optimal performance.
+
+#### Additional Resources
+- **Swift Async Await vs. Combine:** A guide on how to choose between Swift async-await and the Combine framework for different use cases.
+- **Async Let vs. Await in Swift:** Discusses the benefits of `async let` for initiating concurrent tasks compared to direct `await` usage.
+- **withCheckedThrowingContinuation:** Explores how to bridge callback-based APIs with async-await using continuations.
+
+<LinkCard title="Read Full Article" href="https://www.dhiwise.com/post/swift-async-await-explained-simplifying-asynchronous" />
+
+### 🔴 Advanced Swift Actors: Re-Entrancy & Authentication
+
+Actors are a powerful tool in Swift for writing asynchronous, thread-safe code, but they are not without their complexities. In this article, we take a deep dive into **actor re-entrancy** and its implications when building an **authentication service** for iOS apps. Through sequence diagrams, real-world examples, and in-depth code demonstrations, you’ll learn how to use actors to solve common concurrency issues while optimizing network performance.
+
+<details>
+
+**URL:** [https://blog.jacobstechtavern.com/p/advanced-swift-actors-re-entrancy](https://blog.jacobstechtavern.com/p/advanced-swift-actors-re-entrancy)
+
+**Published:** 2024-09-10
+
+**Authors:** `Jacob’s Tech Tavern`
+
+**Tags:**  
+`Swift`, `Actors`, `Concurrency`, `iOS Development`, `Re-entrancy`, `OAuth 2.0`
+
+</details>
+
+#### Key Points
+- **Actors and Re-Entrancy:** Explanation of how actors enforce serial execution but allow interleaving of tasks, causing potential re-entrancy issues.
+- **Authentication Service Use Case:** A real-world example using OAuth 2.0 to build a token-based authentication system that avoids unnecessary concurrent token refreshes.
+- **Handling Multiple Requests:** Optimization techniques using actors to prevent duplicated API calls and improve network efficiency by ensuring only one token refresh at a time.
+- **Concurrency Theory:** A detailed breakdown of Swift’s concurrency model, including cooperative threading, tasks, and how actors use serial executors to manage state safely.
+
+#### Summary of Contents
+- **Introduction to Actors:** The basics of actors in Swift, how they work, and why they are useful for concurrency.
+- **Real-Life Use Case:** Implementing a simple authentication service with token refresh logic, demonstrating the potential for re-entrancy issues with concurrent requests.
+- **Optimizing Authentication Logic:** A step-by-step guide to improving the authentication service by leveraging actor-based concurrency to ensure a single token refresh across multiple requests.
+- **Swift Concurrency Runtime:** A deep dive into how Swift’s concurrency model works under the hood, including task execution, suspension points, and actor serial queues.
+
+#### Additional Resources
+- **[OAuth 2.0 Standard](https://datatracker.ietf.org/doc/html/rfc6749)**: Learn more about OAuth 2.0, the most common authentication protocol used in mobile apps.
+- **[Swift Actors Documentation](https://developer.apple.com/documentation/swift/swift-actors)**: Apple’s official documentation on actors and concurrency in Swift.
+
+<LinkCard title="Read Full Article" href="https://blog.jacobstechtavern.com/p/advanced-swift-actors-re-entrancy" />
+
+### 🔵 Understanding the Actor Reentrancy Problem in Swift
+
+Swift actors have brought significant improvements to handling asynchronous code, eliminating data races and deadlocks. However, actors are not free from threading issues, and a common problem developers face is **actor reentrancy**. In this post, we’ll walk through what the reentrancy problem is, why it’s problematic, and how to prevent it when using actors in Swift.
+
+<details>
+
+**URL:** [https://swiftsenpai.com/swift/actor-reentrancy-problem/](https://swiftsenpai.com/swift/actor-reentrancy-problem/)
+
+**Published:** 2024-09-10
+
+**Authors:** `Swift Senpai`
+
+**Tags:**  
+`Swift`, `Actors`, `Concurrency`, `Reentrancy`, `Async`
+
+</details>
+
+#### Key Points
+- **Actors in Swift:** Actors allow developers to write asynchronous code that’s free from data races and deadlocks.
+- **Reentrancy Problem:** The actor reentrancy problem arises when an actor is interrupted during its execution, leading to inconsistent state changes.
+- **Preventing Reentrancy:** Developers can mitigate reentrancy issues by performing state mutations in synchronous code or checking the actor’s state after suspension points.
+
+#### Summary of Contents
+- **Real-life Example of Reentrancy:** A `BankAccount` actor with asynchronous withdrawals shows how concurrent withdrawals can lead to negative balances due to reentrancy.
+- **Identifying the Problem:** The issue occurs when the actor state (account balance) changes between suspension points during concurrent transactions.
+- **Solutions to Prevent Reentrancy:** Two main approaches are highlighted: performing state mutations in synchronous code and checking actor state after suspension points.
+- **Thread Safety vs. Reentrancy:** The distinction between thread safety and reentrancy is explored, showing how actors guarantee thread safety but do not inherently protect against reentrancy issues.
+
+#### Additional Resources
+- **[Preventing Data Races with Actors](https://swiftsenpai.com/swift/actor-prevent-data-race/):** Learn how actors help prevent data races.
+- **[Sendable in Swift](https://swiftsenpai.com/swift/sendable-prevent-data-races/):** Using `Sendable` to further enhance concurrency safety.
+- **[Swift Concurrency Basics](https://swiftsenpai.com/swift/swift-concurrency-get-started/):** Introduction to Swift concurrency.
+
+<LinkCard title="Read Full Article" href="https://swiftsenpai.com/swift/actor-reentrancy-problem/" />
+
 
 ### 🔴 Async Await in Swift: The Full Toolkit
 
@@ -545,3 +838,88 @@ This blog post, authored by Jacob Bartlett and published on July 22, 2024, provi
 - **Designing Sound (WWDC '17):** An Apple video on **sound design**.
 
 <LinkCard title="Read Full Article" href="https://notboring.software/words/the-sound-of-software" />
+
+## Persistance
+
+### 🔵 Different Ways of Storing Images in CoreData
+
+This post explores different strategies for storing images in CoreData, focusing on performance, memory usage, and compatibility with iCloud sync. The author walks through five methods and provides detailed insights into their performance metrics.
+
+<details>
+
+**URL:** [https://www.smork.info/blog/posts/different-ways-of-storing-images-in-coredata/#option-5-binary-property-using-original-data-from-photos-library](https://www.smork.info/blog/posts/different-ways-of-storing-images-in-coredata/#option-5-binary-property-using-original-data-from-photos-library)
+
+**Published:** 2024-09-18
+
+**Tags:**  
+`CoreData`, `Swift`, `UIImage`, `iCloud`, `Persistence`
+
+</details>
+
+#### Key Points
+- Explore various strategies for storing images in CoreData.
+- Analyze performance, disk space usage, and RAM consumption for each approach.
+- The focus is on finding the most efficient method compatible with iCloud sync.
+
+#### Summary of Contents
+
+- **Basic Setup:**  
+  Creating a separate `Photo` entity with a one-to-many relationship with `Item` to help CoreData efficiently manage memory.
+
+- **Option 1: Binary Data + External Storage:**  
+  Storing image data with external storage enabled works but may present challenges when adding iCloud sync.
+
+- **Option 2: NSKeyedArchiver with Transformable Property:**  
+  This option, while functional, results in slow performance and high disk/RAM usage.
+
+- **Option 3: UIImage.jpegData with Transformable Property:**  
+  This method offers a balance between performance, disk usage, and compatibility.
+
+- **Option 4: UIImage.pngData with Transformable Property:**  
+  This method leads to larger files and slow performance, making it less practical.
+
+- **Option 5: Storing Original Data from Photos Library:**  
+  Storing the original image data directly is the most efficient, but it has limitations regarding direct camera use and permissions.
+
+#### Additional Resources
+- **[Apple Documentation on CoreData](https://developer.apple.com/documentation/coredata/):** Learn about CoreData fundamentals.
+- **[Best Practices for iCloud Integration](https://developer.apple.com/documentation/icloud):** A guide to adding iCloud support in your app.
+  
+<LinkCard title="Read Full Article" href="https://www.smork.info/blog/posts/different-ways-of-storing-images-in-coredata/#option-5-binary-property-using-original-data-from-photos-library" />
+
+## Swift
+
+### 🔵 Storing Two Types in the Same Variable Using Either
+
+In this blog post, we explore a practical and elegant solution to handling heterogeneous data types in SwiftUI applications using the `Either` type. By leveraging the flexibility of `Either`, you can easily store different types in the same variable and refactor your SwiftUI views efficiently. The article walks through the process of displaying ads along with movies in a list, providing a clean and maintainable codebase.
+
+<details>
+
+**URL:** [Storing Two Types in the Same Variable Using Either](https://www.swiftwithvincent.com/blog/storing-two-types-in-the-same-variable-using-either)
+
+**Published:** 2024-09-18
+
+**Authors:** `Vincent`
+
+**Tags:**  
+`Swift`, `SwiftUI`, `Generics`, `Identifiable`
+
+</details>
+
+#### Key Points
+- Use `Either` to store values of two different types in a single variable.
+- Improve code maintainability and readability by refactoring SwiftUI views.
+- `Either` is similar to Swift's `Result`, but can store any type instead of restricting to `Error`.
+- Refactor `List` views using `Either` to handle heterogeneous data, such as displaying movies and ads together.
+
+#### Summary of Contents
+- **Introduction:** Discusses the problem of managing heterogeneous data and introduces `Either` as a solution.
+- **Refactoring with Either:** Demonstrates how to refactor code to handle different data types in a SwiftUI `List` using the `Either` enum.
+- **Conditional Conformance to Identifiable:** Explains how to ensure that both types in `Either` conform to `Identifiable` when necessary.
+- **Final Refactor:** Provides an example of refactored code that uses `Either` to manage movies and ads in the same list.
+
+#### Additional Resources
+- **Either Enum Documentation:** Learn more about Swift's enum types and their capabilities.
+- **SwiftUI List Documentation:** Understand how to work with dynamic lists in SwiftUI.
+
+<LinkCard title="Read Full Article" href="https://www.swiftwithvincent.com/blog/storing-two-types-in-the-same-variable-using-either" />

@@ -11,11 +11,17 @@ A deep dive into the advanced aspects of the Swift programming language, focusin
 <TimelineItem url='#' level='beginner' align='right'>
 ### Advanced Generics in Swift
 Exploring the power and flexibility of Swift’s generic programming capabilities.
+ - link
+ - link
+ - link
 </TimelineItem>
 
 <TimelineItem url='#' level='beginner' align='left'>
 ### Protocol-Oriented Programming
 Deep dive into protocol-oriented design and how it contrasts with object-oriented principles.
+- link
+- link
+- link
 </TimelineItem>
 
 <TimelineItem url='#' level='beginner' align='right'>
@@ -36,7 +42,7 @@ Advanced error handling patterns and the use of `Result` type for robust Swift c
 <TimelineItem url='https://www.swiftbysundell.com/articles/abstract-types-and-methods/' level='intermediate' align='left'>
 ### Abstract Types and Methods
 An in-depth look at abstract types and methods in Swift, exploring how to implement and leverage abstraction.
-- https://www.swiftbysundell.com/articles/abstract-types-and-methods/
+- [Abstract types and methods in Swift](https://www.swiftbysundell.com/articles/abstract-types-and-methods/)
 </TimelineItem>
 
 <TimelineItem url='#' level='intermediate' align='right'>

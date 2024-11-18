@@ -198,3 +198,111 @@ Discover how to use the **Translation framework** introduced at **WWDC24** to pr
 - **[SwiftUI Documentation](https://developer.apple.com/documentation/swiftui):** Explore more about **SwiftUI** and its powerful features.
 
 <LinkCard title="Read Full Article" href="https://www.createwithswift.com/translating-text-in-your-swiftui-app-with-the-translation-framework/" />
+
+## Frameworks
+
+
+### 🔵 Identifying Nouns, Adjectives, and More with the Natural Language Framework in a SwiftUI App
+
+In this blog post, you will learn how to identify nouns, adjectives, and other parts of speech using the Natural Language framework in a SwiftUI app. The post guides you through setting up the `NLTagger` for lexical classification and integrating this functionality into a SwiftUI view to create a powerful text analysis tool.
+
+<details>
+
+**URL:** https://www.createwithswift.com/lexical-classification-with-the-natural-language-framework/
+
+**Published:** 2024-08-26
+
+**Authors:** `Antonella Giugliano`
+
+**Tags:**  
+`SwiftUI`, `Natural Language`, `iOS Development`, `Text Processing`
+
+</details>
+
+#### Key Points
+- The Natural Language framework enables text processing and classification in SwiftUI.
+- You can analyze text segments to identify parts of speech such as nouns, verbs, and adjectives.
+- The `NLTagger` class plays a central role in segmenting and tagging text units.
+
+#### Summary of Contents
+- **Introduction to the Natural Language Framework:** Overview of how Apple’s Natural Language framework facilitates text analysis by segmenting and tagging text.
+- **Code Example for Lexical Classification:** Step-by-step guide on how to use `NLTagger` for identifying parts of speech in text.
+- **Integrating with SwiftUI:** Explanation on how to integrate the tagging functionality into a SwiftUI view, including a practical example with a `TextEditor`.
+- **Displaying Results in SwiftUI:** Instructions on filtering and displaying the analyzed text data within a SwiftUI list, including counting verbs and identifying name types.
+
+#### Additional Resources
+- **[NLTagger Documentation](https://developer.apple.com/documentation/naturallanguage/nltagger?ref=createwithswift.com):** Official Apple documentation for `NLTagger`.
+- **[NLTagScheme.LexicalClass Documentation](https://developer.apple.com/documentation/naturallanguage/nltagscheme/lexicalclass?ref=createwithswift.com):** Details on using the lexical class tag scheme in `NLTagger`.
+- **[SwiftUI Official Documentation](https://developer.apple.com/documentation/swiftui):** Apple's official SwiftUI documentation.
+
+<LinkCard title="Read Full Article" href="https://www.createwithswift.com/lexical-classification-with-the-natural-language-framework/" />
+
+### 🟢 Checking Language Availability for Translation with the Translation Framework
+
+This post covers how to use Apple's Translation framework to check if a language is available for translation within your iOS app. With the new framework, you can leverage local machine learning models to translate text directly on the device. However, not every language is available for translation, and this post explains how developers can manage this limitation by checking language availability through the `LanguageAvailability` class.
+
+<details>
+
+**URL:** [https://www.createwithswift.com/checking-language-availability-for-translation-with-the-translation-framework/](https://www.createwithswift.com/checking-language-availability-for-translation-with-the-translation-framework/)
+
+**Published:** 2024-09-10
+
+**Authors:** `Matteo Altobello`
+
+**Tags:**  
+`Translation`, `iOS Development`, `Swift`, `Localization`
+
+</details>
+
+#### Key Points
+- **Translation Framework**: A powerful tool for translating content within iOS apps using machine learning models.
+- **Language Availability**: Developers can use the `LanguageAvailability` class to check what languages are supported on the user’s device.
+- **Translation Status**: The `status(from:to:)` method allows you to confirm if translation between two languages is supported, installed, or unsupported.
+- **User Control**: Users can manage language models directly through the device’s Translate app, which impacts translation availability across apps.
+
+#### Summary of Contents
+- **Using LanguageAvailability Class**: Learn how to check and display all supported languages on the device.
+- **Checking Translation Status**: Understand how to verify if translation between specific languages is available or unsupported using the `status(from:to:)` method.
+- **Handling Language Models**: Guide for managing language models via the user interface in the Translate app, helping users remove or download language models.
+
+#### Additional Resources
+- **[LanguageAvailability Documentation](https://developer.apple.com/documentation/translation/languageavailability?ref=createwithswift.com)**: Official Apple documentation for `LanguageAvailability`.
+- **[Meet the Translation API - WWDC24](https://developer.apple.com/videos/play/wwdc2024/10169/)**: Video introduction to the Translation API.
+
+<LinkCard title="Read Full Article" href="https://www.createwithswift.com/checking-language-availability-for-translation-with-the-translation-framework/" />
+
+## UX
+### 🟢 Designing Offboarding Experiences for Your Applications
+
+When developing apps, the focus often lies on creating an outstanding onboarding experience. However, what is frequently overlooked is the offboarding process, or the end of the user's journey with the app. This article explores the importance of offboarding, both from a user experience and a legal compliance perspective, and highlights the benefits of creating a well-designed offboarding flow.
+
+<details>
+
+**URL:** https://www.createwithswift.com/navigating-digital-endings
+
+**Published:** 2024-09-18
+
+**Authors:** `Create With Swift`
+
+**Tags:**  
+`Offboarding`, `User Experience`, `GDPR`, `Sustainability`, `Data Deletion`
+
+</details>
+
+#### Key Points
+- **Offboarding as part of UX:** Offboarding ensures users are properly informed about the end of their interaction with the app, avoiding confusion or the appearance of broken features.
+- **Legal Compliance:** Data protection laws, such as the GDPR, require users to have the right to be forgotten, meaning their data must be deleted upon request.
+- **Environmental Impact:** Deleting unnecessary data can reduce carbon footprints by lowering the energy required for data storage, contributing to a more sustainable digital product.
+- **User Trust:** Providing a transparent and easy offboarding process builds user trust, enhancing brand value and reputation.
+
+#### Summary of Contents
+- **Offboarding Overview:** Examines why offboarding is often neglected and the benefits of a well-thought-out exit experience.
+- **Legal Obligations:** Discusses the right to data deletion under regulations such as the GDPR, and how this can be integrated into the offboarding flow.
+- **Sustainability Considerations:** How reducing stored data can positively affect both the environment and operational costs.
+- **Examples of Offboarding Practices:** Highlights examples from apps like Ikea Place, Tinder, and N26 that show how to approach offboarding thoughtfully.
+
+#### Additional Resources
+- **[Article 17 of the GDPR](https://gdpr-info.eu/art-17-gdpr/):** A detailed explanation of the GDPR’s right to data deletion.
+- **[Joe Macleod’s Work](https://www.andend.co/who-is-joe):** Insights from Joe Macleod, founder of a customer-ending business, focusing on sustainability and end-of-life product design.
+
+<LinkCard title="Read Full Article" href="https://www.createwithswift.com/navigating-digital-endings" />

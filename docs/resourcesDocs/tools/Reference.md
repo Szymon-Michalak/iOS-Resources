@@ -236,3 +236,64 @@ CheatSheets.zip is a website of cheat sheets and quick reference guides for deve
 - **Project Development:** Streamlines workflow with concise and relevant information.
 
 <LinkCard title="Visit CheatSheets.zip" href="https://cheatsheets.zip" />
+
+### App Store Review Guidelines
+The App Store Review Guidelines provide essential rules and standards that all iOS apps must meet before being published on the App Store. It covers a wide range of topics, from safety and performance to business and legal issues, ensuring that all apps provide a secure and consistent experience for users.
+
+<details>
+
+**URL:** [App Store Review Guidelines](https://developer.apple.com/distribute/app-review/)
+
+**Platform:** Web
+
+**Created:** YYYY-MM-DD (I’ll check the exact date)
+
+**Authors/Developers:** `Apple Inc.`
+
+**Tags:**  
+`App Store`, `Guidelines`, `Review Process`, `Best Practices`, `Compliance`
+
+</details>
+
+#### Key Features
+- **Comprehensive Coverage:** The guidelines cover all aspects of app development, from user safety to performance metrics, ensuring that all apps meet Apple's high standards.
+- **Regular Updates:** The guidelines are frequently updated to reflect the latest changes in Apple's policies and to adapt to new technologies and trends.
+- **Clear Structure:** The guidelines are organized into sections, making it easy for developers to find specific information relevant to their app.
+
+#### Installation and Setup
+- **Accessing the Guidelines:** Developers can access the App Store Review Guidelines directly from Apple's developer website. No installation is required.
+
+#### Use Cases
+- **Pre-Submission Checklist:** Use the guidelines as a checklist before submitting an app to ensure all criteria are met.
+- **Compliance Checks:** Regularly consult the guidelines during the development process to ensure ongoing compliance with Apple's standards.
+- **Team Training:** Use the guidelines as a training resource for new team members to familiarize them with Apple’s expectations.
+
+<LinkCard title="Visit App Store Review Guidelines" href="https://developer.apple.com/distribute/app-review/" />
+
+### Regex101
+Regex101 is an online tool designed to help developers test, debug, and optimize regular expressions. It provides a user-friendly interface, real-time feedback, and detailed explanations of how regular expressions work, making it a valuable resource for anyone working with regex.
+
+<details>
+
+**URL:** [https://regex101.com](https://regex101.com)
+
+**Platform:** Web
+
+**Tags:**  
+`regex`, `regular-expressions`, `debugging`, `pattern-matching`, `testing`
+
+</details>
+
+#### Key Features
+- **Real-time Feedback:** Provides instant results as you type your regex, showing matches, errors, and optimizations.
+- **Detailed Explanations:** Breaks down each component of a regular expression for better understanding.
+- **Multiple Flavors of Regex:** Supports PCRE (Perl Compatible Regular Expressions), Python, and JavaScript flavors.
+- **Regex Debugger:** Helps users step through each part of a regex to understand its operation.
+- **Saved Expressions and History:** Users can save regex for later use and view their regex history.
+
+#### Use Cases
+- **Pattern Matching in Code:** Validate and test regex patterns used in programming for data validation, search, and replace tasks.
+- **Learning and Experimentation:** Experiment with different regex patterns to understand how they work and refine them.
+- **Debugging Complex Regex:** Analyze and optimize regular expressions by breaking down their components and testing various inputs.
+
+<LinkCard title="Visit Regex101" href="https://regex101.com" />

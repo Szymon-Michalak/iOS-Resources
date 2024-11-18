@@ -70,3 +70,38 @@ This article addresses a common issue in **SwiftUI** where sorting or filtering 
 - **Understanding State and Binding in SwiftUI:** [Further Reading](#)
 
 <LinkCard title="Read Full Article" href="https://www.hackingwithswift.com/articles/210/how-to-fix-slow-list-updates-in-swiftui" />
+### 🔵 Running Tasks Using SwiftUI's `task()` Modifier
+
+**SwiftUI**'s `task()` modifier, introduced with the concurrency framework, allows developers to run **async tasks** when a view appears, while also automatically canceling those tasks when the view disappears. This makes handling asynchronous operations more efficient compared to traditional methods.
+
+<details>
+
+**URL:** [Tasks in Swift explained with code examples](https://www.hackingwithswift.com/concurrency/tasks/)  
+**Published:** 2021-09-23  
+**Authors:** `Paul Hudson`  
+**Tags:**  
+`Swift`, `SwiftUI`, `async-await`, `concurrency`, `iOS`
+
+</details>
+
+#### Key Points
+- **`task()` Modifier**: Simplifies async task management in SwiftUI views by creating and canceling tasks as views appear and disappear.
+- **Task Cancellation**: Automatically cancels tasks when views disappear, saving resources and optimizing performance.
+- **Tracking Identifiers**: `task()` can track `Equatable` values to cancel and restart tasks when identifiers change.
+
+#### Summary of Contents
+
+- **Basic Task Example**:
+  - Using `task()` to download data from a server and populate a SwiftUI list. Shows the simplicity of running async operations in SwiftUI.
+  
+- **Advanced Usage**:
+  - Introduces a way to handle tasks that update based on changing identifiers, such as switching between an Inbox and Sent message list.
+
+- **Task Priority and AsyncSequence**:
+  - Explains the use of priorities in tasks, and how `AsyncSequence` can be leveraged to handle continuous data streams like a random number generator.
+
+#### Additional Resources
+- **[Async await in Swift explained with code examples](https://www.hackingwithswift.com/swift/async-await/):** A guide to understanding async/await in Swift.
+- **[What’s the difference between async let, tasks, and task groups?](https://www.hackingwithswift.com/concurrency/async-let-tasks-task-groups):** Detailed comparison of concurrency options in Swift.
+
+<LinkCard title="Read Full Article" href="https://www.hackingwithswift.com/concurrency/tasks/" />

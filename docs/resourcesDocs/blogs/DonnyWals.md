@@ -69,3 +69,40 @@ This article by Donny Wals provides a comprehensive overview of the **`@preconcu
 - **Level Up Your Swift Concurrency Skills:** [Practical Swift Concurrency Course](https://donnyplus.com/p/practical-swift-concurrency-the-video-course)
 
 <LinkCard title="Read Full Article" href="https://www.donnywals.com/preconcurrency-usage-in-swift-explained/" />
+
+## SwiftUI
+
+### 🔵 Exploring SF Symbol Animations: Enhancing Your App's UI with Built-in Iconography
+
+SF Symbols have revolutionized how iOS developers integrate iconography into their applications. With thousands of symbols available and a growing set of features, they offer a familiar, cohesive experience across Apple's ecosystem. This post explores the evolution of SF Symbols, focusing on the current state of SF Symbol animations and how developers can leverage these new features to create more dynamic and engaging user interfaces.
+
+<details>
+
+**URL:** https://www.donnywals.com/animating-sf-symbols-on-ios-18/
+
+**Published:** 2024-09-18
+
+**Authors:** `Author's Name`
+
+**Tags:**  
+`SF Symbols`, `iOS Development`, `Swift`, `UI Design`, `Animations`
+
+</details>
+
+#### Key Points
+- **Evolution of SF Symbols:** Initially static, SF Symbols now offer various animation styles and effects that enhance UI design.
+- **Simple yet Powerful Animations:** The introduction of symbol effects like `wiggle` and `variableColor` allows developers to animate symbols with minimal code.
+- **Layered Animations:** Some symbols contain multiple layers that can be animated independently, offering even more flexibility in visual design.
+- **State-Based Transitions:** SF Symbols can seamlessly animate transitions between different states, such as toggling notifications on and off.
+
+#### Summary of Contents
+- **Basic SF Symbol Animations:** An introduction to simple SF Symbol animations, demonstrating how easy it is to add animations using `symbolEffect`.
+- **Layered Animations in Action:** Explores how symbols like the AirPods Pro case leverage their multiple layers for more complex effects.
+- **Animating State Changes:** Discusses how to animate transitions between different symbol states, such as a bell icon indicating notifications.
+- **Exploring Symbol Effects:** Encourages developers to experiment with the variety of symbol effects and their parameters, including periodic animations and transitions.
+
+#### Additional Resources
+- **SF Symbols 4:** [Apple's official SF Symbols documentation](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/) for more in-depth guidance on available symbols.
+- **SwiftUI Image View:** [Apple's documentation on Image views in SwiftUI](https://developer.apple.com/documentation/swiftui/image) to understand how symbols are integrated into the view hierarchy.
+
+<LinkCard title="Read Full Article" href="https://www.donnywals.com/animating-sf-symbols-on-ios-18/" />

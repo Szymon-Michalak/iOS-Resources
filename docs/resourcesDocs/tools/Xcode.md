@@ -250,3 +250,44 @@ RemafoX is a tool designed to streamline app translation for developers, reducin
 - **Cons:** Advanced features require subscription or one-time purchase.
 
 <LinkCard title="Visit RemafoX" href="https://remafox.app/" />
+
+### XcodesApp
+XcodesApp is a graphical user interface (GUI) tool for macOS that makes it easy to install, manage, and switch between multiple versions of Xcode with just a few clicks. It simplifies the Xcode management process, ensuring developers can easily access the specific versions they need for their projects.
+
+<details>
+
+**URL:** [https://github.com/XcodesOrg/XcodesApp](https://github.com/XcodesOrg/XcodesApp)
+
+**Platform:** macOS
+
+**Created:** 2020-07-20
+
+**Authors/Developers:** `XcodesOrg`
+
+**Tags:**  
+`Xcode`, `macOS`, `Developer Tools`, `GUI`, `Swift`
+
+</details>
+
+#### Key Features
+- **Simple Xcode Management:** Install, update, and switch between Xcode versions through an intuitive GUI.
+- **Fast Downloads:** Accelerates Xcode downloads with parallel connections and resume capabilities.
+- **Compatibility Insights:** Provides detailed information on OS compatibility and release notes for each Xcode version.
+
+#### Installation and Setup
+Follow these steps to start using XcodesApp on your macOS system:
+
+- **Dependencies:** XcodesApp requires macOS and the ability to run applications from identified developers.
+- **Installation:**
+  1. Download the latest release from the [GitHub Releases page](https://github.com/XcodesOrg/XcodesApp/releases).
+  2. Open the `.dmg` file and drag XcodesApp to your Applications folder.
+- **Usage:** Launch XcodesApp and begin managing your Xcode installations through the GUI.
+
+#### Use Cases
+XcodesApp is particularly useful for:
+
+- **Development Teams:** Ensures consistency in the Xcode versions used across team members.
+- **CI/CD Integration:** Simplifies the setup of build environments with specific Xcode versions.
+- **Project-Specific Needs:** Easily switch between Xcode versions for different projects.
+
+<LinkCard title="Visit XcodesApp" href="https://github.com/XcodesOrg/XcodesApp" />

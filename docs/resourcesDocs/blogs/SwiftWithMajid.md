@@ -40,6 +40,8 @@ The content is hands-on, with code examples and practical advice. Articles are s
 
 <LinkCard title="Visit Swift with Majid" href="https://swiftwithmajid.com" />
 
+## SwiftUI
+
 ### 🔴 Mastering ScrollView in SwiftUI. Target Behavior
 
 This article explores the new APIs introduced by Apple in SwiftUI to enhance the functionality of `ScrollView`. It focuses on customizing the scroll target and snapping behavior using the `scrollTargetBehavior` view modifier. The discussion includes examples of how to apply different target behaviors and create custom ones by conforming to the `ScrollTargetBehavior` protocol.
@@ -71,3 +73,37 @@ This article explores the new APIs introduced by Apple in SwiftUI to enhance the
 - **[Mastering ScrollView in SwiftUI. Transitions](https://swiftwithmajid.com/2023/06/13/mastering-scrollview-in-swiftui-transitions/)**: A related post on how to handle transitions in `ScrollView`.
 
 <LinkCard title="Read Full Article" href="https://swiftwithmajid.com/2023/06/20/mastering-scrollview-in-swiftui-target-behavior/" />
+
+### 🔵 Tracking Geometry Changes in SwiftUI
+
+This article discusses how to track geometry changes of any view in SwiftUI using the new `onGeometryChange` view modifier introduced at WWDC. The article also highlights its backward compatibility with earlier versions of iOS, macOS, tvOS, watchOS, and visionOS. Additionally, practical code examples demonstrate how this feature can enhance your SwiftUI development workflow by reducing direct usage of the `GeometryReader` type.
+
+<details>
+
+**URL:** https://swiftwithmajid.com/2024/08/13/tracking-geometry-changes-in-swiftui/
+
+**Published:** 2024-08-13
+
+**Authors:** `Majid Jabrayilov`
+
+**Tags:**  
+`SwiftUI`, `iOS Development`, `GeometryProxy`, `WWDC 2024`
+
+</details>
+
+#### Key Points
+- The `onGeometryChange` view modifier allows tracking geometry changes in SwiftUI.
+- It is backward compatible with iOS 16, macOS 13, tvOS 16, watchOS 9, and visionOS 1.
+- The modifier improves performance by reducing the need for `GeometryReader` and only runs updates when necessary.
+
+#### Summary of Contents
+- **Introduction to `onGeometryChange`:** Overview of the new `onGeometryChange` view modifier and its importance in tracking geometry changes in SwiftUI views.
+- **Backward Compatibility:** Discussion on how this feature is backward compatible with earlier versions of Apple platforms.
+- **Practical Code Examples:** Step-by-step demonstration of using `onGeometryChange` in real-world scenarios, including scroll offset tracking.
+- **Performance Considerations:** Tips on optimizing the usage of `onGeometryChange` to avoid performance issues by limiting updates to the necessary parts of your app.
+
+#### Additional Resources
+- **[How to use GeometryReader without breaking SwiftUI layout](https://swiftwithmajid.com/2020/11/04/how-to-use-geometryreader-without-breaking-swiftui-layout/):** A detailed guide on effectively using `GeometryReader` in SwiftUI.
+- **[SwiftUI Official Documentation](https://developer.apple.com/documentation/swiftui):** Official SwiftUI documentation by Apple.
+
+<LinkCard title="Read Full Article" href="https://swiftwithmajid.com/2024/08/13/tracking-geometry-changes-in-swiftui/" />

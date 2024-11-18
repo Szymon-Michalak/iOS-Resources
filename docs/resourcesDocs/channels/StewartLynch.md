@@ -80,4 +80,39 @@ Stewart Lynch shares insights and tips gleaned from his extensive experience in 
 
 <LinkCard title="Watch the video here" href="https://www.youtube.com/watch?v=_XZHzl3R1Fo" />
 
+
+### Xcode Templates, Projects, Targets, Schemes, and Workspaces
+
+In this video, **Stewart Lynch** explains the key components of an Xcode project, including templates, targets, schemes, and workspaces. It is a great resource for developers confused by these terminologies when creating iOS apps or exploring open-source code. The video goes in-depth into how each element works together and provides a comprehensive guide on structuring and managing Xcode projects.
+
+<details>
+
+**URL:** https://www.youtube.com/watch?v=iComTMVqgXA  
+**Published:** 2024-06-23  
+**Duration:** 24 minutes  
+**Creators:** `Stewart Lynch`  
+**Tags:**  
+`Xcode`, `iOS Development`, `Swift`, `Projects`, `Targets`, `Schemes`, `Workspaces`
+
+</details>
+
+#### Key Points
+- **Xcode Projects:** Understanding the structure of an Xcode project and its relationship with templates and targets.
+- **Compiler Directives:** Explanation of compiler directives for cross-platform development in iOS and macOS.
+- **Dual Targets & Schemes:** Working with multiple targets within the same project and creating different schemes.
+- **Workspaces:** Explanation of how workspaces combine multiple projects and improve project management in Xcode.
+- **Shared Schemes:** How to create shared schemes across multiple projects within a workspace for seamless development.
+
+#### Summary of Contents
+- **Introduction:** Overview of Xcode’s project structure, why understanding terminology is crucial, and its impact on iOS project management.
+- **Main Sections:**
+  1. **Projects and Targets:** A breakdown of what constitutes an Xcode project and how targets define different build configurations.
+  2. **Compiler Directives:** How to use conditional compilation for platform-specific code in projects with both iOS and macOS targets.
+  3. **Dual Targets & Schemes:** Explaining the process of adding multiple targets and managing schemes for different platforms.
+  4. **Workspaces:** How to create a workspace to group related projects and share code across projects.
+  5. **Shared Schemes in Workspaces:** Explanation of creating shared schemes to streamline workflows across multiple projects.
+- **Conclusion:** Final thoughts on how understanding these Xcode components leads to more efficient project management and improved app development.
+
+<LinkCard title="Watch Full Video" href="https://www.youtube.com/watch?v=iComTMVqgXA" />
+
 ## Playlists
