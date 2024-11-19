@@ -30,3 +30,7 @@ design_patterns:
   label: Design Patterns
   permalink: /design-patterns
   description: Design Patterns tag description
+security:
+  label: Security
+  permalink: /security
+  description: Security tag description

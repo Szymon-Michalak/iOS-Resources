@@ -695,6 +695,154 @@ Discover how to overcome SwiftUI’s navigation limitations and build scalable, 
 
 <LinkCard title="Read Full Article" href="https://blog.jacobstechtavern.com/p/swiftui-apps-at-scale" />
 
+### 🟢 Mastering TextEditor in SwiftUI
+
+SwiftUI's `TextEditor` is a powerful tool for building editable text views, offering a variety of customization options to meet different requirements. This article explores its core functionality, from basic configurations to advanced features like text selection, focus management, character limits, and writing tools. We'll also examine alternatives and strategies for enhancing its capabilities.
+
+<details>
+
+**URL:** [Mastering TextEditor in SwiftUI](https://www.artemnovichkov.com/blog/mastering-text-editor-in-swiftui)
+
+**Published:** 2024-11-17
+
+**Authors:** `Artem Novichkov`
+
+**Tags:**  
+`SwiftUI`, `TextEditor`, `text editing`, `iOS development`, `writing tools`
+
+</details>
+
+#### Key Points
+- **Basic Setup:** `TextEditor` requires a `Binding<String>` and supports customization for fonts, colors, and line spacing.
+- **Focus Management:** Use the `focused` modifier to control the appearance of the keyboard dynamically.
+- **Advanced Features:** Add find-and-replace functionality, customize writing tools, and handle text selection for complex editing needs.
+- **Character Limit Enforcement:** Implement character limits using modifiers like `onChange`.
+- **Alternatives:** Explore `TextField`, `UITextView`, or third-party frameworks for specialized use cases.
+
+#### Summary of Contents
+- **Basic Requirements:** Focus management, character limits, and reading vs. editing modes are essential for robust text editing.
+- **Configuration Options:** Customize `TextEditor` with features like autocorrection control, background styling, and keyboard configuration.
+- **Focus and Interaction:** Learn how to manage focus and hide/show the keyboard as required.
+- **Advanced Modifiers:** Enable find-and-replace capabilities, writing tools, and introspection for read-only mode.
+- **Alternatives:** Consider using `UITextView`, `TextField` with vertical axis support, or third-party frameworks like [RichTextKit](https://github.com/danielsaidi/RichTextKit).
+
+#### Additional Resources
+- **[TextEditorExample Repository](https://github.com/artemnovichkov/TextEditorExample):** Final example code for mastering `TextEditor`.
+- **[SwiftUI Documentation](https://developer.apple.com/documentation/swiftui/texteditor):** Official Apple documentation on `TextEditor`.
+- **[RichTextKit](https://github.com/danielsaidi/RichTextKit):** A third-party framework for rich text editing in SwiftUI.
+
+<LinkCard title="Read Full Article" href="https://www.artemnovichkov.com/blog/mastering-text-editor-in-swiftui" />
+
+### 🔴 Deep Dive Into Environment in SwiftUI
+
+SwiftUI’s `@Environment` tools provide a powerful mechanism for managing shared state across an application. This article delves into the concepts, best practices, and new features like `@Observable` and `@Bindable` introduced in iOS 17, ensuring that developers can build scalable and maintainable applications.
+
+<details>
+
+**URL:** [Deep Dive Into Environment in SwiftUI](https://azamsharp.com/2024/11/18/deep-dive-into-environment-in-swiftui.html)
+
+**Published:** 2024-11-18
+
+**Authors:** `AzamSharp`
+
+**Tags:**  
+`SwiftUI`, `@Environment`, `@EnvironmentObject`, `state management`, `iOS development`
+
+</details>
+
+#### Key Points
+- **`@EnvironmentObject` Basics:** Use `ObservableObject` to inject global state into a SwiftUI hierarchy.
+- **Efficient State Updates:** SwiftUI uses re-evaluation and diffing to optimize performance.
+- **iOS 17 Enhancements:** The `@Observable` macro simplifies global state management with automatic property publication.
+- **Real-World Use Cases:** Manage global or context-specific states cleanly for modular and testable components.
+
+#### Summary of Contents
+- **Environment in SwiftUI:** Overview of how `@Environment` enables seamless shared state management.
+- **Re-Evaluation vs. Re-Rendering:** Insights into SwiftUI’s diffing mechanism to optimize updates.
+- **New Features in iOS 17:** Explore `@Observable` and `@Bindable` macros for cleaner and faster state handling.
+- **Best Practices:** Avoid tight coupling, inject dependencies based on context, and pass only necessary data to child views.
+- **Real-World Applications:** Example scenarios like shopping carts and multi-tab apps to demonstrate modular design.
+
+#### Additional Resources
+- **[SwiftUI Documentation](https://developer.apple.com/documentation/swiftui):** Official Apple documentation on SwiftUI’s `@Environment`.
+- **[HelloMarket Repository](https://github.com/azamsharpschool/HelloMarket):** Open-source shopping cart app using `@Environment`.
+- **[Full-Stack E-commerce Course](https://azamsharp.teachable.com/p/full-stack-e-commerce-app-development-with-swiftui-node-js-and-postgres):** Learn how to build scalable applications from scratch.
+
+<LinkCard title="Read Full Article" href="https://azamsharp.com/2024/11/18/deep-dive-into-environment-in-swiftui.html" />
+
+### 🔴 Refactor SwiftUI Navigation Layer Using Coordinator Pattern
+
+This article explores the evolution of SwiftUI navigation design by refactoring a simple Router-based approach into a more robust Coordinator-based pattern. The new implementation supports stacked navigation, sheets, and full-screen covers, making it suitable for complex, scalable applications.
+
+<details>
+
+**URL:** [SwiftUI Refactor Navigation Layer Using Coordinator Pattern](https://tiagohenriques.vercel.app/blog/swiftui-refactor-navigation-layer-using-coordinator-pattern)
+
+**Published:** 2024-11-17
+
+**Authors:** `Tiago Henriques`
+
+**Tags:**  
+`SwiftUI`, `Coordinator Pattern`, `Navigation`, `iOS Development`, `Best Practices`
+
+</details>
+
+#### Key Points
+- **Coordinator vs. Router:** Coordinators manage navigation flows across multiple screens, enabling hierarchical and modular navigation patterns.
+- **New Features:** Adds support for sheet and full-screen cover navigation with a custom `Routable` protocol.
+- **Decoupled Design:** Separates navigation logic from views, promoting clean architecture and scalability.
+- **Advanced Usage:** Implements nested Coordinators for managing complex navigation flows (e.g., embedding a Favourites Coordinator within an App Coordinator).
+
+#### Summary of Contents
+- **Router vs. Coordinator:** Highlights the difference in scope and functionality between the two patterns.
+- **Coordinator Implementation:** Introduces a `Routable` protocol and a custom `Coordinator` class for managing various navigation types.
+- **CoordinatorStack View:** A generic solution for integrating stacked navigation, sheets, and full-screen covers in one component.
+- **Nested Coordinators:** Demonstrates embedding child Coordinators within a parent Coordinator for modular navigation flows.
+- **Integration with Views:** Uses `@Environment` to access Coordinators and manage navigation dynamically.
+
+#### Additional Resources
+- **[Coordinators & SwiftUI](https://vbat.dev/coordinators-swiftui):** A deep dive into using Coordinators with SwiftUI.
+- **[Mastering iOS Navigation](https://blog.ravn.co/mastering-ios-navigation-coordinators-viewcoordinators-and-routers/):** Detailed guide on navigation strategies for iOS.
+- **[Coordinator Pattern in SwiftUI](https://www.swiftanytime.com/blog/coordinator-pattern-in-swiftui):** Best practices for implementing Coordinators.
+
+<LinkCard title="Read Full Article" href="https://tiagohenriques.vercel.app/blog/swiftui-refactor-navigation-layer-using-coordinator-pattern" />
+
+### 🟢 Implementing the "Shared With You" Feature in iOS Apps
+
+This article walks you through implementing the **Shared with You** feature in iOS apps, introduced in iOS 16. It covers the feature's purpose, setup, and code implementation, making it easier for developers to integrate shareable content support in their apps.
+
+<details>
+
+**URL:** https://digitalbunker.dev/shared-with-you/
+
+**Published:** 2024-11-19
+
+**Authors:** `Aryaman Sharda`
+
+**Tags:**  
+`iOS Development`, `Swift`, `iOS Features`, `User Experience`, `Code Implementation`
+
+</details>
+
+#### Key Points
+- **Purpose of "Shared With You":** Aims to help users rediscover shared content like links, songs, and recommendations directly in the relevant apps.
+- **Setup Requirements:** Universal Links must be configured, and testing should be done on physical devices.
+- **Core Components:**
+  - **Shelf:** A prioritized list of shared content, arranged by system recommendations, pinned messages, and chronological order.
+  - **Attribution View:** Displays details about the shared content, including the sender and a link back to the original message.
+
+#### Summary of Contents
+- **Getting Started:** Explains prerequisites like enabling Universal Links and testing on physical devices.
+- **Implementation:** Step-by-step guidance on integrating the `SWHighlightCenter` class to manage shared links and using the `SWAttributionView` for attribution display.
+- **Customization:** Examples of adding actions to the attribution view's context menu.
+- **Testing Tips:** Key steps to ensure seamless testing of the feature.
+- **Final Code Example:** Demonstrates creating a shelf UI in SwiftUI using `SharedWithYouService`.
+
+#### Additional Resources
+- **[Universal Link Testing Tool](https://getuniversal.link/):** A utility to verify and debug Universal Links.
+- **[Aryaman Sharda’s YouTube Channel](https://www.youtube.com/c/AryamanSharda):** Tutorials on iOS development.
+
+<LinkCard title="Read Full Article" href="https://digitalbunker.dev/shared-with-you/" />
 
 ## **Xcode and Workflow**
 
@@ -1064,6 +1212,43 @@ This article explores how **Grand Central Dispatch (GCD)** can be leveraged to i
 
 <LinkCard title="Read Full Article" href="https://betterprogramming.pub/guide-to-multi-threading-gcd-83009f5d62cb" />
 
+### 🔴 Problematic Patterns in Swift Concurrency
+
+This blog post outlines common patterns in Swift concurrency that can lead to complications. While "best practices" are subjective and context-dependent, the author identifies recurring issues worth avoiding.
+
+<details>
+
+**URL:** https://www.massicotte.org/problematic-patterns  
+**Published:** 2024-11-19  
+**Authors:** `Matt Massicotte`  
+**Tags:** `Swift`, `Concurrency`, `Best Practices`, `Code Patterns`
+
+</details>
+
+#### Key Points
+- **Split Isolation:** Mixing isolation domains in a single type can create unexpected limitations and confusion.
+- **Task.detached Misuse:** Overused for convenience but has side effects like losing inherited priorities and task-local values.
+- **Explicit Priorities:** Explicitly setting priorities can lead to unintended performance issues and priority inversions.
+- **MainActor.run Overuse:** Often unnecessary; prefer leveraging Swift's built-in actor isolation mechanisms.
+- **Stateless Actors:** Avoid actors without mutable state unless there's a compelling reason.
+- **@preconcurrency Import Risks:** Can inadvertently introduce warnings or semantic issues when adapting completion handlers.
+- **Redundant Sendable Conformance:** Global actor-isolated types are inherently `Sendable`, so additional conformance may indicate misunderstanding.
+- **RunLoop APIs:** Limited compatibility with non-MainActor contexts; require careful handling.
+- **Blocking Async Work:** Using synchronous constructs like `DispatchSemaphore` risks deadlocks.
+- **Unstructured Concurrency:** Prefer structured concurrency for clarity, maintainability, and implicit cancellation support.
+
+#### Summary of Contents
+- **Introduction:** A reflection on the pitfalls of “best practices” in emerging technologies like Swift concurrency.
+- **Common Problematic Patterns:** Detailed analysis of specific issues with examples and solutions.
+- **Final Thoughts:** Encourages experimentation while being mindful of the trade-offs and dangers of blindly following advice.
+
+#### Additional Resources
+- [Step-by-Step Network Request](https://www.massicotte.org/step-by-step-network-request)  
+- [Dynamic Isolation with MainActor](https://www.massicotte.org/dynamic-isolation)  
+- [Reliably Testing Async Code in Swift](https://www.pointfree.co/blog/posts/110-reliably-testing-async-code-in-swift)  
+
+<LinkCard title="Read Full Article" href="https://www.massicotte.org/problematic-patterns" />
+
 ## **Design**
 
 ### 🔵 The Sound of Software
@@ -1100,6 +1285,44 @@ This article explores how **Grand Central Dispatch (GCD)** can be leveraged to i
 - **Designing Sound (WWDC '17):** An Apple video on **sound design**.
 
 <LinkCard title="Read Full Article" href="https://notboring.software/words/the-sound-of-software" />
+
+### 🔵 iPhone 16 Screen Sizes: What Developers Need to Know
+
+Apple's iPhone 16 lineup introduces new screen sizes and features for the Pro models while maintaining support for older devices. Here's a detailed overview of the changes and implications for developers.
+
+<details>
+
+**URL:** https://useyourloaf.com/blog/iphone-16-screen-sizes/  
+**Published:** 2024-11-19  
+**Authors:** `Keith Harrison`  
+**Tags:** `iOS Development`, `Screen Sizes`, `UIKit`, `SwiftUI`, `Responsive Design`
+
+</details>
+
+#### Key Points
+- **New Screen Sizes:** iPhone 16 Pro (6.3") and Pro Max (6.9") models feature larger displays with smaller bezels.
+- **Base Models Consistency:** iPhone 16 and 16 Plus retain 6.1" and 6.7" displays, respectively, like their predecessors.
+- **Pro Enhancements:** Pro models feature titanium bodies, Always-On display, ProMotion, and support for USB 3 transfer speeds.
+- **Screen Brightness Updates:** All models now offer a 1-nit minimum brightness for improved viewing in low-light conditions.
+- **Action & Camera Control Buttons:** Available across all models, enhancing user interaction and customization.
+
+#### Summary of Contents
+- **iPhone 16:** 6.1" Super Retina XDR OLED, A18 chip, Dynamic Island, and updated Safe Area Insets.
+- **iPhone 16 Plus:** 6.7" display with identical specs to the iPhone 16 but improved battery life.
+- **iPhone 16 Pro:** Upgraded to a 6.3" display, A18 Pro chip, ProMotion, and Always-On features.
+- **iPhone 16 Pro Max:** Largest 6.9" display with all Pro features and improved dimensions.
+- **Complete Screen Size List:** Apple now supports **13 different iPhone screen sizes**, emphasizing the need for responsive designs.
+
+#### Developer Takeaways
+- **Safe Area Insets:** Adjust layouts to accommodate varying insets for status bars and screen edges.
+- **App Store Screenshots:** Only one set of screenshots required, targeting the largest devices (6.9" or 6.5").
+- **Minimum Deployment Target:** Ensure apps support iOS 13 and above to cover all iPhone models.
+
+#### Additional Resources
+- [iPhone 15 Screen Sizes](https://useyourloaf.com/blog/iphone-15-screen-sizes/)  
+- [Modern Auto Layout](https://useyourloaf.com/autolayout/)  
+
+<LinkCard title="Read Full Article" href="https://useyourloaf.com/blog/iphone-16-screen-sizes/" />
 
 ## Persistance
 

@@ -141,3 +141,41 @@ This article, authored by **Fatbobman** and published on **July 31, 2024**, expl
 - **[Mastering Safe Area in SwiftUI](https://fatbobman.com/en/posts/safearea/):** A deep dive into managing the **safe area** in **SwiftUI layouts**.
 
 <LinkCard title="Read Full Article" href="https://fatbobman.com/en/posts/how-to-tile-images-in-swiftui/" />
+
+### 🔵 Understanding SwiftUI View Update Mechanism
+
+This article explores how SwiftUI's declarative and reactive approach enables automatic view updates, focusing on an intriguing `TimelineView` issue. It delves into key concepts like view types, declarations, and instances to explain why some views update as expected while others remain static. This understanding is critical for writing performant SwiftUI applications.
+
+<details>
+
+**URL:** [Understanding SwiftUI View Update Mechanism](https://fatbobman.com/en/posts/understanding-swiftui-view-update-mechanism/)
+
+**Published:** 2024-11-13
+
+**Authors:** `FatBobMan`
+
+**Tags:**  
+`SwiftUI`, `view updates`, `TimelineView`, `reactive programming`, `iOS development`
+
+</details>
+
+#### Key Points
+- **Reactive Framework:** SwiftUI updates views reactively based on state and events.
+- **View Declaration and Updates:** Changes in state or specific conditions trigger view re-evaluation.
+- **View Instance Value Comparison:** SwiftUI optimizes updates by comparing current and previous instance values.
+- **Common Pitfall:** Encapsulated views (e.g., `RightEmoji`) may not update if their instance value remains static.
+
+#### Summary of Contents
+- **The Problem:** A `TimelineView` exhibits inconsistent emoji updates due to how SwiftUI determines when to re-evaluate views.
+- **Core Concepts:** Explains view types, declarations, and instance values and their role in updates.
+- **Analyzing SwiftUI's Response Mechanism:** Describes how events like state changes trigger view updates.
+- **Conditions for Re-Evaluation:** Outlines when and why SwiftUI re-evaluates view declarations.
+- **The Solution:** Shows how introducing randomness changes the instance value, forcing updates.
+- **Performance Tips:** Advice for optimizing view declarations and minimizing unnecessary computations.
+
+#### Additional Resources
+- **[SwiftUI Documentation](https://developer.apple.com/documentation/swiftui):** Official guide to SwiftUI concepts.
+- **[Understanding State and Binding](https://developer.apple.com/documentation/swiftui/state-and-data-flow):** Details on managing state in SwiftUI.
+- **[Reactive Programming in Swift](https://www.raywenderlich.com/10050020-reactive-programming-in-swift):** Insights into the reactive paradigm in Swift.
+
+<LinkCard title="Read Full Article" href="https://fatbobman.com/en/posts/understanding-swiftui-view-update-mechanism/" />

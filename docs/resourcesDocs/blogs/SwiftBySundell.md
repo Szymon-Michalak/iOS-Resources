@@ -208,3 +208,38 @@ The builder pattern is a powerful design pattern used to construct complex objec
 - **Conclusion:** Reflects on the builder pattern's relevance in Swift, particularly when dealing with Objective-C APIs and when creating public APIs.
 
 <LinkCard title="Read Full Article" href="https://www.swiftbysundell.com/articles/using-the-builder-pattern-in-swift/" />
+
+## SwiftUI
+
+### 🔵 Building an Async SwiftUI Button
+
+Triggering asynchronous actions in response to UI events is a common need in modern SwiftUI applications. This article demonstrates how to build a reusable `AsyncButton` that elegantly handles asynchronous tasks while maintaining a responsive user interface.
+
+<details>
+
+**URL:** [Building an Async SwiftUI Button](https://www.swiftbysundell.com/articles/building-an-async-swiftui-button/)  
+**Published:** 2024-11-19  
+**Authors:** `John Sundell`  
+**Tags:** `SwiftUI`, `Async/Await`, `Custom Button`, `Reusable Components`
+
+</details>
+
+#### Key Points
+- **Initial Issue:** Naive async button implementations can lead to race conditions and duplicate calls if buttons aren't properly disabled during execution.
+- **Solution:** A custom `AsyncButton` encapsulates state and behaviors, such as disabling during execution and showing a loading spinner.
+- **Enhancements:** Add flexibility with options for disabling buttons, showing progress indicators, and customizing labels.
+- **Advanced Features:** Delay showing the loading spinner for brief tasks to avoid unnecessary visual glitches.
+
+#### Summary of Contents
+- **Basic Async Button Setup:** Implement an `AsyncButton` that manages its state (`isPerformingTask`) to disable itself and show a spinner during execution.
+- **Customizing Behavior with Action Options:** Use an `ActionOption` enum to control behaviors like button disabling and showing a `ProgressView`.
+- **Optimizing Loading Spinner Timing:** Introduce delayed task logic to avoid flashing spinners for fast tasks.
+- **Convenience APIs for Common Labels:** Extend `AsyncButton` with generic constraints for simpler usage with `Text` and `Image` labels.
+- **Reusable Integration:** Integrate the `AsyncButton` into other views for consistent async action handling.
+
+#### Additional Resources
+- [Annotating Properties with Result Builder Attributes](https://www.swiftbysundell.com/tips/annotating-properties-with-result-builder-attributes/)  
+- [Delaying an Async Swift Task](https://www.swiftbysundell.com/articles/delaying-an-async-swift-task)  
+- [SwiftUI Extensions Using Generics](https://www.swiftbysundell.com/tips/swiftui-extensions-using-generics/)  
+
+<LinkCard title="Read Full Article" href="https://www.swiftbysundell.com/articles/building-an-async-swiftui-button/" />

@@ -106,3 +106,41 @@ SF Symbols have revolutionized how iOS developers integrate iconography into the
 - **SwiftUI Image View:** [Apple's documentation on Image views in SwiftUI](https://developer.apple.com/documentation/swiftui/image) to understand how symbols are integrated into the view hierarchy.
 
 <LinkCard title="Read Full Article" href="https://www.donnywals.com/animating-sf-symbols-on-ios-18/" />
+
+## Debugging
+
+### 🔵 Modern Logging with the OSLog Framework in Swift
+
+Logging is an essential aspect of debugging and profiling apps, replacing traditional `print` statements with a more robust, scalable solution. This article explores using the `OSLog` framework in Swift to set up effective logging strategies.
+
+<details>
+
+**URL:** https://www.donnywals.com/modern-logging-with-the-oslog-framework-in-swift/  
+**Published:** 2024-11-19  
+**Authors:** `Donny Wals`  
+**Tags:** `Swift`, `OSLog`, `Debugging`, `Logging`, `Privacy`
+
+</details>
+
+#### Key Points
+- **Enhanced Debugging:** `OSLog` provides structured logging with timestamps, subsystems, and categories, improving debugging compared to `print`.
+- **Subsystems and Categories:** Create multiple loggers for different app modules, making filtering and tracing logs simpler.
+- **Filtering Options:** Use Xcode or the macOS Console app to focus on specific subsystems or categories.
+- **Privacy-Aware Logging:** Sensitive data can be redacted or hashed to ensure user privacy while maintaining useful logs.
+- **Persistent Logs:** Logs can be stored and accessed outside of Xcode, aiding debugging in production environments.
+
+#### Summary of Contents
+- **Setting up a Logger:** Import `OSLog` and create a `Logger` instance. Customize with subsystems and categories for improved filtering.
+- **Logging Messages:** Use the `log` method for basic messages and leverage log levels (`default`, `debug`, `error`, etc.) for granularity.
+- **Log Management Tools:** 
+  - **Xcode Console:** Displays logs with metadata like timestamps and subsystems.  
+  - **macOS Console App:** Monitors live logs and filters across devices.
+  - **In-App Log Viewer:** Retrieve and display logs using `OSLogStore` for better debugging during runtime.
+- **Privacy Features:** Redact sensitive data or use hashing to protect user information in logs.
+- **Advanced Techniques:** Implement structured log viewing and JSON export in your app for easier user log collection.
+
+#### Additional Resources
+- [OSLog Documentation](https://developer.apple.com/documentation/oslog)  
+- [Forcing an App Out of Memory on iOS](https://www.donnywals.com/forcing-an-app-out-of-memory-on-ios/)  
+
+<LinkCard title="Read Full Article" href="https://www.donnywals.com/modern-logging-with-the-oslog-framework-in-swift/" />
