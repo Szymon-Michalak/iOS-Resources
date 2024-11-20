@@ -13,6 +13,7 @@ tags: [design_patterns]
   - [Factory | Refactoring Guru](https://refactoring.guru/design-patterns/factory-method)
   - [Abstract Factory | Refactoring Guru](https://refactoring.guru/design-patterns/abstract-factory)
   - [Factory | Design Patterns In Swift](https://github.com/ochococo/Design-Patterns-In-Swift?tab=readme-ov-file#-factory-method)
+  - [Design Patterns in Swift — Factory | Ruslan Dzhafarov](https://ruslandzhafarov.medium.com/design-patterns-in-swift-factory-88ab7356544a)
 </details>
 
 :::info[TL/DR]  

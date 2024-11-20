@@ -877,6 +877,43 @@ This article explores leveraging SwiftUI's **`ViewThatFits`** component to desig
 
 <LinkCard title="Read Full Article" href="https://blog.stackademic.com/using-viewthatfits-to-create-a-more-accessible-list-cell-in-swiftui-e87dc8feb4d4" />
 
+### 🔴 Mastering SwiftUI Performance
+
+This article delves into **SwiftUI performance optimization**, exploring techniques to enhance rendering efficiency and manage view updates more effectively. Readers will learn about strategies like custom diffing, efficient data model design, minimizing dependencies, and utilizing debugging tools.
+
+<details>
+
+**URL:** [Mastering SwiftUI Performance](https://yourcoachmaz.medium.com/mastering-swiftui-performance-054d289c8908)
+
+**Published:** 2024-11-20
+
+**Authors:** `YourCoachMaz`
+
+**Tags:**  
+`SwiftUI`, `Performance Optimization`, `Diffing`, `Efficient Data Models`, `Swift Programming`
+
+</details>
+
+#### Key Points
+- **SwiftUI Diffing**: Understand how SwiftUI updates affected views efficiently using a diffing algorithm.
+- **Custom Diffing**: Utilize `EquatableView` and `.equatable()` for tailored view updates.
+- **Efficient Data Models**: Prefer structs over classes for faster stack allocation and immutability.
+- **Lazy Loading**: Optimize lists with `LazyVStack` and similar constructs for better memory management.
+- **Debugging Tools**: Leverage SwiftUI Profiler and `Self._printChanges()` for insights into unnecessary view updates.
+
+#### Summary of Contents
+- **Understanding Diffing in SwiftUI**: Overview of SwiftUI's diffing algorithm and its limitations for complex hierarchies.
+- **Using EquatableView for Custom Diffing**: How to implement custom update logic by conforming to `Equatable` and wrapping views.
+- **Efficient Data Models and Dependencies**: Guidance on using structs, enums, and property wrappers like `@State` and `@ObservedObject`.
+- **Optimizing View Rendering**: Techniques such as lazy loading, minimizing conditional logic, and avoiding redundant computations.
+- **Debugging and Profiling**: Tools and practices to identify and resolve performance bottlenecks in SwiftUI projects.
+
+#### Additional Resources
+- **[SwiftUI Docs](https://developer.apple.com/documentation/swiftui)**: Apple’s official documentation on SwiftUI.
+- **[Profiling SwiftUI](https://developer.apple.com/videos/)**: Watch WWDC videos on SwiftUI performance optimization.
+
+<LinkCard title="Read Full Article" href="https://yourcoachmaz.medium.com/mastering-swiftui-performance-054d289c8908" />
+
 ## **Xcode and Workflow**
 
 ### 🟢 Multi-Cursor Editing in Xcode

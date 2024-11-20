@@ -13,6 +13,7 @@ tags: [design_patterns]
   **Further Reading:**
   - [Singleton | Refactoring Guru](https://refactoring.guru/design-patterns/singleton)
   - [Singleton | Design Patterns In Swift](https://github.com/ochococo/Design-Patterns-In-Swift?tab=readme-ov-file#-singleton)
+  - [Singleton Design Pattern in iOS | Omar Saibaa](https://medium.com/@omar.saibaa/singleton-pattern-in-ios-2bf6969ec6c7)
 </details>
 
 :::info[TL/DR]

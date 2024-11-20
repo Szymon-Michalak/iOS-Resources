@@ -13,6 +13,7 @@ tags: [design_patterns]
   **Further Reading:**
   - [Strategy | Refactoring Guru](https://refactoring.guru/design-patterns/strategy)
   - [Strategy | Design Patterns In Swift](https://github.com/ochococo/Design-Patterns-In-Swift?tab=readme-ov-file#-strategy)
+  - [The Strategy Pattern | Vera Dias](https://codingwithvera.com/the-strategy-pattern/)
 </details>
 
 :::info[TL/DR]

@@ -11,6 +11,7 @@ tags: [design_patterns]
   **Main Source**: Ray Wenderlich - Design Patterns by Tutorials (2019)  
   **Further Reading**:  
   - [MVVM Pattern in iOS by Apple](https://developer.apple.com)  
+  - [Why you can use MVVM with SwiftUI: Debunking the Myth | Ade Adegoke](https://medium.com/@77adekunle/why-you-can-use-mvvm-with-swiftui-debunking-the-myth-cd9d26404cf4)
 </details>
 
 :::info[TL/DR]  

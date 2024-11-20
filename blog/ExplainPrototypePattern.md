@@ -12,6 +12,7 @@ tags: [design_patterns]
   **Further Reading**:  
   - [Prototype | Refactoring Guru](https://refactoring.guru/design-patterns/prototype)
   - [Prototype | Design Patterns In Swift](https://github.com/ochococo/Design-Patterns-In-Swift?tab=readme-ov-file#-prototype)
+  - [The Prototype Pattern in Swift: A Comprehensive Guide | SwiftlyNomad](https://swiftlynomad.medium.com/the-prototype-pattern-in-swift-a-comprehensive-guide-0201c72d6ab3)
 </details>
 
 :::info[TL/DR]  

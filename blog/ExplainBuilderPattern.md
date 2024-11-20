@@ -12,6 +12,7 @@ tags: [design_patterns]
   **Further Reading**:  
   - [Builder | Refactoring Guru](https://refactoring.guru/design-patterns/builder)
   - [Builder | Design Patterns In Swift](https://github.com/ochococo/Design-Patterns-In-Swift?tab=readme-ov-file#-builder)
+  - [Exploring Builder Design Pattern in iOS | Kevin Topollaj](https://theiosmentor.hashnode.dev/exploring-builder-design-pattern-in-ios)
 </details>
 
 :::info[TL/DR]  
