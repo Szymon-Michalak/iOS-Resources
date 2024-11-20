@@ -338,9 +338,7 @@ This article explores the implementation of the Model-View-ViewModel-Coordinator
 
 <LinkCard title="Read Full Article" href="https://medium.com/swift-and-beyond/navigating-swiftly-understanding-swiftuis-mvvm-c-architecture-with-a-real-world-example-66aa97fa4090" />
 
----
 
-Let me know if further refinements are needed!
 ## **SwiftUI**
 
 ### 🔵 Double Optional Bindings or Something idk
@@ -843,6 +841,41 @@ This article walks you through implementing the **Shared with You** feature in i
 - **[Aryaman Sharda’s YouTube Channel](https://www.youtube.com/c/AryamanSharda):** Tutorials on iOS development.
 
 <LinkCard title="Read Full Article" href="https://digitalbunker.dev/shared-with-you/" />
+
+### 🟢 Using `ViewThatFits` to Create a More Accessible List Cell in SwiftUI
+
+This article explores leveraging SwiftUI's **`ViewThatFits`** component to design list cells that adapt their layout based on available screen space or text size. The approach enhances accessibility and maintains scalability for future updates.
+
+<details>
+
+**URL:** https://blog.stackademic.com/using-viewthatfits-to-create-a-more-accessible-list-cell-in-swiftui-e87dc8feb4d4
+
+**Published:** 2024-11-20
+
+**Authors:** `Stackademic`
+
+**Tags:**  
+`SwiftUI`, `Accessibility`, `List Cell`, `ViewThatFits`, `Responsive Design`
+
+</details>
+
+#### Key Points
+- **Dynamic Layout Switching**: Demonstrates how `ViewThatFits` automatically switches between horizontal and vertical layouts.
+- **Customizable Accessibility**: Scales effortlessly for different screen sizes and text accessibility settings.
+- **Minimal Complexity**: Simplifies layout logic without resorting to conditionals or manual calculations.
+- **Scalability**: Prepares apps for future changes in Apple’s UI framework.
+
+#### Summary of Contents
+- **The Problem**: Designers often require list cells that adapt seamlessly to different font sizes or screen orientations.
+- **Horizontal and Vertical Layouts**: Examples of `HStack` and `VStack` implementations for responsive layouts.
+- **Using `ViewThatFits`**: Explanation of how the component tests view sizes and displays the first fitting layout, with a focus on the `.horizontal` direction for optimization.
+- **Sample Implementation**: Code examples show a list of adaptable cells using `ViewThatFits` with `HorizontalView` and `VerticalView`.
+
+#### Additional Resources
+- **Explore More Articles by the Author**: [Stackademic on Medium](https://medium.com/@jpmtech)
+- **Apps Built with Native Development**: [JPMTech Portfolio](https://jpmtech.io/apps)
+
+<LinkCard title="Read Full Article" href="https://blog.stackademic.com/using-viewthatfits-to-create-a-more-accessible-list-cell-in-swiftui-e87dc8feb4d4" />
 
 ## **Xcode and Workflow**
 
@@ -1484,3 +1517,42 @@ Learn best practices for handling **network connectivity** in iOS applications u
 - **WWDC Videos:** [Advances in Networking, Part 1](https://developer.apple.com/videos/play/wwdc2019/712/), [Part 2](https://developer.apple.com/videos/play/wwdc2019/713/)
 
 <LinkCard title="Read Full Article" href="https://www.vadimbulavin.com/network-connectivity-on-ios-with-swift/" />
+
+## Swift on Server
+
+### 🟢 Dev Containers for Swift: How to Debug and Run Applications in VS Code
+
+Learn how **Dev Containers** in **VS Code** streamline Swift development for server apps by enabling a consistent Docker-based development and debugging environment. This article dives deep into setting up, configuring, and leveraging Dev Containers to debug, run, and test Swift applications, ensuring uniform results across development and deployment environments.
+
+<details>
+
+**URL:** https://swifttoolkit.dev/posts/dev-containers-swift
+
+**Published:** 2024-11-04
+
+**Authors:** `SwiftToolkit.dev`
+
+**Tags:**  
+`Swift`, `Dev Containers`, `VS Code`, `Docker`, `Swift Server`, `Debugging`
+
+</details>
+
+#### Key Points
+- **Dev Containers** simplify Swift development by running applications inside Docker containers for consistency across environments.
+- **VS Code Extensions**: Leverage the Swift and Dev Containers extensions to debug and run apps.
+- **Ease of Use**: No need to manually configure Dockerfiles for simple projects.
+- **Port Forwarding**: Forward container ports seamlessly to the host for access to running services.
+
+#### Summary of Contents
+- **Running the Sample App**: Demonstrates using a Hummingbird-based Todo app with Postgres integration.
+- **VS Code Configuration**: Steps for setting up the Swift extension and launch configurations in `launch.json`.
+- **Debugging on macOS**: Using the Argument Parser and Swift Package Manager for a seamless debugging experience.
+- **Using Dev Containers**: Setting up and running Swift apps inside containers with a minimal `devcontainer.json` configuration.
+- **Debugging with Breakpoints**: Walkthrough of adding and leveraging breakpoints in Dev Containers.
+
+#### Additional Resources
+- **Swift Server Work Group**: [Swift Extension for VS Code](https://github.com/swiftlang/vscode-swift)
+- **Hummingbird Samples**: [Sample Projects Repository](https://github.com/SwiftToolkit/dev-containers)
+- **Docker Alternatives**: [Orbstack](https://orbstack.dev/) for lightweight macOS containerization.
+
+<LinkCard title="Read Full Article" href="https://swifttoolkit.dev/posts/dev-containers-swift" />
