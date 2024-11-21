@@ -1,7 +1,6 @@
 ---
 title: "Custom TabView with Rounded Corners and Shadow in SwiftUI"
 description: "A Swift code snippet to customize TabView with rounded corners and shadow in SwiftUI."
-tags: `[SwiftUI]`, `[TabView]`, `[iOS Development]`, `[UI Design]`
 ---
 
 ### Snippet Overview
