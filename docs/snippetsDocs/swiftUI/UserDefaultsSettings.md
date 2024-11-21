@@ -9,7 +9,6 @@ tags: [SwiftUI, UserDefaults, AppStorage, iOS]
 In this snippet, we explore how to use **SwiftUI's AppStorage** to create a settings screen that persists user preferences across app launches. AppStorage simplifies working with UserDefaults while ensuring your UI automatically updates when values change.
 
 **Source**: [Using UserDefaults To Persist in SwiftUI](https://holyswift.app/using-userdefaults-to-persist-in-swiftui/)
----
 
 ### Code Example
 

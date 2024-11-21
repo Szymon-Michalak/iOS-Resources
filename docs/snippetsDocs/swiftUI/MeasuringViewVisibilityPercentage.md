@@ -9,7 +9,6 @@ tags: [SwiftUI, PreferenceKeys, ViewVisibility, GeometryReader]
 SwiftUI provides a robust mechanism called **PreferenceKeys**, which can be used to pass data up the view hierarchy. This snippet demonstrates how to calculate how much of a view is visible on the screen as a percentage, which is useful for animations, triggering actions, or dynamically loading content.
 
 **Source**: [Measuring View Visibility in SwiftUI](https://holyswift.app/measuring-view-visibility-percentage-in-swiftui-using-preferencekeys/)
----
 
 ### Code Example
 

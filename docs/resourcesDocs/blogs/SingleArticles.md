@@ -914,6 +914,440 @@ This article delves into **SwiftUI performance optimization**, exploring techniq
 
 <LinkCard title="Read Full Article" href="https://yourcoachmaz.medium.com/mastering-swiftui-performance-054d289c8908" />
 
+### 🔴 Behind the Scenes of UI Part 2: SwiftUI
+
+This blog post dives deep into **SwiftUI**, Apple’s declarative framework for building user interfaces. While emphasizing its declarative and data-driven nature, the article explores how SwiftUI operates under the hood by comparing it to UIKit and shedding light on its internal processes.
+
+<details>
+
+**URL:** [Behind the Scenes of UI Part 2: SwiftUI](https://vbat.dev/behind-the-scenes-of-ui-part-2-swiftui)
+
+**Published:** [Add Publish Date]
+
+**Authors:** `[Author's Name]`
+
+**Tags:**  
+`[SwiftUI]`, `[UIKit]`, `[iOS Development]`, `[Declarative UI]`, `[Frameworks]`
+
+</details>
+
+#### Key Points
+- **SwiftUI: A Declarative Framework**  
+  SwiftUI allows developers to describe the desired UI and behavior, and the framework manages the rendering process.
+  
+- **Data-Driven Approach**  
+  UI changes automatically reflect data or state modifications, simplifying synchronization.
+
+- **Integration with UIKit**  
+  SwiftUI uses UIKit, Core Animation, and Core Graphics behind the scenes for rendering and animations, ensuring compatibility and leveraging proven technologies.
+
+- **The Role of the `body`**  
+  A SwiftUI view's `body` defines both layout and content. Re-evaluating the `body` is central to rendering updates.
+
+#### Summary of Contents
+- **Understanding the View and Render Tree**  
+  Explains how SwiftUI employs an ephemeral view tree (structs) and a persistent render tree (attribute graph) for state tracking and efficient updates.
+
+- **Phases of the SwiftUI Render Loop**  
+  The render loop is dissected into evaluation, layout, and rendering phases, each playing a crucial role in UI updates.
+
+- **Connection with UIKit and CATransaction**  
+  Highlights how SwiftUI relies on UIKit's core principles, including CATransactions, for managing the render process.
+
+- **Hosting Views**  
+  Discusses `_UIHostingView`, which bridges SwiftUI views with UIKit, showcasing how views map to UIKit components.
+
+- **Challenges and Future Possibilities**  
+  Explores the challenges developers face when transitioning from UIKit to SwiftUI and how Apple might evolve SwiftUI in the future.
+
+#### Additional Resources
+- **Video:** [Watch the accompanying video](https://youtu.be/ue6tBz03cVQ).
+- **Related Blog:** [SwiftUI Layout System by Alex Grebenyuk](https://kean.blog/post/swiftui-layout-system).
+
+<LinkCard title="Read Full Article" href="https://vbat.dev/behind-the-scenes-of-ui-part-2-swiftui" />
+
+### 🔵 SwiftUI Craftsmanship: Mastering ViewModifiers
+
+SwiftUI's **ViewModifiers** empower developers to refine views with precision, allowing for enhanced styling, behavior, and layout. This article delves into the types, best practices, and common pitfalls of using ViewModifiers, comparing their role to the finishing touches of a master craftsman.
+
+<details>
+
+**URL:** [SwiftUI Craftsmanship: ViewModifiers](https://captainswiftui.substack.com/p/swiftui-craftsmanship-viewmodifiers)
+
+**Published:** 2024-11-11
+
+**Authors:** `Captain SwiftUI`
+
+**Tags:**  
+`SwiftUI`, `iOS Development`, `ViewModifiers`, `UI Design`, `Best Practices`
+
+</details>
+
+#### Key Points
+- **ViewModifiers** act like a craftsman's finishing touches, refining views without altering their core structure.
+- Custom modifiers encapsulate frequently used design elements, improving **reusability** and **consistency**.
+- The **order of modifiers** affects visual layout and behavior significantly.
+- Using **categories of modifiers** like Styling, Layout, and Event simplifies design decision-making.
+- Thoughtful application of modifiers improves **readability**, **performance**, and **accessibility**.
+
+#### Summary of Contents
+- **Introduction to ViewModifiers:** A comparison of ViewModifiers to woodworking techniques, emphasizing their role in enhancing views.
+- **Categories of Modifiers:** Styling, Event, Functional, Behavior, Layout, and Visibility Modifiers, explained with practical examples.
+- **Best Practices:** Includes logical stacking, reusability, and accessibility considerations.
+- **Common Pitfalls:** Performance issues, complex logic within modifiers, and layout missteps.
+
+#### Additional Resources
+- **Apple Documentation:** [SwiftUI ViewModifiers](https://developer.apple.com/documentation/swiftui/viewmodifier)
+
+<LinkCard title="Read Full Article" href="https://captainswiftui.substack.com/p/swiftui-craftsmanship-viewmodifiers" />
+
+### 🔵 Defining Custom Environment Values in SwiftUI
+
+SwiftUI allows developers to pass data between views using `@Environment`. While the predefined `EnvironmentValues` offer a robust set of tools, this article explores creating **custom environment values**, empowering developers to introduce and manage their own keys and values for view hierarchies.
+
+<details>
+
+**URL:** [How to Define Custom Environment Values in SwiftUI](https://sarunw.com/posts/how-to-define-custom-environment-values-in-swiftui/)
+
+**Published:** 2021-08-30
+
+**Authors:** `Sarun W.`
+
+**Tags:**  
+`SwiftUI`, `Environment`, `Custom Keys`, `iOS Development`, `View Management`
+
+</details>
+
+#### Key Points
+- SwiftUI uses `@Environment` to pass data down a view hierarchy.
+- Developers can create **custom environment keys** and values using `EnvironmentKey` and `EnvironmentValues`.
+- Adding a **dedicated modifier** simplifies usage and improves readability.
+- Custom environment values help encapsulate **context-specific logic**.
+
+#### Summary of Contents
+- **Introduction:** Overview of `@Environment` and its potential for customization.
+- **Step 1:** Define a new environment key by conforming to `EnvironmentKey` and providing a default value.
+- **Step 2:** Extend `EnvironmentValues` to integrate the custom key.
+- **Step 3:** (Optional) Add a dedicated modifier for better usability.
+- **Demo:** Example implementation with a sensitive data toggle for redacting sensitive information.
+- **Conclusion:** Recap of the process and its benefits.
+
+#### Additional Resources
+- **Apple Documentation:** [Environment in SwiftUI](https://developer.apple.com/documentation/swiftui/environment)
+- **Sarun's Guide to Environment:** [What is @Environment in SwiftUI](https://sarunw.com/posts/what-is-environment-in-swiftui/#environment-override-priority)
+
+<LinkCard title="Read Full Article" href="https://sarunw.com/posts/how-to-define-custom-environment-values-in-swiftui/" />
+
+### 🔴 Init to Win It: Understanding Initializers in SwiftUI
+
+SwiftUI simplifies creating user interfaces, often making it unnecessary to define custom initializers. However, this simplicity can lead to misconceptions about when and why to use initializers. This article explores **initializers in SwiftUI**, focusing on their role, the nuances of property wrappers, and the complexities of working with `StateObject` and `Observable`.
+
+<details>
+
+**URL:** https://captainswiftui.substack.com/p/init-to-win-it
+
+**Published:** 2024-08-28
+
+**Authors:** `Captain SwiftUI`
+
+**Tags:**  
+`SwiftUI`, `iOS Development`, `Initializers`, `StateObject`, `Observable`
+
+</details>
+
+#### Key Points
+- **Initializers** establish initial property states and dependencies for SwiftUI views.
+- Swift structs offer **Memberwise Initializers** by default, reducing boilerplate.
+- **Property Wrappers** like `@State` and `@StateObject` behave differently under the hood, requiring careful use in initializers.
+- Apple recommends specific practices for `StateObject` to ensure stability across redraws.
+- The newer **Observation framework** introduces `@Bindable` and tracking without wrappers, simplifying some use cases.
+
+#### Summary of Contents
+- **Introduction to Initializers:** Overview of their purpose and role in SwiftUI's lifecycle.
+- **Property Wrappers:** Insights into `@State`, `@Binding`, and `@StateObject`, with examples and limitations.
+- **StateObject Gotchas:** Explanation of why `StateObject` initializers require care and Apple's recommendations.
+- **Observation Framework:** Discussion on new approaches with `@State`, `@Bindable`, and unwrapped Observables.
+- **Best Practices:** Tips for when to use Memberwise Initializers, custom initializers, or task modifiers.
+
+#### Additional Resources
+- **Apple Documentation:** [StateObject Initialization](https://developer.apple.com/documentation/swiftui/stateobject#Initialize-state-objects-using-external-data)
+- **Property Wrappers Proposal:** [Swift Evolution Proposal](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0258-property-wrappers.md)
+- **ObservableObject Differences:** [StateObject vs ObservedObject](https://www.avanderlee.com/swiftui/stateobject-observedobject-differences/)
+
+<LinkCard title="Read Full Article" href="https://captainswiftui.substack.com/p/init-to-win-it" />
+
+### 🔵 SwiftUI Craftsmanship: Designing Effective View Contracts
+
+SwiftUI's flexibility allows developers to create dynamic UIs effortlessly. However, poor planning around a View's contract can lead to redundant code and limited reusability. This article explores **View contracts** in SwiftUI, focusing on crafting effective interfaces and asking the crucial question: **"What is this View for?"**
+
+<details>
+
+**URL:** [SwiftUI Craftsmanship: View Contracts](https://captainswiftui.substack.com/p/swiftui-craftsmanship-view-contracts)
+
+**Published:** 2024-10-24
+
+**Authors:** `Captain SwiftUI`
+
+**Tags:**  
+`SwiftUI`, `View Design`, `Reusability`, `UI Development`, `Best Practices`
+
+</details>
+
+#### Key Points
+- A **View contract** defines the data and functionality a View relies on.
+- Asking **"What is this View for?"** ensures better planning and prevents short-sighted designs.
+- Avoid locking Views to specific data types; instead, focus on the properties they display.
+- Design **FeatureViews** as the entry point for feature hierarchies, handling core data requirements.
+- Be cautious with `Environment` usage—it simplifies access but adds maintenance challenges.
+
+#### Summary of Contents
+1. **Introduction to View Contracts:** Overview of how poor contracts limit flexibility.
+2. **Case Study:** Refactoring a `RowItem` View to accept generic properties instead of rigid types.
+3. **FeatureViews:** Explanation of top-level Views managing feature-specific data.
+4. **Best Practices for Subviews:** Balancing generic contracts with type-specific logic.
+5. **Avoiding Pitfalls with Environment:** When and how to use Environment responsibly.
+
+#### Additional Resources
+- **Apple Documentation:** [SwiftUI Views](https://developer.apple.com/documentation/swiftui/view)
+- **Related Article:** [SwiftUI Craftsmanship: ViewModifiers](https://captainswiftui.substack.com/p/swiftui-craftsmanship-viewmodifiers)
+
+<LinkCard title="Read Full Article" href="https://captainswiftui.substack.com/p/swiftui-craftsmanship-view-contracts" />
+
+### 🔵 Full Disclosure: Mastering SwiftUI’s DisclosureGroup
+
+The **DisclosureGroup** is one of SwiftUI's simplest yet most versatile components, allowing content to expand and collapse dynamically. While it’s great for providing additional information or controls on demand, this article dives deeper into customizing and rethinking its behavior, including creating a **"drawer" that expands upwards**.
+
+<details>
+
+**URL:** [Full DisclosureGroup](https://captainswiftui.substack.com/p/full-disclosuregroup)
+
+**Published:** 2024-09-09
+
+**Authors:** `Captain SwiftUI`
+
+**Tags:**  
+`SwiftUI`, `DisclosureGroup`, `Component Composition`, `UI Customization`, `Best Practices`
+
+</details>
+
+#### Key Points
+- **DisclosureGroup Basics:** A simple-to-implement component that provides toggled visibility for additional content.
+- **Customization with DisclosureGroupStyle:** By modifying its style, DisclosureGroup can take on new forms, such as expanding upwards.
+- **Core Principles of SwiftUI Composition:** Components should prioritize functionality over presentation, with styles enhancing the user experience.
+
+#### Summary of Contents
+1. **Introduction to DisclosureGroup:** Overview of its interface and default behavior.
+2. **Basic Usage:** How to implement a DisclosureGroup with a label and content.
+3. **Customization with Styles:** Redefining DisclosureGroup behavior using `DisclosureGroupStyle`, including flipping the label and content positions.
+4. **Practical Applications:** Examples such as shopping cart displays and expanding drawers.
+5. **Lessons in Composition:** The importance of designing components with a functionality-first approach and leveraging styles for aesthetic adjustments.
+
+#### Additional Resources
+- **Apple Documentation:** [DisclosureGroup](https://developer.apple.com/documentation/swiftui/disclosuregroup)
+- **Related Article:** [SwiftUI Craftsmanship: View Contracts](https://captainswiftui.substack.com/p/swiftui-craftsmanship-view-contracts)
+
+<LinkCard title="Read Full Article" href="https://captainswiftui.substack.com/p/full-disclosuregroup" />
+
+### 🔵 Dependency Injection in SwiftUI: Constructor vs Environment Injection
+
+Dependency Injection (DI) is a crucial design pattern for building scalable and maintainable iOS applications. In SwiftUI, DI adopts a slightly different approach compared to UIKit. This article explores two key methods for implementing DI in SwiftUI: **Constructor Injection** and **Environment Injection**.
+
+<details>
+
+**URL:** [DI in SwiftUI](https://vbat.dev/di-in-swiftui)
+
+**Published:** 2024-07-01
+
+**Authors:** `vbat.dev`
+
+**Tags:**  
+`SwiftUI`, `Dependency Injection`, `@Environment`, `@EnvironmentObject`, `iOS Development`
+
+</details>
+
+#### Key Points
+- **Constructor Injection:** Dependencies are passed directly via initializers, maintaining familiarity with UIKit practices.
+- **Environment Injection:** Dependencies are injected into the view hierarchy for access by child views.
+- **@EnvironmentObject:** Injects an `ObservableObject` for use in complex hierarchies.
+- **@Environment:** Uses a key/value approach to inject dependencies, suitable for both value and reference types.
+
+#### Summary of Contents
+1. **Introduction to Dependency Injection in SwiftUI:** Overview of DI and its adaptation to SwiftUI.
+2. **Constructor Injection:** A familiar pattern extended to SwiftUI views.
+3. **Environment Injection:**
+   - **@EnvironmentObject:** For injecting `ObservableObject` instances into the view hierarchy.
+   - **@Environment:** For injecting key/value dependencies with safety and flexibility.
+4. **Practical Examples:** Demonstrations of each approach with code.
+5. **Comparison and Best Practices:** Discusses when to use `@EnvironmentObject` versus `@Environment` for injecting dependencies.
+
+#### Additional Resources
+- **Apple Documentation:** [EnvironmentValues](https://developer.apple.com/documentation/swiftui/environmentvalues)
+- **Related Article:** [DI in iOS: Complete Guide](https://medium.com/its-tinkoff/di-in-ios-complete-guide-cd76a079d2d)
+
+<LinkCard title="Read Full Article" href="https://vbat.dev/di-in-swiftui" />
+
+## UIKit 
+
+### 🔴 Behind the Scenes of UI: Part 1 - UIKit
+
+This article explores the intricacies of UIKit, diving deep into how UIKit manages user interface updates and animations under the hood. By understanding these internal processes, developers can better optimize performance and troubleshoot UI-related issues. The article provides a detailed walkthrough of key concepts like Runloops, CoreAnimation, and CATransaction, making it invaluable for intermediate and advanced iOS developers.
+
+<details>
+
+**URL:** [https://vbat.dev/behind-the-scenes-of-ui-part-1-uikit](https://vbat.dev/behind-the-scenes-of-ui-part-1-uikit)
+
+**Published:** 2024-02-19
+
+**Authors:** `Vitaly Batrakov`
+
+**Tags:**  
+`UIKit`, `CoreAnimation`, `Runloop`, `iOS Development`, `Advanced UI`
+
+</details>
+
+#### Key Points
+- Delves into the UI update process in UIKit, emphasizing Runloops and CoreAnimation.
+- Explains CATransaction and its role in grouping UI updates.
+- Discusses implicit vs explicit transactions and their implications on rendering.
+- Introduces the Render Server, providing a clear understanding of inter-process rendering.
+
+#### Summary of Contents
+- **Intro:** Introduction to why understanding UIKit's internal processes is beneficial for developers.
+- **UIApplicationMain:** Describes the entry point of an iOS app and its connection to Runloop.
+- **Runloop:** Explains how Runloop handles events, including GCD main queue blocks and timers.
+- **CoreAnimation:** Details the relationship between UIView and CALayer, along with layer trees.
+- **CATransaction:** Discusses implicit and explicit CATransactions and their role in rendering updates.
+- **Render Server:** Explains how rendering is handled in a separate process for better performance.
+
+#### Additional Resources
+- **Apple Documentation on Runloops:** [Runloop Overview](https://developer.apple.com/documentation/foundation/runloop)
+- **Core Animation Guide:** [Core Animation Basics](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreAnimation_guide/CoreAnimationBasics/CoreAnimationBasics.html)
+- **Advanced Reading on Transactions:** [Understanding CATransaction](https://medium.com/@joncardasis/better-ios-animations-with-catransaction-72a7425673a6)
+
+<LinkCard title="Read Full Article" href="https://vbat.dev/behind-the-scenes-of-ui-part-1-uikit" />
+
+### 🔵 Adapting UIHostingController to Changes in SwiftUI View Size
+
+This article explores how to effectively use **UIHostingController** to bridge UIKit and SwiftUI in your projects. It highlights common pitfalls, discusses the correct approach to manage sizing options, and addresses challenges with integrating **UIHostingController** in various scenarios, such as popovers or legacy UIView-based systems.
+
+<details>
+
+**URL:** https://vbat.dev/adapting-uihostingcontroller-to-changes-in-swiftui-view-size
+
+**Published:** 2024-03-30
+
+**Authors:** `Vitaly Batrakov`
+
+**Tags:**  
+`SwiftUI`, `UIHostingController`, `UIKit Integration`, `Sizing Options`, `iOS Development`
+
+</details>
+
+#### Key Points
+- **UIHostingController** acts as a bridge between UIKit and SwiftUI, managing the SwiftUI view hierarchy in a UIKit environment.
+- Improperly managing UIHostingController (e.g., not retaining it) can lead to issues like size changes not being reflected.
+- With **sizingOptions** introduced in iOS 16, developers can handle dynamic sizing of SwiftUI views seamlessly, leveraging `.intrinsicContentSize` and `.preferredContentSize`.
+- The correct usage involves embedding UIHostingController as a child view controller to ensure proper lifecycle and sizing updates.
+- For iOS versions prior to 16, manual approaches like `setNeedsUpdateConstraints` or `invalidateIntrinsicContentSize` can be used.
+
+#### Summary of Contents
+- **Common Pitfalls**:
+  - Issues with deallocating UIHostingController and the impact on size updates.
+  - Incorrect usage patterns, such as treating UIHostingController as a simple subview.
+- **iOS 16+ Features**:
+  - Leveraging `sizingOptions` for dynamic resizing with `.intrinsicContentSize` and `.preferredContentSize`.
+  - The importance of embedding UIHostingController as a child view controller.
+- **Support for Older iOS Versions**:
+  - Strategies for handling sizing in iOS 15 or earlier, using manual size updates.
+  - Workarounds for integrating SwiftUI in legacy UIView-based systems.
+- **Popover Integration**:
+  - Challenges with preferredContentSize in popovers and solutions to improve animations and dynamic size updates.
+
+#### Additional Resources
+- [UIHostingController Documentation](https://developer.apple.com/documentation/swiftui/uihostingcontroller)
+- [WWDC 2022: What's New in SwiftUI](https://developer.apple.com/videos/play/wwdc2022/10072/)
+- [Example Project](https://github.com/vitalybatrakov/UIHostingControllerExample)
+
+<LinkCard title="Read Full Article" href="https://vbat.dev/adapting-uihostingcontroller-to-changes-in-swiftui-view-size" />
+
+
+### 🔵 Safely Extending Legacy Code: A Swift Approach Using Protocols, Mocking, and Unit Testing
+
+Refactoring legacy code is often necessary for improving maintainability and adding new features without disrupting existing functionality. This article demonstrates how to refactor a tightly coupled `LegacyCode` class using **protocols**, **mocking**, and **unit testing**, culminating in the addition of database-saving functionality.
+
+<details>
+
+**URL:** https://medium.com/@islammoussa.eg/safely-extending-legacy-code-a-swift-approach-using-protocols-mocking-and-unit-testing-5d489afc7f82
+
+**Published:** 2024-05-12
+
+**Authors:** `Islam Moussa`
+
+**Tags:**  
+`Swift`, `Refactoring`, `Unit Testing`, `Protocols`, `Legacy Code`
+
+</details>
+
+#### Key Points
+- Refactoring legacy code often involves addressing tight coupling and lack of modularity.
+- Using protocols for dependency injection improves testability and flexibility.
+- Mocks are essential for isolating core logic during testing.
+- A structured approach to refactoring allows for seamless feature additions.
+
+#### Summary of Contents
+- **Identifying Issues in Legacy Code**: Highlights problems such as tight coupling, singleton dependencies, and poor testability.
+- **Protocol-Based Refactoring**: Introduces modularity by wrapping dependencies like `Logger` and `APIService` in protocols.
+- **Unit Testing with Mocks**: Demonstrates the creation of mock services for isolating and testing functionality.
+- **Adding Database Functionality**: Implements an in-memory database and integrates it with the refactored `LegacyCode` class.
+- **Ensuring Robustness Through Tests**: Adds comprehensive unit tests to validate both existing and new functionality.
+
+#### Additional Resources
+- [Swift Protocol-Oriented Programming](https://developer.apple.com/swift/resources/)
+- [XCTest Documentation](https://developer.apple.com/documentation/xctest)
+- [Designing Testable Swift Code](https://developer.apple.com/videos/play/wwdc2017/409/)
+
+<LinkCard title="Read Full Article" href="https://medium.com/@islammoussa.eg/safely-extending-legacy-code-a-swift-approach-using-protocols-mocking-and-unit-testing-5d489afc7f82" />
+
+### 🔵 Mastering Animations with CATransaction in Swift
+
+Core Animation powers the smooth, polished animations you see in iOS and macOS. While `UIView.animate()` simplifies animation for most use cases, more complex motions require deeper understanding and tools like **CATransaction**. This article explores how CATransaction enhances your animation control, allowing fine-tuned synchronization and customization.
+
+<details>
+
+**URL:** [Better iOS Animations with CATransaction](https://medium.com/@joncardasis/better-ios-animations-with-catransaction-72a7425673a6)
+
+**Published:** 2017-06-01
+
+**Authors:** `Jon Cardasis`
+
+**Tags:**  
+`iOS Development`, `Core Animation`, `CATransaction`, `CABasicAnimation`, `Swift`
+
+</details>
+
+#### Key Points
+- **Core Animation Basics:** Understand the dual-layer architecture: model layer for static values and presentation layer for animated states.
+- **CABasicAnimation:** A versatile tool for animating `CALayer` properties, complementing `UIView.animate()`.
+- **CATransaction:** A grouping mechanism that synchronizes multiple animations across views and layers.
+- **Custom Timing Functions:** Use CATransaction to define precise bezier curves for animation timing.
+
+#### Summary of Contents
+1. **Introduction to Core Animation:** Explanation of how `CALayer` powers animations and the difference between view and layer animations.
+2. **CABasicAnimation Usage:** Step-by-step guide to animating layer properties like `cornerRadius` using CABasicAnimation.
+3. **CATransaction Basics:**
+   - Group animations to ensure synchronization.
+   - Control animation duration and timing across multiple animations.
+4. **Combining CATransaction with UIKit and Core Animation:** Example of coordinating `UIView.animate()` and `CABasicAnimation` with CATransaction.
+5. **Advanced Techniques:** Custom timing functions using `CAMediaTimingFunction` for precise bezier animation curves.
+6. **Practical Example:** Real-world implementation of animating a UIButton’s size and corner radius simultaneously.
+
+#### Additional Resources
+- **GitHub Project:** [Better Animations Playground](https://github.com/joncardasis/MediumArticles/tree/master/BetterAnimations)
+- **Apple Documentation:** [Core Animation](https://developer.apple.com/documentation/quartzcore/caanimation)
+- **Related Topics:** [CABasicAnimation Essentials](https://developer.apple.com/documentation/quartzcore/cabasicanimation)
+
+<LinkCard title="Read Full Article" href="https://medium.com/@joncardasis/better-ios-animations-with-catransaction-72a7425673a6" />
+
 ## **Xcode and Workflow**
 
 ### 🟢 Multi-Cursor Editing in Xcode
@@ -1025,6 +1459,53 @@ With the release of **Xcode 11.4**, Apple introduced the ability to simulate **r
   
 <LinkCard title="Read Full Article" href="https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html" />
 
+### 🔵 Automate Code Signing with Fastlane Match
+
+Code signing is a critical step in app development for Apple platforms, ensuring apps are authorized and secure. This article introduces code signing concepts, such as provisioning profiles and signing certificates, and explains how to automate the process using **Fastlane Match**. This tool simplifies code signing, especially for teams, by centralizing and managing signing identities.
+
+<details>
+
+**URL:** https://www.polpiella.dev/automate-code-signing-with-fastlane-match/
+
+**Published:** November 8, 2024
+
+**Authors:** `Pol Piella`
+
+**Tags:**  
+`Fastlane`, `Code Signing`, `CI/CD`, `iOS Development`, `Provisioning Profiles`
+
+</details>
+
+#### Key Points
+- **Provisioning Profiles**:
+  - Define app permissions, including device access and entitlements.
+  - Bundle information to identify the app, its allowed devices, and signing certificates.
+- **Signing Certificates**:
+  - Verify the developer’s identity and protect the app from tampering.
+- **Fastlane Match**:
+  - Centralizes code signing by sharing identities via an encrypted repository.
+  - Works seamlessly with CI/CD pipelines, enabling automated signing.
+
+#### Summary of Contents
+- **What Are Provisioning Profiles?**
+  - Details the role of provisioning profiles in app authorization.
+- **What Are Signing Certificates?**
+  - Explains how certificates authenticate developers and ensure app integrity.
+- **Managing Code Signing**:
+  - Compares Xcode's automatic management with scalable team-oriented solutions.
+- **Using Fastlane Match**:
+  - Step-by-step setup for initializing Fastlane Match with Git as storage.
+  - Generating and syncing signing identities for app development and distribution.
+- **CI/CD Code Signing**:
+  - Instructions for configuring Fastlane Match in CI/CD pipelines using environment variables.
+
+#### Additional Resources
+- [Fastlane Match Documentation](https://docs.fastlane.tools/actions/match/)
+- [Apple Developer: Code Signing](https://developer.apple.com/documentation/security/certificate-key-and-trust-services)
+- [Setting Up CI/CD Pipelines for iOS](https://developer.apple.com/documentation/ci-cd/)
+
+<LinkCard title="Read Full Article" href="https://www.polpiella.dev/automate-code-signing-with-fastlane-match/" />
+
 ## **Localization**
 
 ### 🔵 Using XMLParser and NSAttributedString for Rich Text Formatting in Localizable Strings
@@ -1033,7 +1514,7 @@ This blog post discusses various methods for handling **rich text formatting** i
 
 <details>
 
-**URL:** [Using XMLParser and NSAttributedString for Rich Text Formatting in Localizable Strings](https://kean.blog/post/formatted-strings)
+**URL:** https://kean.blog/post/formatted-strings
 
 **Published:** Nov 29, 2020
 
@@ -1060,6 +1541,131 @@ This blog post discusses various methods for handling **rich text formatting** i
 - **[Hacking with Swift: How to Convert HTML to an NSAttributedString](https://www.hackingwithswift.com/example-code/system/how-to-convert-html-to-an-nsattributedstring):** A guide on converting **HTML** to **NSAttributedString** in **Swift**.
 
 <LinkCard title="Read Full Article" href="https://kean.blog/post/formatted-strings" />
+
+### 🟢 Unleashing Global Reach: A Comprehensive Guide to Effortless iOS App Localization Using Google Sheets
+
+This article provides a detailed walkthrough of **iOS app localization**, showcasing how to utilize **Localizable.strings** for translation and implement efficient workflows using **Google Sheets** and the **gspread Python library**. Aimed at developers looking to streamline localization processes, it introduces step-by-step instructions, structured strategies, and automation techniques to make your iOS app globally accessible.
+
+<details>
+
+**URL:** [Unleashing Global Reach: A Comprehensive Guide](https://medium.com/@vinodh_36508/unleashing-global-reach-a-comprehensive-guide-to-effortless-ios-app-localization-using-googlesheet-447a4d969a71)
+
+**Published:** 2024-01-17
+
+**Authors:** `Vinodh`
+
+**Tags:**  
+`localization`, `ios-development`, `google-sheets`, `gspread`, `automation`
+
+</details>
+
+#### Key Points
+- iOS **localization** uses `Localizable.strings` files to manage translations effectively.
+- **Google Sheets** enhances collaboration by centralizing translation management.
+- The **gspread library** automates the extraction of translations into app-compatible files.
+- The guide highlights **coding best practices** for seamless integration and testing.
+
+#### Summary of Contents
+- **Introduction:** Emphasizes the importance of app localization in today's global market.
+- **Implementing Localization in Xcode:** Detailed instructions for creating and managing `Localizable.strings` files.
+- **Google Sheets Integration:** Tips for structuring Google Sheets for effective translation workflows.
+- **Python Automation with gspread:** Step-by-step guide to setting up, authenticating, and using gspread for exporting translations.
+- **Benefits and Challenges:** Highlights the advantages of using centralized systems and the pitfalls of manual processes.
+- **Code Examples:** Includes Python scripts for automation and Swift examples for integrating translations.
+
+#### Additional Resources
+- **Apple Developer Localization Guide:** [Link to Apple's official documentation](https://developer.apple.com)
+- **gspread Documentation:** [gspread API Reference](https://docs.gspread.org)
+
+<LinkCard title="Read Full Article" href="https://medium.com/@vinodh_36508/unleashing-global-reach-a-comprehensive-guide-to-effortless-ios-app-localization-using-googlesheet-447a4d969a71" />
+
+### 🟢 iOS Localization Tutorial in SwiftUI Using String Catalog
+
+This tutorial walks you through **iOS localization** in SwiftUI, highlighting the advantages of **String Catalogs** in Xcode 15+. It covers step-by-step instructions to localize text and elements, including **app display names** and **permission request messages**. This guide ensures that your app feels natural, respectful, and culturally adapted for a global audience.
+
+<details>
+
+**URL:** [iOS Localization Tutorial in SwiftUI Using String Catalog](https://medium.com/@hyleedevelop/ios-localization-tutorial-in-swiftui-using-string-catalog-9307953d8082)
+
+**Published:** 2024-01-06
+
+**Authors:** `hyleedevelop`
+
+**Tags:**  
+`localization`, `swiftui`, `string-catalog`, `ios-development`, `xcode15`
+
+</details>
+
+#### Key Points
+- Localization is **more than translation**; it adapts apps to cultural and regional specifics.
+- **String Catalogs** simplify the localization process in Xcode 15+ with automated string extraction.
+- The guide includes methods for **handling singular and plural strings** and **localizing Info.plist keys**.
+- Demonstrates localization of **permission messages** using `NSUserTrackingUsageDescription`.
+
+#### Summary of Contents
+- **Introduction to Localization:** Definition and importance of localization for user inclusivity.
+- **Setting Up Localization in SwiftUI:**  
+  - Creating projects with SwiftUI.
+  - Adding new languages and building the project to auto-populate the String Catalog.
+- **Working with String Catalogs:**  
+  - Advantages of String Catalogs over legacy Strings files.
+  - Managing pluralized strings with examples.
+- **Testing Localization:** Steps to change the language settings on simulators and real devices.
+- **Localizing Info.plist:**  
+  - Display names using `CFBundleDisplayName`.
+  - Permission request messages using `NSUserTrackingUsageDescription`.
+- **Conclusion:** Encouragement to embrace localization for a better global reach and user experience.
+
+#### Additional Resources
+- **Apple Localization Documentation:** [Localization Guide](https://developer.apple.com/documentation/Xcode/localization/)
+- **GitHub Repository:** [Localization Tutorial Code](https://github.com/hyleedevelop/LocalizationTutorial)
+
+<LinkCard title="Read Full Article" href="https://medium.com/@hyleedevelop/ios-localization-tutorial-in-swiftui-using-string-catalog-9307953d8082" />
+
+### 🔵 iOS Localization: LocalizedStringResource vs. LocalizedStringKey vs. String
+
+This article examines **Apple's localization types** in SwiftUI—**LocalizedStringResource**, **LocalizedStringKey**, and **String**—to evaluate their strengths, limitations, and applicability. It provides an in-depth comparison to help developers choose the right approach for their apps.
+
+<details>
+
+**URL:** [iOS Localization: LocalizedStringResource vs. LocalizedStringKey vs. String](https://levelup.gitconnected.com/ios-localization-localizedstringresource-vs-localizedstringkey-vs-string-56cb519cf098)
+
+**Published:** 20244-09-16
+
+**Authors:** `Nick McConnel`
+
+**Tags:**  
+`localization`, `localizedstringresource`, `swiftui`, `ios-development`, `string-management`
+
+</details>
+
+#### Key Points
+- **LocalizedStringResource** is **Apple’s recommended type** for representing localizable strings.
+- **LocalizedStringKey** integrates well with SwiftUI but has modular and backend string challenges.
+- **String** with `String(localized:)` offers flexibility and consistency but lacks type safety.
+- Modularization and **consistent language lookup** are critical factors in choosing the right approach.
+
+#### Summary of Contents
+- **Introduction:** Discusses the evolution from `NSLocalizedString` to newer types like `LocalizedStringResource`.
+- **LocalizedStringKey:**
+  - Well-suited for SwiftUI.
+  - Challenges include modularization and handling backend-localized strings.
+  - Summary: Good for simpler setups but struggles with comments, modules, and backend integration.
+- **LocalizedStringResource:**
+  - Groups localization details like keys, default values, comments, and bundles into one type.
+  - Handles modular setups but has issues with consistent language lookup and SwiftUI integration.
+  - Summary: Excellent for modularity but problematic for certain localization workflows.
+- **String with `String(localized:)`:**
+  - Integrates cleanly with SwiftUI and modular codebases.
+  - Handles backend-localized strings and maintains consistent language lookup.
+  - Summary: Flexible but lacks type safety for enforcing localization.
+- **Conclusion:** Encourages a nuanced approach based on app complexity and modular requirements. Advocates for **String(localized:)** in most cases due to its balance of integration and reliability.
+
+#### Additional Resources
+- **WWDC 2023 Localization Video:** [Strings Catalog and Localization](https://developer.apple.com/wwdc23/10155)
+- **Apple Documentation:** [LocalizedStringResource Reference](https://developer.apple.com/documentation/foundation/localizedstringresource)
+
+<LinkCard title="Read Full Article" href="https://levelup.gitconnected.com/ios-localization-localizedstringresource-vs-localizedstringkey-vs-string-56cb519cf098" />
 
 ## **Concurrency**
 
@@ -1319,6 +1925,104 @@ This blog post outlines common patterns in Swift concurrency that can lead to co
 
 <LinkCard title="Read Full Article" href="https://www.massicotte.org/problematic-patterns" />
 
+### 🔵 The Full Toolkit for Swift Concurrency: Async/Await
+
+Mastering Swift Concurrency is essential for iOS developers working on modern, responsive apps. This blog post covers the wide array of tools in Swift Concurrency, such as `async/await`, `Task`, `Task Group`, and `Actors`, while exploring when and why you might use them. It provides not just theoretical insights but also practical examples to deepen your understanding.
+
+<details>
+
+**URL:** https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit#the-toolkit
+
+**Published:** 2024-07-22
+
+**Authors:** `EmergeTools`
+
+**Tags:**  
+`Swift Concurrency`, `iOS Development`, `Actors`, `async/await`, `Task Group`
+
+</details>
+
+#### Key Points
+- **async/await**: Provides syntactic sugar for writing asynchronous code, suspending execution at suspension points for efficiency.
+- **async let**: Enables parallel execution of multiple asynchronous operations to minimize bottlenecks.
+- **Task**: The fundamental building block of concurrency, supporting unstructured asynchronous work.
+- **Task Groups**: Facilitates concurrent execution of a dynamic number of tasks, with flexible error handling.
+- **Actors**: Ensures safe concurrent access to mutable state.
+- **MainActor**: A concurrency construct designed for UI work to ensure updates happen on the main thread.
+- **Sendable**: A protocol for marking data as safe to share across concurrency contexts.
+- **Continuations**: Bridges closure-based legacy APIs with Swift’s modern concurrency model.
+- **AsyncSequence**: Provides iterable async collections for sequential, asynchronous value processing.
+- **AsyncStream**: Extends AsyncSequence to handle continuous value emission, useful for multi-callback APIs.
+- **Async Algorithms**: An external package providing tools like `debounce`, `zip`, and `removeDuplicates` to create pipelines for async sequences.
+
+#### Summary of Contents
+- **The Toolkit**:
+  - Highlights tools such as `async/await`, `Task`, and `Actors`, focusing on their use cases.
+- **Code Examples**:
+  - Includes parallelization with `async let`, error handling with Task Groups, and bridging legacy APIs with continuations.
+- **Advanced Topics**:
+  - Delves into Actors' re-entrancy, MainActor's thread safety, and the role of `Sendable` in preventing data races.
+- **Best Practices**:
+  - Discusses patterns like cooperative cancellation, combining async sequences, and integrating `Async Algorithms` for real-time data processing.
+
+#### Additional Resources
+- [Advanced Swift Actors](https://jacobbartlett.substack.com/p/advanced-swift-actors-re-entrancy)
+- [Async Algorithms Package](https://github.com/apple/swift-async-algorithms)
+
+<LinkCard title="Read Full Article" href="https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit#the-toolkit" />
+
+Here’s the blog post formatted according to the **blog_post.md** template:
+
+---
+
+### 🎯 Advanced Swift Actors: Re-Entrancy and Interleaving
+
+Actors in Swift provide a powerful tool for managing concurrency, enforcing serial access to state and methods. However, the nuances of actor behavior, especially re-entrancy and interleaving, can lead to unexpected results if not well understood. This blog explores these concepts with a practical example of building an optimal authentication service.
+
+<details>
+
+**URL:** https://blog.jacobstechtavern.com/p/advanced-swift-actors-re-entrancy
+
+**Published:** 2023-10-10
+
+**Authors:** Jacob’s Tech Tavern
+
+**Tags:**  
+`Swift Concurrency`, `Actors`, `iOS Development`, `Authentication`, `Concurrency`
+
+</details>
+
+#### Key Points
+- **Actors in Swift**: Reference-typed entities ensuring serial access, backed by a `SerialExecutor`.
+- **Re-Entrancy**: An actor's async method can suspend at `await`, allowing interleaving of other tasks.
+- **Authentication Example**:
+  - Naïve implementation results in redundant work and API calls.
+  - Optimized version uses Tasks and re-entrancy to handle multiple concurrent token refresh requests efficiently.
+- **Practical Tips**:
+  - Use `Task` as a property to manage concurrent requests for shared resources.
+  - Leverage actor's isolation to synchronize access to shared state.
+
+#### Summary of Contents
+1. **Introduction to Actors**:
+   - Explanation of serial access and interleaving.
+   - Importance of actors in managing state in concurrent contexts.
+2. **Authentication Service Use Case**:
+   - Common authentication workflow (OAuth 2.0).
+   - Problems in naïve implementation with concurrent token refresh.
+3. **Theory: Swift Concurrency Model**:
+   - Cooperative threading model.
+   - Role of continuations and executors.
+4. **Optimizing the AuthService**:
+   - Implementation of `Task` property to synchronize token refresh requests.
+   - Step-by-step breakdown of interleaving behavior and caching.
+
+#### Additional Resources
+- [Download the Sample Project](https://github.com/jacobsapps/ActorReentrancy/tree/main/ActorReentrancy)
+- [Sequence Diagrams for Design](https://sequencediagram.org/)
+
+
+<LinkCard title="Read Full Article" href="https://blog.jacobstechtavern.com/p/advanced-swift-actors-re-entrancy" />
+
 ## **Design**
 
 ### 🔵 The Sound of Software
@@ -1518,6 +2222,97 @@ This article explores how method dispatches work in Swift, breaking down their t
 <LinkCard title="Read Full Article" href="https://www.swiftwithvincent.com/blog/storing-two-types-in-the-same-variable-using-either" />
 
 
+### 🔵 Understanding Swift Closures
+
+This blog post explores the intricacies of **closures** in Swift, highlighting advanced topics like reference cycles, capture lists, and their use as reference types. It supplements Swift's official documentation by delving into nuanced scenarios and practical considerations for developers.
+
+<details>
+
+**URL:** [Understanding Swift Closures](https://vbat.dev/understanding-swift-closures)
+
+**Published:** 2023-05-27
+
+**Authors:** `Vitaly Batrakov`
+
+**Tags:**  
+`[Swift]`, `[Closures]`, `[Memory Management]`, `[Reference Cycles]`, `[Capture Lists]`
+
+</details>
+
+#### Key Points
+- **Definition and Forms**  
+  Closures are blocks of functionality, akin to functions, that can be passed around and executed. They come in three forms: global functions, nested functions, and closure expressions.
+  
+- **Reference Types**  
+  Closures are stored in the heap and considered reference types, meaning they can create strong references, impacting memory management.
+
+- **Capture Lists**  
+  Capture lists allow control over how variables are captured in closures, using modifiers like `weak` and `unowned` to avoid retain cycles.
+
+- **Escaping vs. Non-Escaping Closures**  
+  `@escaping` closures persist beyond their defining scope, potentially creating reference cycles, while non-escaping closures are automatically deallocated.
+
+#### Summary of Contents
+- **Introduction to Closures**  
+  Covers the basic definition, forms of closures, and their role as first-class objects in Swift.
+
+- **Memory Management and Retain Cycles**  
+  Explains how closures can create reference cycles and provides solutions like capture lists with `weak` or `unowned` references.
+
+- **Capture List Nuances**  
+  Demonstrates how value and reference types behave differently in capture lists, using examples for clarity.
+
+- **Nested Functions as Closures**  
+  Highlights that nested functions behave like closures and can capture values from their surrounding context.
+
+- **Advanced Scenarios**  
+  Discusses unobvious retain cases and how assigning methods to closures implicitly captures `self`.
+
+- **Understanding Closure Type**  
+  Concludes that closures, as reference types, can persist captured value types by moving them to the heap.
+
+#### Additional Resources
+- **Swift Documentation:** [The Swift Programming Language: Closures](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures/)  
+- **Related Blog:** [Multiple Trailing Closures in Swift](https://www.hackingwithswift.com/swift/5.3/multiple-trailing-closures)
+
+<LinkCard title="Read Full Article" href="https://vbat.dev/understanding-swift-closures" />
+
+### 🔵 Escaping vs Non-Escaping Closures in Swift
+
+Swift simplifies many aspects of development, but some features require deeper understanding, such as **escaping** and **non-escaping closures**. This article explains the difference between these closure types, the evolution of `@escaping`, and the deprecation of `@noescape` in Swift 3.
+
+<details>
+
+**URL:** [What Do Escaping and Noescape Mean in Swift 3?](https://cocoacasts.com/what-do-escaping-and-noescape-mean-in-swift-3)
+
+**Published:** 2024-11-21
+
+**Authors:** `Bart Jacobs`
+
+**Tags:**  
+`Swift`, `Closures`, `@escaping`, `@noescape`, `Memory Management`
+
+</details>
+
+#### Key Points
+- **Escaping Closures:** Invoked after the function returns and require explicit `@escaping` in Swift 3.
+- **Non-Escaping Closures:** Now the default, simplifying code and improving performance.
+- **@escaping Attribute:** Lets the compiler know the closure might outlive the function's execution.
+- **Deprecation of @noescape:** Simplifies closure handling in Swift 3 by making closures non-escaping by default.
+
+#### Summary of Contents
+- **What Is @noescape?** Explanation of the deprecated attribute and its use in Swift 2.
+- **What Are Escaping Closures?** Description of closures that outlive their function scope and when they occur.
+- **The Transition to Swift 3:** Introduction of `@escaping`, making non-escaping closures the default.
+- **Why It Matters:** Benefits like performance optimizations and safer memory management.
+
+#### Additional Resources
+- **Swift Evolution Proposal:** [SE-0103: Make Non-Escaping Closures the Default](https://github.com/apple/swift-evolution/blob/master/proposals/0103-make-noescape-default.md)
+- **Apple Documentation:** [Closures](https://developer.apple.com/documentation/swift/closures)
+- **Twitter Discussion:** [Bart Jacobs](https://twitter.com/_bartjacobs)
+
+<LinkCard title="Read Full Article" href="https://cocoacasts.com/what-do-escaping-and-noescape-mean-in-swift-3" />
+
 ## Networking
 
 ### 🔴 "Network Connectivity on iOS with Swift"
@@ -1593,3 +2388,42 @@ Learn how **Dev Containers** in **VS Code** streamline Swift development for ser
 - **Docker Alternatives**: [Orbstack](https://orbstack.dev/) for lightweight macOS containerization.
 
 <LinkCard title="Read Full Article" href="https://swifttoolkit.dev/posts/dev-containers-swift" />
+
+## Testing
+
+### 🔵 How to Test UIKit & SwiftUI Views? Explained with Memes
+
+Testing UI components in iOS development can be challenging, especially with the transition from UIKit to SwiftUI. This post explores strategies for testing both UIKit and SwiftUI views, with a focus on snapshot testing and its practical applications, limitations, and best practices.
+
+<details>
+
+**URL:** [https://swiftandmemes.com/how-to-test-uikit-swiftui-views-explained-with-memes/](https://swiftandmemes.com/how-to-test-uikit-swiftui-views-explained-with-memes/)
+
+**Published:** 2023-06-01
+
+**Authors:** `Pawel Kozielecki`
+
+**Tags:**  
+`[Snapshot Testing]`, `[SwiftUI]`, `[UIKit]`, `[UI Testing]`
+
+</details>
+
+#### Key Points
+- **Snapshot Testing:** A powerful integration testing approach that verifies the UI against pre-recorded snapshots of expected outputs.
+- **Testing Strategies:** Strategies differ between UIKit and SwiftUI, with UIKit allowing more direct property traversal.
+- **Limitations:** Challenges include testing animations, managing device-specific differences, and maintaining snapshots across iOS updates.
+- **Best Practices:** Use snapshot tests for reusable components like error screens or custom controls to detect regressions during refactoring.
+
+#### Summary of Contents
+- **Snapshot Testing Basics:** An overview of what snapshot testing is and how it works.
+- **Implementing Snapshot Tests for SwiftUI:** Demonstrating the process using a `UIHostingViewController` and view models.
+- **Testing UIKit Views:** A guide to setting up snapshot tests for `UIView` and `UIViewController` components.
+- **Challenges and Limitations:** Addressing issues like animations, CI pipeline setups, and iOS version changes.
+- **Practical Tips:** Recommendations on prioritizing views to test and integrating snapshot testing into development workflows.
+
+#### Additional Resources
+- **[Swift Snapshot Testing Library](https://github.com/pointfreeco/swift-snapshot-testing):** A library for implementing snapshot tests.
+- **[KISS Your SwiftUI Views](https://swiftandmemes.com/why-should-you-kiss-your-swiftui-views/):** A post exploring best practices for SwiftUI view design.
+- **[SwiftUI Router Tests](https://github.com/pkozielecki/ios-swiftui-navigation):** Examples of testing SwiftUI navigation and views.
+
+<LinkCard title="Read Full Article" href="https://swiftandmemes.com/how-to-test-uikit-swiftui-views-explained-with-memes/" />
