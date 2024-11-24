@@ -339,6 +339,61 @@ This article explores the implementation of the Model-View-ViewModel-Coordinator
 <LinkCard title="Read Full Article" href="https://medium.com/swift-and-beyond/navigating-swiftly-understanding-swiftuis-mvvm-c-architecture-with-a-real-world-example-66aa97fa4090" />
 
 
+### 🔵 How to Modularize a Monolithic iOS App
+
+This blog post outlines a structured approach to transitioning from a monolithic iOS application to a modular architecture. By leveraging the principles of layered architecture and dependency inversion, it explains how to organize code into distinct modules for improved maintainability, scalability, and efficiency.
+
+<details>
+
+**URL:** [https://vbat.dev/how-to-modularize-monolith-ios-app](https://vbat.dev/how-to-modularize-monolith-ios-app)  
+**Video:** [Watch Here](https://youtu.be/Xu4eyAh-aJw)
+
+**Published:** 2024-05-12
+
+**Authors:** `Vitaly Batrakov`
+
+**Tags:**  
+`iOS Development`, `Modular Architecture`, `Dependency Injection`, `Layered Architecture`
+
+</details>
+
+#### Key Points
+- **Modular Architecture:**
+  - Divides an app into **Core**, **Feature**, and **Composition Root** layers.
+  - Promotes **separation of concerns** and **loose coupling**.
+- **Dependency Direction Rule:** Dependencies can flow upwards but not downwards.
+- **Steps to Modularize:**
+  - Begin by identifying and extracting shared functionalities into the **Core Layer**.
+  - Modularize feature-specific code into isolated **Feature Modules**.
+  - Use the **Composition Root** to manage dependency injection and object graph assembly.
+- **Best Practices:**
+  - Avoid circular dependencies by inverting dependencies using protocols.
+  - Minimize direct dependencies between modules within the same layer.
+
+#### Summary of Contents
+1. **From Monolith to Modularization:**
+   - Overview of monolithic and layered architectures.
+   - Introduction to dependency direction rules and the layered modular architecture.
+2. **Core Layer:**
+   - Contains shared functionalities like networking, logging, UI components, and analytics.
+   - Operates independently of other core modules.
+3. **Feature Layer:**
+   - Encapsulates feature-specific logic, UI, and data handling.
+   - Encourages independent development and reusability.
+4. **Composition Root:**
+   - Centralized location for dependency injection and assembling object graphs.
+   - Facilitates flexibility and maintainability.
+5. **Common Dependency Scenarios:**
+   - Handling dependencies across modules using dependency inversion.
+   - Strategies for managing upward, downward, and lateral dependencies.
+
+#### Additional Resources
+- **[Modular App Example on GitHub](https://github.com/vitalybatrakov/ModularAppExample):** Explore a simple implementation of modular architecture.
+- **[Dependency Injection Guide](https://medium.com/its-tinkoff/di-in-ios-complete-guide-cd76a079d2d):** Learn about DI patterns in iOS.
+- **[Introducing the Composition Root Pattern](https://simonbs.dev/posts/introducing-the-composition-root-pattern-in-a-swift-codebase/):** Insights into the composition root approach.
+
+<LinkCard title="Read Full Article" href="https://vbat.dev/how-to-modularize-monolith-ios-app" />
+
 ## **SwiftUI**
 
 ### 🔵 Double Optional Bindings or Something idk
@@ -1975,7 +2030,7 @@ Here’s the blog post formatted according to the **blog_post.md** template:
 
 ---
 
-### 🎯 Advanced Swift Actors: Re-Entrancy and Interleaving
+### 🔵 Advanced Swift Actors: Re-Entrancy and Interleaving
 
 Actors in Swift provide a powerful tool for managing concurrency, enforcing serial access to state and methods. However, the nuances of actor behavior, especially re-entrancy and interleaving, can lead to unexpected results if not well understood. This blog explores these concepts with a practical example of building an optimal authentication service.
 
@@ -2022,6 +2077,86 @@ Actors in Swift provide a powerful tool for managing concurrency, enforcing seri
 
 
 <LinkCard title="Read Full Article" href="https://blog.jacobstechtavern.com/p/advanced-swift-actors-re-entrancy" />
+
+### 🔵 Is Dynamic Isolation in Swift Concurrency Bad?
+
+Dynamic isolation in Swift concurrency is a nuanced tool. While **static isolation** is often preferred for its safety and clarity, dynamic isolation remains an essential escape hatch. This article explores the trade-offs between the two approaches, explains when and why you might use dynamic isolation, and provides practical examples.
+
+<details>
+
+**URL:** [https://www.massicotte.org/dynamic-isolation](https://www.massicotte.org/dynamic-isolation)
+
+**Published:** 2024-11-24
+
+**Authors:** `Matt Massicotte`
+
+**Tags:**  
+`Swift Concurrency`, `MainActor`, `Static Isolation`, `Dynamic Isolation`
+
+</details>
+
+#### Key Points
+- **Static Isolation** is enforced by the compiler, offering safety and clarity.
+- **Dynamic Isolation** provides runtime flexibility for legacy or complex codebases.
+- **Incremental Adoption** of concurrency often requires dynamic isolation.
+- **Atomicity** in `MainActor.run` can simplify complex thread-safe operations.
+
+#### Summary of Contents
+- **Static Isolation:** Explains `@MainActor` and other type-level annotations for compiler-enforced thread safety.
+- **Dynamic Isolation in Practice:** Details runtime constructs like `MainActor.run` and their use cases.
+- **When to Choose Dynamic Isolation:** Discusses incremental concurrency adoption and maintaining atomicity.
+- **Best Practices:** Suggests when and how to transition from dynamic to static isolation for long-term maintainability.
+
+#### Additional Resources
+- **[Rob Napier’s Gist on Atomicity](https://gist.github.com/rnapier/f513a58ec982ff4738b25afa465f6dda):** A deeper dive into atomic operations using `MainActor.run`.
+- **[Intro to Isolation](https://www.massicotte.org/intro-to-isolation):** Foundational concepts in Swift isolation.
+
+<LinkCard title="Read Full Article" href="https://www.massicotte.org/dynamic-isolation" />
+
+### 🔵 Understanding Actor Isolation in Swift
+
+Actor isolation is at the heart of Swift’s concurrency model, aiming to eliminate data races. While it introduces new concepts, many mechanisms behind isolation are familiar. This blog breaks down the key ideas behind actor isolation, making it approachable even for developers new to Swift concurrency.
+
+<details>
+
+**URL:** [https://www.massicotte.org/intro-to-isolation](https://www.massicotte.org/intro-to-isolation)
+
+**Published:** 2024-11-24
+
+**Authors:** `Matt Massicotte`
+
+**Tags:**  
+`Swift Concurrency`, `Actor Isolation`, `Static Isolation`, `Dynamic Isolation`
+
+</details>
+
+#### Key Points
+- **Isolation in Swift** eliminates data races, ensuring safe access to mutable state.
+- **Definitions Govern Isolation:** Isolation is always determined at compile time by type or function definitions.
+- **Three Isolation Types:** 
+  - None (default),
+  - Static (e.g., `@MainActor`), 
+  - Dynamic (`MainActor.assumeIsolated`).
+- **Opting Out:** Use `nonisolated` to remove isolation from functions or constants.
+- **Closures and Protocols:** Inherited isolation and protocol-based isolation can influence design patterns.
+- **Dynamic Isolation for Legacy Code:** Useful for pre-concurrency systems where static isolation is impractical.
+- **Practical Implications:** Understanding isolation is crucial when working with SwiftUI or adopting concurrency incrementally.
+
+#### Summary of Contents
+- **What is Isolation?:** Explains how Swift eliminates data races and enforces thread safety.
+- **Understanding Definitions:** Highlights how to analyze isolation based on type and function definitions.
+- **Types of Isolation:** Breaks down static and dynamic isolation mechanisms, including examples.
+- **Closures and Inherited Isolation:** Discusses how closures adopt isolation from their surrounding context.
+- **Protocols and Isolation:** Explains how protocol isolation affects design.
+- **Dynamic Isolation:** Demonstrates how to bridge gaps in legacy code or systems with runtime isolation guarantees.
+- **SwiftUI Challenges:** Examines how SwiftUI’s inconsistent isolation model creates practical issues.
+
+#### Additional Resources
+- **[Swift Concurrency Recipes](https://github.com/mattmassicotte/ConcurrencyRecipes):** Techniques for working with isolation and protocols.
+- **[Complete Concurrency Checking](https://www.massicotte.org/complete-checking):** How to enable warnings for incomplete concurrency isolation.
+- **[Swift Evolution Proposal 0420](https://github.com/apple/swift-evolution/blob/main/proposals/0420-inheritance-of-actor-isolation.md):** Recent changes improving isolation in Swift.
+
+<LinkCard title="Read Full Article" href="https://www.massicotte.org/intro-to-isolation" />
 
 ## **Design**
 

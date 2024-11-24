@@ -144,3 +144,92 @@ Logging is an essential aspect of debugging and profiling apps, replacing tradit
 - [Forcing an App Out of Memory on iOS](https://www.donnywals.com/forcing-an-app-out-of-memory-on-ios/)  
 
 <LinkCard title="Read Full Article" href="https://www.donnywals.com/modern-logging-with-the-oslog-framework-in-swift/" />
+
+## Push Notifications
+
+### 🔵 Updating Your Apps with Silent Push Notifications
+
+Silent push notifications enable your app to stay up-to-date by fetching new data from the server in the background. This approach is especially useful for apps that need to provide timely updates without requiring user intervention. This guide covers how to configure your app and server to leverage silent push notifications effectively.
+
+<details>
+
+**URL:** [https://www.donnywals.com/updating-your-apps-with-silent-push-notifications/](https://www.donnywals.com/updating-your-apps-with-silent-push-notifications/)
+
+**Published:** 2019-11-20
+
+**Authors:** `Donny Wals`
+
+**Tags:**  
+`Silent Push Notifications`, `iOS Development`, `Background Fetch`, `AppDelegate`
+
+</details>
+
+#### Key Points
+- **Silent Push Setup:** Configure your app with **Push Notifications** and **Background Modes** capabilities.
+- **AppDelegate Methods:** Implement `application(_:didReceiveRemoteNotification:fetchCompletionHandler:)` for background updates.
+- **Server Configuration:** Use `content_available: 1` in the payload and ensure proper headers like `apns-priority = 5` are set.
+- **Performance Considerations:** Limit silent pushes to 2-3 per hour to avoid throttling by Apple.
+
+#### Summary of Contents
+- **Configuring Your App:** Steps to enable capabilities, register for remote notifications, and handle notification callbacks.
+- **Handling Silent Pushes:** Guidance on implementing the `fetchCompletionHandler` for efficient data fetching.
+- **Server-Side Requirements:** Explanation of payload headers and their role in triggering background fetches.
+- **Best Practices:** Recommendations for responsible use to avoid penalties from Apple.
+
+#### Additional Resources
+- **[Real-time Data Exchange with Web Sockets](https://www.donnywals.com/real-time-data-exchange-using-web-sockets-in-ios-13/):** Explore alternatives for high-frequency updates.
+- **[Firebase Cloud Messaging Documentation](https://firebase.google.com/docs/cloud-messaging):** Learn more about using Firebase for push notifications.
+
+<LinkCard title="Read Full Article" href="https://www.donnywals.com/updating-your-apps-with-silent-push-notifications/" />
+
+## Networking
+
+### 🟢 Real-Time Data Exchange Using Web Sockets in iOS 13+
+
+Web sockets provide a streamlined way to handle real-time communication in iOS apps by enabling a persistent connection between a client and server. This blog post explores how to use web sockets with `URLSession`, compares them with alternative networking methods, and offers practical implementation steps.
+
+<details>
+
+**URL:** [https://www.donnywals.com/real-time-data-exchange-using-web-sockets-in-ios-13/](https://www.donnywals.com/real-time-data-exchange-using-web-sockets-in-ios-13/)
+
+**Published:** 2019-11-18
+
+**Authors:** Donny Wals  
+
+**Tags:**  
+`Web Sockets`, `iOS Networking`, `Real-Time Communication`, `URLSession`
+
+</details>
+
+#### Key Points
+- **Web Socket Advantages:** Enables bidirectional, low-latency communication with persistent connections.
+- **Alternatives Discussed:**
+  - Polling: Frequent requests for data with delays.
+  - Silent Push Notifications: Efficient but introduces latency with batched updates.
+  - Long-Polling: Keeps connections open but is less versatile for sending data.
+- **Implementation Highlights:**
+  - Connecting: Use `URLSessionWebSocketTask` for initiating a web socket connection.
+  - Sending Messages: Send strings or data through the `Message` enum.
+  - Receiving Messages: Set up a receive handler for incoming messages and ensure continuity with `defer`.
+
+#### Summary of Contents
+1. **Overview of Web Sockets:**
+   - Persistent connection for real-time messaging.
+   - Low-latency and small-payload optimizations.
+2. **How Web Sockets Work in iOS:**
+   - Leveraging `URLSession` for seamless integration.
+   - Understanding the `webSocketTask` lifecycle.
+3. **Code Walkthrough:**
+   - **Connecting:** Set up a `webSocketTask` using `URLSession` and resume the task to establish the connection.
+   - **Sending Messages:** Use `Message.string` or `Message.data` for different payload types.
+   - **Receiving Messages:** Use a `Result` object for message handling and reset the receive handler to continue receiving.
+4. **Best Practices:**
+   - Predefine message types to maintain robust communication.
+   - Use separate sockets for distinct contexts (e.g., chat messages vs. stock quotes).
+   - Manage the handler lifecycle with `defer` to avoid losing incoming messages.
+
+#### Additional Resources
+- **[Apple Documentation on Web Sockets](https://developer.apple.com/documentation/foundation/urlsessionwebsockettask):** Learn more about `URLSessionWebSocketTask`.
+- **[Networking with URLSession](https://developer.apple.com/documentation/foundation/urlsession):** Comprehensive guide to `URLSession`.
+
+<LinkCard title="Read Full Article" href="https://www.donnywals.com/real-time-data-exchange-using-web-sockets-in-ios-13/" />
