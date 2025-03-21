@@ -1,4 +1,3 @@
-### Abstract Factory Pattern in iOS
 ---
 slug: ExplainAbstractFactoryPattern
 title: Explain the Abstract Factory Pattern in iOS
