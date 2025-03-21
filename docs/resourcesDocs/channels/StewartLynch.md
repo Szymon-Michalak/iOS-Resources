@@ -114,5 +114,3 @@ In this video, **Stewart Lynch** explains the key components of an Xcode project
 - **Conclusion:** Final thoughts on how understanding these Xcode components leads to more efficient project management and improved app development.
 
 <LinkCard title="Watch Full Video" href="https://www.youtube.com/watch?v=iComTMVqgXA" />
-
-## Playlists

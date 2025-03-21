@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# 💬📏 File and Components Naming
+# 📝💬 File and Components Naming
 
 The focus of this document is to provide clear and actionable rules for naming within Swift and SwiftUI projects, while excluding folder organization and architecture-specific patterns such as MVVM or VIPER. For these aspects, refer to complementary documentation on project organization and architecture guidelines.
 

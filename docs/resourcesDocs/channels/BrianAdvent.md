@@ -32,7 +32,3 @@ Brian Advent's YouTube channel provides high-quality video tutorials focused on 
 <LinkCard title="Visit Brian Advent on YouTube" href="https://www.youtube.com/@BrianAdvent" />
 
 ---
-
-## Videos 
-
-## Playlists

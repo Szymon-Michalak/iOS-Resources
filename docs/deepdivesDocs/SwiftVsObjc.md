@@ -1,7 +1,6 @@
 ---
-title: 🐦📜 Objective-C vs Swift
+title: 🕊️📜 Objective-C vs Swift
 description: An Exhaustive List of Differences with Full Explanation
-sidebar_position: 4
 ---
 
 <!-- ## Table of Contents

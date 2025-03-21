@@ -30,8 +30,3 @@ Kavsoft's YouTube channel offers video tutorials focused on SwiftUI and iOS deve
 <LinkCard title="Visit Kavsoft on YouTube" href="https://www.youtube.com/@Kavsoft" />
 
 ---
-
-## Videos 
-
-## Playlists
-

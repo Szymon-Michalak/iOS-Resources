@@ -32,8 +32,3 @@ Daniel Steinberg's YouTube channel provides educational content focused on Swift
 <LinkCard title="Visit Daniel Steinberg on YouTube" href="https://www.youtube.com/@dimsumthinking" />
 
 ---
-
-## Videos 
-
-## Playlists
-

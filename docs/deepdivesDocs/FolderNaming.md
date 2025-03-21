@@ -1,8 +1,4 @@
----
-sidebar_position: 2
----
-
-# 📁📏 Folder Naming and File Structure
+# 📁📂 Folder Naming and File Structure
 
 This DeepDive presents best practices for naming **folders** in iOS projects. Following these conventions helps maintain consistency, readability, and scalability, making projects easier to navigate and collaborate on.
 

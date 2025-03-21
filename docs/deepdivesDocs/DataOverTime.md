@@ -1,5 +1,5 @@
 ---
-title: 📈⌛ Values over Time
+title: ⏱️📈 Values over Time
 description: A deep dive into the world of reactive programming and data streams
 ---
 

@@ -1,12 +1,12 @@
 ### Previewable Macro in SwiftUI
 
-A macro introduced in iOS 18 that simplifies the creation of preview wrapper views with State bindings in SwiftUI.
+A macro introduced in iOS 18 that simplifies the creation of preview wrapper views with `@State` bindings in SwiftUI.
 
 <details>
 
-**Source:** [Use Your Loaf - SwiftUI Previewable Macro](https://useyourloaf.com/blog/swiftui-previewable-macro/)
-
-**Author:** `Keith Harrison`
+**Sources & Resources**  
+- **Primary Source:** [Use Your Loaf - SwiftUI Previewable Macro](https://useyourloaf.com/blog/swiftui-previewable-macro/)  
+- **Additional Insights:** [Swift with Majid - The Power of Previews in Xcode](https://swiftwithmajid.com/2024/11/26/the-power-of-previews-in-xcode/)
 
 **Tags:**  
 `SwiftUI`, `iOS 18`, `Preview`, `@State`, `@Previewable`
@@ -14,9 +14,12 @@ A macro introduced in iOS 18 that simplifies the creation of preview wrapper vie
 **Platforms Supported:** iOS 17.0+, macOS 14.0+, tvOS 17.0+, visionOS 1.0+, watchOS 10.0+
 
 **Swift Version:** 5.9
+
 </details>
 
-## Code
+---
+
+## Code Example
 
 ```swift
 #Preview {
@@ -25,10 +28,12 @@ A macro introduced in iOS 18 that simplifies the creation of preview wrapper vie
 }
 ```
 
-## Usage
+---
+
+## Why Previewable?
 
 ### Traditional Approach
-In SwiftUI, when previewing a view that requires a `@Binding` property, such as a toggle switch, you typically need to create a container or wrapper view to manage the state. For example:
+When previewing SwiftUI views with `@Binding` properties, developers traditionally create wrapper views to manage the state:
 
 ```swift
 private struct ContainerView: View {
@@ -43,10 +48,10 @@ private struct ContainerView: View {
 }
 ```
 
-This method works but requires additional boilerplate code to create the container view. While effective, this approach can become tedious, especially when dealing with multiple state properties.
+While effective, this adds boilerplate code, especially when managing multiple state properties.
 
 ### Using the Previewable Macro
-The `Previewable` macro simplifies this process by automatically generating the necessary wrapper view. This allows you to directly declare `@State` properties in the `#Preview` block:
+The `Previewable` macro eliminates the need for wrapper views:
 
 ```swift
 #Preview {
@@ -55,16 +60,74 @@ The `Previewable` macro simplifies this process by automatically generating the 
 }
 ```
 
-This not only reduces the amount of boilerplate code but also keeps the preview more concise and readable. The `@Previewable` macro handles the creation of the wrapper view behind the scenes, providing a more streamlined experience for developers.
+This approach:
+- **Simplifies Previews:** Automatically generates the wrapper view, reducing boilerplate.
+- **Enhances Interactivity:** Supports interactive previews with `@State` bindings, mimicking runtime behavior.
 
-### Why Use the Previewable Macro?
-- **Interactive Previews:** Unlike using a constant binding, which locks the view in a fixed state, the `Previewable` macro allows you to interact with the state in the preview, offering a more dynamic and realistic testing environment.
-- **Reduced Boilerplate:** Eliminates the need to manually create wrapper views for every preview, saving time and reducing potential errors.
-- **Cleaner Code:** Keeps your preview code cleaner and more focused on the actual UI components, rather than the surrounding infrastructure.
+---
 
-## Discussion
-The `Previewable` macro, introduced in iOS 18, automates the creation of a boilerplate wrapper view required for previewing SwiftUI views with `@State` bindings. Instead of manually creating a container view, you can declare your `@State` properties directly within the `#Preview` block and annotate them with the `@Previewable` macro. This approach not only simplifies the preview setup but also enables interactive previews, allowing for real-time testing of UI components with state changes.
+## Beyond State Bindings: Advanced Use Cases
+
+### Supporting Other Property Wrappers
+The `Previewable` macro isn't limited to `@State`. It supports various SwiftUI property wrappers, such as `@Environment` and `@Query`, enabling dynamic previews:
+
+```swift
+#Preview {
+    @Previewable @Query var items: [Item]
+    ItemsView(items: items)
+        .preferredColorScheme(.dark)
+}
+```
+
+---
+
+## Introducing PreviewModifier
+
+### What is PreviewModifier?
+A **PreviewModifier** allows developers to create reusable preview configurations, such as injecting mock data or setting up specific environments.
+
+```swift
+struct MockDataPreviewModifier: PreviewModifier {
+    static func makeSharedContext() throws -> ModelContainer {
+        let container = try ModelContainer(for: Item.self, configurations: ModelConfiguration(isStoredInMemoryOnly: true))
+        populateContainer(container)
+        return container
+    }
+
+    static func populateContainer(_ container: ModelContainer) {
+        // Add mock data
+    }
+
+    func body(content: Content, context: ModelContainer) -> some View {
+        content.modelContainer(context)
+    }
+}
+```
+
+Apply a `PreviewModifier` to a preview as follows:
+
+```swift
+#Preview(traits: .modifier(MockDataPreviewModifier())) {
+    ItemsView()
+}
+```
+
+### Benefits of PreviewModifier
+1. **Reusable Environments:** Configure mock data or app-specific states once and reuse them across multiple previews.
+2. **Performance Optimization:** Xcode caches contexts created by `PreviewModifier`, reducing overhead when previewing multiple instances.
+
+---
+
+## Discussion and Recommendations
+
+The `Previewable` macro and `PreviewModifier` protocol transform how we approach previews in Xcode:
+- Use **Previewable** for concise, interactive previews with inline property wrappers.
+- Leverage **PreviewModifier** for complex preview setups, ensuring consistency and performance.
+
+---
 
 ## Notes
-- **Flexibility:** The `@Previewable` macro supports various platforms, making it a versatile tool for cross-platform SwiftUI development.
-- **Compatibility:** Deploys back to iOS 17.0, macOS 14.0, tvOS 17.0, visionOS 1.0, and watchOS 10.0.
+- The `@Previewable` macro supports all SwiftUI platforms.
+- **PreviewModifier** is ideal for creating environments with mock data or app-specific states, streamlining UI testing.
+
+Enhance your previews and make SwiftUI development faster, cleaner, and more effective.
