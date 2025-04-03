@@ -1552,3 +1552,43 @@ This article introduces **function plotting in the SwiftUI Charts framework** in
 
 <LinkCard title="Read Full Article" href="https://useyourloaf.com/blog/swiftui-charts-plotting-functions/" />
 
+
+### 🔵 SwiftUI View Lifecycle in 2025: From Init to onDisappear
+
+This blog post revisits the SwiftUI View Lifecycle almost six years after SwiftUI’s initial release. The author walks through each phase of a view’s existence—from struct initialization to cleanup with `onDisappear`. It also highlights key SwiftUI features like `task`, `@State`, and `ObservableObject` that are tightly coupled to a view’s rendering and lifetime.
+
+Understanding how and when SwiftUI views are initialized, updated, and removed helps developers write more predictable and performant UI code. This post is particularly valuable for those transitioning from UIKit or looking to deepen their grasp of SwiftUI’s reactive model.
+
+<details>
+
+**URL:** https://captainswiftui.substack.com/p/init-to-win-it
+
+**Published:** 2025-04-03
+
+**Authors:** `CaptainSwiftUI`
+
+**Tags:**  
+`swiftui` `view-lifecycle` `async-programming` `state-management` `ios-development`
+
+</details>
+
+#### Key Points
+- SwiftUI views are value types (structs), so lifecycle begins with a memberwise `init`.
+- The `task` modifier enables async setup that's tied to view lifecycle and cancels automatically on teardown.
+- Use `onAppear` and `onDisappear` for side effects tied to UI presentation/disappearance.
+- Effective state management via `@State`, `@Binding`, and `@ObservedObject` is crucial to control view updates and scope.
+- Observables can support pseudo-`deinit` behavior to clean up resources not directly tied to the view struct.
+
+#### Summary of Contents
+- **Initialization:** Describes how view structs are initialized and how this is a safe point to configure lightweight logic.
+- **Async Setup with `task`:** Introduces the `task` modifier, its role in starting asynchronous work, and automatic cancellation on unmount.
+- **`onAppear` & `onDisappear`:** Highlights imperative UI lifecycle callbacks for when views are shown or hidden.
+- **State Management:** Explains how SwiftUI re-renders views based on changes in property wrappers like `@State` and `@Environment`.
+- **Deallocation Patterns:** Covers limitations of struct-based views lacking `deinit`, and offers alternatives using observable object cleanup.
+
+#### Additional Resources
+- **[Apple: Migrating to SwiftUI Lifecycle](https://developer.apple.com/documentation/swiftui/migrating-to-the-swiftui-life-cycle):** Apple’s official guide to adopting the SwiftUI app lifecycle.
+- **[Vadim Bulavin on SwiftUI Lifecycle](https://www.vadimbulavin.com/swiftui-view-lifecycle/):** Technical deep dive into the under-the-hood mechanics of SwiftUI rendering and state.
+- **[Hacking with Swift - Why structs don’t have deinit](https://www.hackingwithswift.com/quick-start/understanding-swift/why-do-classes-have-deinitializers-and-structs-dont):** Useful read on the absence of destructors in SwiftUI’s View structs.
+
+<LinkCard title="Read Full Article" href="https://captainswiftui.substack.com/p/init-to-win-it" />
