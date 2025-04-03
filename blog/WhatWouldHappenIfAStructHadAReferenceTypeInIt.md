@@ -26,7 +26,7 @@ In this case, the result is simply the creation of a value type with a property 
 
 Any changes made to the reference type will also be reflected in the property within the value type.
 
-In the following example, theUserobject is a referencetype. You’ll see that changes made to the reference type modify the property in thestruct.
+In the following example, the `User` object is a reference type. You’ll see that changes made to the reference type modify the property in the `struct`.
 
 ```swift
 class User {
