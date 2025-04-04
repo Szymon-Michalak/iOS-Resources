@@ -36,4 +36,4 @@ Moreover, each window is meant to work independently from one another, so now sc
 `AppDelegate’s` responsibilities are otherwise unchanged.It will still be responsible for setting up any data needed for the duration of the application, configuring your app’s scenes, registering for external services like push notifications, and managing the application’s lifecycle.
 
 In a nutshell, the `SceneDelegate` manages the iOS app’sUI lifecycle methods whereas the
-`AppDelegate` only handles the iOS app’s applicationlifecycle methods.
+`AppDelegate` only handles the iOS app’s application lifecycle methods.

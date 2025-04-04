@@ -22,7 +22,7 @@ tags: [swift]
 
 All of these options are different ways of calling a function that can throw an error.
 
-`try!` is the most dangerous option of the bunch andshould seldomly be used as it involves force unwrapping an `Optional` value.
+`try!` is the most dangerous option of the bunch and should seldomly be used as it involves force unwrapping an `Optional` value.
 
 It’s effectively saying that while the function in question _could_ throw an error, this will never happen. So, we want to proceed as if the called function will always return a value:
 
@@ -30,7 +30,7 @@ It’s effectively saying that while the function in question _could_ throw an e
 func fetchData() {
     // try! states that even though this function may return an error,
     // we know it won't happen so we can force unwrap this optional
-    let unwrappedData =try! thisFunctionCanThrow()
+    let unwrappedData = try! thisFunctionCanThrow()
 
     // The application will crash if unwrappedData is in fact nil
 }
