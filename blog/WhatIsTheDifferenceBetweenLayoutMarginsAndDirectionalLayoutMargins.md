@@ -20,7 +20,7 @@ tags: [uikit]
 
 :::
 
-`layoutMargins` is a property of a `UIView` that allows the developer to specify the top,left, bottom, and right insets for a view’s margin. The system defaults a `UIView` to an inset of 16
+`layoutMargins` is a property of a `UIView` that allows the developer to specify the top, left, bottom, and right insets for a view’s margin. The system defaults a `UIView` to an inset of 16
 pixels on all edges.
 
 ```swift
@@ -37,8 +37,6 @@ greetingLabel.trailingAnchor.constraint(
 equalTo: view.layoutMarginsGuide.trailingAnchor).isActive = true
 }
 ```
-
-As you can see, theUIViewis inset 16 pixels from the left.
 
 We can easily customize it with our own values:
 
@@ -60,8 +58,7 @@ equalTo: view.layoutMarginsGuide.trailingAnchor).isActive = true
 }
 ```
 
-All constraints relative to thelayoutMarginswillnow honor the custom insets we specified
-above:
+All constraints relative to the `layoutMargins` will now honor the custom insets we specified above.
 
 But, there’s a silent issue here. What happens if our device uses a language that lays out right to left like Hebrew or Farsi? In that case, we’d want ourleftedge inset to start from the right-hand side and vice-versa.
 
