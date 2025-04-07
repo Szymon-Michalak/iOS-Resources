@@ -41,7 +41,7 @@ class Dog: Mammal {}
 class Cat: Mammal {}
 ```
 
-**is** (typecheck operator)
+## **is** (typecheck operator)
 Use the typecheck operator, `is`, to check whether an instance is of a certain subclass type:
 
 ```swift
@@ -64,12 +64,12 @@ This keyword isn’t very popular in Swift as you can always write an equivalent
 
 We’ll see an example of this shortly.
 
-**as** (upcasting operator)
+## **as** (upcasting operator)
 The `as` operator allows us to upcast from a subclassto superclass (i.e. `Dog` to `Animal`).
 
 **The compiler must be able to guarantee the validity of the cast when we use this operator.**
 
-So, we’ll typically use it for conversions we know the compiler will be able to verify like `String` to `NSString`, `NSDate` to `Date`, or casting an objectback to its parent class type.
+So, we’ll typically use it for conversions we know the compiler will be able to verify like `String` to `NSString`, `NSDate` to `Date`, or casting an object back to its parent class type.
 
 ```swift
 let animal: [Animal] = [Dog() as Animal, Cat() as Animal, Mammal() as Animal]
@@ -78,10 +78,10 @@ let animal: [Animal] = [Dog() as Animal, Cat() as Animal, Mammal() as Animal]
 print(animal)
 ```
 
-**as?** (conditional cast operator)
-Similar to the `as` operator, `as?` also attempts to converta class’s type, but will return `nil` if the conversion fails.
+## **as?** (conditional cast operator)
+Similar to the `as` operator, `as?` also attempts to convert a class’s type, but will return `nil` if the conversion fails.
 
-Use the `as?` operator when you aren’t sure if the casting operation will succeed. In the example below, the attempt to downcast `mammal` to `Dog` succeeds,but attempting to cast `mammal` to `Cat`
+Use the `as?` operator when you aren’t sure if the casting operation will succeed. In the example below, the attempt to downcast `mammal` to `Dog` succeeds, but attempting to cast `mammal` to `Cat`
 evaluates to `nil`.
 
 ```swift
@@ -100,7 +100,7 @@ if let cat = mammal as? Cat {
 }
 ```
 
-**as!** (forced casting keyword)
+## **as!** (forced casting keyword)
 This operator is known as the force downcasting operator and, like all other force unwrapping, will trigger a runtime error if the downcast conversion fails.
 
 Make sure you only use this when you know the downcast will succeed!

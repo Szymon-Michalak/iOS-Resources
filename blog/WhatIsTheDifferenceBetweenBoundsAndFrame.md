@@ -22,7 +22,7 @@ tags: [uikit]
 
 This question is asked frequently during interviews, particularly as part of an initial phone screen or online assessment.
 
-Theboundsof aUIViewis the rectangle expressedas a location(x,y)and size(width, height)relative to its own coordinate system(0,0).
+The `bounds` of a `UIView` is the rectangle expressed as a `location(x,y)`and `size(width, height)`relative to its own coordinate system `(0,0)`.
 
 The `frame` of a `UIView` is the rectangle expressed as a `location(x,y)` and `size(width, height)` relative to the superview it is contained within.
 
@@ -53,5 +53,3 @@ print("Frame: ", rotatedView.frame)
 // (0.0, 0.0, 100.0, 200.0)
 print("Bounds: ", rotatedView.bounds)
 ```
-
-The image below should help clarify the difference between theframeand thebounds.

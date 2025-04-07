@@ -20,7 +20,7 @@ tags: [swift]
 
 :::
 
-In the example below, we have a simpleEngineclassthat implements the `Equatable` protocol. This allows us to provide a custom implementation for the `==` operator.
+In the example below, we have a simple `Engine` class that implements the `Equatable` protocol. This allows us to provide a custom implementation for the `==` operator.
 
 We say that two `Engines` are equal if the `horsepower` is the same. So, as long as the `Int` values match, `==` will return `true`.
 
@@ -44,7 +44,7 @@ let engine3 == Engine(horsepower: 200 )
 engine1 == engine2 // true
 engine2 == engine3 // false
 ```
-With `===` we’re asking if the objects on either sideof the operator point to the same reference.
+With `===` we’re asking if the objects on either side of the operator point to the same reference.
 In other words, do they point to the same place in memory?
 
 In the following example, when we compare `engine1` to `engineCopy`(which is also referencing the same memory location), `===` returns `true`.
@@ -58,4 +58,4 @@ engine1 === engineCopy // true
 engine2 === engineCopy // false
 ```
 
-However, in the second check, we can see that `engine2` and `engineCopy` are pointing to entirely different objects, so even though thehorsepoweris the same,`===` returns `false`.
+However, in the second check, we can see that `engine2` and `engineCopy` are pointing to entirely different objects, so even though the `horsepower` is the same,`===` returns `false`.
