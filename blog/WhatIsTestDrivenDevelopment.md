@@ -36,13 +36,13 @@ Writing these tests early on helps provide documentation about how the app is _e
 
 In discussions of TDD, you may often see it broken down into 3 stages - Red, Green, and Refactor.
 
-**Red:**
+ - **Red:**
 Create a unit test that fails.
 
-**Green:**
+ - **Green:**
 Write just enough production code to make your test pass.
 
-**Refactor:**
+ - **Refactor:**
 Once your tests are passing, you’re free to make any changes to your code. This is your opportunity to clean up your implementation and refine your approach.
 
 TDD only focuses on unit tests and doesn’t cover UI behavior or integration tests, so it’s often paired with additional testing paradigms.

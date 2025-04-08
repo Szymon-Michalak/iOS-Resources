@@ -24,11 +24,11 @@ As your application matures and your application size and launch speed start to 
 
 Libraries and frameworks can either be linked statically or dynamically.
 
-Static libraries are collections of object files (the machine code output after compilation) grouped into a single containing resource. This library will then be copied into the larger executable that eventually runs on your device. If you’ve ever seen a file ending in.a, it’s a static library.
+Static libraries are collections of object files (the machine code output after compilation) grouped into a single containing resource. This library will then be copied into the larger executable that eventually runs on your device. If you’ve ever seen a file ending in `.a`, it’s a static library.
 
 Imagine a suitcase filled with everything you need for your vacation. A static library is similar; everything you need in order to run your application is included in the executable itself. Static libraries **cannot contain** images, sound files, media,etc. - they can only store code files.
 
-Dynamic libraries (`.dylibfiles`) are loaded into memorywhen needed instead of being bundled with the executable itself. All iOS and macOS system libraries are actually dynamic.
+Dynamic libraries (`.dylib` files) are loaded into memory when needed instead of being bundled with the executable itself. All iOS and macOS system libraries are actually dynamic.
 
 The main advantage here is that any application that relies on these dynamic libraries will benefit from all future speed improvements and bug fixes in these libraries without having to create a new release. Additionally, dynamic libraries are shared between applications, so the system only needs to maintain one copy of the resource. Since it’s shared and only loaded when needed, invoking code in a dynamic library is slower than a static one.
 

@@ -20,9 +20,9 @@ tags: [swift]
 
 :::
 
-Optional chaining is a convenient way of unwrapping multiple `Optional` properties sequentially. If any of the `Optional` values in theexpression resolve tonil, the entire expression will resolve tonil.
+Optional chaining is a convenient way of unwrapping multiple `Optional` properties sequentially. If any of the `Optional` values in the expression resolve to `nil`, the entire expression will resolve to `nil`.
 
-Consider the following expression involving multipleOptionalproperties:
+Consider the following expression involving multiple `Optional` properties:
 ```swift
 user?.isAdmin?.isActive
 ```
