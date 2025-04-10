@@ -24,6 +24,6 @@ Code coverage allows you to measure what percentage of your codebase is being ex
 
 This option is disabled by default.
 
-To enable it for your project, edit the target’s settings and select the Code Coverage checkbox:
+To enable it for your project, edit the target’s settings and select the Code Coverage checkbox.
 
 Now, when you run your tests, you’ll see a breakdown of what areas of your codebase are covered by tests.

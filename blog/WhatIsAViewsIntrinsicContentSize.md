@@ -24,4 +24,4 @@ All `UIViews` have an `.intrinsicContentSize` property that specifies the amount
 
 If you've ever used `UITableView.automaticDimension`,this is deferring to the `UITableViewCell`'s intrinsic content size to figure out the appropriate height for the cell.
 
-As another example, if you had a `UILabel` with a customfont and word wrapping enabled, the intrinsic content size would be the size needed to show all of the text without any truncation.
+As another example, if you had a `UILabel` with a custom font and word wrapping enabled, the intrinsic content size would be the size needed to show all of the text without any truncation.

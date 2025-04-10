@@ -24,9 +24,9 @@ Behavior Driven Development (BDD) is a software development methodology that aim
 
 For example, when you’re writing traditional unit tests, you’ll often write tests for all of the various inputs a particular function could expect to receive and assert that the result matches what you’d expect.
 
-This approach though is entirely focused on the implementation details of your application. As a result, you spend more time testing particulars of the implementation over the actual business logic of your application. BDD strives to tip the balance in the other direction by focusing on testing _what_ your application does insteadof _how_ it does it.
+This approach though is entirely focused on the implementation details of your application. As a result, you spend more time testing particulars of the implementation over the actual business logic of your application. BDD strives to tip the balance in the other direction by focusing on testing _what_ your application does instead of _how_ it does it.
 
-In BDD, when writing tests, you’ll start with a user story and model your tests around the expected behavior for the end user. While Swift doesn’t support writing BDD style tests natively, popular frameworks like Quick & Nimble allow us to add BDD style testing to the iOS ecosystem.
+In BDD, when writing tests, you’ll start with a user story and model your tests around the expected behavior for the end user. While Swift doesn’t support writing BDD style tests natively, popular frameworks like `Quick` and `Nimble` allow us to add BDD style testing to the iOS ecosystem.
 
 Here’s an example test case written in the BDD style - notice that we’re focusing on testing the end result instead of how we get there:
 ```swift
@@ -67,9 +67,9 @@ describe("Email/Password Authentication") {
 
 BDD tests follow the *Given*, *When*, and *Then* format.
 
-If we consider the examples above, we start with the describekeyword which clarifies the action or behavior we’re looking to test and establishes any preconditions for the test *given*.
+If we consider the examples above, we start with the `describe` keyword which clarifies the action or behavior we’re looking to test and establishes any preconditions for the test *given*.
 
-Next, the `context` block describes the conditions inwhich this behavior should be expected *when*.
+Next, the `context` block describes the conditions in which this behavior should be expected *when*.
 
 Finally, the `it` block specifies the expected behaviorand validates the results *then*.
 
