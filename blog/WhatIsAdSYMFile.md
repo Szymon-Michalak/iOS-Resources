@@ -44,11 +44,11 @@ Clearly, it’s hard to tell what’s going on - all we see are memory addresses
 
 That’s where the `.dSYM` file comes in.
 
-The `.dSYM` file (debug symbol file) contains the informationrequired to convert a stack-trace into a human-readable format. This file is automatically created with every release build and is used by Xcode to put the symbols back into the crash report thereby allowing you to read it properly.
+The `.dSYM` file (debug symbol file) contains the information required to convert a stack-trace into a human-readable format. This file is automatically created with every release build and is used by Xcode to put the symbols back into the crash report thereby allowing you to read it properly.
 
 Through a process known as re-symbolication, we can leverage our `.dSYM` file to convert our crash logs to something like this instead:
 
-```swift
+```
 0 libswiftCore.dylib 0x000000018f3c9380 closure # 1 in closure # 1 in closure # 1 in _assertionFailure+ 217984 (_:_:file:line:flags:) + 452
 1 libswiftCore.dylib 0x000000018f3c9380 closure # 1 in closure # 1 in closure # 1 in _assertionFailure+ 217984 (_:_:file:line:flags:) + 452
 2 libswiftCore.dylib 0x000000018f3c8844 _assertionFailure+ 215108 (_:_:file:line:flags:) + 468
@@ -66,4 +66,4 @@ You’ll see that our crash logs now contain real method and variable names whic
 
 Some services, like Crashlytics, will automatically re-symbolicate the crash reports for you so they're more human readable. This process allows us to ensure our crash logs are obfuscated for everyone else, but still readable and useful to us as developers.
 
-Simply put, removing these symbols from our executable helps us ensure that our app is not only difficult to reverse engineer, but also allows us to reduce our application’s binary size. Then, when needed, we can use the `.dSYM` file to reversethe process.
+Simply put, removing these symbols from our executable helps us ensure that our app is not only difficult to reverse engineer, but also allows us to reduce our application’s binary size. Then, when needed, we can use the `.dSYM` file to reverse the process.

@@ -20,7 +20,7 @@ tags: [swift]
 
 :::
 
-An associated value is the term used to describe the value accompanying acasein a Swift enum. Associated values allow us to present more nuanceddata by adding contextual information to ourcases.
+An associated value is the term used to describe the value accompanying a `case` in a Swift `enum`. Associated values allow us to present more nuanced data by adding contextual information to our `case`s.
 
 ```swift
 enum Distance {
@@ -32,7 +32,7 @@ enum Distance {
 Distance.miles(value: 20 )
 ```
 
-With Swift, names can be specified for associated values in order to make their use more understandable. Additionally, eachcasecan be associatedwith values of any type and number.
+With Swift, names can be specified for associated values in order to make their use more understandable. Additionally, each `case` can be associated with values of any type and number.
 
 ```swift
 enum Action {

@@ -23,7 +23,7 @@ tags: [swift]
 An anonymous function is a function definition that isn’t bound to an identifier. For example, most closures are considered anonymous functions. They can help make code more readable by allowing you to define all of the relevant logic in one place.
 
 You will have almost certainly used anonymous functions in your own Swift code. Notice how in the following examples, functions like
-`{ self.view.backgroundColor = .orange }` and `{ $ 0 * 2 }` are defined without explicit function namesattached to them.
+`{ self.view.backgroundColor = .orange }` and `{ $ 0 * 2 }` are defined without explicit function names attached to them.
 
 ```swift
 func performAnimation() {

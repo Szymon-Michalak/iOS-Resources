@@ -20,10 +20,10 @@ tags: [general]
 
 :::
 
-**Equatable**
-Implementing this protocol allows one instance of an object to be compared for equality with another instance of an object of the same type. You’ve probably leveraged this protocol without realizing it as theEquatableprotocol is what allowsus to use `==` to check the equality of two objects.
+## **Equatable**
+Implementing this protocol allows one instance of an object to be compared for equality with another instance of an object of the same type. You’ve probably leveraged this protocol without realizing it as the `Equatable` protocol is what allowsus to use `==` to check the equality of two objects.
 
-Adding `Equatable` support to your object allows your object to gain access to many convenient Swift APIs automatically. Furthermore, since `Equatable` is the base protocol for `Hashable` and `Comparable`, by adding `Equatable` conformance,we can easily extend our implementation to support creating Sets, sorting elements of a collection, and much more.
+Adding `Equatable` support to your object allows your object to gain access to many convenient Swift APIs automatically. Furthermore, since `Equatable` is the base protocol for `Hashable` and `Comparable`, by adding `Equatable` conformance,we can easily extend our implementation to support creating `Sets`, sorting elements of a collection, and much more.
 
 Let’s take a look at our `Money` struct:
 ```swift
@@ -64,7 +64,7 @@ struct Money: Equatable {
 }
 ```
 
-**Hashable**
+## **Hashable**
 When an object implements the `Hashable` protocol it introduces a `hashValue` property which is useful in determining the equality of two objects and allows that object to be used with a `Set` or `Dictionary`.
 
 The `hashValue` is an `Integer` representation of the object that will always be the same for any two instances that compare equally. In simple terms, this means that if we have two instances
@@ -72,7 +72,7 @@ of an object `A` and `B` then if `A == B` it must follow that `A.hashValue == B.
 
 However, the reverse isn’t necessarily true. Two instances can have the same `hashValue`, but may not necessarily equal one another. This is because the process that creates the `hashValue` can occasionally create situations where two different instances generate the same `hashValue`.
 
-The `Hashable` protocol only guarantees that two instancesthat are already known to be equal will also have the same `hashValue`.
+The `Hashable` protocol only guarantees that two instances that are already known to be equal will also have the same `hashValue`.
 
 It’s easy to add support for the `Hashable` protocol, but note that `Hashable` requires conformance to the `Equatable` protocol as well.
 
@@ -92,7 +92,7 @@ struct Money: Hashable {
     let value: Int
     let currencyCode: String
 
-    func hash(into hasher:inout Hasher) {
+    func hash(into hasher: inout Hasher) {
         hasher.combine(value)
         hasher.combine(currencyCode)
     }
@@ -101,10 +101,10 @@ struct Money: Hashable {
 
 Conforming to the `Hashable` protocol allows you to use this object in a `Set` or as a `Dictionary` key. Many types in the standard library conform to `Hashable`: `Strings`, `Integers`, `Floats`, `Booleans`, and even `Set` are hashable by default.
 
-**Comparable**
+## **Comparable**
 The `Comparable` protocol allows us to use our customtype with the `<`, `<=`, `>=`, and `>` operators.
 
-The implementation of this protocol is quite clever. We only have to implement the less than operator `<` since the implementations of all ofthe other comparison operators can be inferred from `<` and our `Equatable` conformance.
+The implementation of this protocol is quite clever. We only have to implement the less than operator `<` since the implementations of all of the other comparison operators can be inferred from `<` and our `Equatable` conformance.
 
 This conformance allows us to use handy Swift methods like `sorted()`,`min()`, and `max()`on our objects in collections.
 

@@ -41,11 +41,11 @@ By default, the specified `rawValue` type can be a `String`, `Character`, `Integ
 
 The hard-coded value you assign must be unique within the `enum’s` declaration.
 
-If our enumeration’s `rawValue` is an `Integer` or a `String`,Swift will automatically assign default values for us. However, we’re still able to override the default values if need be.
+If our enumeration’s `rawValue` is an `Integer` or a `String`, Swift will automatically assign default values for us. However, we’re still able to override the default values if need be.
 
-When it comes toIntegers, the implicit value foreach case is one more than the last. If no value is set for the first case, therawValuewillstart counting up from 0.
+When it comes to `Integers`, the implicit value for each case is one more than the last. If no value is set for the first case, the `rawValue` will start counting up from 0.
 
-Consider thisenumthat specifies the planets and their respective position from the Sun:
+Consider this `enum` that specifies the planets and their respective position from the Sun:
 ```swift
 enum Planet: Int {
     case mercury = 1 , venus, earth, mars, jupiter, saturn, uranus, neptune

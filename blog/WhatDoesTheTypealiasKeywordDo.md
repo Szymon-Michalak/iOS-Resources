@@ -51,8 +51,8 @@ variable would be.
 typealias ClockTime = (hours: Int, min: Int)
 
 class HelloWorld {
-// Only available within this class
-typealias Greeting = String
+  // Only available within this class
+  typealias Greeting = String
 
 func sayGreeting(greeting: Greeting) {}
 }

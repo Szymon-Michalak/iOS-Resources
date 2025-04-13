@@ -24,9 +24,9 @@ Memory leaks occur when a program incorrectly manages memory allocations such th
 
 In iOS, most memory leaks are a result of retain cycles.
 
-This occurs when two entities keep astrongreferenceto one another. Since these entities' respective retain counts would be non-zero, ARC (automatic reference counting) would be
+This occurs when two entities keep a `strong` reference to one another. Since these entities' respective retain counts would be non-zero, ARC (automatic reference counting) would be
 unable to release either one.
 
-The advantage of keywords likeweakorunownedisthat they allow us to create references to other objects without affecting their retain count. As a result, most memory leaks can be mitigated by making the offending referenceweakorunowned.
+The advantage of keywords like `weak` or `unowned` is that they allow us to create references to other objects without affecting their retain count. As a result, most memory leaks can be mitigated by making the offending reference `weak` or `unowned`.
 
 If we need to debug a memory leak, we can use Xcode’s Memory Graph Tool or the Leaks profiling template within Instruments.

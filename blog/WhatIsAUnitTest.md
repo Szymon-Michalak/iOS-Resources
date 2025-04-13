@@ -22,7 +22,7 @@ tags: [testing]
 
 A unit test is a type of automated test used to validate the correctness of a piece of code by providing an exhaustive list of inputs and ensuring that the expected outputs are returned.
 
-Xcode provides easy support for writing unit tests by way of theXCTestframework. In our app’s testing target, we could write a simple test like this and assert that the output from the function call matches our expected output:
+Xcode provides easy support for writing unit tests by way of the z `XCTest` framework. In our app’s testing target, we could write a simple test like this and assert that the output from the function call matches our expected output:
 ```swift
 func testOnlyEvenNumbersFilter() {
     let input = [ 2 , 3 , 4 , 5 , 6 , 7 ]

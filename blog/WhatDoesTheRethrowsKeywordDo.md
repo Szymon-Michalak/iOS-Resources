@@ -43,15 +43,15 @@ This is all pretty normal so far, but what if the function passed into `map` can
 
 ```swift
 func doubleInput(_ input: Int) throws -> Int {
-    guard input != 0 else {
+  guard input != 0 else {
     throw Error.invalidRequirement
-}
+  }
 
-return input * 2
+  return input * 2
 }
 
 try [ 1 , 2 , 3 , 4 , 5 ].map { doubleInput($ 0 ) }
 ```
-The takeaway here is that if `map` was instead declared with `throws`, in both examples we’d have to call `map` with `try` even if the passed in function didn’t throw. This would be inelegant and would clutter our code with unnecessary `try` statements.On the other hand, if `map` were declared without `throws` or `rethrows` we wouldn’t be able to pass in a throwing function to begin with.
+The takeaway here is that if `map` was instead declared with `throws`, in both examples we’d have to call `map` with `try` even if the passed in function didn’t throw. This would be inelegant and would clutter our code with unnecessary `try` statements. On the other hand, if `map` were declared without `throws` or `rethrows` we wouldn’t be able to pass in a throwing function to begin with.
 
 The `rethrows` keyword allows us to handle both cases elegantly - throwing and non-throwing functions. It enables us to create functions that don’t necessarily throw errors of their own, but simply forward errors from one or more of their function parameters when applicable.

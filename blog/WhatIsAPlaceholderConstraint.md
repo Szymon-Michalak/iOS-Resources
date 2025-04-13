@@ -22,7 +22,7 @@ tags: [uikit]
 
 There may be cases where a constraint can only meaningfully be set at runtime. Perhaps you don't know which subview to constrain a constraint too or maybe you don't know what the constant value of the constraint should be.
 
-If you choose to omit this constraint at compile time, AutoLayout might complain about ambiguous constraints or an unsatisfiable layout. By using placeholder constraints, we can sidestep this issue.
+If you choose to omit this constraint at compile time, `AutoLayout` might complain about ambiguous constraints or an unsatisfiable layout. By using placeholder constraints, we can sidestep this issue.
 
 Simply put, a placeholder constraint is a constraint that exists only at design time. They are not included in the layout when the app runs.
 
