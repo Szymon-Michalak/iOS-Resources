@@ -20,7 +20,7 @@ tags: [general]
 
 :::
 
-When you load a `.xib` file and specify the `owner` property,the class responsible for loading the `.xib` now becomes the File's Owner.
+When you load a `.xib` file and specify the `owner` property, the class responsible for loading the `.xib` now becomes the File's Owner.
 ```swift
 open func loadNibNamed(_ name: String, owner: Any?,
 options: [UINib.OptionsKey : Any]? = nil) -> [Any]?
@@ -29,9 +29,9 @@ options: [UINib.OptionsKey : Any]? = nil) -> [Any]?
 Bundle.main.loadNibNamed("ExampleView", owner: self, options: nil)
 ```
 
-Put simply, the File’s Owner is responsible for loading the `.xib` and facilitating communication between the code and the elements defined in the view. In the example above, `ViewController` initiates loading the `.xib` file therebymaking it the File’s Owner. As a result, it will now serve as the middle-man between the `.xib` file and our application’s code.
+Put simply, the File’s Owner is responsible for loading the `.xib` and facilitating communication between the code and the elements defined in the view. In the example above, `ViewController` initiates loading the `.xib` file thereby making it the File’s Owner. As a result, it will now serve as the middle-man between the `.xib` file and our application’s code.
 
-Once the `.xib` file has completed loading, the File’sOwner is responsible for managing the view's contents and binding all of the declared `IBOutlets` and `IBActions` in your code to the
+Once the `.xib` file has completed loading, the File’s Owner is responsible for managing the view's contents and binding all of the declared `IBOutlets` and `IBActions` in your code to the
 view's corresponding UI components.
 
 When we specify the File’s Owner in our `.xib` directly, we're effectively assigning a placeholder value that says -"This class will load me, interact with my UI, and create the necessary bindings to my various UI elements".

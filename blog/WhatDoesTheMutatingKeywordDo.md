@@ -20,7 +20,7 @@ tags: [swift]
 
 :::
 
-In Swift,structsare value types which means the properties contained within are immutable by default. So, if we want to be able to modify the values within astruct, we’ll need to use the `mutating` keyword. This keyword only applies to **valuetypes** as reference types are not immutable in this way.
+In Swift, `structs` are value types which means the properties contained within are immutable by default. So, if we want to be able to modify the values within a `struct`, we’ll need to use the `mutating` keyword. This keyword only applies to **value types** as reference types are not immutable in this way.
 
 Whenever we call a function that uses this keyword and modifies the `struct`'s properties, Swift will generate a new `struct` in-place with the modifications applied and will overwrite our original `struct`.
 
@@ -52,7 +52,7 @@ struct User {
 }
 ```
 
-When working withmutatingfunctions, we’ll need to declare the ` ` as a variable since we’re making changes to the `struct`'s properties:
+When working with `mutating` functions, we’ll need to declare the property as a variable since we’re making changes to the `struct`'s properties:
 
 ```swift
 let user = User()
