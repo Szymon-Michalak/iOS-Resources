@@ -26,7 +26,7 @@ Typically, you will only need to call `setNeedsDisplay()` if you are also overri
 
 `drawRect()` is responsible for the actual rendering of the view and is called by the system whenever drawing is required. You should never call this function explicitly; letting the system manage the calls to this function helps avoid multiple redraws if one has already been queued.
 
-Let’s say we have a `DrawLineView` which draws a linebetween 2 provided points. It might look something like this:
+Let’s say we have a `DrawLineView` which draws a line between 2 provided points. It might look something like this:
 
 ```swift
 class DrawLineView: UIView {
@@ -43,7 +43,7 @@ class DrawLineView: UIView {
     }
 }
 ```
-If we wanted to update the location and the length of the line, simply updating the values of `point1` and `point2` will not suffice. Changing these properties will **not** automatically redraw the line with updated starting and ending points. So far all we’ve done is change the underlying data, but we still haven’t forced an update of the UI [forced a call todrawRect()].
+If we wanted to update the location and the length of the line, simply updating the values of `point1` and `point2` will not suffice. Changing these properties will **not** automatically redraw the line with updated starting and ending points. So far all we’ve done is change the underlying data, but we still haven’t forced an update of the UI [forced a call to `drawRect()`].
 
 As a result, we’ll need to call `setNeedsDisplay()` after updating `point1` and `point2`:
 
@@ -54,6 +54,4 @@ drawLineView.point2 = CGPointMake(endDot.center.x, endDot.center.y);
 drawLineView.setNeedsDisplay()
 ```
 
-This call tosetNeedsDisplay()will in turn calldrawRect()which will actually redraw the line to reflect its new starting and ending locations.
-
-Here’s an example courtesy offujianjin6471 on GitHub. It may help to check out this project and play around with it to better understand `setNeedsDisplay()`’s role.
+This call to `setNeedsDisplay()` will in turn call `drawRect()` which will actually redraw the line to reflect its new starting and ending locations.

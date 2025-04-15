@@ -26,7 +26,7 @@ In simple terms, this means the language supports passing functions as arguments
 
 As we'll see in the following examples, Swift treats functions as first-class citizens.
 
-**Storing Functions In Variables**
+## **Storing Functions In Variables**
 We can easily create a function (or in this case a closure definition) and assign it to a variable:
 
 ```swift
@@ -41,7 +41,7 @@ class FirstClassCitizens {
 }
 ```
 
-**Passing Functions As Arguments**
+## **Passing Functions As Arguments**
 We can also pass functions as arguments to other functions.
 
 For example, whenever we specify an animation in Swift, the second parameter is actually accepting a function.
@@ -59,7 +59,7 @@ class FirstClassCitizens {
 }
 ```
 
-**Returning Functions From Functions**
+## **Returning Functions From Functions**
 We can also return a function from a function as well:
 
 ```swift

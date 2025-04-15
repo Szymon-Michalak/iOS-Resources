@@ -24,8 +24,8 @@ Imagine we have the following `protocol`:
 
 ```swift
 protocol Stack {
-func push(x: Int)
-func pop() -> Int?
+    func push(x: Int)
+    func pop() -> Int?
 }
 ```
 
@@ -35,17 +35,17 @@ But what if we wanted our `Stack` to work with `Doubles` or `Strings`? Our only 
 
 ```swift
 protocol IntStack {
-func push(x: Int)
-func pop() -> Int?
+    func push(x: Int)
+    func pop() -> Int?
 }
 
 protocol DoubleStack {
-func push(x: Double)
-func pop() -> Double?
+    func push(x: Double)
+    func pop() -> Double?
 }
 ```
 
-Clearly, this approach would be a little silly and is obviously not scalable. Luckily, this is exactly the problem that `associated types` can help us solve.
+Clearly, this approach would be a little silly and is obviously not scalable. Luckily, this is exactly the problem that `associatedtypes` can help us solve.
 
 The `associatedtype` keyword allows us to provide a placeholder for the type of the entity that will eventually implement this protocol.
 
@@ -59,7 +59,7 @@ protocol Stack {
 }
 ```
 
-In the example above, we’ve declared this new type `Element` which doesn’t exist anywhere else in our code. Now, whenever we implement this `protocol`,`Element` will be replaced with the type of the entity implementing `Stack`.
+In the example above, we’ve declared this new type `Element` which doesn’t exist anywhere else in our code. Now, whenever we implement this `protocol`, `Element` will be replaced with the type of the entity implementing `Stack`.
 
 ```swift
 class IntStack: Stack {
@@ -71,10 +71,10 @@ class IntStack: Stack {
 }
 
 class StringStack: Stack {
-    func push(x: Int) {
+    func push(x: String) {
     }
 
-    func pop() -> Int? {
+    func pop() -> String? {
     }
 }
 ```
