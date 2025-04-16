@@ -44,8 +44,8 @@ func deadLock() {
 
 Our queue is a serial queue so it’s going to run these blocks synchronously - one after the other.
 
-In this case, the inner closure (B) can’t run until the outer closure (A) finishes. This is because A is holding the control of the current thread (remember it’s a serial queue). A can never finish its execution because it’s now waiting for B to finish running.
+In this case, the inner closure (`B`) can’t run until the outer closure (`A`) finishes. This is because `A` is holding the control of the current thread (remember it’s a serial queue). `A` can never finish its execution because it’s now waiting for `B` to finish running.
 
-A depends on B and B depends on A and the thread stalls. One solution would be to change the queue type from serial to concurrent. This would allow the inner closure, B, to start without waiting for A to finish.
+`A` depends on `B` and `B` depends on `A` and the thread stalls. One solution would be to change the queue type from serial to concurrent. This would allow the inner closure, `B`, to start without waiting for `A` to finish.
 
 Be careful when working with serial queues as they can easily lead to deadlocks.
