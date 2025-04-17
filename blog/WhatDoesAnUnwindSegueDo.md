@@ -36,5 +36,5 @@ You can leave the method body empty.
 
 Then, in the `UIViewController` you’re departing from `ViewControllerC` you can drag from the body of the `UIViewController` to the Exit Icon and select the function we’ve created.
 
-Now, when we press the “Go Directly to A” button, the application will navigate directly from `ViewControllerC` to `ViewControllerA` skipping over anddestroyingViewControllerB along the way.
+Now, when we press the “Go Directly to A” button, the application will navigate directly from `ViewControllerC` to `ViewControllerA` skipping over and destroying `ViewControllerB` along the way.
 

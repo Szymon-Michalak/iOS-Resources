@@ -62,7 +62,7 @@ sayHello(name: "Aryaman", then: {
 })
 ```
 
-You can see in the example above, the ﬁrst call to sayHello() is harder to read than the second call. When multiple closures are required, it’s hard to discern which one does what.
+You can see in the example above, the ﬁrst call to `sayHello()` is harder to read than the second call. When multiple closures are required, it’s hard to discern which one does what.
 I’d recommend you keep this in mind when completing your take-home assignments.
 Additionally, if development team are using a linter like SwiftLint, it will also enforce the same convention:
 - Use trailing closure syntax when there is only one closure

@@ -20,13 +20,13 @@ tags: [swift]
 
 :::
 
-A deinitializer is a function that is called right before aclassis deallocated. Deinitializers are only available onclasstypes and eachclasscan onlyhave one deinitializer. This function does not accept any parameters.
+A deinitializer is a function that is called right before a `class` is deallocated. Deinitializers are only available on `class` types and each `class` can only have one deinitializer. This function does not accept any parameters.
 
 You create a deinitializer using the deinit keyword:
 
 ```swift
 deinit {
-// Perform the deinitialization
+  // Perform the deinitialization
 }
 ```
 
@@ -36,12 +36,12 @@ For example, you may want to invalidate timers, terminate a socket connection, o
 
 ```swift
 deinit {
-database.closeConnection()
+  database.closeConnection()
 }
 
 deinit {
-timer?.invalidate()
-timer = nil
+  timer?.invalidate()
+  timer = nil
 }
 ```
 
