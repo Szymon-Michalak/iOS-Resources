@@ -47,4 +47,4 @@ URLSession(configuration: .background(withIdentifier: "IDENTIFIER_NAME"))
 ```
 This creates a `URLSessionConfiguration` object that allows `HTTP` and `HTTPS` uploads or downloads to be performed in the background. This configuration is most commonly used when transferring data files while the app runs in the background.
 
-A `URLSession` configured with this type hands controlof the transfer over to the system which then handles the file transfer in a separate process. In iOS, this configuration makes it possible for transfers to continue even when the app is suspended or terminated.
+A `URLSession` configured with this type hands control of the transfer over to the system which then handles the file transfer in a separate process. In iOS, this configuration makes it possible for transfers to continue even when the app is suspended or terminated.

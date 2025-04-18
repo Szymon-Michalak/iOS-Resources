@@ -50,13 +50,13 @@ As you’d expect, this method is called to notify the view controller that `lay
 
 This method being called does not indicate that the individual layouts of the view's subviews have been adjusted as each subview is responsible for adjusting its own layout.
 
-YourUIViewControllercan override this method tomake changes after the view lays out its subviews. The default implementation of this method does nothing.
+Your `UIViewController` can override this method tomake changes after the view lays out its subviews. The default implementation of this method does nothing.
 
 ## `viewDidAppear(_ animated: Bool)`
 This function notifies the `UIViewController` that its view has been added to the view hierarchy and is now visible on the screen.
 
 You can override this method to perform additional tasks associated with presenting the view.
-If you override this method, you must callsuperatsome point in your implementation.
+If you override this method, you must call `super` at some point in your implementation.
 
 ## `viewWillDisappear(_ animated: Bool)`
 This method is called when the `UIViewController` is going to be removed from the view hierarchy or will no longer be visible. This method is called before the view is actually removed and before any animations are configured.

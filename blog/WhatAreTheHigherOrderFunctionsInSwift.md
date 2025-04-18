@@ -29,18 +29,17 @@ Let's say you wanted to create a function to double all of the numbers in an arr
 var input = [ 1 , 2 , 3 , 4 , 5 ]
 
 for i in 0 ..<input.count {
-input[i] = input[i] * 2
+  input[i] = input[i] * 2
 }
 
 // `input` now equals [2, 4, 6, 8, 10]
 ```
 
-However, we've immediately run into a problem. What happens if we want to access the original values ininput? We can no longer retrievethose values.
+However, we've immediately run into a problem. What happens if we want to access the original values ininput? We can no longer retrieve those values.
 
-By changinginput, we’ve used imperative programmingwhich is a paradigm in which executed statements change the state of the program. In contrast, functional programming ensures that no changes are made to the existing state of the application and no side-effects are introduced.
+By changing input, we’ve used imperative programming which is a paradigm in which executed statements change the state of the program. In contrast, functional programming ensures that no changes are made to the existing state of the application and no side-effects are introduced.
 
 You'll be able to find a more rigorous mathematical definition of functional programming elsewhere, but simply speaking the goal is:
-
 
 - Avoid mutability wherever possible.
 - Use functions as the building blocks of functionality. In other words, try to compose functions wherever possible.
@@ -49,7 +48,7 @@ You'll be able to find a more rigorous mathematical definition of functional pro
 Simply put, in imperative programming, changing the variable's state and introducing side effects is permissible, but in functional programming it is not.
 
 
-You'll notice that in all of the following examples, theinputvariable's values are never changed which allows us to satisfy the immutability requirement. Instead, all of these function calls return a completely new value.
+You'll notice that in all of the following examples, the input variable's values are never changed which allows us to satisfy the immutability requirement. Instead, all of these function calls return a completely new value.
 
 ```swift
 .map {}
@@ -144,9 +143,9 @@ These functions can be applied to objects of any type - even custom ones. In add
 ```swift
 // We'll create an array of Cars and specify some basic properties.
 struct Car {
-let name: String
-let horsepower: Int
-let price: Int
+  let name: String
+  let horsepower: Int
+  let price: Int
 }
 
 var cars = [Car?]()
@@ -163,9 +162,9 @@ cars.append(Car(name: "Porsche Cayenne", horsepower: 335 , price: 67500 ))
 // Let's return valid cars (not nil) that have a horsepower greater than 300
 // and are sorted by descending price.
 cars.compactMap { $ 0 }
-.filter { $ 0 .horsepower > 300 }
-.sorted { $ 0 .price > $ 1 .price }
-.forEach { print($ 0 ) }
+    .filter { $ 0 .horsepower > 300 }
+    .sorted { $ 0 .price > $ 1 .price }
+    .forEach { print($ 0 ) }
 
 // Output:
 Car(name: "Porsche 911", horsepower: 379 , price: 101200 )
