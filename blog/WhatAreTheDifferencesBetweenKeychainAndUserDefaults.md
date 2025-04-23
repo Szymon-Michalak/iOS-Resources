@@ -31,4 +31,4 @@ Since `Keychain` is implemented as an SQLite database stored on the file system,
 `UserDefaults` also allows you to store `key-value` pairs across different invocations of your app, but it is not secure.
 
 Values stored in `UserDefaults` are eventually written to a `.plist` file which are entirely human-readable.`UserDefaults` are usually used to store basic `key-value` pairs and user preferences. If you don't need the `Keychain`'s security features, `UserDefaults` are the more
-convenient choice. Finally, unlike in the `Keychain`,items saved in `UserDefaults` will not persist across application deletions and re-installs.
+convenient choice. Finally, unlike in the `Keychain`, items saved in `UserDefaults` will not persist across application deletions and re-installs.

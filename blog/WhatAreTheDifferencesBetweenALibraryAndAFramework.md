@@ -22,7 +22,7 @@ The difference between a library and a framework is that you’ll typically call
 
 
 
-**Library**
+## **Library**
 
 A library is a collection of functions that each perform some work and then return control to the caller. Libraries can only contain executable code; no other assets or media.
 
@@ -32,7 +32,7 @@ You can think of a library like a trip to IKEA. You already have a home filled w
 
 An example on iOS would be the open-source Charts library which lets you easily create bar, line, and pie graphs. It provides all of the functionality, but it's up to the programmer to decide exactly when, where, and how it should be used.
 
-**Framework**
+## **Framework**
 
 A framework is similar to a library, but instead leaves openings for you to influence its behavior and execution. This is accomplished most commonly through subclassing, dependency injection, and delegation. Unlike libraries, frameworks can contain other media types (images, audio, etc.) - not just code.
 

@@ -20,7 +20,7 @@ tags: [general]
 
 :::
 
-There are 5 distinct states an iOS app can find itself in:
+There are 5 distinct states an iOS app can find itself in.
 
 ## **Not running**
 This is when the app has not been launched or was previously running but has now been terminated by the system.

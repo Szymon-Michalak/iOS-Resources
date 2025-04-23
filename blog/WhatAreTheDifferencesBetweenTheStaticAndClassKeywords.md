@@ -22,9 +22,9 @@ tags: [general]
 
 Both static and class keywords enable us to attach methods directly to a type rather than to an instance of the type. However, they differ in their ability to support inheritance.
 
-When we use the static keyword on a function declaration,that function can no longer be overridden by a subclass. However, if we were to use the class keyword instead, overriding this function in a subclass would still be a possibility.
+When we use the static keyword on a function declaration, that function can no longer be overridden by a subclass. However, if we were to use the class keyword instead, overriding this function in a subclass would still be a possibility.
 
-As we’ve previously discussed, thefinalkeyword attachedto aclassor function also prevents it from being subclassed or overridden. Therefore, it may be easier to remember that staticis equivalent tofinalclass.
+The `final` keyword attached to a `class` or `function` also prevents it from being subclassed or overridden. Therefore, it may be easier to remember that `static` is equivalent to `final class`.
 
 ```swift
 class Dog {
@@ -45,4 +45,4 @@ class ScoobyDoo: Dog {
 }
 ```
 
-As a `final` point, since functions declared with the `class` keyword can be overridden, this means that they must be dynamically dispatched. In contrast, and unsurprisingly, when you declare a function with thestatickeyword, that functioncall is now statically dispatched.
+As a final point, since functions declared with the `class` keyword can be overridden, this means that they must be dynamically dispatched. In contrast, and unsurprisingly, when you declare a function with the `static` keyword, that function call is now statically dispatched.

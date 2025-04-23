@@ -20,6 +20,6 @@ tags: [uikit]
 
 :::
 
-Both a `.xib` and `.storyboard` are stored as XML filesand are both converted to binary files - `.nibs`- at compile time.
+Both a `.xib` and `.storyboard` are stored as XML files and are both converted to binary files - `.nibs` - at compile time.
 
 A `.xib` file usually specifies one `UIViewController` or standalone view whereas a `.storyboard` specifies a set of `UIViewControllers` and the navigation behavior between them.
