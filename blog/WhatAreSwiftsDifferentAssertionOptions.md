@@ -26,11 +26,11 @@ While this may seem like a drastic reaction, this feature makes the debugging pr
 
 Swift provides three different assertion types:
 
-**assert()**
+## **assert()**
 
 This is useful for basic debugging and allows you to assert that a condition is true before the execution of your program can continue. In the event that the condition is not satisfied, the system will terminate your application, but will allow it to remain in a debuggable state.
 
-`assert()` is only evaluated in Debug mode and is disabledin all Release builds.
+`assert()` is only evaluated in Debug mode and is disabled in all Release builds.
 
 This enables you to easily sanity check your implementation during development while ensuring that your end user’s experience is unaffected.
 ```swift
@@ -50,7 +50,7 @@ It’s important to note, though, that your project’s optimization settings ca
 - In `-O` builds (the default for Xcode’s Release configuration),the `assert()` is not evaluated.
 - In `-Ounchecked` builds, the `assert()` is not evaluated, but the optimizer may assume that it always evaluates to true which can easily mask serious programming errors.
 
-**precondition()**
+## **precondition()**
 
 You can think of `precondition()` as `assert()` with support for Release builds. This assertion type will also stop your program’s execution when a condition is not met.
 
@@ -62,13 +62,13 @@ preconditionFailure("Cannot cast\(type(of: objCValue)) to \(Value.self)")
 preconditionFailure("Plist file not found")
 ```
 
-Similar to `assert()`, the particular compiler optimizationsused in your project can influence the function’s behavior:
+Similar to `assert()`, the particular compiler optimizations used in your project can influence the function’s behavior:
 
-- In Playground and `-Onone` builds (the default for Xcode’sDebug configuration), if the precondition()evaluates to false, the program willprint a message and stop execution, but will remain in a debuggable state.
-- In `-O` builds (the default for Xcode’s Release configuration),if theprecondition() evaluates to false, the program’s execution is stopped.
+- In Playground and `-Onone` builds (the default for Xcode’s Debug configuration), if the `precondition()` evaluates to false, the program will print a message and stop execution, but will remain in a debuggable state.
+- In `-O` builds (the default for Xcode’s Release configuration),if the `precondition()` evaluates to false, the program’s execution is stopped.
 - In `-Ounchecked` builds, `precondition()` is not evaluated,but the optimizer may assume that it always evaluates to true which can easily mask serious programming errors.
 
-**fatalError()**
+## **fatalError()**
 
 This assertion type is used in situations where the application has encountered a significant enough error that there is no reasonable way to proceed. If you use `fatalError()` to handle such a scenario, the application will immediately terminate in both Debug and Release builds.
 

@@ -22,7 +22,7 @@ tags: [swift]
 
 ### What are our options for unwrapping optionals in Swift?
 
-We have seven options for unwrappingOptionalsinSwift with varying levels of safety:
+We have seven options for unwrapping `Optionals` in Swift with varying levels of safety:
 ```swift
 var username: String?
 var user: User?
@@ -40,6 +40,11 @@ print(user?.emailAddress)
 
 // Optional binding (safe)
 if let value = username {
+
+}
+
+// Optional binding with syntax sugar (safe)
+if let username {
 
 }
 
