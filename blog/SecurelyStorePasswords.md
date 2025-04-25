@@ -35,8 +35,10 @@ Storing passwords securely is critical to prevent unauthorized access in case of
 
    ```swift
    import CryptoKit
+
    let password = "UserPassword123"
    let hashedPassword = SHA256.hash(data: Data(password.utf8))
+   
    print(hashedPassword)
    ```
 

@@ -24,16 +24,16 @@ Generic classes and functions not only allow you to write more reusable code, bu
 
 While the syntax appears daunting at first, after some practice, generics become much more approachable.
 
-Consider a function,exists(), which simply checksif some specific value exists within an array of elements:
+Consider a function `exists()` which simply checks if some specific value exists within an array of elements:
 ```swift
 func exists<T: Equatable>(item:T, elements:[T]) -> Bool
 ```
 
-This function declaration states that we are going to pass something intoexists()that conforms to `Equatable`(see `<T: Equatable>`). We don't know what entity that will be yet, but we promise it will implement the `Equatable` protocol when the time comes.
+This function declaration states that we are going to pass something into `exists()` that conforms to `Equatable` (see `<T: Equatable>`). We don't know what entity that will be yet, but we promise it will implement the `Equatable` protocol when the time comes.
 
-We use the variable `T` to represent this placeholdertype. The method declaration then continues on to say that the remaining parameters will also expect some input matching the type of `T`.
+We use the variable `T` to represent this placeholder type. The method declaration then continues on to say that the remaining parameters will also expect some input matching the type of `T`.
 
-With this method, we can use an input array of anyEquatabletype and easily check if it contains the target element -item. We are free touse any custom objects, structs, primitive data types, or anything else that implementsEquatable.
+With this method, we can use an input array of any `Equatable` type and easily check if it contains the target element (item). We are free to use any custom objects, structs, primitive data types, or anything else that implements `Equatable`.
 
 Since the items in elements all implement the `Equatable` protocol, we can simply use `==` to check for equality:
 

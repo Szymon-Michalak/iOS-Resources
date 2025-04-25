@@ -22,22 +22,22 @@ tags: [general]
 
 Some of the options include:
 
-**User Defaults**
+## **User Defaults**
 
-We can useUserDefaultsto store simple `key-value` pairs in an insecure manner. Typically, you would only use `UserDefaults` to store something lightweightlike a user setting.
+We can use `UserDefaults` to store simple `key-value` pairs in an insecure manner. Typically, you would only use `UserDefaults` to store something lightweight like a user setting.
 
-**.plist**
+## **.plist**
 
 We can use a `.plist` to store larger data sets. It’s a really flexible human-readable format.
 
-**Keychain**
+## **Keychain**
 
 This is the only encrypted persistent storage option available on iOS and is used for storing highly sensitive key-value pairs (primarily credentials).
 
-**Disk Storage**
+## **Disk Storage**
 
 We can serialize data, domain models, or other downloaded content and save them directly to disk.
 
-**Core Data / SQLite**
+## **Core Data / SQLite**
 
 Useful in cases where we have larger data sets and are interested in making queries on the data.

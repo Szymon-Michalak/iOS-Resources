@@ -27,19 +27,19 @@ Here’s an example of compilation conditions in action:
 
 ```swift
 #if DEBUG
-print("...")
+  print("...")
 #else
 
 #if targetEnvironment(simulator)
-return ViewControllerA()
+  return ViewControllerA()
 #else
-return ViewControllerB()
+  return ViewControllerB()
 #endif
 
 #if BETA_TARGET
-let image = UIImageView(image: UIImage(named: "BetaAppIcon"))
+  let image = UIImageView(image: UIImage(named: "BetaAppIcon"))
 #else
-let image = UIImageView(image: UIImage(named: "NormalAppIcon"))
+  let image = UIImageView(image: UIImage(named: "NormalAppIcon"))
 #endif
 ```
 
