@@ -20,8 +20,6 @@ tags: [memory]
 
 :::
 
-**This will build off our understanding of ARC from the previous questions.**
-
 Often times, closures will introduce retain cycles. Since a closure is a reference type it maintains a `strong` reference to all of the objects referenced in the body of the closure thereby increasing their retain count.
 
 To manage this, we can use a capture list. This allows us to explicitly specify which objects we want to maintain a reference to, but more importantly whether we want those references to be `weak`, `strong`, or `unowned`.

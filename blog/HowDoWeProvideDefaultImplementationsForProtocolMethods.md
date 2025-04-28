@@ -26,20 +26,21 @@ This helps reduce boilerplate and duplicated code in classes that implement the 
 
 ```swift
 protocol Animal {
-func makeNoise()
+    func makeNoise()
 }
 
 extension Animal {
-func makeNoise() {
-print("Bark!")
-}
+    func makeNoise() {
+        print("Bark!")
+    }
 }
 
 struct Dog: Animal {}
+
 struct Cat: Animal {
-func makeNoise() {
-print("Meow!")
-}
+    func makeNoise() {
+        print("Meow!")
+    }
 }
 
 let sparky = Dog()
