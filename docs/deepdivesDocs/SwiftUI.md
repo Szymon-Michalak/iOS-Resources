@@ -1592,3 +1592,40 @@ Understanding how and when SwiftUI views are initialized, updated, and removed h
 - **[Hacking with Swift - Why structs don’t have deinit](https://www.hackingwithswift.com/quick-start/understanding-swift/why-do-classes-have-deinitializers-and-structs-dont):** Useful read on the absence of destructors in SwiftUI’s View structs.
 
 <LinkCard title="Read Full Article" href="https://captainswiftui.substack.com/p/init-to-win-it" />
+
+### 🔵 10 SwiftUI Property Wrappers and Values You’re Not Using (But Should Be)
+
+This blog post explores powerful SwiftUI property wrappers and wrapped values that are often overlooked yet can drastically improve app accessibility, responsiveness, and code cleanliness. The author recounts a real-world situation where `@ScaledMetric` saved a sprint, highlighting the magic and practicality of lesser-known SwiftUI features. Readers are guided through 10 essential wrappers and values, learning when and why to use each.
+
+<details>
+
+**URL:** [https://captainswiftui.substack.com/p/10-swiftui-property-wrappers](https://captainswiftui.substack.com/p/10-swiftui-property-wrappers)
+
+**Published:** 2024-04-27
+
+**Authors:** `Captain SwiftUI`
+
+**Tags:**  
+`swiftui`, `property-wrappers`, `accessibility`, `adaptive-ui`, `best-practices`
+
+</details>
+
+#### Key Points
+- Introduces 10 powerful SwiftUI property wrappers and environment values, beyond the usual `@State` and `@Binding`.
+- Demonstrates how `@ScaledMetric`, `@Namespace`, `@GestureState`, and others can dramatically improve dynamic type scaling, animations, focus management, and persistence.
+- Provides actionable examples of when and how to apply each wrapper effectively.
+- Emphasizes building adaptive, accessible, and modern SwiftUI apps using these tools.
+
+#### Summary of Contents
+- **Introduction:** A real-world story of facing Dynamic Type issues and discovering `@ScaledMetric`.
+- **Understanding Property Wrappers:** A quick explanation of how Swift property wrappers work and their purpose in SwiftUI.
+- **10 Must-Know Wrappers and Values:** Detailed breakdowns of `@ScaledMetric`, `@Namespace`, `@FocusedValue`, `@GestureState`, `@FocusState`, `@AppStorage`, `@SceneStorage`, and key `@Environment` values like `dynamicTypeSize`, `horizontalSizeClass`, and `isEnabled`.
+- **When to Use Each:** Practical guidance on applying each wrapper/value effectively in real-world apps.
+- **Conclusion:** Encouragement to embrace these lesser-known tools for cleaner, more adaptable SwiftUI code.
+
+#### Additional Resources
+- **[Apple Documentation – Property Wrappers](https://developer.apple.com/documentation/swift/property-wrappers):** Learn the fundamentals of Swift property wrappers.
+- **[Apple Documentation – @ScaledMetric](https://developer.apple.com/documentation/swiftui/scaledmetric):** Specific deep dive into `@ScaledMetric`.
+- **[Apple Documentation – @Namespace](https://developer.apple.com/documentation/swiftui/namespace):** How to use `@Namespace` for view transitions.
+
+<LinkCard title="Read Full Article" href="https://captainswiftui.substack.com/p/10-swiftui-property-wrappers" />
