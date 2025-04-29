@@ -51,12 +51,12 @@ This same process happens in reverse when Apple sends the certificate to us; App
 
 As a next step, the provisioning profile is created, consisting of a few key components:
 
-- **Team ID:** A unique identifier for each developmentteam and can be found in your Apple Developer account.
-- **Bundle ID:** Every iOS app has a unique bundle identifierwhich allows it to be uniquely identified.
+- **Team ID:** A unique identifier for each development team and can be found in your Apple Developer account.
+- **Bundle ID:** Every iOS app has a unique bundle identifier which allows it to be uniquely identified.
 - **App ID:** The combination of the Team ID and the BundleID.
-- **Device ID:** The list of all UDIDs (Unique Device Identifier)that your iOS application is authorized to run on. This is a 40 character alphanumeric identifier.
-- **Entitlements:** This specifies the permissions and capabilitiesof the app along with which system resources the application has permission to access. For example, services like Push Notifications, Apple Pay, App Sandbox, etc.
-- **Certificate:** The certificate we received from Applein the previous step (iOS App Development, iOS Distribution, Mac App Distribution, Mac installer Distribution, etc.)
+- **Device ID:** The list of all UDIDs (Unique Device Identifier) that your iOS application is authorized to run on. This is a 40 character alphanumeric identifier.
+- **Entitlements:** This specifies the permissions and capabilities of the app along with which system resources the application has permission to access. For example, services like Push Notifications, Apple Pay, App Sandbox, etc.
+- **Certificate:** The certificate we received from Apple in the previous step (iOS App Development, iOS Distribution, Mac App Distribution, Mac installer Distribution, etc.)
 
 In summary, the provisioning profile is composed of the certificate that verifies the authenticity of the software, the App ID that uniquely identifies the application, and its permissions, entitlements, and the exact list of devices that can run the application. It essentially acts as the middle-man between the end devices and the developer account.
 
