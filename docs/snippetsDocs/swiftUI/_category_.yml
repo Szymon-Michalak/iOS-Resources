@@ -1,0 +1,9 @@
+position: 9
+label: 'SwiftUI'
+collapsible: true
+collapsed: true
+link:
+  type: generated-index
+  title: SwiftUI Snippets overview
+customProps:
+  description: This description can be used in the swizzled DocCard
