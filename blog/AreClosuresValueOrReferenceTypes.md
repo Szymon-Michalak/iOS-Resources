@@ -22,7 +22,7 @@ Closures are reference types.
 :::
 
 When we use closures, we want them to be able to reference all of the variables from their surrounding context (like class and local variables).
-This means when the closure modifies acaptured reference-type variable in its definition, we’re also affecting the variable’s value outside of the closure's scope.
+This means when the closure modifies a captured reference-type variable in its definition, we’re also affecting the variable’s value outside of the closure's scope.
 
 ```swift
 var money = Money(value: 20 , currencyCode: "USD")

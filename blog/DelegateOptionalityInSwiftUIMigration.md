@@ -27,7 +27,7 @@ In UIKit, delegation is a common pattern where the delegate is optional (`weak v
 SwiftUI, however, does not use delegation. Instead, SwiftUI favors:
 - Bindings
 - Closures (callbacks)
-- ObservableObject-based state management
+- `ObservableObject`-based state management
 
 This mismatch creates a challenge during partial UIKit-to-SwiftUI migrations where not all code can be rewritten immediately.
 
