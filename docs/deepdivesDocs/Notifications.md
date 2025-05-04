@@ -1,5 +1,7 @@
 # 🔔📣 Notifications 
 
+## Push Notifications
+
 ### 🔵 Updating Your Apps with Silent Push Notifications
 
 Silent push notifications enable your app to stay up-to-date by fetching new data from the server in the background. This approach is especially useful for apps that need to provide timely updates without requiring user intervention. This guide covers how to configure your app and server to leverage silent push notifications effectively.

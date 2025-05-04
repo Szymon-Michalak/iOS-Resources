@@ -100,6 +100,84 @@ This article explores how **tasks** enable concurrency in Swift, allowing asynch
 ## Grand Central Dispatch (GCD) Basics
 Overview of GCD and how to use it for concurrency.
 
+### 🔵 Ultimate Grand Central Dispatch Tutorial in Swift
+
+This comprehensive tutorial covers the **Grand Central Dispatch (GCD)** framework in **Swift**, focusing on the principles of **multi-threading**, **concurrency**, and **task management**. It provides detailed explanations of **synchronous** and **asynchronous execution**, **dispatch queues**, and advanced topics like **semaphores**, **DispatchWorkItem**, and **thread safety**. The tutorial is rich with practical examples and **codesnippets**, making it an invaluable resource for developers looking to **optimize** their applications using **GCD**.
+
+<details>
+
+**URL:** https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/
+
+**Published:** 2018/07/10
+
+**Authors:** `Tibor Bödecs`
+
+**Tags:**  
+`concurrency`, `multi-threading`, `GCD`, `Swift`, `iOS Development`
+
+</details>
+
+#### Key Points
+- **Understanding GCD:** Learn about the underlying **thread pool design pattern** and how **GCD** leverages **CPU cores** for efficient **task management**.
+- **Synchronous vs Asynchronous Execution:** Clear explanation of **blocking** vs **non-blocking** code and when to use each.
+- **Dispatch Queues:** Detailed exploration of **serial** and **concurrent queues**, including how to use **system-provided** and **custom queues** effectively.
+- **Advanced GCD Features:** Insight into using **semaphores**, **dispatch groups**, and **DispatchWorkItem** to handle complex **concurrency** scenarios.
+- **Thread Safety:** Essential tips on ensuring **thread safety** in **multi-threaded** applications, avoiding common pitfalls like **deadlocks** and **race conditions**.
+
+#### Summary of Contents
+- **GCD Concurrency Tutorial for Beginners:** Introduction to the **GCD framework** and its importance in **multi-threading**.
+- **Synchronous and Asynchronous Execution:** Detailed discussion of **sync** vs **async tasks**, with practical examples.
+- **Dispatch Queues:** Explanation of **serial**, **concurrent**, **main**, **global**, and **custom queues**, and their use cases.
+- **Advanced GCD Techniques:** Coverage of **semaphores**, **dispatch groups**, **barriers**, and more for handling complex tasks.
+- **Thread-Safety:** Best practices for maintaining **thread safety** using **GCD** and related constructs.
+
+#### Additional Resources
+- **Ray Wenderlich's GCD Tutorial:** [Grand Central Dispatch Tutorial](https://www.raywenderlich.com/148513/grand-central-dispatch-tutorial-swift-3-part-1)
+- **Swift by Sundell's Deep Dive:** [A Deep Dive into Grand Central Dispatch in Swift](https://www.swiftbysundell.com/posts/a-deep-dive-into-grand-central-dispatch-in-swift)
+- **CPU Core and Threads Explained:** [What is the difference between cores and threads of a processor?](https://www.quora.com/What-is-the-difference-between-cores-and-threads-of-a-processor)
+
+<LinkCard title="Read Full Article" href="https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/" />
+
+
+### 🔵 Guide to Multi-Threading with GCD in iOS
+
+This article explores how **Grand Central Dispatch (GCD)** can be leveraged to implement multi-threading in iOS applications, enabling concurrent and parallel execution of tasks for optimal performance.
+
+<details>
+
+**URL:** https://betterprogramming.pub/guide-to-multi-threading-gcd-83009f5d62cb
+
+**Authors:** `Neel Bakshi`
+
+**Tags:**  
+`multi-threading`, `ios`, `swift`, `gcd`, `performance`, `dispatchqueues`
+
+</details>
+
+#### Key Points
+- **Multi-threading in iOS:** Achieved using threads, Grand Central Dispatch (GCD), or `OperationQueues`.
+- **Concurrency vs. Parallelism:**
+  - *Concurrency:* Time-sliced task execution giving the illusion of parallelism.
+  - *Parallelism:* True simultaneous execution across CPU cores.
+- **GCD Overview:** Provides tools to manage task execution on serial or concurrent queues.
+
+#### Summary of Contents
+- **Queues:** Fundamental components in GCD:
+  - *Serial Queues*: Process tasks sequentially in a FIFO manner.
+  - *Concurrent Queues*: Handle multiple tasks concurrently or in parallel.
+- **Executing Tasks:** Differences between `async` (non-blocking) and `sync` (blocking) task submissions.
+- **Dispatch Groups:** A tool to coordinate the completion of multiple tasks.
+- **Race Conditions:** Problems arising from concurrent resource access and their solutions:
+  - *Serial Queues*
+  - *Locks and Semaphores*
+  - *Barriers*
+
+#### Helpful Links
+- [Apple Documentation on Grand Central Dispatch](https://developer.apple.com/documentation/DISPATCH)
+
+<LinkCard title="Read Full Article" href="https://betterprogramming.pub/guide-to-multi-threading-gcd-83009f5d62cb" />
+
+
 ## Introduction to Operation Queues
 Managing tasks with Operation and OperationQueue.
 - [Advanced iOS Concurrency: Operations [1]](https://uynguyen.github.io/2020/05/16/iOS-Concurrency-Operations/)
@@ -165,72 +243,90 @@ Converting callback-based code to async/await.
 
 
 
-## Concurrency with Actors
-Using the Actor model to manage state in concurrent Swift code.
+### 🔴 Async Await in Swift: The Full Toolkit
 
-
-
-## Performance Tuning with Swift Concurrency
-Optimizing performance with advanced async techniques.
-
-
-
-## Advanced Combine Operators
-Deep dive into complex Combine operators for data streams.
-
-
-
-## Custom Schedulers and Executors
-Building custom schedulers for fine-tuned concurrency control.
-
-
-
-## Concurrency in Distributed Systems
-Applying Swift concurrency principles to distributed systems.
-
-
-
-## Reactive Extensions (RxSwift) Deep Dive
-Advanced patterns and techniques in RxSwift.
-
-
-
-## Concurrency and Memory Management
-Managing memory and performance in highly concurrent applications.
-
-
-### 🔵 Closures vs. Combine vs. Async-Await in Swift: A Comprehensive Comparison
-
-Explore the evolution of asynchronous coding methods in Swift, from closures to the Combine framework and the powerful Async-Await introduced in Swift 5.5. This comparison highlights the pros and cons of each method and how they have transformed Swift development.
+This blog post, authored by Jacob Bartlett and published on July 22, 2024, provides a comprehensive overview of the various **tools available in Swift Concurrency**. It explains how to use **async/await**, **async let**, **Tasks**, **Task groups**, **Actors**, **MainActor**, **Sendable**, **Continuations**, **AsyncSequence**, **AsyncStream**, and **Async Algorithms**, emphasizing both **theory** and **practical application**. The article is particularly valuable for developers looking to deepen their understanding of **Swift Concurrency** and apply it effectively in their projects.
 
 <details>
 
-**URL:** [https://medium.com/@GetInRhythm/closures-vs-combine-vs-async-await-993eb1da4d44](https://medium.com/@GetInRhythm/closures-vs-combine-vs-async-await-993eb1da4d44)
+**URL:** [Async await in Swift: The Full Toolkit](https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com)
 
-**Published:** 2024-09-15
+**Published:** July 22, 2024
 
-**Authors:** `Mike Adams`
+**Authors:** `Jacob Bartlett`
 
 **Tags:**  
-`swift`, `async-await`, `closures`, `combine`, `asynchronous programming`, `ios development`
+`Swift Concurrency`, `async/await`, `Actors`, `Task Groups`, `Swift`
 
 </details>
 
 #### Key Points
-- Swift offers three primary methods for asynchronous coding: **Closures**, **Combine**, and **Async-Await**.
-- **Closures** allow for flexible and customizable asynchronous operations but can lead to complex code structures, particularly with callback hell.
-- **Combine** simplifies handling asynchronous data streams and offers a declarative approach, making it a powerful framework for reactive programming.
-- **Async-Await** introduces a more readable, synchronous-looking syntax for asynchronous tasks, improving code clarity and reducing complexity.
+- **Understanding async/await:** Learn the **fundamental syntax** and how to efficiently manage **asynchronous tasks** in **Swift**.
+- **Advanced Concurrency Techniques:** Explore the use of **async let**, **Task groups**, and **Actors** to enhance **performance** and **safety** in **concurrent operations**.
+- **Practical Examples:** The post includes **code snippets** that illustrate the correct usage of each **concurrency tool** in **real-world scenarios**.
+- **Avoiding Common Pitfalls:** Guidance on how to prevent **common issues** like **data races** and **performance bottlenecks** using **Swift Concurrency** features.
 
 #### Summary of Contents
-- **Introduction:** Overview of the three asynchronous coding methods and their respective introductions in Swift.
-- **Closures:** Discusses closures as a versatile and foundational feature for asynchronous coding in Swift, particularly useful for handling network requests and UI updates.
-- **Combine:** Covers the reactive programming approach of Combine, including its key components (publishers and subscribers) and use cases like data stream management and asynchronous event handling.
-- **Async-Await:** Highlights Async-Await as a modern, language-level feature that simplifies asynchronous code, using familiar keywords like `await` and `async` to enhance readability and reduce callback complexity.
-- **Comparison of Code Examples:** Visual side-by-side comparison of closures, Combine, and Async-Await in terms of readability, complexity, and code maintainability.
-- **Resources:** Additional reading materials for deeper insights into Combine and Async-Await.
+- **async / await:** Introduction to the basic **building blocks of Swift Concurrency** and how to utilize them for efficient **task management**.
+- **async let:** Explanation of how to perform **multiple asynchronous operations in parallel**, avoiding **bottlenecks** in **sequential code execution**.
+- **Task and Task Group:** Detailed discussion on **structured and unstructured concurrency**, including the use of **task hierarchies** and **cancellation**.
+- **Actors and MainActor:** Exploration of how **Actors** ensure **thread-safe operations** and how **MainActor** is used for **UI updates**.
+- **Sendable and Continuations:** Insight into preventing **data races at compile-time** and **bridging legacy APIs** with **modern Swift Concurrency**.
+- **AsyncSequence and AsyncStream:** Overview of **asynchronous sequences** and **streams**, and their integration with **Combine** and other **Swift features**.
+- **Async Algorithms:** Introduction to the **Async Algorithms package**, which extends the capabilities of **AsyncSequence** for more complex **data processing**.
 
-<LinkCard title="Read Full Article" href="https://medium.com/@GetInRhythm/closures-vs-combine-vs-async-await-993eb1da4d44" />
+#### Additional Resources
+- **Advanced Swift Actors: Re-entrancy & Interleaving:** [Read more](https://jacobbartlett.substack.com/p/advanced-swift-actors-re-entrancy)
+- **Swift Algorithms GitHub Repository:** [Visit Repository](https://github.com/apple/swift-algorithms)
+
+<LinkCard title="Read Full Article" href="https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com" />
+
+### 🔵 The Full Toolkit for Swift Concurrency: Async/Await
+
+Mastering Swift Concurrency is essential for iOS developers working on modern, responsive apps. This blog post covers the wide array of tools in Swift Concurrency, such as `async/await`, `Task`, `Task Group`, and `Actors`, while exploring when and why you might use them. It provides not just theoretical insights but also practical examples to deepen your understanding.
+
+<details>
+
+**URL:** https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit#the-toolkit
+
+**Published:** 2024-07-22
+
+**Authors:** `EmergeTools`
+
+**Tags:**  
+`Swift Concurrency`, `iOS Development`, `Actors`, `async/await`, `Task Group`
+
+</details>
+
+#### Key Points
+- **async/await**: Provides syntactic sugar for writing asynchronous code, suspending execution at suspension points for efficiency.
+- **async let**: Enables parallel execution of multiple asynchronous operations to minimize bottlenecks.
+- **Task**: The fundamental building block of concurrency, supporting unstructured asynchronous work.
+- **Task Groups**: Facilitates concurrent execution of a dynamic number of tasks, with flexible error handling.
+- **Actors**: Ensures safe concurrent access to mutable state.
+- **MainActor**: A concurrency construct designed for UI work to ensure updates happen on the main thread.
+- **Sendable**: A protocol for marking data as safe to share across concurrency contexts.
+- **Continuations**: Bridges closure-based legacy APIs with Swift’s modern concurrency model.
+- **AsyncSequence**: Provides iterable async collections for sequential, asynchronous value processing.
+- **AsyncStream**: Extends AsyncSequence to handle continuous value emission, useful for multi-callback APIs.
+- **Async Algorithms**: An external package providing tools like `debounce`, `zip`, and `removeDuplicates` to create pipelines for async sequences.
+
+#### Summary of Contents
+- **The Toolkit**:
+  - Highlights tools such as `async/await`, `Task`, and `Actors`, focusing on their use cases.
+- **Code Examples**:
+  - Includes parallelization with `async let`, error handling with Task Groups, and bridging legacy APIs with continuations.
+- **Advanced Topics**:
+  - Delves into Actors' re-entrancy, MainActor's thread safety, and the role of `Sendable` in preventing data races.
+- **Best Practices**:
+  - Discusses patterns like cooperative cancellation, combining async sequences, and integrating `Async Algorithms` for real-time data processing.
+
+#### Additional Resources
+- [Advanced Swift Actors](https://jacobbartlett.substack.com/p/advanced-swift-actors-re-entrancy)
+- [Async Algorithms Package](https://github.com/apple/swift-async-algorithms)
+
+<LinkCard title="Read Full Article" href="https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit#the-toolkit" />
+
 
 ### 🔵 Swift Async-Await Explained: Simplifying Asynchronous Programming
 
@@ -270,6 +366,13 @@ Discover the magic of Swift’s async-await, a powerful tool introduced in Swift
 - **withCheckedThrowingContinuation:** Explores how to bridge callback-based APIs with async-await using continuations.
 
 <LinkCard title="Read Full Article" href="https://www.dhiwise.com/post/swift-async-await-explained-simplifying-asynchronous" />
+
+
+
+
+## Concurrency with Actors
+Using the Actor model to manage state in concurrent Swift code.
+
 
 ### 🔴 Advanced Swift Actors: Re-Entrancy & Authentication
 
@@ -341,169 +444,50 @@ Swift actors have brought significant improvements to handling asynchronous code
 
 <LinkCard title="Read Full Article" href="https://swiftsenpai.com/swift/actor-reentrancy-problem/" />
 
+### 🔵 Understanding Actor Isolation in Swift
 
-### 🔴 Async Await in Swift: The Full Toolkit
-
-This blog post, authored by Jacob Bartlett and published on July 22, 2024, provides a comprehensive overview of the various **tools available in Swift Concurrency**. It explains how to use **async/await**, **async let**, **Tasks**, **Task groups**, **Actors**, **MainActor**, **Sendable**, **Continuations**, **AsyncSequence**, **AsyncStream**, and **Async Algorithms**, emphasizing both **theory** and **practical application**. The article is particularly valuable for developers looking to deepen their understanding of **Swift Concurrency** and apply it effectively in their projects.
+Actor isolation is at the heart of Swift’s concurrency model, aiming to eliminate data races. While it introduces new concepts, many mechanisms behind isolation are familiar. This blog breaks down the key ideas behind actor isolation, making it approachable even for developers new to Swift concurrency.
 
 <details>
 
-**URL:** [Async await in Swift: The Full Toolkit](https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com)
+**URL:** [https://www.massicotte.org/intro-to-isolation](https://www.massicotte.org/intro-to-isolation)
 
-**Published:** July 22, 2024
+**Published:** 2024-11-24
 
-**Authors:** `Jacob Bartlett`
+**Authors:** `Matt Massicotte`
 
 **Tags:**  
-`Swift Concurrency`, `async/await`, `Actors`, `Task Groups`, `Swift`
+`Swift Concurrency`, `Actor Isolation`, `Static Isolation`, `Dynamic Isolation`
 
 </details>
 
 #### Key Points
-- **Understanding async/await:** Learn the **fundamental syntax** and how to efficiently manage **asynchronous tasks** in **Swift**.
-- **Advanced Concurrency Techniques:** Explore the use of **async let**, **Task groups**, and **Actors** to enhance **performance** and **safety** in **concurrent operations**.
-- **Practical Examples:** The post includes **code snippets** that illustrate the correct usage of each **concurrency tool** in **real-world scenarios**.
-- **Avoiding Common Pitfalls:** Guidance on how to prevent **common issues** like **data races** and **performance bottlenecks** using **Swift Concurrency** features.
+- **Isolation in Swift** eliminates data races, ensuring safe access to mutable state.
+- **Definitions Govern Isolation:** Isolation is always determined at compile time by type or function definitions.
+- **Three Isolation Types:** 
+  - None (default),
+  - Static (e.g., `@MainActor`), 
+  - Dynamic (`MainActor.assumeIsolated`).
+- **Opting Out:** Use `nonisolated` to remove isolation from functions or constants.
+- **Closures and Protocols:** Inherited isolation and protocol-based isolation can influence design patterns.
+- **Dynamic Isolation for Legacy Code:** Useful for pre-concurrency systems where static isolation is impractical.
+- **Practical Implications:** Understanding isolation is crucial when working with SwiftUI or adopting concurrency incrementally.
 
 #### Summary of Contents
-- **async / await:** Introduction to the basic **building blocks of Swift Concurrency** and how to utilize them for efficient **task management**.
-- **async let:** Explanation of how to perform **multiple asynchronous operations in parallel**, avoiding **bottlenecks** in **sequential code execution**.
-- **Task and Task Group:** Detailed discussion on **structured and unstructured concurrency**, including the use of **task hierarchies** and **cancellation**.
-- **Actors and MainActor:** Exploration of how **Actors** ensure **thread-safe operations** and how **MainActor** is used for **UI updates**.
-- **Sendable and Continuations:** Insight into preventing **data races at compile-time** and **bridging legacy APIs** with **modern Swift Concurrency**.
-- **AsyncSequence and AsyncStream:** Overview of **asynchronous sequences** and **streams**, and their integration with **Combine** and other **Swift features**.
-- **Async Algorithms:** Introduction to the **Async Algorithms package**, which extends the capabilities of **AsyncSequence** for more complex **data processing**.
+- **What is Isolation?:** Explains how Swift eliminates data races and enforces thread safety.
+- **Understanding Definitions:** Highlights how to analyze isolation based on type and function definitions.
+- **Types of Isolation:** Breaks down static and dynamic isolation mechanisms, including examples.
+- **Closures and Inherited Isolation:** Discusses how closures adopt isolation from their surrounding context.
+- **Protocols and Isolation:** Explains how protocol isolation affects design.
+- **Dynamic Isolation:** Demonstrates how to bridge gaps in legacy code or systems with runtime isolation guarantees.
+- **SwiftUI Challenges:** Examines how SwiftUI’s inconsistent isolation model creates practical issues.
 
 #### Additional Resources
-- **Advanced Swift Actors: Re-entrancy & Interleaving:** [Read more](https://jacobbartlett.substack.com/p/advanced-swift-actors-re-entrancy)
-- **Swift Algorithms GitHub Repository:** [Visit Repository](https://github.com/apple/swift-algorithms)
+- **[Swift Concurrency Recipes](https://github.com/mattmassicotte/ConcurrencyRecipes):** Techniques for working with isolation and protocols.
+- **[Complete Concurrency Checking](https://www.massicotte.org/complete-checking):** How to enable warnings for incomplete concurrency isolation.
+- **[Swift Evolution Proposal 0420](https://github.com/apple/swift-evolution/blob/main/proposals/0420-inheritance-of-actor-isolation.md):** Recent changes improving isolation in Swift.
 
-<LinkCard title="Read Full Article" href="https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit?ref=createwithswift.com" />
-
-### 🔵 Guide to Multi-Threading with GCD in iOS
-
-This article explores how **Grand Central Dispatch (GCD)** can be leveraged to implement multi-threading in iOS applications, enabling concurrent and parallel execution of tasks for optimal performance.
-
-<details>
-
-**URL:** https://betterprogramming.pub/guide-to-multi-threading-gcd-83009f5d62cb
-
-**Authors:** `Neel Bakshi`
-
-**Tags:**  
-`multi-threading`, `ios`, `swift`, `gcd`, `performance`, `dispatchqueues`
-
-</details>
-
-#### Key Points
-- **Multi-threading in iOS:** Achieved using threads, Grand Central Dispatch (GCD), or `OperationQueues`.
-- **Concurrency vs. Parallelism:**
-  - *Concurrency:* Time-sliced task execution giving the illusion of parallelism.
-  - *Parallelism:* True simultaneous execution across CPU cores.
-- **GCD Overview:** Provides tools to manage task execution on serial or concurrent queues.
-
-#### Summary of Contents
-- **Queues:** Fundamental components in GCD:
-  - *Serial Queues*: Process tasks sequentially in a FIFO manner.
-  - *Concurrent Queues*: Handle multiple tasks concurrently or in parallel.
-- **Executing Tasks:** Differences between `async` (non-blocking) and `sync` (blocking) task submissions.
-- **Dispatch Groups:** A tool to coordinate the completion of multiple tasks.
-- **Race Conditions:** Problems arising from concurrent resource access and their solutions:
-  - *Serial Queues*
-  - *Locks and Semaphores*
-  - *Barriers*
-
-#### Helpful Links
-- [Apple Documentation on Grand Central Dispatch](https://developer.apple.com/documentation/DISPATCH)
-
-<LinkCard title="Read Full Article" href="https://betterprogramming.pub/guide-to-multi-threading-gcd-83009f5d62cb" />
-
-### 🔴 Problematic Patterns in Swift Concurrency
-
-This blog post outlines common patterns in Swift concurrency that can lead to complications. While "best practices" are subjective and context-dependent, the author identifies recurring issues worth avoiding.
-
-<details>
-
-**URL:** https://www.massicotte.org/problematic-patterns  
-**Published:** 2024-11-19  
-**Authors:** `Matt Massicotte`  
-**Tags:** `Swift`, `Concurrency`, `Best Practices`, `Code Patterns`
-
-</details>
-
-#### Key Points
-- **Split Isolation:** Mixing isolation domains in a single type can create unexpected limitations and confusion.
-- **Task.detached Misuse:** Overused for convenience but has side effects like losing inherited priorities and task-local values.
-- **Explicit Priorities:** Explicitly setting priorities can lead to unintended performance issues and priority inversions.
-- **MainActor.run Overuse:** Often unnecessary; prefer leveraging Swift's built-in actor isolation mechanisms.
-- **Stateless Actors:** Avoid actors without mutable state unless there's a compelling reason.
-- **@preconcurrency Import Risks:** Can inadvertently introduce warnings or semantic issues when adapting completion handlers.
-- **Redundant Sendable Conformance:** Global actor-isolated types are inherently `Sendable`, so additional conformance may indicate misunderstanding.
-- **RunLoop APIs:** Limited compatibility with non-MainActor contexts; require careful handling.
-- **Blocking Async Work:** Using synchronous constructs like `DispatchSemaphore` risks deadlocks.
-- **Unstructured Concurrency:** Prefer structured concurrency for clarity, maintainability, and implicit cancellation support.
-
-#### Summary of Contents
-- **Introduction:** A reflection on the pitfalls of “best practices” in emerging technologies like Swift concurrency.
-- **Common Problematic Patterns:** Detailed analysis of specific issues with examples and solutions.
-- **Final Thoughts:** Encourages experimentation while being mindful of the trade-offs and dangers of blindly following advice.
-
-#### Additional Resources
-- [Step-by-Step Network Request](https://www.massicotte.org/step-by-step-network-request)  
-- [Dynamic Isolation with MainActor](https://www.massicotte.org/dynamic-isolation)  
-- [Reliably Testing Async Code in Swift](https://www.pointfree.co/blog/posts/110-reliably-testing-async-code-in-swift)  
-
-<LinkCard title="Read Full Article" href="https://www.massicotte.org/problematic-patterns" />
-
-### 🔵 The Full Toolkit for Swift Concurrency: Async/Await
-
-Mastering Swift Concurrency is essential for iOS developers working on modern, responsive apps. This blog post covers the wide array of tools in Swift Concurrency, such as `async/await`, `Task`, `Task Group`, and `Actors`, while exploring when and why you might use them. It provides not just theoretical insights but also practical examples to deepen your understanding.
-
-<details>
-
-**URL:** https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit#the-toolkit
-
-**Published:** 2024-07-22
-
-**Authors:** `EmergeTools`
-
-**Tags:**  
-`Swift Concurrency`, `iOS Development`, `Actors`, `async/await`, `Task Group`
-
-</details>
-
-#### Key Points
-- **async/await**: Provides syntactic sugar for writing asynchronous code, suspending execution at suspension points for efficiency.
-- **async let**: Enables parallel execution of multiple asynchronous operations to minimize bottlenecks.
-- **Task**: The fundamental building block of concurrency, supporting unstructured asynchronous work.
-- **Task Groups**: Facilitates concurrent execution of a dynamic number of tasks, with flexible error handling.
-- **Actors**: Ensures safe concurrent access to mutable state.
-- **MainActor**: A concurrency construct designed for UI work to ensure updates happen on the main thread.
-- **Sendable**: A protocol for marking data as safe to share across concurrency contexts.
-- **Continuations**: Bridges closure-based legacy APIs with Swift’s modern concurrency model.
-- **AsyncSequence**: Provides iterable async collections for sequential, asynchronous value processing.
-- **AsyncStream**: Extends AsyncSequence to handle continuous value emission, useful for multi-callback APIs.
-- **Async Algorithms**: An external package providing tools like `debounce`, `zip`, and `removeDuplicates` to create pipelines for async sequences.
-
-#### Summary of Contents
-- **The Toolkit**:
-  - Highlights tools such as `async/await`, `Task`, and `Actors`, focusing on their use cases.
-- **Code Examples**:
-  - Includes parallelization with `async let`, error handling with Task Groups, and bridging legacy APIs with continuations.
-- **Advanced Topics**:
-  - Delves into Actors' re-entrancy, MainActor's thread safety, and the role of `Sendable` in preventing data races.
-- **Best Practices**:
-  - Discusses patterns like cooperative cancellation, combining async sequences, and integrating `Async Algorithms` for real-time data processing.
-
-#### Additional Resources
-- [Advanced Swift Actors](https://jacobbartlett.substack.com/p/advanced-swift-actors-re-entrancy)
-- [Async Algorithms Package](https://github.com/apple/swift-async-algorithms)
-
-<LinkCard title="Read Full Article" href="https://www.emergetools.com/blog/posts/swift-async-await-the-full-toolkit#the-toolkit" />
-
-Here’s the blog post formatted according to the **blog_post.md** template:
-
----
+<LinkCard title="Read Full Article" href="https://www.massicotte.org/intro-to-isolation" />
 
 ### 🔵 Advanced Swift Actors: Re-Entrancy and Interleaving
 
@@ -553,6 +537,50 @@ Actors in Swift provide a powerful tool for managing concurrency, enforcing seri
 
 <LinkCard title="Read Full Article" href="https://blog.jacobstechtavern.com/p/advanced-swift-actors-re-entrancy" />
 
+
+## Performance Tuning with Swift Concurrency
+Optimizing performance with advanced async techniques.
+
+
+
+### 🔴 Problematic Patterns in Swift Concurrency
+
+This blog post outlines common patterns in Swift concurrency that can lead to complications. While "best practices" are subjective and context-dependent, the author identifies recurring issues worth avoiding.
+
+<details>
+
+**URL:** https://www.massicotte.org/problematic-patterns  
+**Published:** 2024-11-19  
+**Authors:** `Matt Massicotte`  
+**Tags:** `Swift`, `Concurrency`, `Best Practices`, `Code Patterns`
+
+</details>
+
+#### Key Points
+- **Split Isolation:** Mixing isolation domains in a single type can create unexpected limitations and confusion.
+- **Task.detached Misuse:** Overused for convenience but has side effects like losing inherited priorities and task-local values.
+- **Explicit Priorities:** Explicitly setting priorities can lead to unintended performance issues and priority inversions.
+- **MainActor.run Overuse:** Often unnecessary; prefer leveraging Swift's built-in actor isolation mechanisms.
+- **Stateless Actors:** Avoid actors without mutable state unless there's a compelling reason.
+- **@preconcurrency Import Risks:** Can inadvertently introduce warnings or semantic issues when adapting completion handlers.
+- **Redundant Sendable Conformance:** Global actor-isolated types are inherently `Sendable`, so additional conformance may indicate misunderstanding.
+- **RunLoop APIs:** Limited compatibility with non-MainActor contexts; require careful handling.
+- **Blocking Async Work:** Using synchronous constructs like `DispatchSemaphore` risks deadlocks.
+- **Unstructured Concurrency:** Prefer structured concurrency for clarity, maintainability, and implicit cancellation support.
+
+#### Summary of Contents
+- **Introduction:** A reflection on the pitfalls of “best practices” in emerging technologies like Swift concurrency.
+- **Common Problematic Patterns:** Detailed analysis of specific issues with examples and solutions.
+- **Final Thoughts:** Encourages experimentation while being mindful of the trade-offs and dangers of blindly following advice.
+
+#### Additional Resources
+- [Step-by-Step Network Request](https://www.massicotte.org/step-by-step-network-request)  
+- [Dynamic Isolation with MainActor](https://www.massicotte.org/dynamic-isolation)  
+- [Reliably Testing Async Code in Swift](https://www.pointfree.co/blog/posts/110-reliably-testing-async-code-in-swift)  
+
+<LinkCard title="Read Full Article" href="https://www.massicotte.org/problematic-patterns" />
+
+
 ### 🔵 Is Dynamic Isolation in Swift Concurrency Bad?
 
 Dynamic isolation in Swift concurrency is a nuanced tool. While **static isolation** is often preferred for its safety and clarity, dynamic isolation remains an essential escape hatch. This article explores the trade-offs between the two approaches, explains when and why you might use dynamic isolation, and provides practical examples.
@@ -588,48 +616,101 @@ Dynamic isolation in Swift concurrency is a nuanced tool. While **static isolati
 
 <LinkCard title="Read Full Article" href="https://www.massicotte.org/dynamic-isolation" />
 
-### 🔵 Understanding Actor Isolation in Swift
 
-Actor isolation is at the heart of Swift’s concurrency model, aiming to eliminate data races. While it introduces new concepts, many mechanisms behind isolation are familiar. This blog breaks down the key ideas behind actor isolation, making it approachable even for developers new to Swift concurrency.
+
+## Advanced Combine Operators
+Deep dive into complex Combine operators for data streams.
+
+
+
+## Custom Schedulers and Executors
+Building custom schedulers for fine-tuned concurrency control.
+
+
+
+## Concurrency in Distributed Systems
+Applying Swift concurrency principles to distributed systems.
+
+
+
+## Reactive Extensions (RxSwift) Deep Dive
+Advanced patterns and techniques in RxSwift.
+
+
+## Comparisons
+
+### 🔵 Closures vs. Combine vs. Async-Await in Swift: A Comprehensive Comparison
+
+Explore the evolution of asynchronous coding methods in Swift, from closures to the Combine framework and the powerful Async-Await introduced in Swift 5.5. This comparison highlights the pros and cons of each method and how they have transformed Swift development.
 
 <details>
 
-**URL:** [https://www.massicotte.org/intro-to-isolation](https://www.massicotte.org/intro-to-isolation)
+**URL:** [https://medium.com/@GetInRhythm/closures-vs-combine-vs-async-await-993eb1da4d44](https://medium.com/@GetInRhythm/closures-vs-combine-vs-async-await-993eb1da4d44)
 
-**Published:** 2024-11-24
+**Published:** 2024-09-15
 
-**Authors:** `Matt Massicotte`
+**Authors:** `Mike Adams`
 
 **Tags:**  
-`Swift Concurrency`, `Actor Isolation`, `Static Isolation`, `Dynamic Isolation`
+`swift`, `async-await`, `closures`, `combine`, `asynchronous programming`, `ios development`
 
 </details>
 
 #### Key Points
-- **Isolation in Swift** eliminates data races, ensuring safe access to mutable state.
-- **Definitions Govern Isolation:** Isolation is always determined at compile time by type or function definitions.
-- **Three Isolation Types:** 
-  - None (default),
-  - Static (e.g., `@MainActor`), 
-  - Dynamic (`MainActor.assumeIsolated`).
-- **Opting Out:** Use `nonisolated` to remove isolation from functions or constants.
-- **Closures and Protocols:** Inherited isolation and protocol-based isolation can influence design patterns.
-- **Dynamic Isolation for Legacy Code:** Useful for pre-concurrency systems where static isolation is impractical.
-- **Practical Implications:** Understanding isolation is crucial when working with SwiftUI or adopting concurrency incrementally.
+- Swift offers three primary methods for asynchronous coding: **Closures**, **Combine**, and **Async-Await**.
+- **Closures** allow for flexible and customizable asynchronous operations but can lead to complex code structures, particularly with callback hell.
+- **Combine** simplifies handling asynchronous data streams and offers a declarative approach, making it a powerful framework for reactive programming.
+- **Async-Await** introduces a more readable, synchronous-looking syntax for asynchronous tasks, improving code clarity and reducing complexity.
 
 #### Summary of Contents
-- **What is Isolation?:** Explains how Swift eliminates data races and enforces thread safety.
-- **Understanding Definitions:** Highlights how to analyze isolation based on type and function definitions.
-- **Types of Isolation:** Breaks down static and dynamic isolation mechanisms, including examples.
-- **Closures and Inherited Isolation:** Discusses how closures adopt isolation from their surrounding context.
-- **Protocols and Isolation:** Explains how protocol isolation affects design.
-- **Dynamic Isolation:** Demonstrates how to bridge gaps in legacy code or systems with runtime isolation guarantees.
-- **SwiftUI Challenges:** Examines how SwiftUI’s inconsistent isolation model creates practical issues.
+- **Introduction:** Overview of the three asynchronous coding methods and their respective introductions in Swift.
+- **Closures:** Discusses closures as a versatile and foundational feature for asynchronous coding in Swift, particularly useful for handling network requests and UI updates.
+- **Combine:** Covers the reactive programming approach of Combine, including its key components (publishers and subscribers) and use cases like data stream management and asynchronous event handling.
+- **Async-Await:** Highlights Async-Await as a modern, language-level feature that simplifies asynchronous code, using familiar keywords like `await` and `async` to enhance readability and reduce callback complexity.
+- **Comparison of Code Examples:** Visual side-by-side comparison of closures, Combine, and Async-Await in terms of readability, complexity, and code maintainability.
+- **Resources:** Additional reading materials for deeper insights into Combine and Async-Await.
 
-#### Additional Resources
-- **[Swift Concurrency Recipes](https://github.com/mattmassicotte/ConcurrencyRecipes):** Techniques for working with isolation and protocols.
-- **[Complete Concurrency Checking](https://www.massicotte.org/complete-checking):** How to enable warnings for incomplete concurrency isolation.
-- **[Swift Evolution Proposal 0420](https://github.com/apple/swift-evolution/blob/main/proposals/0420-inheritance-of-actor-isolation.md):** Recent changes improving isolation in Swift.
+<LinkCard title="Read Full Article" href="https://medium.com/@GetInRhythm/closures-vs-combine-vs-async-await-993eb1da4d44" />
 
-<LinkCard title="Read Full Article" href="https://www.massicotte.org/intro-to-isolation" />
+
+### 🔵 Running Tasks in Parallel in Swift
+
+This blog post explores various methods for **running tasks in parallel** using **Swift**. It covers both traditional tools, such as **Grand Central Dispatch (GCD)** and **operation queues**, and newer techniques introduced with Swift's **structured concurrency API**. The post includes **detailed code examples** and highlights the benefits of each approach, particularly focusing on the ability to **limit the number of concurrent operations** for better **performance** and **resource management**.
+
+<details>
+
+**URL:** [**Running tasks in parallel - The.Swift.Dev.**](https://theswiftdev.com/running-tasks-in-parallel/)
+
+**Published:** 2023/02/09
+
+**Authors:** `Tibor Bödecs`
+
+**Tags:**  
+`Concurrency`, `Swift`, `GCD`, `Structured Concurrency`, `Operation Queues`
+
+</details>
+
+#### **Key Points**
+- The blog post discusses three primary methods for **running parallel tasks** in Swift: **Grand Central Dispatch (GCD)**, **operation queues**, and **structured concurrency**.
+- It provides **code examples** for each method, demonstrating how to **perform operations in parallel** and **control the number of concurrent tasks**.
+- The post emphasizes the importance of **managing concurrency levels** to **optimize performance** and avoid overwhelming system resources.
+
+#### **Summary of Contents**
+- **Grand Central Dispatch (GCD):** Overview of using `**DispatchQueue.concurrentPerform**` to **run tasks in parallel**.
+- **Operation Queues:** Explanation of how to use **operation queues** to **manage** and **limit concurrency** in **task execution**.
+- **Structured Concurrency:** Introduction to **task groups** in Swift's **structured concurrency API**, with examples of **limiting concurrent tasks** using a **custom helper function**.
+
+#### **Additional Resources**
+- **[Grand Central Dispatch Tutorial](https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/):** A detailed guide on **GCD** and its use in Swift.
+- **[Swift Structured Concurrency Proposal](https://github.com/apple/swift-evolution/blob/main/proposals/0304-structured-concurrency.md):** The official **Swift Evolution proposal** for **structured concurrency**.
+
+<LinkCard title="Read Full Article" href="https://theswiftdev.com/running-tasks-in-parallel/" />
+
+
+
+## Concurrency and Memory Management
+Managing memory and performance in highly concurrent applications.
+
+
+
 

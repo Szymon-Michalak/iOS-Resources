@@ -6,78 +6,41 @@ A comprehensive exploration of networking in iOS, from basic HTTP requests to ad
 
 ---
 
-### Making HTTP Requests with URLSession
+## Making HTTP Requests with URLSession
 Basic GET/POST requests using URLSession.
 
-### Handling JSON Responses
+## Handling JSON Responses
 Parsing and using JSON data in iOS.
 
 
 
-### Introduction to RESTful APIs
+## Introduction to RESTful APIs
 Understanding REST principles and using them in iOS apps.
 
 
 
-### Basic Authentication and Authorization
+## Basic Authentication and Authorization
 Implementing simple authentication mechanisms.
 
 
 
-### Handling Errors in Network Calls
+## Handling Errors in Network Calls
 Properly managing and displaying network errors.
 
 
 
-### Using Alamofire for Networking
+## Using Alamofire for Networking
 Advanced networking with Alamofire.
 
 
 
-### Networking with Combine
+## Networking with Combine
 Integrating Combine with networking tasks for better reactivity.
 
 
 
-### Handling WebSockets
+## Handling WebSockets
 Real-time data transfer using WebSockets in iOS.
-
-
-
-### Offline Data Syncing
-Strategies for syncing data when offline and handling conflicts.
-
-
-
-### Implementing GraphQL in iOS
-Using GraphQL for more flexible data queries.
-
-
-
-### Advanced Security for Networking
-Implementing OAuth2, SSL pinning, and advanced authentication.
-
-
-
-### Optimizing Network Performance
-Techniques to reduce latency, improve throughput, and handle large data.
-
-
-
-### Custom Network Protocols
-Developing and implementing custom network protocols.
-
-
-
-### Networking in Distributed Systems
-Managing networking for distributed or microservices architectures.
-
-
-
-### Low-Level Network Debugging
-Using packet capture and analysis tools for deep network inspection.
-
-
 
 ### 🟢 Real-Time Data Exchange Using Web Sockets in iOS 13+
 
@@ -129,77 +92,25 @@ Web sockets provide a streamlined way to handle real-time communication in iOS a
 
 <LinkCard title="Read Full Article" href="https://www.donnywals.com/real-time-data-exchange-using-web-sockets-in-ios-13/" />
 
-### 🔵 **Running Tasks in Parallel in Swift**
-
-This blog post explores various methods for **running tasks in parallel** using **Swift**. It covers both traditional tools, such as **Grand Central Dispatch (GCD)** and **operation queues**, and newer techniques introduced with Swift's **structured concurrency API**. The post includes **detailed code examples** and highlights the benefits of each approach, particularly focusing on the ability to **limit the number of concurrent operations** for better **performance** and **resource management**.
-
-<details>
-
-**URL:** [**Running tasks in parallel - The.Swift.Dev.**](https://theswiftdev.com/running-tasks-in-parallel/)
-
-**Published:** 2023/02/09
-
-**Authors:** `Tibor Bödecs`
-
-**Tags:**  
-`Concurrency`, `Swift`, `GCD`, `Structured Concurrency`, `Operation Queues`
-
-</details>
-
-#### **Key Points**
-- The blog post discusses three primary methods for **running parallel tasks** in Swift: **Grand Central Dispatch (GCD)**, **operation queues**, and **structured concurrency**.
-- It provides **code examples** for each method, demonstrating how to **perform operations in parallel** and **control the number of concurrent tasks**.
-- The post emphasizes the importance of **managing concurrency levels** to **optimize performance** and avoid overwhelming system resources.
-
-#### **Summary of Contents**
-- **Grand Central Dispatch (GCD):** Overview of using `**DispatchQueue.concurrentPerform**` to **run tasks in parallel**.
-- **Operation Queues:** Explanation of how to use **operation queues** to **manage** and **limit concurrency** in **task execution**.
-- **Structured Concurrency:** Introduction to **task groups** in Swift's **structured concurrency API**, with examples of **limiting concurrent tasks** using a **custom helper function**.
-
-#### **Additional Resources**
-- **[Grand Central Dispatch Tutorial](https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/):** A detailed guide on **GCD** and its use in Swift.
-- **[Swift Structured Concurrency Proposal](https://github.com/apple/swift-evolution/blob/main/proposals/0304-structured-concurrency.md):** The official **Swift Evolution proposal** for **structured concurrency**.
-
-<LinkCard title="Read Full Article" href="https://theswiftdev.com/running-tasks-in-parallel/" />
 
 
-### 🔵 Ultimate Grand Central Dispatch Tutorial in Swift
+## Offline Data Syncing
+Strategies for syncing data when offline and handling conflicts.
 
-This comprehensive tutorial covers the **Grand Central Dispatch (GCD)** framework in **Swift**, focusing on the principles of **multi-threading**, **concurrency**, and **task management**. It provides detailed explanations of **synchronous** and **asynchronous execution**, **dispatch queues**, and advanced topics like **semaphores**, **DispatchWorkItem**, and **thread safety**. The tutorial is rich with practical examples and **codesnippets**, making it an invaluable resource for developers looking to **optimize** their applications using **GCD**.
 
-<details>
 
-**URL:** https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/
+## Implementing GraphQL in iOS
+Using GraphQL for more flexible data queries.
 
-**Published:** 2018/07/10
 
-**Authors:** `Tibor Bödecs`
 
-**Tags:**  
-`concurrency`, `multi-threading`, `GCD`, `Swift`, `iOS Development`
+## Advanced Security for Networking
+Implementing OAuth2, SSL pinning, and advanced authentication.
 
-</details>
 
-#### Key Points
-- **Understanding GCD:** Learn about the underlying **thread pool design pattern** and how **GCD** leverages **CPU cores** for efficient **task management**.
-- **Synchronous vs Asynchronous Execution:** Clear explanation of **blocking** vs **non-blocking** code and when to use each.
-- **Dispatch Queues:** Detailed exploration of **serial** and **concurrent queues**, including how to use **system-provided** and **custom queues** effectively.
-- **Advanced GCD Features:** Insight into using **semaphores**, **dispatch groups**, and **DispatchWorkItem** to handle complex **concurrency** scenarios.
-- **Thread Safety:** Essential tips on ensuring **thread safety** in **multi-threaded** applications, avoiding common pitfalls like **deadlocks** and **race conditions**.
 
-#### Summary of Contents
-- **GCD Concurrency Tutorial for Beginners:** Introduction to the **GCD framework** and its importance in **multi-threading**.
-- **Synchronous and Asynchronous Execution:** Detailed discussion of **sync** vs **async tasks**, with practical examples.
-- **Dispatch Queues:** Explanation of **serial**, **concurrent**, **main**, **global**, and **custom queues**, and their use cases.
-- **Advanced GCD Techniques:** Coverage of **semaphores**, **dispatch groups**, **barriers**, and more for handling complex tasks.
-- **Thread-Safety:** Best practices for maintaining **thread safety** using **GCD** and related constructs.
-
-#### Additional Resources
-- **Ray Wenderlich's GCD Tutorial:** [Grand Central Dispatch Tutorial](https://www.raywenderlich.com/148513/grand-central-dispatch-tutorial-swift-3-part-1)
-- **Swift by Sundell's Deep Dive:** [A Deep Dive into Grand Central Dispatch in Swift](https://www.swiftbysundell.com/posts/a-deep-dive-into-grand-central-dispatch-in-swift)
-- **CPU Core and Threads Explained:** [What is the difference between cores and threads of a processor?](https://www.quora.com/What-is-the-difference-between-cores-and-threads-of-a-processor)
-
-<LinkCard title="Read Full Article" href="https://theswiftdev.com/ultimate-grand-central-dispatch-tutorial-in-swift/" />
+## Optimizing Network Performance
+Techniques to reduce latency, improve throughput, and handle large data.
 
 ### 🔴 "Network Connectivity on iOS with Swift"
 
@@ -236,3 +147,17 @@ Learn best practices for handling **network connectivity** in iOS applications u
 
 <LinkCard title="Read Full Article" href="https://www.vadimbulavin.com/network-connectivity-on-ios-with-swift/" />
 
+
+
+## Custom Network Protocols
+Developing and implementing custom network protocols.
+
+
+
+## Networking in Distributed Systems
+Managing networking for distributed or microservices architectures.
+
+
+
+## Low-Level Network Debugging
+Using packet capture and analysis tools for deep network inspection.

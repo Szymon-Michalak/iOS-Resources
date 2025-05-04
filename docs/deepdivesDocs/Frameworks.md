@@ -1,74 +1,5 @@
 # 🧩📦 Frameworks
 
-### 🔵 Identifying Nouns, Adjectives, and More with the Natural Language Framework in a SwiftUI App
-
-In this blog post, you will learn how to identify nouns, adjectives, and other parts of speech using the Natural Language framework in a SwiftUI app. The post guides you through setting up the `NLTagger` for lexical classification and integrating this functionality into a SwiftUI view to create a powerful text analysis tool.
-
-<details>
-
-**URL:** https://www.createwithswift.com/lexical-classification-with-the-natural-language-framework/
-
-**Published:** 2024-08-26
-
-**Authors:** `Antonella Giugliano`
-
-**Tags:**  
-`SwiftUI`, `Natural Language`, `iOS Development`, `Text Processing`
-
-</details>
-
-#### Key Points
-- The Natural Language framework enables text processing and classification in SwiftUI.
-- You can analyze text segments to identify parts of speech such as nouns, verbs, and adjectives.
-- The `NLTagger` class plays a central role in segmenting and tagging text units.
-
-#### Summary of Contents
-- **Introduction to the Natural Language Framework:** Overview of how Apple’s Natural Language framework facilitates text analysis by segmenting and tagging text.
-- **Code Example for Lexical Classification:** Step-by-step guide on how to use `NLTagger` for identifying parts of speech in text.
-- **Integrating with SwiftUI:** Explanation on how to integrate the tagging functionality into a SwiftUI view, including a practical example with a `TextEditor`.
-- **Displaying Results in SwiftUI:** Instructions on filtering and displaying the analyzed text data within a SwiftUI list, including counting verbs and identifying name types.
-
-#### Additional Resources
-- **[NLTagger Documentation](https://developer.apple.com/documentation/naturallanguage/nltagger?ref=createwithswift.com):** Official Apple documentation for `NLTagger`.
-- **[NLTagScheme.LexicalClass Documentation](https://developer.apple.com/documentation/naturallanguage/nltagscheme/lexicalclass?ref=createwithswift.com):** Details on using the lexical class tag scheme in `NLTagger`.
-- **[SwiftUI Official Documentation](https://developer.apple.com/documentation/swiftui):** Apple's official SwiftUI documentation.
-
-<LinkCard title="Read Full Article" href="https://www.createwithswift.com/lexical-classification-with-the-natural-language-framework/" />
-
-### 🟢 Checking Language Availability for Translation with the Translation Framework
-
-This post covers how to use Apple's Translation framework to check if a language is available for translation within your iOS app. With the new framework, you can leverage local machine learning models to translate text directly on the device. However, not every language is available for translation, and this post explains how developers can manage this limitation by checking language availability through the `LanguageAvailability` class.
-
-<details>
-
-**URL:** [https://www.createwithswift.com/checking-language-availability-for-translation-with-the-translation-framework/](https://www.createwithswift.com/checking-language-availability-for-translation-with-the-translation-framework/)
-
-**Published:** 2024-09-10
-
-**Authors:** `Matteo Altobello`
-
-**Tags:**  
-`Translation`, `iOS Development`, `Swift`, `Localization`
-
-</details>
-
-#### Key Points
-- **Translation Framework**: A powerful tool for translating content within iOS apps using machine learning models.
-- **Language Availability**: Developers can use the `LanguageAvailability` class to check what languages are supported on the user’s device.
-- **Translation Status**: The `status(from:to:)` method allows you to confirm if translation between two languages is supported, installed, or unsupported.
-- **User Control**: Users can manage language models directly through the device’s Translate app, which impacts translation availability across apps.
-
-#### Summary of Contents
-- **Using LanguageAvailability Class**: Learn how to check and display all supported languages on the device.
-- **Checking Translation Status**: Understand how to verify if translation between specific languages is available or unsupported using the `status(from:to:)` method.
-- **Handling Language Models**: Guide for managing language models via the user interface in the Translate app, helping users remove or download language models.
-
-#### Additional Resources
-- **[LanguageAvailability Documentation](https://developer.apple.com/documentation/translation/languageavailability?ref=createwithswift.com)**: Official Apple documentation for `LanguageAvailability`.
-- **[Meet the Translation API - WWDC24](https://developer.apple.com/videos/play/wwdc2024/10169/)**: Video introduction to the Translation API.
-
-<LinkCard title="Read Full Article" href="https://www.createwithswift.com/checking-language-availability-for-translation-with-the-translation-framework/" />
-
 ## **Foundation**
 
 ### 🔵 Working with Files and Folders in Swift
@@ -222,3 +153,77 @@ This blog post provides an in-depth exploration of **UserDefaults** in **Swift**
 - **[swift-corelibs-foundation](https://github.com/apple/swift-corelibs-foundation):** Explore the **foundation source code** for a deeper understanding of **UserDefaults** internals.
 
 <LinkCard title="Read Full Article" href="https://www.vadimbulavin.com/advanced-guide-to-userdefaults-in-swift/" />
+
+## Natural Language Framework
+
+### 🔵 Identifying Nouns, Adjectives, and More with the Natural Language Framework in a SwiftUI App
+
+In this blog post, you will learn how to identify nouns, adjectives, and other parts of speech using the Natural Language framework in a SwiftUI app. The post guides you through setting up the `NLTagger` for lexical classification and integrating this functionality into a SwiftUI view to create a powerful text analysis tool.
+
+<details>
+
+**URL:** https://www.createwithswift.com/lexical-classification-with-the-natural-language-framework/
+
+**Published:** 2024-08-26
+
+**Authors:** `Antonella Giugliano`
+
+**Tags:**  
+`SwiftUI`, `Natural Language`, `iOS Development`, `Text Processing`
+
+</details>
+
+#### Key Points
+- The Natural Language framework enables text processing and classification in SwiftUI.
+- You can analyze text segments to identify parts of speech such as nouns, verbs, and adjectives.
+- The `NLTagger` class plays a central role in segmenting and tagging text units.
+
+#### Summary of Contents
+- **Introduction to the Natural Language Framework:** Overview of how Apple’s Natural Language framework facilitates text analysis by segmenting and tagging text.
+- **Code Example for Lexical Classification:** Step-by-step guide on how to use `NLTagger` for identifying parts of speech in text.
+- **Integrating with SwiftUI:** Explanation on how to integrate the tagging functionality into a SwiftUI view, including a practical example with a `TextEditor`.
+- **Displaying Results in SwiftUI:** Instructions on filtering and displaying the analyzed text data within a SwiftUI list, including counting verbs and identifying name types.
+
+#### Additional Resources
+- **[NLTagger Documentation](https://developer.apple.com/documentation/naturallanguage/nltagger?ref=createwithswift.com):** Official Apple documentation for `NLTagger`.
+- **[NLTagScheme.LexicalClass Documentation](https://developer.apple.com/documentation/naturallanguage/nltagscheme/lexicalclass?ref=createwithswift.com):** Details on using the lexical class tag scheme in `NLTagger`.
+- **[SwiftUI Official Documentation](https://developer.apple.com/documentation/swiftui):** Apple's official SwiftUI documentation.
+
+<LinkCard title="Read Full Article" href="https://www.createwithswift.com/lexical-classification-with-the-natural-language-framework/" />
+
+
+## Translation Framework
+
+### 🟢 Checking Language Availability for Translation with the Translation Framework
+
+This post covers how to use Apple's Translation framework to check if a language is available for translation within your iOS app. With the new framework, you can leverage local machine learning models to translate text directly on the device. However, not every language is available for translation, and this post explains how developers can manage this limitation by checking language availability through the `LanguageAvailability` class.
+
+<details>
+
+**URL:** [https://www.createwithswift.com/checking-language-availability-for-translation-with-the-translation-framework/](https://www.createwithswift.com/checking-language-availability-for-translation-with-the-translation-framework/)
+
+**Published:** 2024-09-10
+
+**Authors:** `Matteo Altobello`
+
+**Tags:**  
+`Translation`, `iOS Development`, `Swift`, `Localization`
+
+</details>
+
+#### Key Points
+- **Translation Framework**: A powerful tool for translating content within iOS apps using machine learning models.
+- **Language Availability**: Developers can use the `LanguageAvailability` class to check what languages are supported on the user’s device.
+- **Translation Status**: The `status(from:to:)` method allows you to confirm if translation between two languages is supported, installed, or unsupported.
+- **User Control**: Users can manage language models directly through the device’s Translate app, which impacts translation availability across apps.
+
+#### Summary of Contents
+- **Using LanguageAvailability Class**: Learn how to check and display all supported languages on the device.
+- **Checking Translation Status**: Understand how to verify if translation between specific languages is available or unsupported using the `status(from:to:)` method.
+- **Handling Language Models**: Guide for managing language models via the user interface in the Translate app, helping users remove or download language models.
+
+#### Additional Resources
+- **[LanguageAvailability Documentation](https://developer.apple.com/documentation/translation/languageavailability?ref=createwithswift.com)**: Official Apple documentation for `LanguageAvailability`.
+- **[Meet the Translation API - WWDC24](https://developer.apple.com/videos/play/wwdc2024/10169/)**: Video introduction to the Translation API.
+
+<LinkCard title="Read Full Article" href="https://www.createwithswift.com/checking-language-availability-for-translation-with-the-translation-framework/" />
