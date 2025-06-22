@@ -241,7 +241,30 @@ Creating custom publishers for more complex async tasks.
 ## Migrating to async/await
 Converting callback-based code to async/await.
 
+### 🔵 Concurrency in Swift: A Detailed Guide
 
+Explore how Swift’s modern concurrency model improves code readability, safety, and performance by replacing callback hell with structured async/await, actors, and task groups.
+
+#### Key Points:
+- **Swift 5.5 introduces structured concurrency**, built on `async/await`, `Task`, and `Actor` models.
+- **Async/await enables readable asynchronous code**, replacing complex GCD and callback patterns.
+- **Actors provide safe access to mutable state**, eliminating race conditions and the need for manual synchronization.
+- **Structured concurrency with `async let` and `TaskGroup`** ensures predictable task lifecycles and easier management of child tasks.
+- **Comparison with GCD** shows how Swift Concurrency simplifies task handling, error propagation, and UI thread management.
+- **Includes real-world examples** and a full demo that contrasts Swift Concurrency vs. Grand Central Dispatch.
+
+<details>
+<summary>Metadata</summary>
+
+**Author:** Gaurav Harkhani
+**Tags:** swift, concurrency, async-await  
+**Published:** 2025-01-07  
+**Length:** 9 min read  
+**URL:** https://medium.com/@gauravharkhani01/concurrency-in-swift-a-detailed-guide-3158941afc2e
+
+</details>
+
+<LinkCard title="Read Full Article" href="https://medium.com/@gauravharkhani01/concurrency-in-swift-a-detailed-guide-3158941afc2e" />
 
 ### 🔴 Async Await in Swift: The Full Toolkit
 
@@ -373,6 +396,29 @@ Discover the magic of Swift’s async-await, a powerful tool introduced in Swift
 ## Concurrency with Actors
 Using the Actor model to manage state in concurrent Swift code.
 
+### 🟢 What is @MainActor In Swift?
+
+A beginner-friendly breakdown of why `@MainActor` matters in Swift async code, especially when working with SwiftUI and updating UI from background threads.
+
+#### Key Points:
+- **`@MainActor` ensures UI updates run on the main thread**, avoiding crashes and maintaining system integrity.
+- **Concurrency separates background tasks like network requests** from UI operations, improving app responsiveness.
+- **Using async/await allows for smooth parallel operations**, but UI code must explicitly rejoin the main thread using `@MainActor`.
+- **Without `@MainActor`, updating UI from background threads leads to runtime issues** in iOS apps.
+- Includes real-world SwiftUI example fetching cat images with `async`/`await`.
+
+<details>
+<summary>Metadata</summary>
+
+**Author:** Vera Ricardina Dias  
+**Tags:** swift, swiftui, concurrency, async-await, main-thread  
+**Published:** 2025-05-21  
+**Length:** 6 min read  
+**URL:** https://codingwithvera.com/what-is-mainactor-in-swift/
+
+</details>
+
+<LinkCard title="Read Full Article" href="https://codingwithvera.com/what-is-mainactor-in-swift/" />
 
 ### 🔴 Advanced Swift Actors: Re-Entrancy & Authentication
 
@@ -536,6 +582,44 @@ Actors in Swift provide a powerful tool for managing concurrency, enforcing seri
 
 
 <LinkCard title="Read Full Article" href="https://blog.jacobstechtavern.com/p/advanced-swift-actors-re-entrancy" />
+
+
+### 🟢 SwiftUI Tasks Blocking the MainActor
+
+Blocking the MainActor can unintentionally cause user interface hangs, especially with long-running tasks that appear to be running on a background thread. This post highlights common pitfalls, provides an example scenario, and discusses strategies for avoiding UI hangs in SwiftUI when using Swift Concurrency.
+
+<details>
+
+**URL:** [https://useyourloaf.com/blog/swiftui-tasks-blocking-the-mainactor](https://useyourloaf.com/blog/swiftui-tasks-blocking-the-mainactor)
+
+**Published:** 2024-05-02
+
+**Authors:** `Keith Harrison`
+
+**Tags:**  
+`swift-concurrency`, `MainActor`, `SwiftUI`, `iOS-development`, `Xcode`
+
+</details>
+
+#### Key Points
+- **Long-running tasks** on the `MainActor` can hang the UI, leading to a non-responsive interface.
+- Misuse of `@MainActor` annotations can cause tasks to unintentionally block the main thread.
+- Separating asynchronous tasks into **non-isolated functions** prevents UI hangs.
+- Tooling such as **Instruments Hangs Tool** can help detect and analyze these issues.
+
+#### Summary of Contents
+- **UI Hangs and Concurrency Issues:** Explains how long-running tasks block the main thread, causing UI hangs.
+- **Example Scenario:** Demonstrates a SwiftUI view with unintended blocking of the `MainActor`.
+- **Solution: Async and Nonisolated Functions:** Shows how to resolve the issue by marking tasks as `nonisolated` and moving them off the `MainActor`.
+- **Tooling for Detection:** Highlights the use of Instruments and the need for better visualization in Xcode.
+
+#### Additional Resources
+- **[Apple Article: Improving app responsiveness](https://developer.apple.com/documentation/xcode/improving-app-responsiveness):** A detailed guide on preventing UI hangs.
+- **[Swift Forums - Concurrency](https://forums.swift.org/tag/concurrency):** Community discussions and solutions around concurrency challenges.
+- **[WWDC23 Analyze hangs with Instruments](https://developer.apple.com/videos/play/wwdc2023/10248/):** Video walkthrough of using Instruments to detect hangs.
+
+<LinkCard title="Read Full Article" href="https://useyourloaf.com/blog/swiftui-tasks-blocking-the-mainactor" />
+
 
 
 ## Performance Tuning with Swift Concurrency
@@ -714,3 +798,101 @@ Managing memory and performance in highly concurrent applications.
 
 
 
+## Strict Concurrency
+
+### 🔵 What are Sendable and @Sendable closures in Swift?
+
+A practical guide to Swift's `Sendable` protocol and `@Sendable` closures — why they're crucial for concurrency safety, how to conform types, and how the compiler helps you avoid data races.
+
+#### Key Points:
+- **`Sendable` types are safe to pass across concurrency boundaries**, helping eliminate data races at compile time.
+- **Structs and enums are implicitly `Sendable` if all their properties are `Sendable`**, while classes require manual conformance and must be `final`.
+- **Actors are always `Sendable` by default** due to their built-in data isolation.
+- **Closures marked `@Sendable` must only capture `Sendable` data**, ensuring thread safety when passed into concurrency APIs like `TaskGroup`.
+- **`@unchecked Sendable` is an escape hatch** for advanced cases, useful when migrating legacy code, but must be used carefully.
+
+<details>
+<summary>Metadata</summary>
+
+**Author:** Donny Wals
+**Tags:** swift, concurrency, sendable, closures, data-race  
+**Published:** 2022-09-13
+**Length:** medium 
+**URL:** https://www.donnywals.com/what-are-sendable-and-sendable-closures-in-swift/
+
+</details>
+
+<LinkCard title="Read Full Article" href="https://www.donnywals.com/what-are-sendable-and-sendable-closures-in-swift/" />
+
+### 🔵 Using singletons in Swift 6
+
+This post explores how to safely use singletons and shared instances in Swift 6 by navigating `Sendable`, global state, and actor isolation — including multiple strategies, trade-offs, and compiler errors.
+
+#### Key Points:
+- **Global mutable state (like `static var`) must be isolated**, typically with `@MainActor` or `actor`, to avoid data races in Swift 6.
+- **Using `static let` avoids one class of concurrency error**, but your type must still be `Sendable` to satisfy the compiler.
+- **Making a class `Sendable` requires no mutable state**, or you must isolate it using `@MainActor`, `actor`, or opt out with `@unchecked Sendable`.
+- **Escape hatches like `nonisolated(unsafe)` should be used sparingly**, only when you're confident about thread safety and isolation boundaries.
+- **Actors are always `Sendable`**, making them a robust option for managing global shared instances safely.
+
+<details>
+<summary>Metadata</summary>
+
+**Author:** Donny Wals
+**Tags:** swift, concurrency, sendable, singleton, global state  
+**Published:** 2025-05-23
+**Length:** medium
+**URL:** https://www.donnywals.com/using-singletons-in-swift-6/
+
+</details>
+
+<LinkCard title="Read Full Article" href="https://www.donnywals.com/using-singletons-in-swift-6/" />
+
+### 🔵 Concurrency Step-by-Step: Reading from Storage
+
+
+A deep and candid dive into Swift concurrency's actor isolation, `Sendable` requirements, and compiler boundaries, all while walking through the task of loading a model in Swift 6.
+
+#### Key Points:
+- **Non-Sendable types can't cross actor boundaries**, even in simple async methods like `.task {}` in SwiftUI.
+- **Applying `@MainActor` to a type or method changes its `Sendable` behavior**, often resolving compiler isolation errors.
+- **Split isolation (e.g., marking just a method with `@MainActor`) leads to complexity** and should be avoided without clear intent.
+- **The `sending` keyword in Swift 6 provides a controlled way to bridge async isolation boundaries**.
+- **Actors provide powerful but heavy-handed isolation**, often introducing more boundaries and complexity than necessary.
+
+<details>
+<summary>Metadata</summary>
+
+**Author:** Matt Massicotte
+**Tags:** swift, concurrency, sendable, mainactor, async-await  
+**Published:** 2024-11-30
+**Length:** long
+**URL:** https://www.massicotte.org/step-by-step-reading-from-storage
+
+</details>
+
+<LinkCard title="Read Full Article" href="https://www.massicotte.org/step-by-step-reading-from-storage" />
+
+### 🔵 Concurrency Step-by-Step: Stateful Systems
+
+This post explores how seemingly safe SwiftUI code can result in subtle logical races. It demonstrates how async/await and actors change the way state is managed, why `await` marks the boundary of critical sections, and how to avoid unexpected reentrancy.
+
+#### Key Points:
+- **Logical races occur when async actions interleave in unintended ways**, even without data races or multiple threads.
+- **UI actions like button taps can trigger reentrancy** if previous operations haven't completed yet, leading to non-deterministic state.
+- **Actors isolate state but do not prevent logical races**, especially if async calls are chained or non-atomic.
+- **Using state flags synchronously before `await` helps prevent races**, as critical logic must complete before suspension points.
+- **Async/await is not just syntactic sugar**; its scheduling and ordering behavior is different from dispatch queues and callbacks.
+
+<details>
+<summary>Metadata</summary>
+
+**Author:** Matt Massicotte  
+**Tags:** swift, concurrency, actors, async-await, logical-races  
+**Published:** 2024-12-30  
+**Length:** long  
+**URL:** https://www.massicotte.org/step-by-step-stateful-systems
+
+</details>
+
+<LinkCard title="Read Full Article" href="https://www.massicotte.org/step-by-step-stateful-systems" />

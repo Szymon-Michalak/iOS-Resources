@@ -6,79 +6,7 @@ A thorough journey into testing and quality assurance in iOS, covering unit test
 
 ---
 
-### Introduction to Unit Testing
-Basics of XCTest and writing unit tests.
-
-
-
-### Test-Driven Development (TDD) Basics
-An introduction to the TDD methodology.
-
-
-
-### Mocking and Stubbing in Tests
-Techniques for creating mocks and stubs in unit tests.
-
-
-
-### Introduction to UI Testing
-Basics of UI testing using XCTest.
-
-
-
-### Testing Network Requests
-Writing tests for network layers in your app.
-
-
-
-### Automated UI Testing
-Implementing automated UI tests with XCTest.
-
-
-
-### Continuous Integration and Testing
-Integrating testing into CI/CD pipelines.
-
-
-
-### Performance Testing
-Writing and executing performance tests for your app.
-
-
-
-### Testing with Combine and async/await
-Testing modern concurrency and reactive code.
-
-
-
-### End-to-End Testing
-Implementing end-to-end tests for comprehensive coverage.
-
-
-
-### Property-Based Testing
-Using property-based testing to find edge cases.
-
-
-
-### Security and Penetration Testing
-Specialized testing for app security vulnerabilities.
-
-
-
-### Chaos Engineering in iOS
-Introducing controlled chaos to test app resilience.
-
-
-
-### AI-Based Testing Tools
-Leveraging AI to automate and enhance testing procedures.
-
-
-
-### Building a Custom Testing Framework
-Developing a tailored testing framework for your specific needs.
-
+## Testing
 
 ### 🔵 Testing Challenges in a Mobile Environment
 
@@ -116,6 +44,130 @@ This article provides insights into the unique **challenges** faced when **testi
 - **[Mobile System Design book](https://www.mobilesystemdesign.com):** A book that covers topics like **system design interviews**, **large app architectures**, and delivering **reusable components**.
 
 <LinkCard title="Read Full Article" href="https://swiftindepth.com/articles/mobile_testing_challenges/" />
+
+
+### 🟢 Migrating XCTest to Swift Testing
+
+A quick guide to migrating XCTest unit tests to Swift Testing. This article explains the process, introduces the advantages of using Swift Testing over XCTest, and provides examples of syntax and functionality improvements.
+
+<details>
+
+**URL:** [https://useyourloaf.com/blog/migrating-xctest-to-swift-testing](https://useyourloaf.com/blog/migrating-xctest-to-swift-testing)
+
+**Published:** 2024-12-09
+
+**Authors:** `Keith Harrison`
+
+**Tags:**  
+`unit-testing`, `swift-testing`, `xcode`, `iOS`, `software-development`
+
+</details>
+
+#### Key Points
+- Swift Testing introduces modern features like concurrency and macros.
+- Offers better setup and teardown mechanisms compared to XCTest.
+- Reduces complexity with #expect and #require macros for assertions.
+- Supports running tests in parallel on physical devices, unlike XCTest.
+
+#### Summary of Contents
+- **Introduction:** Overview of Swift Testing and its advantages.
+- **Migration Necessity:** Clarification that XCTest is not deprecated but offers optional migration for convenience.
+- **Getting Started:** Guidelines for mixing XCTest and Swift Testing within a project.
+- **Test Structuring:** Explanation of test grouping and initialization in Swift Testing.
+- **Asserts and Error Handling:** Introduction of #expect and #require macros for concise and expressive testing.
+- **Parallel Testing and Performance:** Insights on running tests in parallel on devices with Swift Concurrency.
+
+#### Additional Resources
+- **[WWDC24 Meet Swift Testing](https://developer.apple.com/videos/play/wwdc2024/10179):** Official introduction to Swift Testing.
+- **[Apple Article: Migrating a test from XCTest](https://developer.apple.com/documentation/testing/migratingfromxctest):** Apple’s detailed migration guide.
+
+<LinkCard title="Read Full Article" href="https://useyourloaf.com/blog/migrating-xctest-to-swift-testing" />
+
+## Unit Testing
+
+### 🔵 Writing Good Unit Tests
+
+This article by Chris Mash, published on Dev Genius, delves into the principles of writing **effective unit tests** in **software development**. It highlights the importance of having **"good" unit tests** that **validate code behavior** accurately, ensuring the **reliability** of your codebase during **refactoring** or updates. The article also explores **Test Driven Development (TDD)** as a method to foster **better unit testing practices**.
+
+<details>
+
+**URL:** https://blog.devgenius.io/writing-good-unit-tests-2158be9ee82d
+
+**Published:** October 17, 2023
+
+**Authors:** `Chris Mash`
+
+**Tags:**  
+`unit-testing`, `software-development`, `TDD`, `iOS`
+
+</details>
+
+#### Key Points
+- **Importance of Good Unit Tests:** **Good unit tests** ensure that the **code behaves as expected** by **isolating** the **subject under test** and providing **meaningful coverage**.
+- **Examples of Poor vs. Improved Tests:** The article offers **concrete examples** of how to **improve test cases**, making them more likely to **catch issues**.
+- **Test Driven Development (TDD):** **TDD** is highlighted as a strategy to write **better tests** by integrating **testing** into the **development process** from the start.
+
+#### Summary of Contents
+- **Characteristics of Good Unit Tests:** Discusses what makes a unit test **effective**, emphasizing the need for tests to **validate behavior** in **detail** and **isolation**.
+- **Examples of Poor vs. Improved Tests:** Provides **side-by-side comparisons** of **poor** and **improved test cases**, showing how to refine tests to **detect more issues**.
+- **Test Driven Development (TDD):** Explains the **TDD process**, offering practical advice on adopting it to write tests that **enhance code quality** and **maintainability**.
+- **Summary:** Recaps the importance of **early** and **isolated testing**, and the value of **good unit tests** beyond mere **code coverage**.
+
+#### Additional Resources
+- **[TDD Manifesto katas](https://tddmanifesto.com/exercises/):** Exercises to practice **TDD techniques**.
+- **[Kata-log katas](https://kata-log.rocks/tdd):** Additional **katas** to enhance **TDD skills**.
+
+<LinkCard title="Read Full Article" href="https://blog.devgenius.io/writing-good-unit-tests-2158be9ee82d" />
+
+## UI Testing
+
+### 🔵 Why We Keep Avoiding Tests in iOS—And What the Tools Should Do About It
+
+Despite the importance of quality assurance, iOS developers often avoid writing tests. This isn't due to carelessness but rather a misalignment between the tools available and the needs of modern, UI-centric development. This blog post explores the root causes of this testing aversion, evaluates the current landscape of iOS testing tools, and outlines what an ideal testing ecosystem would look like.
+
+<details>
+
+**URL:** [https://www.swiftyplace.com/blog/testing-in-ios-development](https://www.swiftyplace.com/blog/testing-in-ios-development)
+
+**Published:** 2025-05-19
+
+**Authors:** `SwiftyPlace`
+
+**Tags:**
+`swift-testing`, `xctest`, `ios-testing`, `ui-testing`, `swiftui`
+
+</details>
+
+#### Key Points
+
+* iOS development is UI-first, but testing tools are backend-focused.
+* Apple has deprioritized UI testing, especially with SwiftUI.
+* Common pain points include flakiness, brittleness, and slow execution.
+* XCTest is strong for unit tests, but UI test support is weak.
+* Swift Testing improves readability but not UI testing.
+* Tools like ViewInspector and SnapshotTesting help but have major limitations.
+* Ideal tools must offer speed, stability, interactivity, and maintainability.
+
+#### Summary of Contents
+
+* **The Testing Paradox:** iOS bugs mostly stem from UI issues, yet most testing focuses on stable business logic.
+* **Apple’s Tooling Gap:** Apple has innovated in development but not in testing, leaving gaps for UI validation.
+* **Frustrating Pain Points:** UI tests are flaky, slow, and hard to trust, creating a cycle of disuse.
+* **Tooling Landscape:** XCTest works well for unit logic. Swift Testing is ergonomic but UI blind. XCUITest fails in performance and stability. SwiftUI testing is fundamentally unsupported.
+* **Community Workarounds:** ViewInspector allows view introspection, but is fragile. SnapshotTesting helps UI regression but is TDD-unfriendly.
+* **Ideal Requirements:** Calls for tools that are fast, stable, interactive, and allow clear assertions.
+* **What’s Next:** Hints at a future post introducing a new pattern for SwiftUI testing using PreferenceKeys.
+
+#### Additional Resources
+
+* **[Apple's XCTest Documentation](https://developer.apple.com/documentation/xcode/testing):** Overview of XCTest framework.
+* **[ViewInspector GitHub](https://github.com/nalexn/ViewInspector):** Community-driven SwiftUI testing tool.
+* **[SnapshotTesting GitHub](https://github.com/pointfreeco/swift-snapshot-testing):** Snapshot testing for visual regression.
+* **[Follow-up Post](https://www.swiftyplace.com/blog/swiftui-testing-with-preferencekeys):** Proposed SwiftUI testing approach using PreferenceKeys.
+
+<LinkCard title="Read Full Article" href="https://www.swiftyplace.com/blog/testing-in-ios-development" />
+
+
 
 ### 🔵 UI Tests, but easier
 
@@ -194,111 +246,3 @@ Testing UI components in iOS development can be challenging, especially with the
 - **[SwiftUI Router Tests](https://github.com/pkozielecki/ios-swiftui-navigation):** Examples of testing SwiftUI navigation and views.
 
 <LinkCard title="Read Full Article" href="https://swiftandmemes.com/how-to-test-uikit-swiftui-views-explained-with-memes/" />
-
-### 🟢 Migrating XCTest to Swift Testing
-
-A quick guide to migrating XCTest unit tests to Swift Testing. This article explains the process, introduces the advantages of using Swift Testing over XCTest, and provides examples of syntax and functionality improvements.
-
-<details>
-
-**URL:** [https://useyourloaf.com/blog/migrating-xctest-to-swift-testing](https://useyourloaf.com/blog/migrating-xctest-to-swift-testing)
-
-**Published:** 2024-12-09
-
-**Authors:** `Keith Harrison`
-
-**Tags:**  
-`unit-testing`, `swift-testing`, `xcode`, `iOS`, `software-development`
-
-</details>
-
-#### Key Points
-- Swift Testing introduces modern features like concurrency and macros.
-- Offers better setup and teardown mechanisms compared to XCTest.
-- Reduces complexity with #expect and #require macros for assertions.
-- Supports running tests in parallel on physical devices, unlike XCTest.
-
-#### Summary of Contents
-- **Introduction:** Overview of Swift Testing and its advantages.
-- **Migration Necessity:** Clarification that XCTest is not deprecated but offers optional migration for convenience.
-- **Getting Started:** Guidelines for mixing XCTest and Swift Testing within a project.
-- **Test Structuring:** Explanation of test grouping and initialization in Swift Testing.
-- **Asserts and Error Handling:** Introduction of #expect and #require macros for concise and expressive testing.
-- **Parallel Testing and Performance:** Insights on running tests in parallel on devices with Swift Concurrency.
-
-#### Additional Resources
-- **[WWDC24 Meet Swift Testing](https://developer.apple.com/videos/play/wwdc2024/10179):** Official introduction to Swift Testing.
-- **[Apple Article: Migrating a test from XCTest](https://developer.apple.com/documentation/testing/migratingfromxctest):** Apple’s detailed migration guide.
-
-<LinkCard title="Read Full Article" href="https://useyourloaf.com/blog/migrating-xctest-to-swift-testing" />
-
-### 🟢 SwiftUI Tasks Blocking the MainActor
-
-Blocking the MainActor can unintentionally cause user interface hangs, especially with long-running tasks that appear to be running on a background thread. This post highlights common pitfalls, provides an example scenario, and discusses strategies for avoiding UI hangs in SwiftUI when using Swift Concurrency.
-
-<details>
-
-**URL:** [https://useyourloaf.com/blog/swiftui-tasks-blocking-the-mainactor](https://useyourloaf.com/blog/swiftui-tasks-blocking-the-mainactor)
-
-**Published:** 2024-05-02
-
-**Authors:** `Keith Harrison`
-
-**Tags:**  
-`swift-concurrency`, `MainActor`, `SwiftUI`, `iOS-development`, `Xcode`
-
-</details>
-
-#### Key Points
-- **Long-running tasks** on the `MainActor` can hang the UI, leading to a non-responsive interface.
-- Misuse of `@MainActor` annotations can cause tasks to unintentionally block the main thread.
-- Separating asynchronous tasks into **non-isolated functions** prevents UI hangs.
-- Tooling such as **Instruments Hangs Tool** can help detect and analyze these issues.
-
-#### Summary of Contents
-- **UI Hangs and Concurrency Issues:** Explains how long-running tasks block the main thread, causing UI hangs.
-- **Example Scenario:** Demonstrates a SwiftUI view with unintended blocking of the `MainActor`.
-- **Solution: Async and Nonisolated Functions:** Shows how to resolve the issue by marking tasks as `nonisolated` and moving them off the `MainActor`.
-- **Tooling for Detection:** Highlights the use of Instruments and the need for better visualization in Xcode.
-
-#### Additional Resources
-- **[Apple Article: Improving app responsiveness](https://developer.apple.com/documentation/xcode/improving-app-responsiveness):** A detailed guide on preventing UI hangs.
-- **[Swift Forums - Concurrency](https://forums.swift.org/tag/concurrency):** Community discussions and solutions around concurrency challenges.
-- **[WWDC23 Analyze hangs with Instruments](https://developer.apple.com/videos/play/wwdc2023/10248/):** Video walkthrough of using Instruments to detect hangs.
-
-<LinkCard title="Read Full Article" href="https://useyourloaf.com/blog/swiftui-tasks-blocking-the-mainactor" />
-
-
-### 🔵 Writing Good Unit Tests
-
-This article by Chris Mash, published on Dev Genius, delves into the principles of writing **effective unit tests** in **software development**. It highlights the importance of having **"good" unit tests** that **validate code behavior** accurately, ensuring the **reliability** of your codebase during **refactoring** or updates. The article also explores **Test Driven Development (TDD)** as a method to foster **better unit testing practices**.
-
-<details>
-
-**URL:** https://blog.devgenius.io/writing-good-unit-tests-2158be9ee82d
-
-**Published:** October 17, 2023
-
-**Authors:** `Chris Mash`
-
-**Tags:**  
-`unit-testing`, `software-development`, `TDD`, `iOS`
-
-</details>
-
-#### Key Points
-- **Importance of Good Unit Tests:** **Good unit tests** ensure that the **code behaves as expected** by **isolating** the **subject under test** and providing **meaningful coverage**.
-- **Examples of Poor vs. Improved Tests:** The article offers **concrete examples** of how to **improve test cases**, making them more likely to **catch issues**.
-- **Test Driven Development (TDD):** **TDD** is highlighted as a strategy to write **better tests** by integrating **testing** into the **development process** from the start.
-
-#### Summary of Contents
-- **Characteristics of Good Unit Tests:** Discusses what makes a unit test **effective**, emphasizing the need for tests to **validate behavior** in **detail** and **isolation**.
-- **Examples of Poor vs. Improved Tests:** Provides **side-by-side comparisons** of **poor** and **improved test cases**, showing how to refine tests to **detect more issues**.
-- **Test Driven Development (TDD):** Explains the **TDD process**, offering practical advice on adopting it to write tests that **enhance code quality** and **maintainability**.
-- **Summary:** Recaps the importance of **early** and **isolated testing**, and the value of **good unit tests** beyond mere **code coverage**.
-
-#### Additional Resources
-- **[TDD Manifesto katas](https://tddmanifesto.com/exercises/):** Exercises to practice **TDD techniques**.
-- **[Kata-log katas](https://kata-log.rocks/tdd):** Additional **katas** to enhance **TDD skills**.
-
-<LinkCard title="Read Full Article" href="https://blog.devgenius.io/writing-good-unit-tests-2158be9ee82d" />

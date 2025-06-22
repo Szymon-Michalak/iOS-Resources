@@ -754,3 +754,54 @@ This article delves into the complexities of the **Single Responsibility Princip
 - **[iOS Architecture Patterns](https://example.com/ios-architecture-patterns):** An overview of different **architecture patterns** used in **iOS development**.
 
 <LinkCard title="Read Full Article" href="https://isaac-weisberg.medium.com/there-are-2-ways-to-violate-s-in-solid-9c327e7e4b40" />
+
+## XCode
+
+### 🔵 Working with Xcode Configuration Files
+
+Learn how to define and manage multiple iOS build environments (Debug, Staging, Release) using .xcconfig files. This post walks through creating, connecting, and accessing custom build settings in your Swift code.
+
+#### Key Points:
+- Create .xcconfig files for each build type (Debug, Staging, Release)
+- Add custom variables like APP_DISPLAY_NAME and FEATURE_X_ENABLED
+- Link values to your app via Info.plist and access them in Swift with Bundle.main
+- Avoid common pitfalls like quoting strings or using http:// in values
+
+<details>
+<summary>Metadata</summary>
+
+
+**Author:** Natascha Fadeeva  
+**Tags:** xcode, ios, swift, configuration, build-environments  
+**Published:** 2025-05-05  
+**Length:** 4 min read  
+**URL:** https://tanaschita.com/xcode-configuration-files/
+
+</details>
+
+
+<LinkCard title="Read Full Article" href="https://tanaschita.com/xcode-configuration-files/" />
+
+### 🔵 Accessing Security Scoped Files
+
+A practical guide to accessing files outside your app's sandbox, such as those stored in iCloud, using **security scoped resource access** in SwiftUI. This blog walks through common permission errors and how to resolve them using `startAccessingSecurityScopedResource()`.
+
+#### Key Points:
+- Accessing external files like iCloud requires special permissions in iOS.
+- Use `startAccessingSecurityScopedResource()` and `stopAccessingSecurityScopedResource()` to read security scoped files.
+- Failing to call these methods results in “Operation not permitted” errors.
+- Safe to call these methods even on local files—they’re no-ops for sandboxed URLs.
+- If you need to persist file access, use **security scoped bookmarks**.
+
+<details>
+<summary>Metadata</summary>
+
+**Author:** Keith Harrison  
+**Tags:** iOS, Swift, SecurityScoped, FileImporter  
+**Published:** 2022-08-01  
+**Length:** 5 min read  
+**URL:** https://useyourloaf.com/blog/accessing-security-scoped-files/
+
+</details>
+
+<LinkCard title="Read Full Article" href="https://useyourloaf.com/blog/accessing-security-scoped-files/" />
